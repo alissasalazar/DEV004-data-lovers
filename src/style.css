@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+.cardPokemon {
+    font-family: 'Questrial', sans-serif;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0 3px 15px black;
+    text-align: center;
+    height: 210px;
+    width: 200px;
+
+}
