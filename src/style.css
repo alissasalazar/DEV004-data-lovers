@@ -1,21 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
-*{
-    flex-wrap: wrap;
-    min-width: auto;
-}
+
 header{
   background-color:white;
-  height: 200px;
+  height: 25%;
   overflow: hidden;
   text-align: center;
 }
+
+li{
+  display:inline-block;
+  height: 20%;
+}
 .logo{
   margin: auto;
-  width: 350px;
+  width: 35%;
 }
 .pokedex{
   margin: auto;
-  width: 200px;
+  width: 20%;
 }
 body{
   background:#B8F5FF ; 
@@ -40,11 +42,12 @@ h1, h3{
     background-color: white;
     box-shadow: 0 3px 15px black;
     text-align: center;
-    height: 210px;
-    width: 200px;
+    height: 25%;
+    min-width: 250px;
 
 }
-.imgCard{
+
+.imgCard {
     background: url("./blob.svg");
     background-repeat: no-repeat ;
     background-position: center;
@@ -52,7 +55,8 @@ h1, h3{
 
 footer{
   background-color: white;
-  height: 40px;
+  height: 4%;
   overflow: hidden;
   text-align: center;
 }
+
