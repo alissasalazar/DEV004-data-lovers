@@ -33,6 +33,10 @@ body{
 h1, h3{
     color: black;
 }
+a{
+  display: block;
+}
+
 .cardPokemon {
     display:inline-block;
     font-family: 'Questrial', sans-serif;

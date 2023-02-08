@@ -6,16 +6,45 @@ const allPokemons = data.pokemon;
 const rootBody = document.getElementById("root");
 window.onload = createCar(allPokemons, rootBody);
 
+
+//mostrar informacion sobre el pokemon//
+function allAboutPokemons(data, contaner) {
+  contaner.innerHTML = "";
+  contaner.innerHTML += `<div id="cards"class="cardPokemon">
+   <img class="imgCard"src="${data.img}" ></img>
+   <a><h3 class="numCard"> ${data.num}</h3></a>
+   <h4 class="nameCard"> ${data.name}</h4>
+    <h5 class="typeCard">SOBRE EL: ${data.about}</h5>
+    <h5 class="typeCard">RESISTENTE A:${data.resistant}</h5>
+    <h5 class="typeCard">DEBIL A: ${data.weaknesses}</h5> 
+   </div>`;
+}
+
+const allPok = document.querySelectorAll(".numCard");
+for (let i = 0; i < allPok.length; i++) {
+  allPok[i].addEventListener("click", function (p) {
+    console.log(p);
+    console.log(p.target);
+    const numPok = p.target.innerText;
+    window.onload = allAboutPokemons(filterIdPok(numPok),rootBody)
+  });
+}
+
+function filterIdPok(id) {
+  const pokemonArray = allPokemons.filter((pokemon) => pokemon.num === id);
+  const pokemonObj = pokemonArray[0];
+  console.log("entro funcion filterIdPok", pokemonObj);
+  return pokemonObj;
+} 
+
 //mostrar filtros en pantalla//
 
 const btnArray = document.querySelectorAll("#btn-nav");
 for (let i = 0; i < btnArray.length; i++) {
-  //pasaremos el evento como parametro con `é`//
   btnArray[i].addEventListener("click", function (e) {
-    //propiedad target, obtiene el elemento del evento//
     const self = e.target;
 
-    createCar(filter(self.innerText), rootBody);
+    window.onload = createCar(filter(self.innerText), rootBody);
     console.log(`se le dio clic a ${self.innerHTML}`);
   });
 }
@@ -27,7 +56,4 @@ function showAllPokemons() {
 
 const elementShowAll = document.getElementById("ver-todos");
 elementShowAll.addEventListener("click", showAllPokemons);
-
-//mostrar informacion sobre el pokemon//
-
 

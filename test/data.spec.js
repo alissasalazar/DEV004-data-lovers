@@ -1,13 +1,17 @@
-import { example, anotherExample } from '../src/data.js';
+import { filterPok } from '../src/filter.js';
 
 
-describe('example', () => {
+describe('filterPok', () => {
   it('is a function', () => {
-    expect(typeof example).toBe('function');
+    expect(typeof filterPok).toBe('function');
   });
 
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
+  it('deberia retornanos todo los pokemones "bug" ', () => {
+    expect(filterPok(bug)).toBe(bug);
+  });
+
+  it('deberia retornanos todo los pokemones "poison" ', () => {
+    expect(filterPok(poison)).toBe(poison);
   });
 });
 
