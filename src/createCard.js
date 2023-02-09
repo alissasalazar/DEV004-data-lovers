@@ -1,4 +1,4 @@
-//en la funcion createCard no colocabamos parametro porque no lo ibamos a reutilizar, ahora que lo reutilizaremos colocamos el parametro//
+//Se crea la carta de cada pokemon
 export default function createCard(data, rootBody) {
   rootBody.innerHTML = "";
   for (let i = 0; i < data.length; i++) {
