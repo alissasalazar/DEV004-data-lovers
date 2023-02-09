@@ -1,13 +1,16 @@
 import data from "./data/pokemon/pokemon.js";
-// import data from './data/rickandmorty/rickandmorty.js';
-import createCar from "./createCard.js";
-import filter from "./filter.js";
+import createCard from "./createCard.js";
+import filter, {
+  orderPok,
+  ascOrder,
+  descOrder,
+  orderAbcPoke,
+} from "./filter.js";
 const allPokemons = data.pokemon;
 const rootBody = document.getElementById("root");
-window.onload = createCar(allPokemons, rootBody);
+window.onload = createCard(allPokemons, rootBody);
 
-
-//mostrar informacion sobre el pokemon//
+//Mostrar más informacion sobre el pokemon//
 function allAboutPokemons(data, contaner) {
   contaner.innerHTML = "";
   contaner.innerHTML += `<div id="cards"class="cardPokemon">
@@ -26,7 +29,7 @@ for (let i = 0; i < allPok.length; i++) {
     console.log(p);
     console.log(p.target);
     const numPok = p.target.innerText;
-    window.onload = allAboutPokemons(filterIdPok(numPok),rootBody)
+    window.onload = allAboutPokemons(filterIdPok(numPok), rootBody);
   });
 }
 
@@ -35,25 +38,50 @@ function filterIdPok(id) {
   const pokemonObj = pokemonArray[0];
   console.log("entro funcion filterIdPok", pokemonObj);
   return pokemonObj;
-} 
+}
 
-//mostrar filtros en pantalla//
-
+//Mostrar filtros en pantalla//
 const btnArray = document.querySelectorAll("#btn-nav");
 for (let i = 0; i < btnArray.length; i++) {
   btnArray[i].addEventListener("click", function (e) {
     const self = e.target;
 
-    window.onload = createCar(filter(self.innerText), rootBody);
+    window.onload = createCard(filter(self.innerText), rootBody);
     console.log(`se le dio clic a ${self.innerHTML}`);
   });
 }
 
+//Filtrado por generación
+const btnsGen = document.querySelectorAll(".btnGen");
+btnsGen.forEach((btnGen) =>
+  btnGen.addEventListener("click", function (e) {
+    const generacion = e.target.innerText.toLowerCase();
+    const filtered = orderPok(generacion);
+    createCard(filtered, rootBody);
+  })
+);
+
+//Ordenado por número ascendente y descendente
+const order = document.querySelector(".order");
+order.addEventListener("change", (event) => {
+  if (event.target.value === "order1") {
+    let pokemonAsc = ascOrder(allPokemons);
+    createCard(pokemonAsc, rootBody);
+  } else if (event.target.value === "order2") {
+    let pokemonDesc = descOrder(allPokemons);
+    createCard(pokemonDesc, rootBody);
+  }
+});
+
+const showOrderAbcPoke = document.getElementById("order-by");
+showOrderAbcPoke.addEventListener("change", function () {
+  orderAbcPoke(this);
+});
+
 //mostrar todos los pokemones//
 function showAllPokemons() {
-  createCar(allPokemons, rootBody);
+  createCard(allPokemons, rootBody);
 }
 
 const elementShowAll = document.getElementById("ver-todos");
 elementShowAll.addEventListener("click", showAllPokemons);
-
