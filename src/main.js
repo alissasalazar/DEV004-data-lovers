@@ -1,6 +1,6 @@
 import data from "./data/pokemon/pokemon.js";
 import createCard from "./createCard.js";
-import filter, {
+import {filterPok,
   orderPok,
   ascOrder,
   descOrder,
@@ -44,13 +44,13 @@ function filterIdPok(id) {
 const btnArray = document.querySelectorAll("#btn-nav");
 for (let i = 0; i < btnArray.length; i++) {
   btnArray[i].addEventListener("click", function (e) {
-    const self = e.target;
+    const self = e.target.innerText.toLowerCase();
 
-    window.onload = createCard(filter(self.innerText), rootBody);
+    createCard(filterPok(self), rootBody);
     console.log(`se le dio clic a ${self.innerHTML}`);
   });
 }
-
+// 
 //Filtrado por generación
 const btnsGen = document.querySelectorAll(".btnGen");
 btnsGen.forEach((btnGen) =>
@@ -65,14 +65,14 @@ btnsGen.forEach((btnGen) =>
 const order = document.querySelector(".order");
 order.addEventListener("change", (event) => {
   if (event.target.value === "order1") {
-    let pokemonAsc = ascOrder(allPokemons);
+    const pokemonAsc = ascOrder(allPokemons);
     createCard(pokemonAsc, rootBody);
   } else if (event.target.value === "order2") {
-    let pokemonDesc = descOrder(allPokemons);
+    const pokemonDesc = descOrder(allPokemons);
     createCard(pokemonDesc, rootBody);
   }
 });
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 const showOrderAbcPoke = document.getElementById("order-by");
 showOrderAbcPoke.addEventListener("change", function () {
   orderAbcPoke(this);

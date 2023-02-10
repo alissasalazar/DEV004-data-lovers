@@ -3,15 +3,16 @@ const allPokemons = data.pokemon;
 import createCard from "./createCard.js";
 const rootBody = document.getElementById("root");
 //Filtrado de los tipos
-export default function filterPok(value) {
+export  const  filterPok= (value) => {
   const pokeTypes = data.pokemon.filter((pok) => pok.type.includes(value));
+  console.log("Entro",pokeTypes)
   return pokeTypes;
 }
 
 //Filtrado de la generación
 export const orderPok = (generacion) => {
   const kanto = data.pokemon.filter(
-    (pokemon) => pokemon.generation.name == generacion
+    (pokemon) => pokemon.generation.name === generacion
   );
   return kanto;
 };
