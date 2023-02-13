@@ -9,31 +9,29 @@
     <link rel="stylesheet" href="style.css" /> 
     <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0"> 
   </head>
-  <div class="contenedor"> 
-  <body>
     <header>
-      <img src="pokemon-logo.png" class="logo"></br>
+      <img src="pokemon-logo.png" class="logo">
       <img src="pokedex.png" class="pokedex">
       <nav class="nav">
        <ul class="nav-list">
         <li class="nav-item"><button id="ver-todos">Ver todos</button> </li>
-        <li class="nav-item"><button id="btn-nav">Normal </button> </li>
-        <li class="nav-item"><button id="btn-nav">Fire</button></li>
-        <li class="nav-item"><button id="btn-nav">Water </button> </li>
-        <li class="nav-item"><button id="btn-nav">Grass</button> </li>
-        <li class="nav-item"><button id="btn-nav">Electric </button> </li>
-        <li class="nav-item"><button id="btn-nav">Ice </button> </li>
-        <li class="nav-item"><button id="btn-nav">Fighting</button> </li>
-        <li class="nav-item"><button id="btn-nav">Poison </button> </li>
-        <li class="nav-item"><button id="btn-nav">Ground </button> </li>
-        <li class="nav-item"><button id="btn-nav">Flying</button> </li>
-        <li class="nav-item"><button id="btn-nav">Bug</button> </li>
-        <li class="nav-item"><button id="btn-nav">Rock</button> </li>
-        <li class="nav-item"><button id="btn-nav">Ghost</button> </li>
-        <li class="nav-item"><button id="btn-nav">Dark</button> </li>
-        <li class="nav-item"><button id="btn-nav">Dragon</button> </li>
-        <li class="nav-item"><button id="btn-nav">Steel</button> </li>
-        <li class="nav-item"><button id="btn-nav">Fairy</button> </li>
+        <li class="nav-item"><button class="btn-nav">Normal </button> </li>
+        <li class="nav-item"><button class="btn-nav">Fire</button></li>
+        <li class="nav-item"><button class="btn-nav">Water </button> </li>
+        <li class="nav-item"><button class="btn-nav">Grass</button> </li>
+        <li class="nav-item"><button class="btn-nav">Electric </button> </li>
+        <li class="nav-item"><button class="btn-nav">Ice </button> </li>
+        <li class="nav-item"><button class="btn-nav">Fighting</button> </li>
+        <li class="nav-item"><button class="btn-nav">Poison </button> </li>
+        <li class="nav-item"><button class="btn-nav">Ground </button> </li>
+        <li class="nav-item"><button class="btn-nav">Flying</button> </li>
+        <li class="nav-item"><button class="btn-nav">Bug</button> </li>
+        <li class="nav-item"><button class="btn-nav">Rock</button> </li>
+        <li class="nav-item"><button class="btn-nav">Ghost</button> </li>
+        <li class="nav-item"><button class="btn-nav">Dark</button> </li>
+        <li class="nav-item"><button class="btn-nav">Dragon</button> </li>
+        <li class="nav-item"><button class="btn-nav">Steel</button> </li>
+        <li class="nav-item"><button class="btn-nav">Fairy</button> </li>
        </ul>
       </nav>
       <nav class="generation">
@@ -43,21 +41,20 @@
         </ul>
        </nav>
        <select id="order" class="order">
-        <option selected="true" disabled="disabled">Ordenar</option>
-        <option class="order1" value="order1">1-251</option>
-        <option class="order2" value="order2">251-1</option>
+        <option selected disabled="disabled">Ordenar</option>
+        <option class="order1" value="order1">De la 1-251</option>
+        <option class="order2" value="order2">De la 251-1</option>
+        <option value="abc">De la A a Z </option>
+        <option value="cba">De la Z a A </option>
       </select>
-      <select id="order-by">
-        <option selected>Seleccione </option>
-        <option value="abc">A a Z </option>
-        <option value="cba">Z a A </option>
-      </select>
+      <h3> ¿What pokemon is more strongger than my pokemon?</h3>
+      <input type="number" id="numCP" placeholder="Put the CP of you Pokemon"> 
     </header>
+  <body>
     <div id="root"></div>
-    <footer>
-      <h6>©Todos los derechos reservados.</h6>
-    </footer>
-  </div> 
     <script src="main.js" type="module"></script>
   </body>
+  <footer>
+    <h6>©Todos los derechos reservados.</h6>
+  </footer>
 </html>
