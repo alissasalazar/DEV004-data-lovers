@@ -1,14 +1,16 @@
 import data from "./data/pokemon/pokemon.js";
 // const allPokemons = data.pokemon;
-//Filtrado de los tipos
-export const filterPok = (value, dataPoke = data.pokemon) => {
+//Filtrar los tipos
+export const filterPok = (value, dataPoke) => {
+  if (dataPoke === undefined) return "No se registró pokemon";
   const pokeTypes = dataPoke.filter((pok) => pok.type.includes(value));
   //console.log("Entro",pokeTypes)
   return pokeTypes;
 };
 
-//Filtrado de la generación
-export const gensPok = (generacion, dataPoke = data.pokemon) => {
+//Filtrar la generación
+export const gensPok = (generacion, dataPoke) => {
+  if (dataPoke === undefined) return "No se registró pokemon";
   const genPok = dataPoke.filter(
     (pokemon) => pokemon.generation.name === generacion
   );
@@ -16,7 +18,8 @@ export const gensPok = (generacion, dataPoke = data.pokemon) => {
 };
 
 //Ordenar de:1-251, 251-1, A a Z y Z a A//
-export function orderPoke(selectCombo, dataPoke= data.pokemon) {
+export function orderPoke(selectCombo, dataPoke) {
+  if (dataPoke === undefined) return "No se registró pokemon";
   if (selectCombo === "order1") {
     return dataPoke.sort((a, b) => (a.num < b.num ? -1 : 1));
   } else if (selectCombo === "order2") {
@@ -32,8 +35,19 @@ export function orderPoke(selectCombo, dataPoke= data.pokemon) {
 export function filterIdPok(id, dataPoke = data.pokemon) {
   const pokemonArray = dataPoke.filter((pokemon) => pokemon.num === id);
   const pokemonObj = pokemonArray[0];
-  //console.log("entro funcion filterIdPok", pokemonObj);
   return pokemonObj;
 }
+//calcular CP//
+export function calculateHp(hpPok, dataPoke) {
+  const hpPoke = dataPoke.filter(
+    (pok) => Number(pok.stats.max_hp) >= Number(hpPok)
+  );
+  return hpPoke;
+}
 
-//barra de busqueda//
+//Buscar pokemon por nombre//
+export const searchPokemon = (name, input) => {
+  const pokeSearch = name.filter(pok => pok.name.startsWith(input.toLowerCase()));
+  return pokeSearch;
+}
+
