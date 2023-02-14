@@ -1,14 +1,16 @@
 import data from "./data/pokemon/pokemon.js";
 // const allPokemons = data.pokemon;
 //Filtrar los tipos
-export const filterPok = (value, dataPoke = data.pokemon) => {
+export const filterPok = (value, dataPoke) => {
+  if (dataPoke === undefined) return "No se registró pokemon";
   const pokeTypes = dataPoke.filter((pok) => pok.type.includes(value));
   //console.log("Entro",pokeTypes)
   return pokeTypes;
 };
 
 //Filtrar la generación
-export const gensPok = (generacion, dataPoke = data.pokemon) => {
+export const gensPok = (generacion, dataPoke) => {
+  if (dataPoke === undefined) return "No se registró pokemon";
   const genPok = dataPoke.filter(
     (pokemon) => pokemon.generation.name === generacion
   );
@@ -16,7 +18,8 @@ export const gensPok = (generacion, dataPoke = data.pokemon) => {
 };
 
 //Ordenar de:1-251, 251-1, A a Z y Z a A//
-export function orderPoke(selectCombo, dataPoke= data.pokemon) {
+export function orderPoke(selectCombo, dataPoke) {
+  if (dataPoke === undefined) return "No se registró pokemon";
   if (selectCombo === "order1") {
     return dataPoke.sort((a, b) => (a.num < b.num ? -1 : 1));
   } else if (selectCombo === "order2") {
@@ -39,7 +42,6 @@ export function calculateHp(hpPok, dataPoke) {
   const hpPoke = dataPoke.filter(
     (pok) => Number(pok.stats.max_hp) >= Number(hpPok)
   );
-  console.log("calcula pokemones:", hpPoke);
   return hpPoke;
 }
 

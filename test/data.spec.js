@@ -190,6 +190,7 @@ describe("filterPok", () => {
   });
 
   it('deberia retornar los pokemones tipo "Grass" ', () => {
+    expect(filterPok("grass", undefined)).toBe("No se registró pokemon");
     expect(filterPok("grass", dataPoke)).toStrictEqual([
       {
         num: "001",
@@ -245,6 +246,7 @@ describe("gensPok", () => {
   });
 
   it('deberia retornar los pokemones generacion "Kanto" ', () => {
+    expect(gensPok("kanto", undefined)).toBe("No se registró pokemon");
     expect(gensPok("kanto", dataPoke)).toStrictEqual([
       {
         num: "001",
@@ -275,6 +277,69 @@ describe("gensPok", () => {
       },
     ]);
   });
+
+  it('deberia retornar los pokemones generacion "Johto" ', () => {
+    expect(gensPok("johto", dataPoke)).toStrictEqual([
+      {
+        num: "167",
+        name: "spinarak",
+        generation: {
+          name: "johto",
+        },
+        about:
+          "The web spun by Spinarak can be considered its second nervous system. It is said that this Pokémon can determine what kind of prey is touching its web just by the tiny vibrations it feels through the web's strands.",
+        img: "https://www.serebii.net/pokemongo/pokemon/167.png",
+        type: ["bug", "poison"],
+        resistant: ["grass", "fighting", "poison", "bug", "fairy"],
+        weaknesses: ["fire", "flying", "psychic", "rock"],
+      },
+      {
+        num: "168",
+        name: "ariados",
+        generation: {
+          name: "johto",
+        },
+        about:
+          "Ariados's feet are tipped with tiny hooked claws that enable it to scuttle on ceilings and vertical walls. This Pokémon constricts the foe with thin and strong silk webbing.",
+        img: "https://www.serebii.net/pokemongo/pokemon/168.png",
+        "pokemon-rarity": "normal",
+        type: ["bug", "poison"],
+        resistant: ["grass", "fighting", "poison", "bug", "fairy"],
+        weaknesses: ["fire", "flying", "psychic", "rock"],
+      },
+      {
+        num: "250",
+        name: "ho-oh",
+        generation: {
+          name: "johto",
+        },
+        about:
+          "Ho-Oh's feathers glow in seven colors depending on the angle at which they are struck by light. These feathers are said to bring happiness to the bearers. This Pokémon is said to live at the foot of a rainbow.",
+        img: "https://www.serebii.net/pokemongo/pokemon/250.png",
+        "pokemon-rarity": "legendary",
+        type: ["fire", "flying"],
+        resistant: ["fighting", "bug", "grass", "steel", "fire", "fairy"],
+        weaknesses: ["rock", "ground", "electric", "water"],
+      },
+      {
+        num: "251",
+        name: "celebi",
+        generation: {
+          name: "johto",
+        },
+        about:
+          "This Pokémon came from the future by crossing over time. It is thought that so long as Celebi appears, a bright and shining future awaits us.",
+        img: "https://www.serebii.net/pokemongo/pokemon/251.png",
+        size: {
+          height: "0.61 m",
+          weight: "5.0 kg",
+        },
+        type: ["psychic", "grass"],
+        resistant: ["water", "electric", "grass", "fighting", "ground"],
+        weaknesses: ["fire", "ice", "poison", "flying"],
+      },
+    ]);
+  });
 });
 
 describe("orderPoke", () => {
@@ -283,6 +348,7 @@ describe("orderPoke", () => {
   });
 
   it("deberia retornar los pokemones de a a la z ", () => {
+    expect(orderPoke("abc", undefined)).toBe("No se registró pokemon");
     expect(orderPoke("abc", dataPoke)).toStrictEqual([
       {
         num: "168",
@@ -642,6 +708,24 @@ describe("searchPokemon", () => {
         about:
           "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
         img: "https://www.serebii.net/pokemongo/pokemon/001.png",
+        type: ["grass", "poison"],
+        resistant: ["water", "electric", "grass", "fighting", "fairy"],
+        weaknesses: ["fire", "ice", "flying", "psychic"],
+      },
+    ]);
+  });
+  it("debería retornar Ivysaur", () => {
+    expect(searchPokemon(dataPoke, "i")).toStrictEqual([
+      {
+        num: "002",
+        name: "ivysaur",
+        generation: {
+          name: "kanto",
+        },
+        about:
+          "There is a bud on this Pokémon's back. To support its weight, Ivysaur's legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it's a sign that the bud will bloom into a large flower soon.",
+        img: "https://www.serebii.net/pokemongo/pokemon/002.png",
+        "pokemon-rarity": "normal",
         type: ["grass", "poison"],
         resistant: ["water", "electric", "grass", "fighting", "fairy"],
         weaknesses: ["fire", "ice", "flying", "psychic"],

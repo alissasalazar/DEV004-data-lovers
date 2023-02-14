@@ -12,8 +12,7 @@ const btnArray = document.querySelectorAll(".btn-nav");
 for (let i = 0; i < btnArray.length; i++) {
   btnArray[i].addEventListener("click", function (e) {
     const self = e.target.innerText.toLowerCase();
-
-    createCard(filterPok(self), rootBody);
+    createCard(filterPok(self, allPokemons), rootBody);
     //console.log(`se le dio clic a ${self.innerHTML}`);
   });
 }
@@ -23,11 +22,12 @@ const btnsGen = document.querySelectorAll(".btnGen");
 btnsGen.forEach((btnGen) =>
   btnGen.addEventListener("click", function (e) {
     const generacion = e.target.innerText.toLowerCase();
-    const filtered = gensPok(generacion);
+    const filtered = gensPok(generacion, allPokemons);
     createCard(filtered, rootBody);
   })
 );
 
+//Ordenar pokemones
 const showOrderPoke = document.getElementById("order");
 showOrderPoke.addEventListener("change", function () {
   orderPoke(showOrderPoke.value, allPokemons);
@@ -62,17 +62,8 @@ elementShowAll.addEventListener("click", showAllPokemons);
 
 //calcular Cp//
 const hpPoke=document.getElementById("numHP");
-
 const btnCalculate = document.getElementById("btn-calculate");
 btnCalculate.addEventListener("click", function () {
-  // console.log("valor que coloco en el input:", hpPoke.value);
   const calculateHpPoke = calculateHp(hpPoke.value, allPokemons);
   createCard(calculateHpPoke, rootBody);
 });
-
-
-// createCard(calculateCp, rootBody)
-// function calculateCp(value, dataPoke = data.pokemon){
-// const cpPoke= dataPoke.filter((pok) => pok.stats.max_cp > valueInputCp )
-// }
-
