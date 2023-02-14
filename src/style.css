@@ -1,16 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
-
-header {
-  background-color: white;
-  height: 25%;
   overflow: hidden;
   text-align: center;
+  position: relative;
+}
+.pokedex {
+  margin: auto;
+  width: 30%;
+  display: inline-block;
 }
 
 li {
   display: inline-block;
   height: 20%;
 }
+
 .logo {
   margin: auto;
   width: 35%;
@@ -21,6 +24,81 @@ li {
 }
 body {
   background: #b8f5ff;
+.searcher {
+  display: inline-block;
+  margin: 0.5em;
+  padding: 1em;
+  font-family: "Questrial", sans-serif;
+}
+
+/*--Estilo botones--*/
+.btn-nav{
+  font-family: "Questrial", sans-serif;
+  color: white;
+  border: solid;
+  border-color: white;
+  outline: 0;
+  background-color: #e6ac5a;
+  border-radius: 0.4em;
+  padding: 0.3em 2em;
+  font-size: 1em;
+  margin: 0.3em;
+}
+.btn-nav:hover{
+  background-color: #cd7b29;
+  color: #ffffff;
+  transition: background-color 0.5s ease-out;
+  outline: 0;
+}
+
+.btnGen {
+  font-family: "Questrial", sans-serif;
+  color: white;
+  border: solid;
+  border-color: white;
+  outline: 0;
+  background-color: #8bc6ce;
+  border-radius: 0.4em;
+  padding: 0.3em 2em;
+  font-size: 1em;
+  margin: 0.3em;
+}
+.btnGen:hover {
+  background-color: #2b7382;
+  color: #ffffff;
+  transition: background-color 0.5s ease-out;
+  outline: 0;
+}
+
+/*--Estilo ordenar--*/
+.order {
+  background-color: #ffffff;
+  color: #672505;
+  margin: 0em auto;
+  padding: 0.2em;
+  width: 9em;
+  border-radius: 0.4em;
+  outline: 0;
+  font-family: "Questrial", sans-serif;
+}
+
+/*--Estilo búsqueda--*/
+.search,
+.numCP {
+  margin: 0em auto;
+  height: 25px;
+  width: 10%;
+  min-width: 300px;
+  border-radius: 0.4em;
+  border: solid 1px #672505;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+/*--Estilo body--*/
+body {
+  display: inline;
+
   background: linear-gradient(
     90deg,
     rgba(85, 144, 189, 1) 0%,
@@ -30,6 +108,12 @@ body {
   text-align: center;
   font-family: "Questrial", sans-serif;
 }
+
+  margin: 0;
+  padding: 0;
+}
+/*--Estilo tarjetas--*/
+
 h1,
 h3 {
   color: black;
@@ -37,7 +121,6 @@ h3 {
 a {
   display: block;
 }
-
 .cardPokemon {
   display: inline-block;
   font-family: "Questrial", sans-serif;
@@ -58,11 +141,18 @@ a {
   height: 150px
 }
 
+.imgCard {
+  background: url("./blob.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*--Estilo footer--*/
 footer {
   background-color: white;
   height: 4%;
   overflow: hidden;
   text-align: center;
+  position: relative;
 }
 
 #cards2 {
@@ -118,3 +208,4 @@ h5 {
   margin: 4px;
   border-radius: 0.3em;
 }
+

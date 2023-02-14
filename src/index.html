@@ -10,48 +10,55 @@
     <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0"> 
   </head>
     <header>
-      <img src="pokemon-logo.png" class="logo">
-      <img src="pokedex.png" class="pokedex">
-      <nav class="nav">
+      <img src="pokemon-pokedex.png" class="pokedex">
+    </header>
+  <body>
+    <section class="searcher">
+      <nav class="type-filter">
+        <h4>Filter by type</h4>
        <ul class="nav-list">
-        <li class="nav-item"><button id="ver-todos">Ver todos</button> </li>
+        <li class="nav-item"><button class="btn-nav" id="see-all">See all</button> </li>
         <li class="nav-item"><button class="btn-nav">Normal </button> </li>
         <li class="nav-item"><button class="btn-nav">Fire</button></li>
-        <li class="nav-item"><button class="btn-nav">Water </button> </li>
-        <li class="nav-item"><button class="btn-nav">Grass</button> </li>
-        <li class="nav-item"><button class="btn-nav">Electric </button> </li>
-        <li class="nav-item"><button class="btn-nav">Ice </button> </li>
-        <li class="nav-item"><button class="btn-nav">Fighting</button> </li>
-        <li class="nav-item"><button class="btn-nav">Poison </button> </li>
-        <li class="nav-item"><button class="btn-nav">Ground </button> </li>
-        <li class="nav-item"><button class="btn-nav">Flying</button> </li>
-        <li class="nav-item"><button class="btn-nav">Bug</button> </li>
-        <li class="nav-item"><button class="btn-nav">Rock</button> </li>
-        <li class="nav-item"><button class="btn-nav">Ghost</button> </li>
-        <li class="nav-item"><button class="btn-nav">Dark</button> </li>
-        <li class="nav-item"><button class="btn-nav">Dragon</button> </li>
-        <li class="nav-item"><button class="btn-nav">Steel</button> </li>
-        <li class="nav-item"><button class="btn-nav">Fairy</button> </li>
+        <li class="nav-item"><button class="btn-nav">Water </button></li>
+        <li class="nav-item"><button class="btn-nav">Grass</button></li>
+        <li class="nav-item"><button class="btn-nav">Electric </button></li>
+        <li class="nav-item"><button class="btn-nav">Ice </button></li>
+        <li class="nav-item"><button class="btn-nav">Fighting</button></li>
+        <li class="nav-item"><button class="btn-nav">Poison </button></li>
+        <li class="nav-item"><button class="btn-nav">Ground </button></li>
+        <li class="nav-item"><button class="btn-nav">Flying</button></li>
+        <li class="nav-item"><button class="btn-nav">Bug</button></li>
+        <li class="nav-item"><button class="btn-nav">Rock</button></li>
+        <li class="nav-item"><button class="btn-nav">Ghost</button></li>
+        <li class="nav-item"><button class="btn-nav">Dark</button></li>
+        <li class="nav-item"><button class="btn-nav">Dragon</button></li>
+        <li class="nav-item"><button class="btn-nav">Steel</button></li>
+        <li class="nav-item"><button class="btn-nav">Fairy</button></li>
        </ul>
       </nav>
-      <nav class="generation">
+      <nav class="generation-filter">
+        <h4>Filter by generation</h4>
         <ul class="nav-list">
          <li class="nav-gen"><button class="btnGen">Kanto</button> </li>
          <li class="nav-gen"><button class="btnGen">Johto</button></li>
         </ul>
-       </nav>
+      </nav>
+       <h4>Order alphabetically and by number.</h4>
        <select id="order" class="order">
-        <option selected disabled="disabled">Ordenar</option>
-        <option class="order1" value="order1">De la 1-251</option>
-        <option class="order2" value="order2">De la 251-1</option>
-        <option value="abc">De la A a Z </option>
-        <option value="cba">De la Z a A </option>
-      </select>
-      <h3> ¿What pokemon has more HP than my pokemon?</h3>
-      <input type="number" id="numHP" placeholder="Put the HP of your Pokemon"> 
-      <button  type="button" id="btn-calculate">Calculate</button>
-    </header>
-  <body>
+       
+        <option selected disabled="disabled">Order</option>
+        <option class="order" value="order1">1 to 251</option>
+        <option class="order" value="order2">251 to 1</option>
+        <option class="order" value="abc">A to Z</option>
+        <option class="order" value="cba">Z to A</option>
+       </select>
+       <h4>Search your pokemon</h4>
+       <input type="search" id="search" class="search comun" placeholder="Search by name" autocomplete="off" spellcheck="false"/>
+       <h3> ¿Which pokemon is stronger than mine?</h3>
+       <input type="number" class="numHP" id="numCP" placeholder="Put the HP of you Pokemon">
+         <button  type="button" id="btn-calculate">Calculate</button>
+    </section>
     <div id="root"></div>
     <script src="main.js" type="module"></script>
   </body>

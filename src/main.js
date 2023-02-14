@@ -1,6 +1,8 @@
 import data from "./data/pokemon/pokemon.js";
 import createCard from "./createCard.js";
-import { filterPok, gensPok, orderPoke, calculateHp } from "./data.js";
+
+import { filterPok, gensPok, orderPoke, calculateHp, searchPokemon } from "./data.js";
+
 const allPokemons = data.pokemon;
 const rootBody = document.getElementById("root");
 window.onload = createCard(allPokemons, rootBody);
@@ -32,12 +34,30 @@ showOrderPoke.addEventListener("change", function () {
   createCard(allPokemons, rootBody);
 });
 
+//Error búsqueda
+const errorMsg = () => {
+  rootBody.innerHTML = `<h3>No pokemon found.</h3>
+  <img src= pokemon-sad.gif>`;
+};
+
+//Buscar pokemon por nombre
+const inputSearch = document.getElementById("search");
+
+inputSearch.addEventListener("input", () => {
+  const pokeByName = searchPokemon(allPokemons, inputSearch.value);
+  if (pokeByName.length === 0) {
+    return errorMsg();
+  } else {
+    createCard(pokeByName, rootBody);
+  }
+});
+
 //mostrar todos los pokemones//
 function showAllPokemons() {
   createCard(allPokemons, rootBody);
 }
 
-const elementShowAll = document.getElementById("ver-todos");
+const elementShowAll = document.getElementById("see-all");
 elementShowAll.addEventListener("click", showAllPokemons);
 
 //calcular Cp//
@@ -55,3 +75,4 @@ btnCalculate.addEventListener("click", function () {
 // function calculateCp(value, dataPoke = data.pokemon){
 // const cpPoke= dataPoke.filter((pok) => pok.stats.max_cp > valueInputCp )
 // }
+
