@@ -1,4 +1,4 @@
-import { filterPok, gensPok, orderPoke, filterIdPok } from "../src/data.js";
+import { filterPok, gensPok, orderPoke, filterIdPok, searchPokemon } from "../src/data.js";
 
 const dataPoke = [
   {
@@ -498,5 +498,29 @@ describe("filterIdPok", () => {
       resistant: ["water", "electric", "grass", "fighting", "fairy"],
       weaknesses: ["fire", "ice", "flying", "psychic"],
     });
+  });
+});
+
+describe("searchPokemon", () => {
+  it("Debería ser una funcion", () => {
+    expect(typeof searchPokemon).toBe("function");
+  });
+
+  it("debería retornar Bulbasaur", () => {
+    expect(searchPokemon(dataPoke, "b")).toStrictEqual([
+      {
+        num: "001",
+        name: "bulbasaur",
+        generation: {
+          name: "kanto",
+        },
+        about:
+          "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
+        img: "https://www.serebii.net/pokemongo/pokemon/001.png",
+        type: ["grass", "poison"],
+        resistant: ["water", "electric", "grass", "fighting", "fairy"],
+        weaknesses: ["fire", "ice", "flying", "psychic"],
+      },
+    ]);
   });
 });
