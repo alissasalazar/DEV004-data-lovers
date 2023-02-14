@@ -1,13 +1,13 @@
 import data from "./data/pokemon/pokemon.js";
 // const allPokemons = data.pokemon;
-//Filtrado de los tipos
+//Filtrar los tipos
 export const filterPok = (value, dataPoke = data.pokemon) => {
   const pokeTypes = dataPoke.filter((pok) => pok.type.includes(value));
   //console.log("Entro",pokeTypes)
   return pokeTypes;
 };
 
-//Filtrado de la generación
+//Filtrar la generación
 export const gensPok = (generacion, dataPoke = data.pokemon) => {
   const genPok = dataPoke.filter(
     (pokemon) => pokemon.generation.name === generacion
@@ -32,8 +32,11 @@ export function orderPoke(selectCombo, dataPoke= data.pokemon) {
 export function filterIdPok(id, dataPoke = data.pokemon) {
   const pokemonArray = dataPoke.filter((pokemon) => pokemon.num === id);
   const pokemonObj = pokemonArray[0];
-  //console.log("entro funcion filterIdPok", pokemonObj);
   return pokemonObj;
 }
 
-//barra de busqueda//
+//Buscar pokemon por nombre//
+export const searchPokemon = (name, input) => {
+  const pokeSearch = name.filter(pok => pok.name.startsWith(input.toLowerCase()));
+  return pokeSearch;
+}
