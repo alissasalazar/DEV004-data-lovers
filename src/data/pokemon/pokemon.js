@@ -12,22 +12,22 @@ export default {
       "height": "0.71 m",
       "weight": "6.9 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "grass",
       "poison"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.69",
+    "spawn_chance": "0.69",
     "stats": {
-      "base-attack": "118",
-      "base-defense": "111",
-      "base-stamina": "128",
-      "max-cp": "1115",
-      "max-hp": "113"
+      "base_attack": "118",
+      "base_defense": "111",
+      "base_stamina": "128",
+      "max_cp": "1115",
+      "max_hp": "113"
     },
     "resistant": [
       "water",
@@ -42,57 +42,57 @@ export default {
       "flying",
       "psychic"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "vine whip",
         "type": "grass",
-        "base-damage": "7",
+        "base_damage": "7",
         "energy": "6",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "sludge bomb",
         "type": "poison",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "seed bomb",
         "type": "grass",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.1"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.1"
       },
       {
         "name": "power whip",
         "type": "grass",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.6"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.6"
       }
     ],
     "egg": "2 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "bulbasaur candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "002",
         "name": "ivysaur",
-        "candy-cost": "25",
-        "next-evolution": [{
+        "candy_cost": "25",
+        "next_evolution": [{
           "num": "003",
           "name": "venusaur",
-          "candy-cost": "100"
+          "candy_cost": "100"
         }]
       }]
     }
@@ -110,22 +110,22 @@ export default {
       "height": "0.99 m",
       "weight": "13.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "grass",
       "poison"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.1"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.1"
     },
-    "spawn-chance": "0.042",
+    "spawn_chance": "0.042",
     "stats": {
-      "base-attack": "151",
-      "base-defense": "143",
-      "base-stamina": "155",
-      "max-cp": "1699",
-      "max-hp": "134"
+      "base_attack": "151",
+      "base_defense": "143",
+      "base_stamina": "155",
+      "max_cp": "1699",
+      "max_hp": "134"
     },
     "resistant": [
       "water",
@@ -140,58 +140,58 @@ export default {
       "flying",
       "psychic"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "razor leaf",
         "type": "grass",
-        "base-damage": "13",
+        "base_damage": "13",
         "energy": "7",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "vine whip",
         "type": "grass",
-        "base-damage": "7",
+        "base_damage": "7",
         "energy": "6",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "sludge bomb",
         "type": "poison",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "solar beam",
         "type": "grass",
-        "base-damage": "180",
-        "energy": "-100",
-        "move-duration-seg": "4.9"
+        "base_damage": "180",
+        "energy": "_100",
+        "move_duration_seg": "4.9"
       },
       {
         "name": "power whip",
         "type": "grass",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.6"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.6"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "bulbasaur candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "003",
         "name": "venusaur",
-        "candy-cost": "100"
+        "candy_cost": "100"
       }],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "001",
         "name": "bulbasaur",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -208,22 +208,22 @@ export default {
       "height": "2.01 m",
       "weight": "100.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "grass",
       "poison"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.05"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.05"
     },
-    "spawn-chance": "0.017",
+    "spawn_chance": "0.017",
     "stats": {
-      "base-attack": "198",
-      "base-defense": "189",
-      "base-stamina": "190",
-      "max-cp": "2720",
-      "max-hp": "162"
+      "base_attack": "198",
+      "base_defense": "189",
+      "base_stamina": "190",
+      "max_cp": "2720",
+      "max_hp": "162"
     },
     "resistant": [
       "water",
@@ -238,57 +238,57 @@ export default {
       "flying",
       "psychic"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "razor leaf",
         "type": "grass",
-        "base-damage": "13",
+        "base_damage": "13",
         "energy": "7",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "vine whip",
         "type": "grass",
-        "base-damage": "7",
+        "base_damage": "7",
         "energy": "6",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "sludge bomb",
         "type": "poison",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "petal blizzard",
         "type": "grass",
-        "base-damage": "110",
-        "energy": "-100",
-        "move-duration-seg": "2.6"
+        "base_damage": "110",
+        "energy": "_100",
+        "move_duration_seg": "2.6"
       },
       {
         "name": "solar beam",
         "type": "grass",
-        "base-damage": "180",
-        "energy": "-100",
-        "move-duration-seg": "4.9"
+        "base_damage": "180",
+        "energy": "_100",
+        "move_duration_seg": "4.9"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "bulbasaur candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "002",
         "name": "ivysaur",
-        "candy-cost": "100",
-        "prev-evolution": [{
+        "candy_cost": "100",
+        "prev_evolution": [{
           "num": "001",
           "name": "bulbasaur",
-          "candy-cost": "25"
+          "candy_cost": "25"
         }]
       }]
     }
@@ -306,21 +306,21 @@ export default {
       "height": "0.61 m",
       "weight": "8.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "fire"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.253",
+    "spawn_chance": "0.253",
     "stats": {
-      "base-attack": "116",
-      "base-defense": "93",
-      "base-stamina": "118",
-      "max-cp": "980",
-      "max-hp": "105"
+      "base_attack": "116",
+      "base_defense": "93",
+      "base_stamina": "118",
+      "max_cp": "980",
+      "max_hp": "105"
     },
     "resistant": [
       "fire",
@@ -334,57 +334,57 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "ember",
         "type": "fire",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "10",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "scratch",
         "type": "normal",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "flame charge",
         "type": "fire",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.8"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.8"
       },
       {
         "name": "flame burst",
         "type": "fire",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2.6"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2.6"
       },
       {
         "name": "flamethrower",
         "type": "fire",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2.2"
       }
     ],
     "egg": "2 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "charmander candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "005",
         "name": "charmeleon",
-        "candy-cost": "25",
-        "next-evolution": [{
+        "candy_cost": "25",
+        "next_evolution": [{
           "num": "006",
           "name": "charizard",
-          "candy-cost": "100"
+          "candy_cost": "100"
         }]
       }]
     }
@@ -402,21 +402,21 @@ export default {
       "height": "1.09 m",
       "weight": "19.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "fire"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.1"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.1"
     },
-    "spawn-chance": "0.012",
+    "spawn_chance": "0.012",
     "stats": {
-      "base-attack": "158",
-      "base-defense": "126",
-      "base-stamina": "151",
-      "max-cp": "1653",
-      "max-hp": "131"
+      "base_attack": "158",
+      "base_defense": "126",
+      "base_stamina": "151",
+      "max_cp": "1653",
+      "max_hp": "131"
     },
     "resistant": [
       "fire",
@@ -430,65 +430,65 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "ember",
         "type": "fire",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "10",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "fire fang",
         "type": "fire",
-        "base-damage": "11",
+        "base_damage": "11",
         "energy": "8",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       },
       {
         "name": "scratch",
         "type": "normal",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "fire punch",
         "type": "fire",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.2"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.2"
       },
       {
         "name": "flame burst",
         "type": "fire",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2.6"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2.6"
       },
       {
         "name": "flamethrower",
         "type": "fire",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2.2"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "charmander candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "006",
         "name": "charizard",
-        "candy-cost": "100"
+        "candy_cost": "100"
       }],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "004",
         "name": "charmander",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -505,22 +505,22 @@ export default {
       "height": "1.70 m",
       "weight": "90.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "fire",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.05"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.05"
     },
-    "spawn-chance": "0.0031",
+    "spawn_chance": "0.0031",
     "stats": {
-      "base-attack": "223",
-      "base-defense": "173",
-      "base-stamina": "186",
-      "max-cp": "2889",
-      "max-hp": "158"
+      "base_attack": "223",
+      "base_defense": "173",
+      "base_stamina": "186",
+      "max_cp": "2889",
+      "max_hp": "158"
     },
     "resistant": [
       "fire",
@@ -534,78 +534,78 @@ export default {
       "electric",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "fire spin",
         "type": "fire",
-        "base-damage": "14",
+        "base_damage": "14",
         "energy": "10",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "air slash",
         "type": "flying",
-        "base-damage": "14",
+        "base_damage": "14",
         "energy": "10",
-        "move-duration-seg": "1.2"
+        "move_duration_seg": "1.2"
       },
       {
         "name": "ember",
         "type": "fire",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "10",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "wing attack",
         "type": "flying",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "9",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "fire blast",
         "type": "fire",
-        "base-damage": "140",
-        "energy": "-100",
-        "move-duration-seg": "4.2"
+        "base_damage": "140",
+        "energy": "_100",
+        "move_duration_seg": "4.2"
       },
       {
         "name": "dragon claw",
         "type": "dragon",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.7"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.7"
       },
       {
         "name": "overheat",
         "type": "fire",
-        "base-damage": "160",
-        "energy": "-100",
-        "move-duration-seg": "4"
+        "base_damage": "160",
+        "energy": "_100",
+        "move_duration_seg": "4"
       },
       {
         "name": "flamethrower",
         "type": "fire",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2.2"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "charmander candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "005",
         "name": "charmeleon",
-        "candy-cost": "100",
-        "prev-evolution": [{
+        "candy_cost": "100",
+        "prev_evolution": [{
           "num": "004",
           "name": "charmander",
-          "candy-cost": "25"
+          "candy_cost": "25"
         }]
       }]
     }
@@ -623,21 +623,21 @@ export default {
       "height": "0.51 m",
       "weight": "9.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.58",
+    "spawn_chance": "0.58",
     "stats": {
-      "base-attack": "94",
-      "base-defense": "121",
-      "base-stamina": "127",
-      "max-cp": "946",
-      "max-hp": "112"
+      "base_attack": "94",
+      "base_defense": "121",
+      "base_stamina": "127",
+      "max_cp": "946",
+      "max_hp": "112"
     },
     "resistant": [
       "fire",
@@ -649,57 +649,57 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "bubble",
         "type": "water",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "14",
-        "move-duration-seg": "1.2"
+        "move_duration_seg": "1.2"
       },
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "aqua jet",
         "type": "water",
-        "base-damage": "45",
-        "energy": "-33",
-        "move-duration-seg": "2.6"
+        "base_damage": "45",
+        "energy": "_33",
+        "move_duration_seg": "2.6"
       },
       {
         "name": "aqua tail",
         "type": "water",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "water pulse",
         "type": "water",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       }
     ],
     "egg": "2 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "squirtle candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "008",
         "name": "wartortle",
-        "candy-cost": "25",
-        "next-evolution": [{
+        "candy_cost": "25",
+        "next_evolution": [{
           "num": "009",
           "name": "blastoise",
-          "candy-cost": "100"
+          "candy_cost": "100"
         }]
       }]
     }
@@ -717,21 +717,21 @@ export default {
       "height": "0.99 m",
       "weight": "22.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.1"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.1"
     },
-    "spawn-chance": "0.034",
+    "spawn_chance": "0.034",
     "stats": {
-      "base-attack": "126",
-      "base-defense": "155",
-      "base-stamina": "153",
-      "max-cp": "1488",
-      "max-hp": "132"
+      "base_attack": "126",
+      "base_defense": "155",
+      "base_stamina": "153",
+      "max_cp": "1488",
+      "max_hp": "132"
     },
     "resistant": [
       "fire",
@@ -743,58 +743,58 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "water gun",
         "type": "water",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "bite",
         "type": "dark",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "aqua jet",
         "type": "water",
-        "base-damage": "45",
-        "energy": "-33",
-        "move-duration-seg": "2.6"
+        "base_damage": "45",
+        "energy": "_33",
+        "move_duration_seg": "2.6"
       },
       {
         "name": "ice beam",
         "type": "ice",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "3.3"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "hydro pump",
         "type": "water",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.3"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.3"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "squirtle candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "009",
         "name": "blastoise",
-        "candy-cost": "100"
+        "candy_cost": "100"
       }],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "007",
         "name": "squirtle",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -811,21 +811,21 @@ export default {
       "height": "1.60 m",
       "weight": "85.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.05"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.05"
     },
-    "spawn-chance": "0.0067",
+    "spawn_chance": "0.0067",
     "stats": {
-      "base-attack": "171",
-      "base-defense": "207",
-      "base-stamina": "188",
-      "max-cp": "2466",
-      "max-hp": "160"
+      "base_attack": "171",
+      "base_defense": "207",
+      "base_stamina": "188",
+      "max_cp": "2466",
+      "max_hp": "160"
     },
     "resistant": [
       "fire",
@@ -837,57 +837,57 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "water gun",
         "type": "water",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "bite",
         "type": "dark",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "flash cannon",
         "type": "steel",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.7"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "ice beam",
         "type": "ice",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "3.3"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "hydro pump",
         "type": "water",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.3"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.3"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "squirtle candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "008",
         "name": "wartortle",
-        "candy-cost": "100",
-        "prev-evolution": [{
+        "candy_cost": "100",
+        "prev_evolution": [{
           "num": "007",
           "name": "squirtle",
-          "candy-cost": "25"
+          "candy_cost": "25"
         }]
       }]
     }
@@ -905,21 +905,21 @@ export default {
       "height": "0.30 m",
       "weight": "2.9 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "bug"
     ],
     "encounter": {
-      "base-flee-rate": "0.2",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.2",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "3.032",
+    "spawn_chance": "3.032",
     "stats": {
-      "base-attack": "55",
-      "base-defense": "55",
-      "base-stamina": "128",
-      "max-cp": "437",
-      "max-hp": "113"
+      "base_attack": "55",
+      "base_defense": "55",
+      "base_stamina": "128",
+      "max_cp": "437",
+      "max_hp": "113"
     },
     "resistant": [
       "grass",
@@ -931,42 +931,42 @@ export default {
       "flying",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "bug bite",
         "type": "bug",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "6",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
       "name": "struggle",
       "type": "normal",
-      "base-damage": "35",
-      "energy": "-33",
-      "move-duration-seg": "2.2"
+      "base_damage": "35",
+      "energy": "_33",
+      "move_duration_seg": "2.2"
     }],
     "egg": "2 km",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "caterpie candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "011",
         "name": "metapod",
-        "candy-cost": "12",
-        "next-evolution": [{
+        "candy_cost": "12",
+        "next_evolution": [{
           "num": "012",
           "name": "butterfree",
-          "candy-cost": "50"
+          "candy_cost": "50"
         }]
       }]
     }
@@ -984,21 +984,21 @@ export default {
       "height": "0.71 m",
       "weight": "9.9 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "bug"
     ],
     "encounter": {
-      "base-flee-rate": "0.09",
-      "base-capture-rate": "0.25"
+      "base_flee_rate": "0.09",
+      "base_capture_rate": "0.25"
     },
-    "spawn-chance": "0.187",
+    "spawn_chance": "0.187",
     "stats": {
-      "base-attack": "45",
-      "base-defense": "80",
-      "base-stamina": "137",
-      "max-cp": "450",
-      "max-hp": "120"
+      "base_attack": "45",
+      "base_defense": "80",
+      "base_stamina": "137",
+      "max_cp": "450",
+      "max_hp": "120"
     },
     "resistant": [
       "grass",
@@ -1010,43 +1010,43 @@ export default {
       "flying",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "bug bite",
         "type": "bug",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "6",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
       "name": "struggle",
       "type": "normal",
-      "base-damage": "35",
-      "energy": "-33",
-      "move-duration-seg": "2.2"
+      "base_damage": "35",
+      "energy": "_33",
+      "move_duration_seg": "2.2"
     }],
     "egg": "not in eggs",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "caterpie candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "012",
         "name": "butterfree",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "010",
         "name": "caterpie",
-        "candy-cost": "12"
+        "candy_cost": "12"
       }]
     }
   },
@@ -1063,22 +1063,22 @@ export default {
       "height": "1.09 m",
       "weight": "32.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "bug",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.125"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.125"
     },
-    "spawn-chance": "0.022",
+    "spawn_chance": "0.022",
     "stats": {
-      "base-attack": "167",
-      "base-defense": "137",
-      "base-stamina": "155",
-      "max-cp": "1827",
-      "max-hp": "134"
+      "base_attack": "167",
+      "base_defense": "137",
+      "base_stamina": "155",
+      "max_cp": "1827",
+      "max_hp": "134"
     },
     "resistant": [
       "grass",
@@ -1093,64 +1093,64 @@ export default {
       "flying",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "confusion",
         "type": "psychic",
-        "base-damage": "20",
+        "base_damage": "20",
         "energy": "15",
-        "move-duration-seg": "1.6"
+        "move_duration_seg": "1.6"
       },
       {
         "name": "struggle bug",
         "type": "bug",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "15",
-        "move-duration-seg": "1.5"
+        "move_duration_seg": "1.5"
       },
       {
         "name": "bug bite",
         "type": "bug",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "6",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "bug buzz",
         "type": "bug",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "3.7"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "3.7"
       },
       {
         "name": "psychic",
         "type": "psychic",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.8"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "signal beam",
         "type": "bug",
-        "base-damage": "75",
-        "energy": "-50",
-        "move-duration-seg": "2.9"
+        "base_damage": "75",
+        "energy": "_50",
+        "move_duration_seg": "2.9"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "caterpie candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "011",
         "name": "metapod",
-        "candy-cost": "50",
-        "prev-evolution": [{
+        "candy_cost": "50",
+        "prev_evolution": [{
           "num": "010",
           "name": "caterpie",
-          "candy-cost": "12"
+          "candy_cost": "12"
         }]
       }]
     }
@@ -1168,22 +1168,22 @@ export default {
       "height": "0.30 m",
       "weight": "3.2 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "bug",
       "poison"
     ],
     "encounter": {
-      "base-flee-rate": "0.2",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.2",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "7.12",
+    "spawn_chance": "7.12",
     "stats": {
-      "base-attack": "63",
-      "base-defense": "50",
-      "base-stamina": "120",
-      "max-cp": "456",
-      "max-hp": "106"
+      "base_attack": "63",
+      "base_defense": "50",
+      "base_stamina": "120",
+      "max_cp": "456",
+      "max_hp": "106"
     },
     "resistant": [
       "grass",
@@ -1198,42 +1198,42 @@ export default {
       "psychic",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "bug bite",
         "type": "bug",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "6",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "poison sting",
         "type": "poison",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "7",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
       "name": "struggle",
       "type": "normal",
-      "base-damage": "35",
-      "energy": "-33",
-      "move-duration-seg": "2.2"
+      "base_damage": "35",
+      "energy": "_33",
+      "move_duration_seg": "2.2"
     }],
     "egg": "2 km",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "weedle candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "014",
         "name": "kakuna",
-        "candy-cost": "12",
-        "next-evolution": [{
+        "candy_cost": "12",
+        "next_evolution": [{
           "num": "015",
           "name": "beedrill",
-          "candy-cost": "50"
+          "candy_cost": "50"
         }]
       }]
     }
@@ -1251,22 +1251,22 @@ export default {
       "height": "0.61 m",
       "weight": "10.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "bug",
       "poison"
     ],
     "encounter": {
-      "base-flee-rate": "0.09",
-      "base-capture-rate": "0.25"
+      "base_flee_rate": "0.09",
+      "base_capture_rate": "0.25"
     },
-    "spawn-chance": "0.44",
+    "spawn_chance": "0.44",
     "stats": {
-      "base-attack": "46",
-      "base-defense": "75",
-      "base-stamina": "128",
-      "max-cp": "432",
-      "max-hp": "113"
+      "base_attack": "46",
+      "base_defense": "75",
+      "base_stamina": "128",
+      "max_cp": "432",
+      "max_hp": "113"
     },
     "resistant": [
       "grass",
@@ -1281,43 +1281,43 @@ export default {
       "psychic",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "bug bite",
         "type": "bug",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "6",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "poison sting",
         "type": "poison",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "7",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
       "name": "struggle",
       "type": "normal",
-      "base-damage": "35",
-      "energy": "-33",
-      "move-duration-seg": "2.2"
+      "base_damage": "35",
+      "energy": "_33",
+      "move_duration_seg": "2.2"
     }],
     "egg": "not in eggs",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "weedle candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "015",
         "name": "beedrill",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "013",
         "name": "weedle",
-        "candy-cost": "12"
+        "candy_cost": "12"
       }]
     }
   },
@@ -1328,28 +1328,28 @@ export default {
       "num": "generation i",
       "name": "kanto"
     },
-    "about": "Beedrill is extremely territorial. No one should ever approach its nest-this is for their own safety. If angered, they will attack in a furious swarm.",
+    "about": "Beedrill is extremely territorial. No one should ever approach its nest_this is for their own safety. If angered, they will attack in a furious swarm.",
     "img": "https://www.serebii.net/pokemongo/pokemon/015.png",
     "size": {
       "height": "0.99 m",
       "weight": "29.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "bug",
       "poison"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.125"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.125"
     },
-    "spawn-chance": "0.051",
+    "spawn_chance": "0.051",
     "stats": {
-      "base-attack": "169",
-      "base-defense": "130",
-      "base-stamina": "163",
-      "max-cp": "1846",
-      "max-hp": "140"
+      "base_attack": "169",
+      "base_defense": "130",
+      "base_stamina": "163",
+      "max_cp": "1846",
+      "max_hp": "140"
     },
     "resistant": [
       "grass",
@@ -1364,64 +1364,64 @@ export default {
       "psychic",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "poison jab",
         "type": "poison",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "7",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       },
       {
         "name": "infestation",
         "type": "bug",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "14",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "bug bite",
         "type": "bug",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "6",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "sludge bomb",
         "type": "poison",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "aerial ace",
         "type": "flying",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.4"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.4"
       },
       {
         "name": "x scissor",
         "type": "water",
-        "base-damage": "50",
-        "energy": "-100",
-        "move-duration-seg": "4.7"
+        "base_damage": "50",
+        "energy": "_100",
+        "move_duration_seg": "4.7"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "weedle candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "014",
         "name": "kakuna",
-        "candy-cost": "50",
-        "prev-evolution": [{
+        "candy_cost": "50",
+        "prev_evolution": [{
           "num": "013",
           "name": "weedle",
-          "candy-cost": "12"
+          "candy_cost": "12"
         }]
       }]
     }
@@ -1439,22 +1439,22 @@ export default {
       "height": "0.30 m",
       "weight": "1.8 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.2",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.2",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "15.98",
+    "spawn_chance": "15.98",
     "stats": {
-      "base-attack": "85",
-      "base-defense": "73",
-      "base-stamina": "120",
-      "max-cp": "680",
-      "max-hp": "106"
+      "base_attack": "85",
+      "base_defense": "73",
+      "base_stamina": "120",
+      "max_cp": "680",
+      "max_hp": "106"
     },
     "resistant": [
       "grass",
@@ -1466,57 +1466,57 @@ export default {
       "electric",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "quick attack",
         "type": "normal",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "10",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       },
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "twister",
         "type": "dragon",
-        "base-damage": "45",
-        "energy": "-33",
-        "move-duration-seg": "2.8"
+        "base_damage": "45",
+        "energy": "_33",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "aerial ace",
         "type": "flying",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.4"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.4"
       },
       {
         "name": "air cutter",
         "type": "flying",
-        "base-damage": "60",
-        "energy": "-50",
-        "move-duration-seg": "2.7"
+        "base_damage": "60",
+        "energy": "_50",
+        "move_duration_seg": "2.7"
       }
     ],
     "egg": "2 km",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "pidgey candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "017",
         "name": "pidgeotto",
-        "candy-cost": "12",
-        "next-evolution": [{
+        "candy_cost": "12",
+        "next_evolution": [{
           "num": "018",
           "name": "pidgeot",
-          "candy-cost": "50"
+          "candy_cost": "50"
         }]
       }]
     }
@@ -1534,22 +1534,22 @@ export default {
       "height": "1.09 m",
       "weight": "30.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.09",
-      "base-capture-rate": "0.25"
+      "base_flee_rate": "0.09",
+      "base_capture_rate": "0.25"
     },
-    "spawn-chance": "1.02",
+    "spawn_chance": "1.02",
     "stats": {
-      "base-attack": "117",
-      "base-defense": "105",
-      "base-stamina": "160",
-      "max-cp": "1194",
-      "max-hp": "138"
+      "base_attack": "117",
+      "base_defense": "105",
+      "base_stamina": "160",
+      "max_cp": "1194",
+      "max_hp": "138"
     },
     "resistant": [
       "grass",
@@ -1561,58 +1561,58 @@ export default {
       "electric",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "wing attack",
         "type": "flying",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "9",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       },
       {
         "name": "steel wing",
         "type": "steel",
-        "base-damage": "11",
+        "base_damage": "11",
         "energy": "6",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "twister",
         "type": "dragon",
-        "base-damage": "45",
-        "energy": "-33",
-        "move-duration-seg": "2.8"
+        "base_damage": "45",
+        "energy": "_33",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "aerial ace",
         "type": "flying",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.4"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.4"
       },
       {
         "name": "air cutter",
         "type": "flying",
-        "base-damage": "60",
-        "energy": "-50",
-        "move-duration-seg": "2.7"
+        "base_damage": "60",
+        "energy": "_50",
+        "move_duration_seg": "2.7"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "pidgey candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "018",
         "name": "pidgeot",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "016",
         "name": "pidgey",
-        "candy-cost": "12"
+        "candy_cost": "12"
       }]
     }
   },
@@ -1629,22 +1629,22 @@ export default {
       "height": "1.50 m",
       "weight": "39.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.125"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.125"
     },
-    "spawn-chance": "0.13",
+    "spawn_chance": "0.13",
     "stats": {
-      "base-attack": "166",
-      "base-defense": "154",
-      "base-stamina": "195",
-      "max-cp": "2129",
-      "max-hp": "165"
+      "base_attack": "166",
+      "base_defense": "154",
+      "base_stamina": "195",
+      "max_cp": "2129",
+      "max_hp": "165"
     },
     "resistant": [
       "grass",
@@ -1656,71 +1656,71 @@ export default {
       "electric",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "steel wing",
         "type": "steel",
-        "base-damage": "11",
+        "base_damage": "11",
         "energy": "6",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       },
       {
         "name": "air slash",
         "type": "flying",
-        "base-damage": "14",
+        "base_damage": "14",
         "energy": "10",
-        "move-duration-seg": "1.2"
+        "move_duration_seg": "1.2"
       },
       {
         "name": "wing attack",
         "type": "flying",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "9",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "hurricane",
         "type": "flying",
-        "base-damage": "110",
-        "energy": "-100",
-        "move-duration-seg": "2.7"
+        "base_damage": "110",
+        "energy": "_100",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "aerial ace",
         "type": "flying",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.4"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.4"
       },
       {
         "name": "brave bird",
         "type": "flying",
-        "base-damage": "90",
-        "energy": "-100",
-        "move-duration-seg": "2"
+        "base_damage": "90",
+        "energy": "_100",
+        "move_duration_seg": "2"
       },
       {
         "name": "air cutter",
         "type": "flying",
-        "base-damage": "60",
-        "energy": "-50",
-        "move-duration-seg": "2.7"
+        "base_damage": "60",
+        "energy": "_50",
+        "move_duration_seg": "2.7"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "pidgey candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "017",
         "name": "pidgeotto",
-        "candy-cost": "50",
-        "prev-evolution": [{
+        "candy_cost": "50",
+        "prev_evolution": [{
           "num": "016",
           "name": "pidgey",
-          "candy-cost": "12"
+          "candy_cost": "12"
         }]
       }]
     }
@@ -1732,27 +1732,27 @@ export default {
       "num": "generation i",
       "name": "kanto"
     },
-    "about": "Rattata is cautious in the extreme. Even while it is asleep, it constantly listens by moving its ears around. It is not picky about where it lives-it will make its nest anywhere.",
+    "about": "Rattata is cautious in the extreme. Even while it is asleep, it constantly listens by moving its ears around. It is not picky about where it lives_it will make its nest anywhere.",
     "img": "https://www.serebii.net/pokemongo/pokemon/019.png",
     "size": {
       "height": "0.30 m",
       "weight": "3.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal"
     ],
     "encounter": {
-      "base-flee-rate": "0.2",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.2",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "13.05",
+    "spawn_chance": "13.05",
     "stats": {
-      "base-attack": "103",
-      "base-defense": "70",
-      "base-stamina": "102",
-      "max-cp": "734",
-      "max-hp": "92"
+      "base_attack": "103",
+      "base_defense": "70",
+      "base_stamina": "102",
+      "max_cp": "734",
+      "max_hp": "92"
     },
     "resistant": [
       "ghost"
@@ -1760,53 +1760,53 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "quick attack",
         "type": "normal",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "10",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "dig",
         "type": "ground",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "4.7"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "4.7"
       },
       {
         "name": "hyper fang",
         "type": "normal",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.5"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.5"
       },
       {
         "name": "body slam",
         "type": "normal",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       }
     ],
     "egg": "2 km",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "rattata candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "020",
         "name": "raticate",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -1823,21 +1823,21 @@ export default {
       "height": "0.71 m",
       "weight": "18.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.41",
+    "spawn_chance": "0.41",
     "stats": {
-      "base-attack": "161",
-      "base-defense": "139",
-      "base-stamina": "146",
-      "max-cp": "1730",
-      "max-hp": "127"
+      "base_attack": "161",
+      "base_defense": "139",
+      "base_stamina": "146",
+      "max_cp": "1730",
+      "max_hp": "127"
     },
     "resistant": [
       "ghost"
@@ -1845,53 +1845,53 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "bite",
         "type": "dark",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "quick attack",
         "type": "normal",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "10",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "dig",
         "type": "ground",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "4.7"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "4.7"
       },
       {
         "name": "hyper fang",
         "type": "normal",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.5"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.5"
       },
       {
         "name": "hyper beam",
         "type": "normal",
-        "base-damage": "150",
-        "energy": "-100",
-        "move-duration-seg": "3.8"
+        "base_damage": "150",
+        "energy": "_100",
+        "move_duration_seg": "3.8"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "rattata candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "019",
         "name": "rattata",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -1908,22 +1908,22 @@ export default {
       "height": "0.30 m",
       "weight": "2.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.15",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.15",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "4.73",
+    "spawn_chance": "4.73",
     "stats": {
-      "base-attack": "112",
-      "base-defense": "60",
-      "base-stamina": "120",
-      "max-cp": "798",
-      "max-hp": "106"
+      "base_attack": "112",
+      "base_defense": "60",
+      "base_stamina": "120",
+      "max_cp": "798",
+      "max_hp": "106"
     },
     "resistant": [
       "grass",
@@ -1935,60 +1935,60 @@ export default {
       "electric",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "peck",
         "type": "flying",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "10",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "quick attack",
         "type": "normal",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "10",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "aerial ace",
         "type": "flying",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.4"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.4"
       },
       {
         "name": "drill peck",
         "type": "flying",
-        "base-damage": "60",
-        "energy": "-33",
-        "move-duration-seg": "2.3"
+        "base_damage": "60",
+        "energy": "_33",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "sky attack",
         "type": "flying",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2"
       },
       {
         "name": "twister",
         "type": "dragon",
-        "base-damage": "45",
-        "energy": "-33",
-        "move-duration-seg": "2.8"
+        "base_damage": "45",
+        "energy": "_33",
+        "move_duration_seg": "2.8"
       }
     ],
     "egg": "2 km",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "spearow candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "022",
         "name": "fearow",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -2005,22 +2005,22 @@ export default {
       "height": "1.19 m",
       "weight": "38.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.15",
+    "spawn_chance": "0.15",
     "stats": {
-      "base-attack": "182",
-      "base-defense": "133",
-      "base-stamina": "163",
-      "max-cp": "1997",
-      "max-hp": "140"
+      "base_attack": "182",
+      "base_defense": "133",
+      "base_stamina": "163",
+      "max_cp": "1997",
+      "max_hp": "140"
     },
     "resistant": [
       "grass",
@@ -2032,60 +2032,60 @@ export default {
       "electric",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "peck",
         "type": "flying",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "10",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "steel wing",
         "type": "steel",
-        "base-damage": "11",
+        "base_damage": "11",
         "energy": "6",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "aerial ace",
         "type": "flying",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.4"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.4"
       },
       {
         "name": "drill run",
         "type": "ground",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.8"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "sky attack",
         "type": "flying",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2"
       },
       {
         "name": "twister",
         "type": "dragon",
-        "base-damage": "45",
-        "energy": "-33",
-        "move-duration-seg": "2.8"
+        "base_damage": "45",
+        "energy": "_33",
+        "move_duration_seg": "2.8"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "spearow candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "021",
         "name": "spearow",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -2102,21 +2102,21 @@ export default {
       "height": "2.01 m",
       "weight": "6.9 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "poison"
     ],
     "encounter": {
-      "base-flee-rate": "0.15",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.15",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "2.27",
+    "spawn_chance": "2.27",
     "stats": {
-      "base-attack": "110",
-      "base-defense": "97",
-      "base-stamina": "111",
-      "max-cp": "927",
-      "max-hp": "99"
+      "base_attack": "110",
+      "base_defense": "97",
+      "base_stamina": "111",
+      "max_cp": "927",
+      "max_hp": "99"
     },
     "resistant": [
       "grass",
@@ -2129,60 +2129,60 @@ export default {
       "ground",
       "psychic"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "poison sting",
         "type": "poison",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "7",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "acid",
         "type": "poison",
-        "base-damage": "9",
+        "base_damage": "9",
         "energy": "8",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "wrap",
         "type": "normal",
-        "base-damage": "60",
-        "energy": "-33",
-        "move-duration-seg": "2.9"
+        "base_damage": "60",
+        "energy": "_33",
+        "move_duration_seg": "2.9"
       },
       {
         "name": "sludge bomb",
         "type": "poison",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "poison fang",
         "type": "poison",
-        "base-damage": "35",
-        "energy": "-33",
-        "move-duration-seg": "1.7"
+        "base_damage": "35",
+        "energy": "_33",
+        "move_duration_seg": "1.7"
       },
       {
         "name": "gunk shot",
         "type": "poison",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.1"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.1"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "ekans candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "024",
         "name": "arbok",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -2199,21 +2199,21 @@ export default {
       "height": "3.51 m",
       "weight": "65.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "poison"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.072",
+    "spawn_chance": "0.072",
     "stats": {
-      "base-attack": "167",
-      "base-defense": "153",
-      "base-stamina": "155",
-      "max-cp": "1921",
-      "max-hp": "134"
+      "base_attack": "167",
+      "base_defense": "153",
+      "base_stamina": "155",
+      "max_cp": "1921",
+      "max_hp": "134"
     },
     "resistant": [
       "grass",
@@ -2226,53 +2226,53 @@ export default {
       "ground",
       "psychic"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "bite",
         "type": "dark",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "acid",
         "type": "poison",
-        "base-damage": "9",
+        "base_damage": "9",
         "energy": "8",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "dark pulse",
         "type": "dark",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "3"
       },
       {
         "name": "sludge wave",
         "type": "poison",
-        "base-damage": "110",
-        "energy": "-100",
-        "move-duration-seg": "3.2"
+        "base_damage": "110",
+        "energy": "_100",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "gunk shot",
         "type": "poison",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.1"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.1"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "ekans candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "023",
         "name": "ekans",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -2289,21 +2289,21 @@ export default {
       "height": "0.41 m",
       "weight": "6.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "electric"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.21",
+    "spawn_chance": "0.21",
     "stats": {
-      "base-attack": "112",
-      "base-defense": "96",
-      "base-stamina": "111",
-      "max-cp": "938",
-      "max-hp": "99"
+      "base_attack": "112",
+      "base_defense": "96",
+      "base_stamina": "111",
+      "max_cp": "938",
+      "max_hp": "99"
     },
     "resistant": [
       "electric",
@@ -2313,65 +2313,65 @@ export default {
     "weaknesses": [
       "ground"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "thunder shock",
         "type": "electric",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "8",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "quick attack",
         "type": "normal",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "10",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "discharge",
         "type": "electric",
-        "base-damage": "65",
-        "energy": "-33",
-        "move-duration-seg": "2.5"
+        "base_damage": "65",
+        "energy": "_33",
+        "move_duration_seg": "2.5"
       },
       {
         "name": "thunderbolt",
         "type": "electric",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.5"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.5"
       },
       {
         "name": "wild charge",
         "type": "electric",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.6"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.6"
       },
       {
         "name": "thunder",
         "type": "electric",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.4"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.4"
       }
     ],
     "egg": "2 km",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "pikachu candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "026",
         "name": "raichu",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "172",
         "name": "pichu",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -2388,21 +2388,21 @@ export default {
       "height": "0.79 m",
       "weight": "30.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "electric"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.1"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.1"
     },
-    "spawn-chance": "0.0076",
+    "spawn_chance": "0.0076",
     "stats": {
-      "base-attack": "193",
-      "base-defense": "151",
-      "base-stamina": "155",
-      "max-cp": "2182",
-      "max-hp": "134"
+      "base_attack": "193",
+      "base_defense": "151",
+      "base_stamina": "155",
+      "max_cp": "2182",
+      "max_hp": "134"
     },
     "resistant": [
       "electric",
@@ -2412,71 +2412,71 @@ export default {
     "weaknesses": [
       "ground"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "spark",
         "type": "electric",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "9",
-        "move-duration-seg": "0.7"
+        "move_duration_seg": "0.7"
       },
       {
         "name": "volt switch",
         "type": "electric",
-        "base-damage": "20",
+        "base_damage": "20",
         "energy": "25",
-        "move-duration-seg": "2.3"
+        "move_duration_seg": "2.3"
       },
       {
         "name": "thunder shock",
         "type": "electric",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "8",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "brick break",
         "type": "fight",
-        "base-damage": "40",
-        "energy": "-33",
-        "move-duration-seg": "1.6"
+        "base_damage": "40",
+        "energy": "_33",
+        "move_duration_seg": "1.6"
       },
       {
         "name": "thunder punch",
         "type": "electric",
-        "base-damage": "45",
-        "energy": "-33",
-        "move-duration-seg": "1.8"
+        "base_damage": "45",
+        "energy": "_33",
+        "move_duration_seg": "1.8"
       },
       {
         "name": "wild charge",
         "type": "electric",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.6"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.6"
       },
       {
         "name": "thunder",
         "type": "electric",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.4"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.4"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "pikachu candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "025",
         "name": "pikachu",
-        "candy-cost": "50",
-        "prev-evolution": [{
+        "candy_cost": "50",
+        "prev_evolution": [{
           "num": "172",
           "name": "pichu",
-          "candy-cost": "25"
+          "candy_cost": "25"
         }]
       }]
     }
@@ -2494,21 +2494,21 @@ export default {
       "height": "0.61 m",
       "weight": "12.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "ground"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "1.11",
+    "spawn_chance": "1.11",
     "stats": {
-      "base-attack": "126",
-      "base-defense": "120",
-      "base-stamina": "137",
-      "max-cp": "1261",
-      "max-hp": "120"
+      "base_attack": "126",
+      "base_defense": "120",
+      "base_stamina": "137",
+      "max_cp": "1261",
+      "max_hp": "120"
     },
     "resistant": [
       "electric",
@@ -2520,60 +2520,60 @@ export default {
       "grass",
       "ice"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "scratch",
         "type": "normal",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "mud shot",
         "type": "ground",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "7",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "dig",
         "type": "ground",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "4.7"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "4.7"
       },
       {
         "name": "rock slide",
         "type": "rock",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.7"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "sand tomb",
         "type": "ground",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "4"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "4"
       },
       {
         "name": "rock tomb",
         "type": "rock",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "sandshrew candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "028",
         "name": "sandslash",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -2590,21 +2590,21 @@ export default {
       "height": "0.99 m",
       "weight": "29.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "ground"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.037",
+    "spawn_chance": "0.037",
     "stats": {
-      "base-attack": "182",
-      "base-defense": "175",
-      "base-stamina": "181",
-      "max-cp": "2374",
-      "max-hp": "154"
+      "base_attack": "182",
+      "base_defense": "175",
+      "base_stamina": "181",
+      "max_cp": "2374",
+      "max_hp": "154"
     },
     "resistant": [
       "electric",
@@ -2616,53 +2616,53 @@ export default {
       "grass",
       "ice"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "metal claw",
         "type": "steel",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "7",
-        "move-duration-seg": "0.7"
+        "move_duration_seg": "0.7"
       },
       {
         "name": "mud shot",
         "type": "ground",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "7",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "earthquake",
         "type": "ground",
-        "base-damage": "120",
-        "energy": "-100",
-        "move-duration-seg": "3.6"
+        "base_damage": "120",
+        "energy": "_100",
+        "move_duration_seg": "3.6"
       },
       {
         "name": "rock tomb",
         "type": "rock",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "bulldoze",
         "type": "ground",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "3.5"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "3.5"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "sandshrew candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "027",
         "name": "sandshrew",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -2673,27 +2673,27 @@ export default {
       "num": "generation i",
       "name": "kanto"
     },
-    "about": "Nidoran ♀ has barbs that secrete a powerful poison. They are thought to have developed as protection for this small-bodied Pokémon. When enraged, it releases a horrible toxin from its horn.",
+    "about": "Nidoran ♀ has barbs that secrete a powerful poison. They are thought to have developed as protection for this small_bodied Pokémon. When enraged, it releases a horrible toxin from its horn.",
     "img": "https://www.serebii.net/pokemongo/pokemon/029.png",
     "size": {
       "height": "0.41 m",
       "weight": "7.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "poison"
     ],
     "encounter": {
-      "base-flee-rate": "0.15",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.15",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "1.38",
+    "spawn_chance": "1.38",
     "stats": {
-      "base-attack": "86",
-      "base-defense": "89",
-      "base-stamina": "146",
-      "max-cp": "816",
-      "max-hp": "127"
+      "base_attack": "86",
+      "base_defense": "89",
+      "base_stamina": "146",
+      "max_cp": "816",
+      "max_hp": "127"
     },
     "resistant": [
       "grass",
@@ -2706,57 +2706,57 @@ export default {
       "ground",
       "psychic"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "bite",
         "type": "dark",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "poison sting",
         "type": "poison",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "7",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "poison fang",
         "type": "poison",
-        "base-damage": "35",
-        "energy": "-33",
-        "move-duration-seg": "1.7"
+        "base_damage": "35",
+        "energy": "_33",
+        "move_duration_seg": "1.7"
       },
       {
         "name": "body slam",
         "type": "normal",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "sludge bomb",
         "type": "poison",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.3"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "nidoran ♀ (female) candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "030",
         "name": "nidorina",
-        "candy-cost": "25",
-        "next-evolution": [{
+        "candy_cost": "25",
+        "next_evolution": [{
           "num": "031",
           "name": "nidoqueen",
-          "candy-cost": "100"
+          "candy_cost": "100"
         }]
       }]
     }
@@ -2774,21 +2774,21 @@ export default {
       "height": "0.79 m",
       "weight": "20.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "poison"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.25"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.25"
     },
-    "spawn-chance": "0.088",
+    "spawn_chance": "0.088",
     "stats": {
-      "base-attack": "117",
-      "base-defense": "120",
-      "base-stamina": "172",
-      "max-cp": "1309",
-      "max-hp": "147"
+      "base_attack": "117",
+      "base_defense": "120",
+      "base_stamina": "172",
+      "max_cp": "1309",
+      "max_hp": "147"
     },
     "resistant": [
       "grass",
@@ -2801,58 +2801,58 @@ export default {
       "ground",
       "psychic"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "bite",
         "type": "dark",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "poison sting",
         "type": "poison",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "7",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "poison fang",
         "type": "poison",
-        "base-damage": "35",
-        "energy": "-33",
-        "move-duration-seg": "1.7"
+        "base_damage": "35",
+        "energy": "_33",
+        "move_duration_seg": "1.7"
       },
       {
         "name": "dig",
         "type": "ground",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "4.7"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "4.7"
       },
       {
         "name": "sludge bomb",
         "type": "poison",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.3"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "nidoran ♀ (female) candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "031",
         "name": "nidoqueen",
-        "candy-cost": "100"
+        "candy_cost": "100"
       }],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "029",
         "name": "nidoran ♀ (female)",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -2869,22 +2869,22 @@ export default {
       "height": "1.30 m",
       "weight": "60.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "poison",
       "ground"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.125"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.125"
     },
-    "spawn-chance": "0.012",
+    "spawn_chance": "0.012",
     "stats": {
-      "base-attack": "180",
-      "base-defense": "173",
-      "base-stamina": "207",
-      "max-cp": "2488",
-      "max-hp": "175"
+      "base_attack": "180",
+      "base_defense": "173",
+      "base_stamina": "207",
+      "max_cp": "2488",
+      "max_hp": "175"
     },
     "resistant": [
       "electric",
@@ -2899,57 +2899,57 @@ export default {
       "ground",
       "psychic"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "poison jab",
         "type": "poison",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "7",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       },
       {
         "name": "bite",
         "type": "dark",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "earthquake",
         "type": "ground",
-        "base-damage": "120",
-        "energy": "-100",
-        "move-duration-seg": "3.6"
+        "base_damage": "120",
+        "energy": "_100",
+        "move_duration_seg": "3.6"
       },
       {
         "name": "sludge wave",
         "type": "poison",
-        "base-damage": "110",
-        "energy": "-100",
-        "move-duration-seg": "3.2"
+        "base_damage": "110",
+        "energy": "_100",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "stone edge",
         "type": "rock",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.3"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.3"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "nidoran ♀ (female) candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "030",
         "name": "nidorina",
-        "candy-cost": "100",
-        "prev-evolution": [{
+        "candy_cost": "100",
+        "prev_evolution": [{
           "num": "029",
           "name": "nidoran ♀ (female)",
-          "candy-cost": "25"
+          "candy_cost": "25"
         }]
       }]
     }
@@ -2967,21 +2967,21 @@ export default {
       "height": "0.51 m",
       "weight": "9.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "poison"
     ],
     "encounter": {
-      "base-flee-rate": "0.15",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.15",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "1.31",
+    "spawn_chance": "1.31",
     "stats": {
-      "base-attack": "105",
-      "base-defense": "76",
-      "base-stamina": "130",
-      "max-cp": "860",
-      "max-hp": "114"
+      "base_attack": "105",
+      "base_defense": "76",
+      "base_stamina": "130",
+      "max_cp": "860",
+      "max_hp": "114"
     },
     "resistant": [
       "grass",
@@ -2994,57 +2994,57 @@ export default {
       "ground",
       "psychic"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "peck",
         "type": "flying",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "10",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "poison sting",
         "type": "poison",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "7",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "horn attack",
         "type": "normal",
-        "base-damage": "40",
-        "energy": "-33",
-        "move-duration-seg": "1.85"
+        "base_damage": "40",
+        "energy": "_33",
+        "move_duration_seg": "1.85"
       },
       {
         "name": "body slam",
         "type": "normal",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "sludge bomb",
         "type": "poison",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.3"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "nidoran ♂ (male) candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "033",
         "name": "nidorino",
-        "candy-cost": "25",
-        "next-evolution": [{
+        "candy_cost": "25",
+        "next_evolution": [{
           "num": "034",
           "name": "nidoking",
-          "candy-cost": "100"
+          "candy_cost": "100"
         }]
       }]
     }
@@ -3062,21 +3062,21 @@ export default {
       "height": "0.89 m",
       "weight": "19.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "poison"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.25"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.25"
     },
-    "spawn-chance": "0.083",
+    "spawn_chance": "0.083",
     "stats": {
-      "base-attack": "137",
-      "base-defense": "111",
-      "base-stamina": "156",
-      "max-cp": "1393",
-      "max-hp": "135"
+      "base_attack": "137",
+      "base_defense": "111",
+      "base_stamina": "156",
+      "max_cp": "1393",
+      "max_hp": "135"
     },
     "resistant": [
       "grass",
@@ -3089,58 +3089,58 @@ export default {
       "ground",
       "psychic"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "poison jab",
         "type": "poison",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "7",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       },
       {
         "name": "poison sting",
         "type": "poison",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "7",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "horn attack",
         "type": "normal",
-        "base-damage": "40",
-        "energy": "-33",
-        "move-duration-seg": "1.85"
+        "base_damage": "40",
+        "energy": "_33",
+        "move_duration_seg": "1.85"
       },
       {
         "name": "dig",
         "type": "ground",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "4.7"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "4.7"
       },
       {
         "name": "sludge bomb",
         "type": "poison",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.3"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "nidoran ♂ (male) candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "034",
         "name": "nidoking",
-        "candy-cost": "100"
+        "candy_cost": "100"
       }],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "032",
         "name": "nidoran ♂ (male)",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -3157,22 +3157,22 @@ export default {
       "height": "1.40 m",
       "weight": "62.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "poison",
       "ground"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.125"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.125"
     },
-    "spawn-chance": "0.017",
+    "spawn_chance": "0.017",
     "stats": {
-      "base-attack": "204",
-      "base-defense": "156",
-      "base-stamina": "191",
-      "max-cp": "2567",
-      "max-hp": "162"
+      "base_attack": "204",
+      "base_defense": "156",
+      "base_stamina": "191",
+      "max_cp": "2567",
+      "max_hp": "162"
     },
     "resistant": [
       "electric",
@@ -3187,64 +3187,64 @@ export default {
       "ground",
       "psychic"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "poison jab",
         "type": "poison",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "7",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       },
       {
         "name": "iron tail",
         "type": "steel",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "7",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "fury cutter",
         "type": "bug",
-        "base-damage": "3",
+        "base_damage": "3",
         "energy": "6",
-        "move-duration-seg": "0.4"
+        "move_duration_seg": "0.4"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "earthquake",
         "type": "ground",
-        "base-damage": "120",
-        "energy": "-100",
-        "move-duration-seg": "3.6"
+        "base_damage": "120",
+        "energy": "_100",
+        "move_duration_seg": "3.6"
       },
       {
         "name": "sludge wave",
         "type": "poison",
-        "base-damage": "110",
-        "energy": "-100",
-        "move-duration-seg": "3.2"
+        "base_damage": "110",
+        "energy": "_100",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "megahorn",
         "type": "bug",
-        "base-damage": "90",
-        "energy": "-100",
-        "move-duration-seg": "2.2"
+        "base_damage": "90",
+        "energy": "_100",
+        "move_duration_seg": "2.2"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "nidoran ♂ (male) candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "033",
         "name": "nidorino",
-        "candy-cost": "100",
-        "prev-evolution": [{
+        "candy_cost": "100",
+        "prev_evolution": [{
           "num": "032",
           "name": "nidoran ♂ (male)",
-          "candy-cost": "25"
+          "candy_cost": "25"
         }]
       }]
     }
@@ -3262,21 +3262,21 @@ export default {
       "height": "0.61 m",
       "weight": "7.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.3"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.3"
     },
-    "spawn-chance": "0.92",
+    "spawn_chance": "0.92",
     "stats": {
-      "base-attack": "107",
-      "base-defense": "108",
-      "base-stamina": "172",
-      "max-cp": "1155",
-      "max-hp": "147"
+      "base_attack": "107",
+      "base_defense": "108",
+      "base_stamina": "172",
+      "max_cp": "1155",
+      "max_hp": "147"
     },
     "resistant": [
       "fighting",
@@ -3287,58 +3287,58 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "pound",
         "type": "normal",
-        "base-damage": "7",
+        "base_damage": "7",
         "energy": "6",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "zen headbutt",
         "type": "psychic",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "10",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "disarming voice",
         "type": "fairy",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.9"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.9"
       },
       {
         "name": "body slam",
         "type": "normal",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "moonblast",
         "type": "fairy",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.9"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.9"
       }
     ],
     "egg": "2 km",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "clefairy candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "036",
         "name": "clefable",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "173",
         "name": "cleffa",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -3355,21 +3355,21 @@ export default {
       "height": "1.30 m",
       "weight": "40.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.1"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.1"
     },
-    "spawn-chance": "0.012",
+    "spawn_chance": "0.012",
     "stats": {
-      "base-attack": "178",
-      "base-defense": "162",
-      "base-stamina": "216",
-      "max-cp": "2437",
-      "max-hp": "182"
+      "base_attack": "178",
+      "base_defense": "162",
+      "base_stamina": "216",
+      "max_cp": "2437",
+      "max_hp": "182"
     },
     "resistant": [
       "fighting",
@@ -3380,64 +3380,64 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "zen headbutt",
         "type": "psychic",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "10",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "charge beam",
         "type": "electric",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "15",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "pound",
         "type": "normal",
-        "base-damage": "7",
+        "base_damage": "7",
         "energy": "6",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "dazzling gleam",
         "type": "fairy",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "3.5"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "3.5"
       },
       {
         "name": "psychic",
         "type": "psychic",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.8"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "moonblast",
         "type": "fairy",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.9"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.9"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "clefairy candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "035",
         "name": "clefairy",
-        "candy-cost": "50",
-        "prev-evolution": [{
+        "candy_cost": "50",
+        "prev_evolution": [{
           "num": "173",
           "name": "cleffa",
-          "candy-cost": "25"
+          "candy_cost": "25"
         }]
       }]
     }
@@ -3455,21 +3455,21 @@ export default {
       "height": "0.61 m",
       "weight": "9.9 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "fire"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.3"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.3"
     },
-    "spawn-chance": "0.22",
+    "spawn_chance": "0.22",
     "stats": {
-      "base-attack": "96",
-      "base-defense": "109",
-      "base-stamina": "116",
-      "max-cp": "883",
-      "max-hp": "103"
+      "base_attack": "96",
+      "base_defense": "109",
+      "base_stamina": "116",
+      "max_cp": "883",
+      "max_hp": "103"
     },
     "resistant": [
       "fire",
@@ -3483,53 +3483,53 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "quick attack",
         "type": "normal",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "10",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       },
       {
         "name": "ember",
         "type": "fire",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "10",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "body slam",
         "type": "normal",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "flamethrower",
         "type": "fire",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2.2"
       },
       {
         "name": "flame charge",
         "type": "fire",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.8"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.8"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "vulpix candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "038",
         "name": "ninetales",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -3546,21 +3546,21 @@ export default {
       "height": "1.09 m",
       "weight": "19.9 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "fire"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.1"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.1"
     },
-    "spawn-chance": "0.0077",
+    "spawn_chance": "0.0077",
     "stats": {
-      "base-attack": "169",
-      "base-defense": "190",
-      "base-stamina": "177",
-      "max-cp": "2279",
-      "max-hp": "151"
+      "base_attack": "169",
+      "base_defense": "190",
+      "base_stamina": "177",
+      "max_cp": "2279",
+      "max_hp": "151"
     },
     "resistant": [
       "fire",
@@ -3574,74 +3574,74 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "feint attack",
         "type": "dark",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "9",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       },
       {
         "name": "fire spin",
         "type": "fire",
-        "base-damage": "14",
+        "base_damage": "14",
         "energy": "10",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "ember",
         "type": "fire",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "10",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "heat wave",
         "type": "fire",
-        "base-damage": "95",
-        "energy": "-100",
-        "move-duration-seg": "3"
+        "base_damage": "95",
+        "energy": "_100",
+        "move_duration_seg": "3"
       },
       {
         "name": "overheat",
         "type": "fire",
-        "base-damage": "160",
-        "energy": "-100",
-        "move-duration-seg": "4"
+        "base_damage": "160",
+        "energy": "_100",
+        "move_duration_seg": "4"
       },
       {
         "name": "solar beam",
         "type": "grass",
-        "base-damage": "180",
-        "energy": "-100",
-        "move-duration-seg": "4.9"
+        "base_damage": "180",
+        "energy": "_100",
+        "move_duration_seg": "4.9"
       },
       {
         "name": "fire blast",
         "type": "fire",
-        "base-damage": "140",
-        "energy": "-100",
-        "move-duration-seg": "4.2"
+        "base_damage": "140",
+        "energy": "_100",
+        "move_duration_seg": "4.2"
       },
       {
         "name": "flamethrower",
         "type": "fire",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2.2"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "vulpix candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "037",
         "name": "vulpix",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -3658,21 +3658,21 @@ export default {
       "height": "0.51 m",
       "weight": "5.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "0.39",
+    "spawn_chance": "0.39",
     "stats": {
-      "base-attack": "80",
-      "base-defense": "41",
-      "base-stamina": "251",
-      "max-cp": "724",
-      "max-hp": "210"
+      "base_attack": "80",
+      "base_defense": "41",
+      "base_stamina": "251",
+      "max_cp": "724",
+      "max_hp": "210"
     },
     "resistant": [
       "bug",
@@ -3683,72 +3683,72 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "pound",
         "type": "normal",
-        "base-damage": "7",
+        "base_damage": "7",
         "energy": "6",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "feint attack",
         "type": "dark",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "9",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "disarming voice",
         "type": "fairy",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.9"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.9"
       },
       {
         "name": "dazzling gleam",
         "type": "fairy",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "3.5"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "3.5"
       },
       {
         "name": "gyro ball",
         "type": "steel",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "3.3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "body slam",
         "type": "normal",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "play rough",
         "type": "fairy",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.9"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.9"
       }
     ],
     "egg": "2 km",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "jigglypuff candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "040",
         "name": "wigglytuff",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "174",
         "name": "igglybuff",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -3765,21 +3765,21 @@ export default {
       "height": "0.99 m",
       "weight": "12.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.018",
+    "spawn_chance": "0.018",
     "stats": {
-      "base-attack": "156",
-      "base-defense": "90",
-      "base-stamina": "295",
-      "max-cp": "1926",
-      "max-hp": "244"
+      "base_attack": "156",
+      "base_defense": "90",
+      "base_stamina": "295",
+      "max_cp": "1926",
+      "max_hp": "244"
     },
     "resistant": [
       "bug",
@@ -3790,57 +3790,57 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "pound",
         "type": "normal",
-        "base-damage": "7",
+        "base_damage": "7",
         "energy": "6",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "feint attack",
         "type": "dark",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "9",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "dazzling gleam",
         "type": "fairy",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "3.5"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "3.5"
       },
       {
         "name": "hyper beam",
         "type": "normal",
-        "base-damage": "150",
-        "energy": "-100",
-        "move-duration-seg": "3.8"
+        "base_damage": "150",
+        "energy": "_100",
+        "move_duration_seg": "3.8"
       },
       {
         "name": "play rough",
         "type": "fairy",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.9"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.9"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "jigglypuff candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "039",
         "name": "jigglypuff",
-        "candy-cost": "50",
-        "prev-evolution": [{
+        "candy_cost": "50",
+        "prev_evolution": [{
           "num": "174",
           "name": "igglybuff",
-          "candy-cost": "25"
+          "candy_cost": "25"
         }]
       }]
     }
@@ -3858,22 +3858,22 @@ export default {
       "height": "0.79 m",
       "weight": "7.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "poison",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.2",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.2",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "6.52",
+    "spawn_chance": "6.52",
     "stats": {
-      "base-attack": "83",
-      "base-defense": "73",
-      "base-stamina": "120",
-      "max-cp": "667",
-      "max-hp": "106"
+      "base_attack": "83",
+      "base_defense": "73",
+      "base_stamina": "120",
+      "max_cp": "667",
+      "max_hp": "106"
     },
     "resistant": [
       "grass",
@@ -3888,64 +3888,64 @@ export default {
       "psychic",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "quick attack",
         "type": "normal",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "10",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       },
       {
         "name": "bite",
         "type": "dark",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "poison fang",
         "type": "poison",
-        "base-damage": "35",
-        "energy": "-33",
-        "move-duration-seg": "1.7"
+        "base_damage": "35",
+        "energy": "_33",
+        "move_duration_seg": "1.7"
       },
       {
         "name": "air cutter",
         "type": "flying",
-        "base-damage": "60",
-        "energy": "-50",
-        "move-duration-seg": "2.7"
+        "base_damage": "60",
+        "energy": "_50",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "swift",
         "type": "normal",
-        "base-damage": "60",
-        "energy": "-50",
-        "move-duration-seg": "2.8"
+        "base_damage": "60",
+        "energy": "_50",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "sludge bomb",
         "type": "poison",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.3"
       }
     ],
     "egg": "2 km",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "zubat candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "042",
         "name": "golbat",
-        "candy-cost": "50",
-        "next-evolution": [{
+        "candy_cost": "50",
+        "next_evolution": [{
           "num": "169",
           "name": "crobat",
-          "candy-cost": "100"
+          "candy_cost": "100"
         }]
       }]
     }
@@ -3963,22 +3963,22 @@ export default {
       "height": "1.60 m",
       "weight": "55.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "poison",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.42",
+    "spawn_chance": "0.42",
     "stats": {
-      "base-attack": "161",
-      "base-defense": "150",
-      "base-stamina": "181",
-      "max-cp": "1976",
-      "max-hp": "154"
+      "base_attack": "161",
+      "base_defense": "150",
+      "base_stamina": "181",
+      "max_cp": "1976",
+      "max_hp": "154"
     },
     "resistant": [
       "grass",
@@ -3993,64 +3993,64 @@ export default {
       "psychic",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "wing attack",
         "type": "flying",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "9",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       },
       {
         "name": "bite",
         "type": "dark",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "poison fang",
         "type": "poison",
-        "base-damage": "35",
-        "energy": "-33",
-        "move-duration-seg": "1.7"
+        "base_damage": "35",
+        "energy": "_33",
+        "move_duration_seg": "1.7"
       },
       {
         "name": "air cutter",
         "type": "flying",
-        "base-damage": "60",
-        "energy": "-50",
-        "move-duration-seg": "2.7"
+        "base_damage": "60",
+        "energy": "_50",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "shadow ball",
         "type": "ghost",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "3"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "3"
       },
       {
         "name": "ominous wind",
         "type": "ghost",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "2.3"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "2.3"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "zubat candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "169",
         "name": "crobat"
       }],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "041",
         "name": "zubat",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -4067,22 +4067,22 @@ export default {
       "height": "0.51 m",
       "weight": "5.4 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "grass",
       "poison"
     ],
     "encounter": {
-      "base-flee-rate": "0.15",
-      "base-capture-rate": "0.6"
+      "base_flee_rate": "0.15",
+      "base_capture_rate": "0.6"
     },
-    "spawn-chance": "1.02",
+    "spawn_chance": "1.02",
     "stats": {
-      "base-attack": "131",
-      "base-defense": "112",
-      "base-stamina": "128",
-      "max-cp": "1228",
-      "max-hp": "113"
+      "base_attack": "131",
+      "base_defense": "112",
+      "base_stamina": "128",
+      "max_cp": "1228",
+      "max_hp": "113"
     },
     "resistant": [
       "water",
@@ -4097,66 +4097,66 @@ export default {
       "flying",
       "psychic"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "razor leaf",
         "type": "grass",
-        "base-damage": "13",
+        "base_damage": "13",
         "energy": "7",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "acid",
         "type": "poison",
-        "base-damage": "9",
+        "base_damage": "9",
         "energy": "8",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "seed bomb",
         "type": "grass",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.1"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.1"
       },
       {
         "name": "sludge bomb",
         "type": "poison",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "moonblast",
         "type": "fairy",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.9"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.9"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "oddish candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "044",
         "name": "gloom",
-        "candy-cost": "25",
-        "next-evolution": [
+        "candy_cost": "25",
+        "next_evolution": [
           {
             "num": "045",
             "name": "vileplume",
-            "candy-cost": "100"
+            "candy_cost": "100"
           },
           {
             "num": "182",
             "name": "bellossom",
-            "candy-cost": "100",
-            "evolution-item": {
+            "candy_cost": "100",
+            "evolution_item": {
               "name": "sun stone",
-              "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sun-stone.png"
+              "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sun_stone.png"
             }
           }
         ]
@@ -4176,22 +4176,22 @@ export default {
       "height": "0.79 m",
       "weight": "8.6 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "grass",
       "poison"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.3"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.3"
     },
-    "spawn-chance": "0.064",
+    "spawn_chance": "0.064",
     "stats": {
-      "base-attack": "153",
-      "base-defense": "136",
-      "base-stamina": "155",
-      "max-cp": "1681",
-      "max-hp": "134"
+      "base_attack": "153",
+      "base_defense": "136",
+      "base_stamina": "155",
+      "max_cp": "1681",
+      "max_hp": "134"
     },
     "resistant": [
       "water",
@@ -4206,69 +4206,69 @@ export default {
       "flying",
       "psychic"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "razor leaf",
         "type": "grass",
-        "base-damage": "13",
+        "base_damage": "13",
         "energy": "7",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "acid",
         "type": "poison",
-        "base-damage": "9",
+        "base_damage": "9",
         "energy": "8",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "petal blizzard",
         "type": "grass",
-        "base-damage": "110",
-        "energy": "-100",
-        "move-duration-seg": "2.6"
+        "base_damage": "110",
+        "energy": "_100",
+        "move_duration_seg": "2.6"
       },
       {
         "name": "sludge bomb",
         "type": "poison",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "moonblast",
         "type": "fairy",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.9"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.9"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "oddish candy",
-      "next-evolution": [
+      "next_evolution": [
         {
           "num": "045",
           "name": "vileplume",
-          "candy-cost": "100"
+          "candy_cost": "100"
         },
         {
           "num": "182",
           "name": "bellossom",
-          "candy-cost": "100",
-          "evolution-item": {
+          "candy_cost": "100",
+          "evolution_item": {
             "name": "sun stone",
-            "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sun-stone.png"
+            "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sun_stone.png"
           }
         }
       ],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "043",
         "name": "oddish",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -4285,22 +4285,22 @@ export default {
       "height": "1.19 m",
       "weight": "18.6 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "grass",
       "poison"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.15"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.15"
     },
-    "spawn-chance": "0.0097",
+    "spawn_chance": "0.0097",
     "stats": {
-      "base-attack": "202",
-      "base-defense": "167",
-      "base-stamina": "181",
-      "max-cp": "2559",
-      "max-hp": "154"
+      "base_attack": "202",
+      "base_defense": "167",
+      "base_stamina": "181",
+      "max_cp": "2559",
+      "max_hp": "154"
     },
     "resistant": [
       "water",
@@ -4315,57 +4315,57 @@ export default {
       "flying",
       "psychic"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "razor leaf",
         "type": "grass",
-        "base-damage": "13",
+        "base_damage": "13",
         "energy": "7",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "acid",
         "type": "poison",
-        "base-damage": "9",
+        "base_damage": "9",
         "energy": "8",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "petal blizzard",
         "type": "grass",
-        "base-damage": "110",
-        "energy": "-100",
-        "move-duration-seg": "2.6"
+        "base_damage": "110",
+        "energy": "_100",
+        "move_duration_seg": "2.6"
       },
       {
         "name": "solar beam",
         "type": "grass",
-        "base-damage": "180",
-        "energy": "-100",
-        "move-duration-seg": "4.9"
+        "base_damage": "180",
+        "energy": "_100",
+        "move_duration_seg": "4.9"
       },
       {
         "name": "moonblast",
         "type": "fairy",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.9"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.9"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "oddish candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "044",
         "name": "gloom",
-        "candy-cost": "100",
-        "prev-evolution": [{
+        "candy_cost": "100",
+        "prev_evolution": [{
           "num": "043",
           "name": "oddish",
-          "candy-cost": "25"
+          "candy_cost": "25"
         }]
       }]
     }
@@ -4383,22 +4383,22 @@ export default {
       "height": "0.30 m",
       "weight": "5.4 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "bug",
       "grass"
     ],
     "encounter": {
-      "base-flee-rate": "0.15",
-      "base-capture-rate": "0.4"
+      "base_flee_rate": "0.15",
+      "base_capture_rate": "0.4"
     },
-    "spawn-chance": "2.36",
+    "spawn_chance": "2.36",
     "stats": {
-      "base-attack": "121",
-      "base-defense": "99",
-      "base-stamina": "111",
-      "max-cp": "1018",
-      "max-hp": "99"
+      "base_attack": "121",
+      "base_defense": "99",
+      "base_stamina": "111",
+      "max_cp": "1018",
+      "max_hp": "99"
     },
     "resistant": [
       "water",
@@ -4415,53 +4415,53 @@ export default {
       "bug",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "scratch",
         "type": "normal",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "bug bite",
         "type": "bug",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "6",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "cross poison",
         "type": "poison",
-        "base-damage": "40",
-        "energy": "-33",
-        "move-duration-seg": "1.5"
+        "base_damage": "40",
+        "energy": "_33",
+        "move_duration_seg": "1.5"
       },
       {
         "name": "x scissor",
         "type": "water",
-        "base-damage": "50",
-        "energy": "-100",
-        "move-duration-seg": "4.7"
+        "base_damage": "50",
+        "energy": "_100",
+        "move_duration_seg": "4.7"
       },
       {
         "name": "seed bomb",
         "type": "grass",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.1"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.1"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "paras candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "047",
         "name": "parasect",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -4478,22 +4478,22 @@ export default {
       "height": "0.99 m",
       "weight": "29.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "bug",
       "grass"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.074",
+    "spawn_chance": "0.074",
     "stats": {
-      "base-attack": "165",
-      "base-defense": "146",
-      "base-stamina": "155",
-      "max-cp": "1859",
-      "max-hp": "134"
+      "base_attack": "165",
+      "base_defense": "146",
+      "base_stamina": "155",
+      "max_cp": "1859",
+      "max_hp": "134"
     },
     "resistant": [
       "water",
@@ -4510,60 +4510,60 @@ export default {
       "bug",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "fury cutter",
         "type": "bug",
-        "base-damage": "3",
+        "base_damage": "3",
         "energy": "6",
-        "move-duration-seg": "0.4"
+        "move_duration_seg": "0.4"
       },
       {
         "name": "struggle bug",
         "type": "bug",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "15",
-        "move-duration-seg": "1.5"
+        "move_duration_seg": "1.5"
       },
       {
         "name": "bug bite",
         "type": "bug",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "6",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "cross poison",
         "type": "poison",
-        "base-damage": "40",
-        "energy": "-33",
-        "move-duration-seg": "1.5"
+        "base_damage": "40",
+        "energy": "_33",
+        "move_duration_seg": "1.5"
       },
       {
         "name": "x scissor",
         "type": "water",
-        "base-damage": "50",
-        "energy": "-100",
-        "move-duration-seg": "4.7"
+        "base_damage": "50",
+        "energy": "_100",
+        "move_duration_seg": "4.7"
       },
       {
         "name": "solar beam",
         "type": "grass",
-        "base-damage": "180",
-        "energy": "-100",
-        "move-duration-seg": "4.9"
+        "base_damage": "180",
+        "energy": "_100",
+        "move_duration_seg": "4.9"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "paras candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "046",
         "name": "paras",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -4580,22 +4580,22 @@ export default {
       "height": "0.99 m",
       "weight": "30.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "bug",
       "poison"
     ],
     "encounter": {
-      "base-flee-rate": "0.15",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.15",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "2.28",
+    "spawn_chance": "2.28",
     "stats": {
-      "base-attack": "100",
-      "base-defense": "100",
-      "base-stamina": "155",
-      "max-cp": "1004",
-      "max-hp": "134"
+      "base_attack": "100",
+      "base_defense": "100",
+      "base_stamina": "155",
+      "max_cp": "1004",
+      "max_hp": "134"
     },
     "resistant": [
       "grass",
@@ -4610,53 +4610,53 @@ export default {
       "psychic",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "bug bite",
         "type": "bug",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "6",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "confusion",
         "type": "psychic",
-        "base-damage": "20",
+        "base_damage": "20",
         "energy": "15",
-        "move-duration-seg": "1.6"
+        "move_duration_seg": "1.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "psybeam",
         "type": "psychic",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "poison fang",
         "type": "poison",
-        "base-damage": "35",
-        "energy": "-33",
-        "move-duration-seg": "1.7"
+        "base_damage": "35",
+        "energy": "_33",
+        "move_duration_seg": "1.7"
       },
       {
         "name": "signal beam",
         "type": "bug",
-        "base-damage": "75",
-        "energy": "-50",
-        "move-duration-seg": "2.9"
+        "base_damage": "75",
+        "energy": "_50",
+        "move_duration_seg": "2.9"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "venonat candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "049",
         "name": "venomoth",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -4667,28 +4667,28 @@ export default {
       "num": "generation i",
       "name": "kanto"
     },
-    "about": "Venomoth is nocturnal-it is a Pokémon that only becomes active at night. Its favorite prey are small insects that gather around streetlights, attracted by the light in the darkness.",
+    "about": "Venomoth is nocturnal_it is a Pokémon that only becomes active at night. Its favorite prey are small insects that gather around streetlights, attracted by the light in the darkness.",
     "img": "https://www.serebii.net/pokemongo/pokemon/049.png",
     "size": {
       "height": "1.50 m",
       "weight": "12.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "bug",
       "poison"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.072",
+    "spawn_chance": "0.072",
     "stats": {
-      "base-attack": "179",
-      "base-defense": "143",
-      "base-stamina": "172",
-      "max-cp": "2082",
-      "max-hp": "147"
+      "base_attack": "179",
+      "base_defense": "143",
+      "base_stamina": "172",
+      "max_cp": "2082",
+      "max_hp": "147"
     },
     "resistant": [
       "grass",
@@ -4703,67 +4703,67 @@ export default {
       "psychic",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "confusion",
         "type": "psychic",
-        "base-damage": "20",
+        "base_damage": "20",
         "energy": "15",
-        "move-duration-seg": "1.6"
+        "move_duration_seg": "1.6"
       },
       {
         "name": "infestation",
         "type": "bug",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "14",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "bug bite",
         "type": "bug",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "6",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "psychic",
         "type": "psychic",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.8"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "bug buzz",
         "type": "bug",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "3.7"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "3.7"
       },
       {
         "name": "silver wind",
         "type": "bug",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.7"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.7"
       },
       {
         "name": "poison fang",
         "type": "poison",
-        "base-damage": "35",
-        "energy": "-33",
-        "move-duration-seg": "1.7"
+        "base_damage": "35",
+        "energy": "_33",
+        "move_duration_seg": "1.7"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "venonat candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "048",
         "name": "venonat",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -4774,27 +4774,27 @@ export default {
       "num": "generation i",
       "name": "kanto"
     },
-    "about": "Diglett are raised in most farms. The reason is simple-wherever this Pokémon burrows, the soil is left perfectly tilled for planting crops. This soil is made ideal for growing delicious vegetables.",
+    "about": "Diglett are raised in most farms. The reason is simple_wherever this Pokémon burrows, the soil is left perfectly tilled for planting crops. This soil is made ideal for growing delicious vegetables.",
     "img": "https://www.serebii.net/pokemongo/pokemon/050.png",
     "size": {
       "height": "0.20 m",
       "weight": "0.8 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "ground"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "0.4",
+    "spawn_chance": "0.4",
     "stats": {
-      "base-attack": "109",
-      "base-defense": "78",
-      "base-stamina": "67",
-      "max-cp": "676",
-      "max-hp": "64"
+      "base_attack": "109",
+      "base_defense": "78",
+      "base_stamina": "67",
+      "max_cp": "676",
+      "max_hp": "64"
     },
     "resistant": [
       "electric",
@@ -4806,60 +4806,60 @@ export default {
       "grass",
       "ice"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "mud slap",
         "type": "ground",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "12",
-        "move-duration-seg": "1.4"
+        "move_duration_seg": "1.4"
       },
       {
         "name": "scratch",
         "type": "normal",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "mud shot",
         "type": "ground",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "7",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "dig",
         "type": "ground",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "4.7"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "4.7"
       },
       {
         "name": "mud bomb",
         "type": "ground",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.3"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "rock tomb",
         "type": "rock",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "diglett candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "051",
         "name": "dugtrio",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -4876,21 +4876,21 @@ export default {
       "height": "0.71 m",
       "weight": "33.3 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "ground"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.014",
+    "spawn_chance": "0.014",
     "stats": {
-      "base-attack": "167",
-      "base-defense": "134",
-      "base-stamina": "111",
-      "max-cp": "1557",
-      "max-hp": "99"
+      "base_attack": "167",
+      "base_defense": "134",
+      "base_stamina": "111",
+      "max_cp": "1557",
+      "max_hp": "99"
     },
     "resistant": [
       "electric",
@@ -4902,60 +4902,60 @@ export default {
       "grass",
       "ice"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "sucker punch",
         "type": "dark",
-        "base-damage": "7",
+        "base_damage": "7",
         "energy": "8",
-        "move-duration-seg": "0.7"
+        "move_duration_seg": "0.7"
       },
       {
         "name": "mud slap",
         "type": "ground",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "12",
-        "move-duration-seg": "1.4"
+        "move_duration_seg": "1.4"
       },
       {
         "name": "mud shot",
         "type": "ground",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "7",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "earthquake",
         "type": "ground",
-        "base-damage": "120",
-        "energy": "-100",
-        "move-duration-seg": "3.6"
+        "base_damage": "120",
+        "energy": "_100",
+        "move_duration_seg": "3.6"
       },
       {
         "name": "mud bomb",
         "type": "ground",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.3"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "stone edge",
         "type": "rock",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.3"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.3"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "dugtrio",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "050",
         "name": "diglett",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -4972,21 +4972,21 @@ export default {
       "height": "0.41 m",
       "weight": "4.2 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal"
     ],
     "encounter": {
-      "base-flee-rate": "0.15",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.15",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "0.86",
+    "spawn_chance": "0.86",
     "stats": {
-      "base-attack": "92",
-      "base-defense": "78",
-      "base-stamina": "120",
-      "max-cp": "748",
-      "max-hp": "106"
+      "base_attack": "92",
+      "base_defense": "78",
+      "base_stamina": "120",
+      "max_cp": "748",
+      "max_hp": "106"
     },
     "resistant": [
       "ghost"
@@ -4994,60 +4994,60 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "scratch",
         "type": "normal",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "bite",
         "type": "dark",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "night slash",
         "type": "dark",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "2.2"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "2.2"
       },
       {
         "name": "dark pulse",
         "type": "dark",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "3"
       },
       {
         "name": "foul play",
         "type": "dark",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2"
       },
       {
         "name": "body slam",
         "type": "normal",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "meowth candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "053",
         "name": "persian",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -5064,21 +5064,21 @@ export default {
       "height": "0.99 m",
       "weight": "32.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.022",
+    "spawn_chance": "0.022",
     "stats": {
-      "base-attack": "150",
-      "base-defense": "136",
-      "base-stamina": "163",
-      "max-cp": "1689",
-      "max-hp": "140"
+      "base_attack": "150",
+      "base_defense": "136",
+      "base_stamina": "163",
+      "max_cp": "1689",
+      "max_hp": "140"
     },
     "resistant": [
       "ghost"
@@ -5086,60 +5086,60 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "scratch",
         "type": "normal",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "feint attack",
         "type": "dark",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "9",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "power gem",
         "type": "rock",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.9"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.9"
       },
       {
         "name": "play rough",
         "type": "fairy",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.9"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.9"
       },
       {
         "name": "foul play",
         "type": "dark",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2"
       },
       {
         "name": "night slash",
         "type": "dark",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "2.2"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "2.2"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "meowth candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "052",
         "name": "meowth",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -5156,21 +5156,21 @@ export default {
       "height": "0.79 m",
       "weight": "19.6 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "2.54",
+    "spawn_chance": "2.54",
     "stats": {
-      "base-attack": "122",
-      "base-defense": "95",
-      "base-stamina": "137",
-      "max-cp": "1106",
-      "max-hp": "120"
+      "base_attack": "122",
+      "base_defense": "95",
+      "base_stamina": "137",
+      "max_cp": "1106",
+      "max_hp": "120"
     },
     "resistant": [
       "fire",
@@ -5182,53 +5182,53 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "water gun",
         "type": "water",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "zen headbutt",
         "type": "psychic",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "10",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "psybeam",
         "type": "psychic",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "aqua tail",
         "type": "water",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "cross chop",
         "type": "fight",
-        "base-damage": "50",
-        "energy": "-50",
-        "move-duration-seg": "1.5"
+        "base_damage": "50",
+        "energy": "_50",
+        "move_duration_seg": "1.5"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "psyduck candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "055",
         "name": "golduck",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -5245,21 +5245,21 @@ export default {
       "height": "1.70 m",
       "weight": "76.6 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.087",
+    "spawn_chance": "0.087",
     "stats": {
-      "base-attack": "191",
-      "base-defense": "162",
-      "base-stamina": "190",
-      "max-cp": "2450",
-      "max-hp": "162"
+      "base_attack": "191",
+      "base_defense": "162",
+      "base_stamina": "190",
+      "max_cp": "2450",
+      "max_hp": "162"
     },
     "resistant": [
       "fire",
@@ -5271,53 +5271,53 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "water gun",
         "type": "water",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "confusion",
         "type": "psychic",
-        "base-damage": "20",
+        "base_damage": "20",
         "energy": "15",
-        "move-duration-seg": "1.6"
+        "move_duration_seg": "1.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "psychic",
         "type": "psychic",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.8"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "hydro pump",
         "type": "water",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.3"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "ice beam",
         "type": "ice",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "3.3"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "3.3"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "psyduck candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "054",
         "name": "psyduck",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -5334,21 +5334,21 @@ export default {
       "height": "0.51 m",
       "weight": "28.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "fighting"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "0.92",
+    "spawn_chance": "0.92",
     "stats": {
-      "base-attack": "148",
-      "base-defense": "82",
-      "base-stamina": "120",
-      "max-cp": "1164",
-      "max-hp": "106"
+      "base_attack": "148",
+      "base_defense": "82",
+      "base_stamina": "120",
+      "max_cp": "1164",
+      "max_hp": "106"
     },
     "resistant": [
       "bug",
@@ -5360,53 +5360,53 @@ export default {
       "psychic",
       "fairy"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "karate chop",
         "type": "fight",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "10",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       },
       {
         "name": "scratch",
         "type": "normal",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "cross chop",
         "type": "fight",
-        "base-damage": "50",
-        "energy": "-50",
-        "move-duration-seg": "1.5"
+        "base_damage": "50",
+        "energy": "_50",
+        "move_duration_seg": "1.5"
       },
       {
         "name": "low sweep",
         "type": "fight",
-        "base-damage": "40",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "40",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "brick break",
         "type": "fight",
-        "base-damage": "40",
-        "energy": "-33",
-        "move-duration-seg": "1.6"
+        "base_damage": "40",
+        "energy": "_33",
+        "move_duration_seg": "1.6"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "mankey candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "057",
         "name": "primeape",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -5423,21 +5423,21 @@ export default {
       "height": "0.99 m",
       "weight": "32.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "fighting"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.031",
+    "spawn_chance": "0.031",
     "stats": {
-      "base-attack": "207",
-      "base-defense": "138",
-      "base-stamina": "163",
-      "max-cp": "2288",
-      "max-hp": "140"
+      "base_attack": "207",
+      "base_defense": "138",
+      "base_stamina": "163",
+      "max_cp": "2288",
+      "max_hp": "140"
     },
     "resistant": [
       "bug",
@@ -5449,67 +5449,67 @@ export default {
       "psychic",
       "fairy"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "low kick",
         "type": "fight",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "6",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "counter",
         "type": "fight",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "8",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       },
       {
         "name": "karate chop",
         "type": "fight",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "10",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "low sweep",
         "type": "fight",
-        "base-damage": "40",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "40",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "night slash",
         "type": "dark",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "2.2"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "2.2"
       },
       {
         "name": "close combat",
         "type": "fight",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.3"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "cross chop",
         "type": "fight",
-        "base-damage": "50",
-        "energy": "-50",
-        "move-duration-seg": "1.5"
+        "base_damage": "50",
+        "energy": "_50",
+        "move_duration_seg": "1.5"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "mankey candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "056",
         "name": "mankey",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -5526,21 +5526,21 @@ export default {
       "height": "0.71 m",
       "weight": "19.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "fire"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.3"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.3"
     },
-    "spawn-chance": "0.92",
+    "spawn_chance": "0.92",
     "stats": {
-      "base-attack": "136",
-      "base-defense": "93",
-      "base-stamina": "146",
-      "max-cp": "1243",
-      "max-hp": "127"
+      "base_attack": "136",
+      "base_defense": "93",
+      "base_stamina": "146",
+      "max_cp": "1243",
+      "max_hp": "127"
     },
     "resistant": [
       "fire",
@@ -5554,53 +5554,53 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "ember",
         "type": "fire",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "10",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "bite",
         "type": "dark",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "flame wheel",
         "type": "fire",
-        "base-damage": "60",
-        "energy": "-50",
-        "move-duration-seg": "2.7"
+        "base_damage": "60",
+        "energy": "_50",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "body slam",
         "type": "normal",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "flamethrower",
         "type": "fire",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2.2"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "growlithe candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "059",
         "name": "arcanine",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -5617,21 +5617,21 @@ export default {
       "height": "1.91 m",
       "weight": "155.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "fire"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.1"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.1"
     },
-    "spawn-chance": "0.017",
+    "spawn_chance": "0.017",
     "stats": {
-      "base-attack": "227",
-      "base-defense": "166",
-      "base-stamina": "207",
-      "max-cp": "3029",
-      "max-hp": "175"
+      "base_attack": "227",
+      "base_defense": "166",
+      "base_stamina": "207",
+      "max_cp": "3029",
+      "max_hp": "175"
     },
     "resistant": [
       "fire",
@@ -5645,74 +5645,74 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "fire fang",
         "type": "fire",
-        "base-damage": "11",
+        "base_damage": "11",
         "energy": "8",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       },
       {
         "name": "snarl",
         "type": "dark",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "12",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "bite",
         "type": "dark",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "fire blast",
         "type": "fire",
-        "base-damage": "140",
-        "energy": "-100",
-        "move-duration-seg": "4.2"
+        "base_damage": "140",
+        "energy": "_100",
+        "move_duration_seg": "4.2"
       },
       {
         "name": "wild charge",
         "type": "electric",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.6"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.6"
       },
       {
         "name": "crunch",
         "type": "dark",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "bulldoze",
         "type": "ground",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "3.5"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "3.5"
       },
       {
         "name": "flamethrower",
         "type": "fire",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2.2"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "growlithe candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "058",
         "name": "growlithe",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -5729,21 +5729,21 @@ export default {
       "height": "0.61 m",
       "weight": "12.4 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water"
     ],
     "encounter": {
-      "base-flee-rate": "0.15",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.15",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "2.19",
+    "spawn_chance": "2.19",
     "stats": {
-      "base-attack": "101",
-      "base-defense": "82",
-      "base-stamina": "120",
-      "max-cp": "829",
-      "max-hp": "106"
+      "base_attack": "101",
+      "base_defense": "82",
+      "base_stamina": "120",
+      "max_cp": "829",
+      "max_hp": "106"
     },
     "resistant": [
       "fire",
@@ -5755,66 +5755,66 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "bubble",
         "type": "water",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "14",
-        "move-duration-seg": "1.2"
+        "move_duration_seg": "1.2"
       },
       {
         "name": "mud shot",
         "type": "ground",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "7",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "bubble beam",
         "type": "water",
-        "base-damage": "45",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "45",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "mud bomb",
         "type": "ground",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.3"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "body slam",
         "type": "normal",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "poliwag candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "061",
         "name": "poliwhirl",
-        "candy-cost": "25",
-        "next-evolution": [
+        "candy_cost": "25",
+        "next_evolution": [
           {
             "num": "062",
             "name": "poliwrath",
-            "candy-cost": "100"
+            "candy_cost": "100"
           },
           {
             "num": "186",
             "name": "politoed",
-            "candy-cost": "100",
-            "evolution-item": {
+            "candy_cost": "100",
+            "evolution_item": {
               "name": "kings rock",
-              "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/kings-rock.png"
+              "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/kings_rock.png"
             }
           }
         ]
@@ -5834,21 +5834,21 @@ export default {
       "height": "0.99 m",
       "weight": "20.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.25"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.25"
     },
-    "spawn-chance": "0.13",
+    "spawn_chance": "0.13",
     "stats": {
-      "base-attack": "130",
-      "base-defense": "123",
-      "base-stamina": "163",
-      "max-cp": "1419",
-      "max-hp": "140"
+      "base_attack": "130",
+      "base_defense": "123",
+      "base_stamina": "163",
+      "max_cp": "1419",
+      "max_hp": "140"
     },
     "resistant": [
       "fire",
@@ -5860,76 +5860,76 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "bubble",
         "type": "water",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "14",
-        "move-duration-seg": "1.2"
+        "move_duration_seg": "1.2"
       },
       {
         "name": "mud shot",
         "type": "ground",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "7",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "mud bomb",
         "type": "ground",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.3"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "bubble beam",
         "type": "water",
-        "base-damage": "45",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "45",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "water pulse",
         "type": "water",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "scald",
         "type": "water",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "3.7"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "3.7"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "poliwag candy",
-      "next-evolution": [
+      "next_evolution": [
         {
           "num": "062",
           "name": "poliwrath",
-          "candy-cost": "100"
+          "candy_cost": "100"
         },
         {
           "num": "186",
           "name": "politoed",
-          "candy-cost": "100",
-          "evolution-item": {
+          "candy_cost": "100",
+          "evolution_item": {
             "name": "kings rock",
-            "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/kings-rock.png"
+            "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/kings_rock.png"
           }
         }
       ],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "060",
         "name": "poliwag",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -5946,22 +5946,22 @@ export default {
       "height": "1.30 m",
       "weight": "54.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water",
       "fighting"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.125"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.125"
     },
-    "spawn-chance": "0.011",
+    "spawn_chance": "0.011",
     "stats": {
-      "base-attack": "182",
-      "base-defense": "184",
-      "base-stamina": "207",
-      "max-cp": "2586",
-      "max-hp": "175"
+      "base_attack": "182",
+      "base_defense": "184",
+      "base_stamina": "207",
+      "max_cp": "2586",
+      "max_hp": "175"
     },
     "resistant": [
       "fire",
@@ -5977,71 +5977,71 @@ export default {
       "psychic",
       "fairy"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "bubble",
         "type": "water",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "14",
-        "move-duration-seg": "1.2"
+        "move_duration_seg": "1.2"
       },
       {
         "name": "rock smash",
         "type": "fight",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "10",
-        "move-duration-seg": "1.3"
+        "move_duration_seg": "1.3"
       },
       {
         "name": "mud shot",
         "type": "ground",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "7",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "hydro pump",
         "type": "water",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.3"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "ice punch",
         "type": "ice",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "dynamic punch",
         "type": "fight",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.7"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "submission",
         "type": "fight",
-        "base-damage": "60",
-        "energy": "-50",
-        "move-duration-seg": "2.2"
+        "base_damage": "60",
+        "energy": "_50",
+        "move_duration_seg": "2.2"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "poliwag candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "061",
         "name": "poliwhirl",
-        "candy-cost": "100",
-        "prev-evolution": [{
+        "candy_cost": "100",
+        "prev_evolution": [{
           "num": "060",
           "name": "poliwag",
-          "candy-cost": "25"
+          "candy_cost": "25"
         }]
       }]
     }
@@ -6059,21 +6059,21 @@ export default {
       "height": "0.89 m",
       "weight": "19.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "psychic"
     ],
     "encounter": {
-      "base-flee-rate": "0.99",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.99",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "0.42",
+    "spawn_chance": "0.42",
     "stats": {
-      "base-attack": "195",
-      "base-defense": "82",
-      "base-stamina": "93",
-      "max-cp": "1342",
-      "max-hp": "85"
+      "base_attack": "195",
+      "base_defense": "82",
+      "base_stamina": "93",
+      "max_cp": "1342",
+      "max_hp": "85"
     },
     "resistant": [
       "fighting",
@@ -6084,57 +6084,57 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "zen headbutt",
         "type": "psychic",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "10",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "charge beam",
         "type": "electric",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "15",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "psyshock",
         "type": "psychic",
-        "base-damage": "65",
-        "energy": "-33",
-        "move-duration-seg": "2.7"
+        "base_damage": "65",
+        "energy": "_33",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "signal beam",
         "type": "bug",
-        "base-damage": "75",
-        "energy": "-50",
-        "move-duration-seg": "2.9"
+        "base_damage": "75",
+        "energy": "_50",
+        "move_duration_seg": "2.9"
       },
       {
         "name": "shadow ball",
         "type": "ghost",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "3"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "3"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "abra candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "064",
         "name": "kadabra",
-        "candy-cost": "25",
-        "next-evolution": [{
+        "candy_cost": "25",
+        "next_evolution": [{
           "num": "065",
           "name": "alakazam",
-          "candy-cost": "100"
+          "candy_cost": "100"
         }]
       }]
     }
@@ -6152,21 +6152,21 @@ export default {
       "height": "1.30 m",
       "weight": "56.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "psychic"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.25"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.25"
     },
-    "spawn-chance": "0.027",
+    "spawn_chance": "0.027",
     "stats": {
-      "base-attack": "232",
-      "base-defense": "117",
-      "base-stamina": "120",
-      "max-cp": "2059",
-      "max-hp": "106"
+      "base_attack": "232",
+      "base_defense": "117",
+      "base_stamina": "120",
+      "max_cp": "2059",
+      "max_hp": "106"
     },
     "resistant": [
       "fighting",
@@ -6177,58 +6177,58 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "psycho cut",
         "type": "psychic",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "8",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "confusion",
         "type": "psychic",
-        "base-damage": "20",
+        "base_damage": "20",
         "energy": "15",
-        "move-duration-seg": "1.6"
+        "move_duration_seg": "1.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "psybeam",
         "type": "psychic",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "dazzling gleam",
         "type": "fairy",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "3.5"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "3.5"
       },
       {
         "name": "shadow ball",
         "type": "ghost",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "3"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "3"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "abra candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "065",
         "name": "alakazam",
-        "candy-cost": "100"
+        "candy_cost": "100"
       }],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "063",
         "name": "abra",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -6245,21 +6245,21 @@ export default {
       "height": "1.50 m",
       "weight": "48.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "psychic"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.1"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.1"
     },
-    "spawn-chance": "0.0073",
+    "spawn_chance": "0.0073",
     "stats": {
-      "base-attack": "271",
-      "base-defense": "167",
-      "base-stamina": "146",
-      "max-cp": "3057",
-      "max-hp": "127"
+      "base_attack": "271",
+      "base_defense": "167",
+      "base_stamina": "146",
+      "max_cp": "3057",
+      "max_hp": "127"
     },
     "resistant": [
       "fighting",
@@ -6270,71 +6270,71 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "psycho cut",
         "type": "psychic",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "8",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "confusion",
         "type": "psychic",
-        "base-damage": "20",
+        "base_damage": "20",
         "energy": "15",
-        "move-duration-seg": "1.6"
+        "move_duration_seg": "1.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "shadow ball",
         "type": "ghost",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "3"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "3"
       },
       {
         "name": "futuresight",
         "type": "psychic",
-        "base-damage": "120",
-        "energy": "-100",
-        "move-duration-seg": "2.7"
+        "base_damage": "120",
+        "energy": "_100",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "focus blast",
         "type": "fight",
-        "base-damage": "140",
-        "energy": "-100",
-        "move-duration-seg": "3.5"
+        "base_damage": "140",
+        "energy": "_100",
+        "move_duration_seg": "3.5"
       },
       {
         "name": "dazzling gleam",
         "type": "fairy",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "3.5"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "3.5"
       },
       {
         "name": "psychic",
         "type": "psychic",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.8"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.8"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "abra candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "064",
         "name": "kadabra",
-        "candy-cost": "100",
-        "prev-evolution": [{
+        "candy_cost": "100",
+        "prev_evolution": [{
           "num": "063",
           "name": "abra",
-          "candy-cost": "25"
+          "candy_cost": "25"
         }]
       }]
     }
@@ -6346,27 +6346,27 @@ export default {
       "num": "generation i",
       "name": "kanto"
     },
-    "about": "Machop's muscles are special-they never get sore no matter how much they are used in exercise. This Pokémon has sufficient power to hurl a hundred adult humans.",
+    "about": "Machop's muscles are special_they never get sore no matter how much they are used in exercise. This Pokémon has sufficient power to hurl a hundred adult humans.",
     "img": "https://www.serebii.net/pokemongo/pokemon/066.png",
     "size": {
       "height": "0.79 m",
       "weight": "19.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "fighting"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "0.49",
+    "spawn_chance": "0.49",
     "stats": {
-      "base-attack": "137",
-      "base-defense": "82",
-      "base-stamina": "172",
-      "max-cp": "1278",
-      "max-hp": "147"
+      "base_attack": "137",
+      "base_defense": "82",
+      "base_stamina": "172",
+      "max_cp": "1278",
+      "max_hp": "147"
     },
     "resistant": [
       "bug",
@@ -6378,64 +6378,64 @@ export default {
       "psychic",
       "fairy"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "karate chop",
         "type": "fight",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "10",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       },
       {
         "name": "rock smash",
         "type": "fight",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "10",
-        "move-duration-seg": "1.3"
+        "move_duration_seg": "1.3"
       },
       {
         "name": "low kick",
         "type": "fight",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "6",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "low sweep",
         "type": "fight",
-        "base-damage": "40",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "40",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "brick break",
         "type": "fight",
-        "base-damage": "40",
-        "energy": "-33",
-        "move-duration-seg": "1.6"
+        "base_damage": "40",
+        "energy": "_33",
+        "move_duration_seg": "1.6"
       },
       {
         "name": "cross chop",
         "type": "fight",
-        "base-damage": "50",
-        "energy": "-50",
-        "move-duration-seg": "1.5"
+        "base_damage": "50",
+        "energy": "_50",
+        "move_duration_seg": "1.5"
       }
     ],
     "egg": "2 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "machop candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "067",
         "name": "machoke",
-        "candy-cost": "25",
-        "next-evolution": [{
+        "candy_cost": "25",
+        "next_evolution": [{
           "num": "068",
           "name": "machamp",
-          "candy-cost": "100"
+          "candy_cost": "100"
         }]
       }]
     }
@@ -6453,21 +6453,21 @@ export default {
       "height": "1.50 m",
       "weight": "70.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "fighting"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.25"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.25"
     },
-    "spawn-chance": "0.034",
+    "spawn_chance": "0.034",
     "stats": {
-      "base-attack": "177",
-      "base-defense": "125",
-      "base-stamina": "190",
-      "max-cp": "2031",
-      "max-hp": "162"
+      "base_attack": "177",
+      "base_defense": "125",
+      "base_stamina": "190",
+      "max_cp": "2031",
+      "max_hp": "162"
     },
     "resistant": [
       "bug",
@@ -6479,65 +6479,65 @@ export default {
       "psychic",
       "fairy"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "low kick",
         "type": "fight",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "6",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "karate chop",
         "type": "fight",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "10",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "submission",
         "type": "fight",
-        "base-damage": "60",
-        "energy": "-50",
-        "move-duration-seg": "2.2"
+        "base_damage": "60",
+        "energy": "_50",
+        "move_duration_seg": "2.2"
       },
       {
         "name": "brick break",
         "type": "fight",
-        "base-damage": "40",
-        "energy": "-33",
-        "move-duration-seg": "1.6"
+        "base_damage": "40",
+        "energy": "_33",
+        "move_duration_seg": "1.6"
       },
       {
         "name": "dynamic punch",
         "type": "fight",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.7"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "cross chop",
         "type": "fight",
-        "base-damage": "50",
-        "energy": "-50",
-        "move-duration-seg": "1.5"
+        "base_damage": "50",
+        "energy": "_50",
+        "move_duration_seg": "1.5"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "machop candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "068",
         "name": "machamp",
-        "candy-cost": "100"
+        "candy_cost": "100"
       }],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "066",
         "name": "machop",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -6554,21 +6554,21 @@ export default {
       "height": "1.60 m",
       "weight": "130.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "fighting"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.1"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.1"
     },
-    "spawn-chance": "0.0068",
+    "spawn_chance": "0.0068",
     "stats": {
-      "base-attack": "234",
-      "base-defense": "159",
-      "base-stamina": "207",
-      "max-cp": "3056",
-      "max-hp": "175"
+      "base_attack": "234",
+      "base_defense": "159",
+      "base_stamina": "207",
+      "max_cp": "3056",
+      "max_hp": "175"
     },
     "resistant": [
       "bug",
@@ -6580,85 +6580,85 @@ export default {
       "psychic",
       "fairy"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "bullet punch",
         "type": "steel",
-        "base-damage": "9",
+        "base_damage": "9",
         "energy": "10",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       },
       {
         "name": "counter",
         "type": "fight",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "8",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       },
       {
         "name": "karate chop",
         "type": "fight",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "10",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "heavy slam",
         "type": "steel",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2.1"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2.1"
       },
       {
         "name": "dynamic punch",
         "type": "fight",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.7"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "close combat",
         "type": "fight",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.3"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "cross chop",
         "type": "fight",
-        "base-damage": "50",
-        "energy": "-50",
-        "move-duration-seg": "1.5"
+        "base_damage": "50",
+        "energy": "_50",
+        "move_duration_seg": "1.5"
       },
       {
         "name": "stone edge",
         "type": "rock",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.3"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "submission",
         "type": "fight",
-        "base-damage": "60",
-        "energy": "-50",
-        "move-duration-seg": "2.2"
+        "base_damage": "60",
+        "energy": "_50",
+        "move_duration_seg": "2.2"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "machop candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "067",
         "name": "machoke",
-        "candy-cost": "100",
-        "prev-evolution": [{
+        "candy_cost": "100",
+        "prev_evolution": [{
           "num": "066",
           "name": "machop",
-          "candy-cost": "25"
+          "candy_cost": "25"
         }]
       }]
     }
@@ -6676,22 +6676,22 @@ export default {
       "height": "0.71 m",
       "weight": "4.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "grass",
       "poison"
     ],
     "encounter": {
-      "base-flee-rate": "0.15",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.15",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "1.15",
+    "spawn_chance": "1.15",
     "stats": {
-      "base-attack": "139",
-      "base-defense": "61",
-      "base-stamina": "137",
-      "max-cp": "1033",
-      "max-hp": "120"
+      "base_attack": "139",
+      "base_defense": "61",
+      "base_stamina": "137",
+      "max_cp": "1033",
+      "max_hp": "120"
     },
     "resistant": [
       "water",
@@ -6706,57 +6706,57 @@ export default {
       "flying",
       "psychic"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "vine whip",
         "type": "grass",
-        "base-damage": "7",
+        "base_damage": "7",
         "energy": "6",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "acid",
         "type": "poison",
-        "base-damage": "9",
+        "base_damage": "9",
         "energy": "8",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "power whip",
         "type": "grass",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.6"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.6"
       },
       {
         "name": "sludge bomb",
         "type": "poison",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "wrap",
         "type": "normal",
-        "base-damage": "60",
-        "energy": "-33",
-        "move-duration-seg": "2.9"
+        "base_damage": "60",
+        "energy": "_33",
+        "move_duration_seg": "2.9"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "bellsprout candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "070",
         "name": "weepinbell",
-        "candy-cost": "25",
-        "next-evolution": [{
+        "candy_cost": "25",
+        "next_evolution": [{
           "num": "071",
           "name": "victreebel",
-          "candy-cost": "100"
+          "candy_cost": "100"
         }]
       }]
     }
@@ -6774,22 +6774,22 @@ export default {
       "height": "0.99 m",
       "weight": "6.4 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "grass",
       "poison"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.25"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.25"
     },
-    "spawn-chance": "0.072",
+    "spawn_chance": "0.072",
     "stats": {
-      "base-attack": "172",
-      "base-defense": "92",
-      "base-stamina": "163",
-      "max-cp": "1611",
-      "max-hp": "140"
+      "base_attack": "172",
+      "base_defense": "92",
+      "base_stamina": "163",
+      "max_cp": "1611",
+      "max_hp": "140"
     },
     "resistant": [
       "water",
@@ -6804,65 +6804,65 @@ export default {
       "flying",
       "psychic"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "acid",
         "type": "poison",
-        "base-damage": "9",
+        "base_damage": "9",
         "energy": "8",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       },
       {
         "name": "bullet seed",
         "type": "grass",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "14",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "razor leaf",
         "type": "grass",
-        "base-damage": "13",
+        "base_damage": "13",
         "energy": "7",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "power whip",
         "type": "grass",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.6"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.6"
       },
       {
         "name": "sludge bomb",
         "type": "poison",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "seed bomb",
         "type": "grass",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.1"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.1"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "bellsprout candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "071",
         "name": "victreebel",
-        "candy-cost": "100"
+        "candy_cost": "100"
       }],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "069",
         "name": "bellsprout",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -6879,22 +6879,22 @@ export default {
       "height": "1.70 m",
       "weight": "15.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "grass",
       "poison"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.125"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.125"
     },
-    "spawn-chance": "0.0059",
+    "spawn_chance": "0.0059",
     "stats": {
-      "base-attack": "207",
-      "base-defense": "135",
-      "base-stamina": "190",
-      "max-cp": "2431",
-      "max-hp": "162"
+      "base_attack": "207",
+      "base_defense": "135",
+      "base_stamina": "190",
+      "max_cp": "2431",
+      "max_hp": "162"
     },
     "resistant": [
       "water",
@@ -6909,57 +6909,57 @@ export default {
       "flying",
       "psychic"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "razor leaf",
         "type": "grass",
-        "base-damage": "13",
+        "base_damage": "13",
         "energy": "7",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "acid",
         "type": "poison",
-        "base-damage": "9",
+        "base_damage": "9",
         "energy": "8",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "leaf blade",
         "type": "grass",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "2.4"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "2.4"
       },
       {
         "name": "sludge bomb",
         "type": "poison",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "solar beam",
         "type": "grass",
-        "base-damage": "180",
-        "energy": "-100",
-        "move-duration-seg": "4.9"
+        "base_damage": "180",
+        "energy": "_100",
+        "move_duration_seg": "4.9"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "bellsprout candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "070",
         "name": "weepinbell",
-        "candy-cost": "100",
-        "prev-evolution": [{
+        "candy_cost": "100",
+        "prev_evolution": [{
           "num": "069",
           "name": "bellsprout",
-          "candy-cost": "25"
+          "candy_cost": "25"
         }]
       }]
     }
@@ -6977,22 +6977,22 @@ export default {
       "height": "0.89 m",
       "weight": "45.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water",
       "poison"
     ],
     "encounter": {
-      "base-flee-rate": "0.15",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.15",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "0.81",
+    "spawn_chance": "0.81",
     "stats": {
-      "base-attack": "97",
-      "base-defense": "149",
-      "base-stamina": "120",
-      "max-cp": "1040",
-      "max-hp": "106"
+      "base_attack": "97",
+      "base_defense": "149",
+      "base_stamina": "120",
+      "max_cp": "1040",
+      "max_hp": "106"
     },
     "resistant": [
       "fire",
@@ -7006,53 +7006,53 @@ export default {
       "ground",
       "psychic"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "bubble",
         "type": "water",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "14",
-        "move-duration-seg": "1.2"
+        "move_duration_seg": "1.2"
       },
       {
         "name": "poison sting",
         "type": "poison",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "7",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "bubble beam",
         "type": "water",
-        "base-damage": "45",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "45",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "water pulse",
         "type": "water",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "wrap",
         "type": "normal",
-        "base-damage": "60",
-        "energy": "-33",
-        "move-duration-seg": "2.9"
+        "base_damage": "60",
+        "energy": "_33",
+        "move_duration_seg": "2.9"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "tentacool candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "073",
         "name": "tentacruel",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -7069,22 +7069,22 @@ export default {
       "height": "1.60 m",
       "weight": "55.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water",
       "poison"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.082",
+    "spawn_chance": "0.082",
     "stats": {
-      "base-attack": "166",
-      "base-defense": "209",
-      "base-stamina": "190",
-      "max-cp": "2422",
-      "max-hp": "162"
+      "base_attack": "166",
+      "base_defense": "209",
+      "base_stamina": "190",
+      "max_cp": "2422",
+      "max_hp": "162"
     },
     "resistant": [
       "fire",
@@ -7098,53 +7098,53 @@ export default {
       "ground",
       "psychic"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "acid",
         "type": "poison",
-        "base-damage": "9",
+        "base_damage": "9",
         "energy": "8",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       },
       {
         "name": "poison jab",
         "type": "poison",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "7",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "hydro pump",
         "type": "water",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.3"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "sludge wave",
         "type": "poison",
-        "base-damage": "110",
-        "energy": "-100",
-        "move-duration-seg": "3.2"
+        "base_damage": "110",
+        "energy": "_100",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "blizzard",
         "type": "ice",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.1"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.1"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "tentacool candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "072",
         "name": "tentacool",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -7161,22 +7161,22 @@ export default {
       "height": "0.41 m",
       "weight": "20.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "rock",
       "ground"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "1.19",
+    "spawn_chance": "1.19",
     "stats": {
-      "base-attack": "132",
-      "base-defense": "132",
-      "base-stamina": "120",
-      "max-cp": "1293",
-      "max-hp": "106"
+      "base_attack": "132",
+      "base_defense": "132",
+      "base_stamina": "120",
+      "max_cp": "1293",
+      "max_hp": "106"
     },
     "resistant": [
       "normal",
@@ -7193,57 +7193,57 @@ export default {
       "ground",
       "steel"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "rock throw",
         "type": "rock",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "7",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       },
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "rock slide",
         "type": "rock",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.7"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "rock tomb",
         "type": "rock",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "dig",
         "type": "ground",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "4.7"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "4.7"
       }
     ],
     "egg": "2 km",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "geodude candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "075",
         "name": "graveler",
-        "candy-cost": "25",
-        "next-evolution": [{
+        "candy_cost": "25",
+        "next_evolution": [{
           "num": "076",
           "name": "golem",
-          "candy-cost": "100"
+          "candy_cost": "100"
         }]
       }]
     }
@@ -7261,22 +7261,22 @@ export default {
       "height": "0.99 m",
       "weight": "105.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "rock",
       "ground"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.25"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.25"
     },
-    "spawn-chance": "0.071",
+    "spawn_chance": "0.071",
     "stats": {
-      "base-attack": "164",
-      "base-defense": "164",
-      "base-stamina": "146",
-      "max-cp": "1897",
-      "max-hp": "127"
+      "base_attack": "164",
+      "base_defense": "164",
+      "base_stamina": "146",
+      "max_cp": "1897",
+      "max_hp": "127"
     },
     "resistant": [
       "normal",
@@ -7293,72 +7293,72 @@ export default {
       "ground",
       "steel"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "rock throw",
         "type": "rock",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "7",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       },
       {
         "name": "mud slap",
         "type": "ground",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "12",
-        "move-duration-seg": "1.4"
+        "move_duration_seg": "1.4"
       },
       {
         "name": "mud shot",
         "type": "ground",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "7",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "dig",
         "type": "ground",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "4.7"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "4.7"
       },
       {
         "name": "stone edge",
         "type": "rock",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.3"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "rock blast",
         "type": "rock",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "2.1"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "2.1"
       },
       {
         "name": "rock slide",
         "type": "rock",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.7"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.7"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "geodude candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "076",
         "name": "golem",
-        "candy-cost": "100"
+        "candy_cost": "100"
       }],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "074",
         "name": "geodude",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -7375,22 +7375,22 @@ export default {
       "height": "1.40 m",
       "weight": "300.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "rock",
       "ground"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.125"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.125"
     },
-    "spawn-chance": "0.0047",
+    "spawn_chance": "0.0047",
     "stats": {
-      "base-attack": "211",
-      "base-defense": "198",
-      "base-stamina": "190",
-      "max-cp": "2949",
-      "max-hp": "162"
+      "base_attack": "211",
+      "base_defense": "198",
+      "base_stamina": "190",
+      "max_cp": "2949",
+      "max_hp": "162"
     },
     "resistant": [
       "normal",
@@ -7407,71 +7407,71 @@ export default {
       "ground",
       "steel"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "rock throw",
         "type": "rock",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "7",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       },
       {
         "name": "mud slap",
         "type": "ground",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "12",
-        "move-duration-seg": "1.4"
+        "move_duration_seg": "1.4"
       },
       {
         "name": "mud shot",
         "type": "ground",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "7",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "stone edge",
         "type": "rock",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.3"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "earthquake",
         "type": "ground",
-        "base-damage": "120",
-        "energy": "-100",
-        "move-duration-seg": "3.6"
+        "base_damage": "120",
+        "energy": "_100",
+        "move_duration_seg": "3.6"
       },
       {
         "name": "rock blast",
         "type": "rock",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "2.1"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "2.1"
       },
       {
         "name": "ancient power",
         "type": "rock",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.5"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.5"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "geodude candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "075",
         "name": "graveler",
-        "candy-cost": "100",
-        "prev-evolution": [{
+        "candy_cost": "100",
+        "prev_evolution": [{
           "num": "074",
           "name": "geodude",
-          "candy-cost": "25"
+          "candy_cost": "25"
         }]
       }]
     }
@@ -7489,21 +7489,21 @@ export default {
       "height": "0.99 m",
       "weight": "30.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "fire"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.4"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.4"
     },
-    "spawn-chance": "0.51",
+    "spawn_chance": "0.51",
     "stats": {
-      "base-attack": "170",
-      "base-defense": "127",
-      "base-stamina": "137",
-      "max-cp": "1697",
-      "max-hp": "120"
+      "base_attack": "170",
+      "base_defense": "127",
+      "base_stamina": "137",
+      "max_cp": "1697",
+      "max_hp": "120"
     },
     "resistant": [
       "fire",
@@ -7517,60 +7517,60 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "ember",
         "type": "fire",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "10",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "flame charge",
         "type": "fire",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.8"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.8"
       },
       {
         "name": "flame wheel",
         "type": "fire",
-        "base-damage": "60",
-        "energy": "-50",
-        "move-duration-seg": "2.7"
+        "base_damage": "60",
+        "energy": "_50",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "stomp",
         "type": "normal",
-        "base-damage": "55",
-        "energy": "-50",
-        "move-duration-seg": "1.7"
+        "base_damage": "55",
+        "energy": "_50",
+        "move_duration_seg": "1.7"
       },
       {
         "name": "fire blast",
         "type": "fire",
-        "base-damage": "140",
-        "energy": "-100",
-        "move-duration-seg": "4.2"
+        "base_damage": "140",
+        "energy": "_100",
+        "move_duration_seg": "4.2"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "ponyta candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "078",
         "name": "rapidash",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -7587,21 +7587,21 @@ export default {
       "height": "1.70 m",
       "weight": "95.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "fire"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.15"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.15"
     },
-    "spawn-chance": "0.011",
+    "spawn_chance": "0.011",
     "stats": {
-      "base-attack": "207",
-      "base-defense": "162",
-      "base-stamina": "163",
-      "max-cp": "2461",
-      "max-hp": "140"
+      "base_attack": "207",
+      "base_defense": "162",
+      "base_stamina": "163",
+      "max_cp": "2461",
+      "max_hp": "140"
     },
     "resistant": [
       "fire",
@@ -7615,60 +7615,60 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "low kick",
         "type": "fight",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "6",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "fire spin",
         "type": "fire",
-        "base-damage": "14",
+        "base_damage": "14",
         "energy": "10",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "ember",
         "type": "fire",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "10",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "fire blast",
         "type": "fire",
-        "base-damage": "140",
-        "energy": "-100",
-        "move-duration-seg": "4.2"
+        "base_damage": "140",
+        "energy": "_100",
+        "move_duration_seg": "4.2"
       },
       {
         "name": "drill run",
         "type": "ground",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.8"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "heat wave",
         "type": "fire",
-        "base-damage": "95",
-        "energy": "-100",
-        "move-duration-seg": "3"
+        "base_damage": "95",
+        "energy": "_100",
+        "move_duration_seg": "3"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "ponyta candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "077",
         "name": "ponyta",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -7685,22 +7685,22 @@ export default {
       "height": "1.19 m",
       "weight": "36.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water",
       "psychic"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "1.05",
+    "spawn_chance": "1.05",
     "stats": {
-      "base-attack": "109",
-      "base-defense": "98",
-      "base-stamina": "207",
-      "max-cp": "1226",
-      "max-hp": "175"
+      "base_attack": "109",
+      "base_defense": "98",
+      "base_stamina": "207",
+      "max_cp": "1226",
+      "max_hp": "175"
     },
     "resistant": [
       "fire",
@@ -7716,62 +7716,62 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "water gun",
         "type": "water",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "confusion",
         "type": "psychic",
-        "base-damage": "20",
+        "base_damage": "20",
         "energy": "15",
-        "move-duration-seg": "1.6"
+        "move_duration_seg": "1.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "water pulse",
         "type": "water",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "psyshock",
         "type": "psychic",
-        "base-damage": "65",
-        "energy": "-33",
-        "move-duration-seg": "2.7"
+        "base_damage": "65",
+        "energy": "_33",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "psychic",
         "type": "psychic",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.8"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.8"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "slowpoke candy",
-      "next-evolution": [
+      "next_evolution": [
         {
           "num": "080",
           "name": "slowbro",
-          "candy-cost": "50"
+          "candy_cost": "50"
         },
         {
           "num": "199",
           "name": "slowking",
-          "candy-cost": "50",
-          "evolution-item": {
+          "candy_cost": "50",
+          "evolution_item": {
             "name": "kings rock",
-            "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/kings-rock.png"
+            "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/kings_rock.png"
           }
         }
       ]
@@ -7790,22 +7790,22 @@ export default {
       "height": "1.60 m",
       "weight": "78.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water",
       "psychic"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.036",
+    "spawn_chance": "0.036",
     "stats": {
-      "base-attack": "177",
-      "base-defense": "180",
-      "base-stamina": "216",
-      "max-cp": "2545",
-      "max-hp": "182"
+      "base_attack": "177",
+      "base_defense": "180",
+      "base_stamina": "216",
+      "max_cp": "2545",
+      "max_hp": "182"
     },
     "resistant": [
       "fire",
@@ -7821,53 +7821,53 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "water gun",
         "type": "water",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "confusion",
         "type": "psychic",
-        "base-damage": "20",
+        "base_damage": "20",
         "energy": "15",
-        "move-duration-seg": "1.6"
+        "move_duration_seg": "1.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "water pulse",
         "type": "water",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "psychic",
         "type": "psychic",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.8"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "ice beam",
         "type": "ice",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "3.3"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "3.3"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "slowpoke candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "079",
         "name": "slowpoke",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -7884,21 +7884,21 @@ export default {
       "height": "0.30 m",
       "weight": "6.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "electric"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "0.71",
+    "spawn_chance": "0.71",
     "stats": {
-      "base-attack": "165",
-      "base-defense": "121",
-      "base-stamina": "93",
-      "max-cp": "1362",
-      "max-hp": "85"
+      "base_attack": "165",
+      "base_defense": "121",
+      "base_stamina": "93",
+      "max_cp": "1362",
+      "max_hp": "85"
     },
     "resistant": [
       "normal",
@@ -7912,53 +7912,53 @@ export default {
       "water",
       "ground"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "spark",
         "type": "electric",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "9",
-        "move-duration-seg": "0.7"
+        "move_duration_seg": "0.7"
       },
       {
         "name": "thunder shock",
         "type": "electric",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "8",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "discharge",
         "type": "electric",
-        "base-damage": "65",
-        "energy": "-33",
-        "move-duration-seg": "2.5"
+        "base_damage": "65",
+        "energy": "_33",
+        "move_duration_seg": "2.5"
       },
       {
         "name": "magnet bomb",
         "type": "steel",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "2.8"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "thunderbolt",
         "type": "electric",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.5"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.5"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "magnemite candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "082",
         "name": "magneton",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -7969,27 +7969,27 @@ export default {
       "num": "generation i",
       "name": "kanto"
     },
-    "about": "Magneton emits a powerful magnetic force that is fatal to mechanical devices. As a result, large cities sound sirens to warn citizens of large-scale outbreaks of this Pokémon.",
+    "about": "Magneton emits a powerful magnetic force that is fatal to mechanical devices. As a result, large cities sound sirens to warn citizens of large_scale outbreaks of this Pokémon.",
     "img": "https://www.serebii.net/pokemongo/pokemon/082.png",
     "size": {
       "height": "0.99 m",
       "weight": "60.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "electric"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.023",
+    "spawn_chance": "0.023",
     "stats": {
-      "base-attack": "223",
-      "base-defense": "169",
-      "base-stamina": "137",
-      "max-cp": "2485",
-      "max-hp": "120"
+      "base_attack": "223",
+      "base_defense": "169",
+      "base_stamina": "137",
+      "max_cp": "2485",
+      "max_hp": "120"
     },
     "resistant": [
       "normal",
@@ -8003,67 +8003,67 @@ export default {
       "water",
       "ground"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "spark",
         "type": "electric",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "9",
-        "move-duration-seg": "0.7"
+        "move_duration_seg": "0.7"
       },
       {
         "name": "charge beam",
         "type": "electric",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "15",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "thunder shock",
         "type": "electric",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "8",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "magnet bomb",
         "type": "steel",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "2.8"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "flash cannon",
         "type": "steel",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.7"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "zap cannon",
         "type": "electric",
-        "base-damage": "140",
-        "energy": "-100",
-        "move-duration-seg": "3.7"
+        "base_damage": "140",
+        "energy": "_100",
+        "move_duration_seg": "3.7"
       },
       {
         "name": "discharge",
         "type": "electric",
-        "base-damage": "65",
-        "energy": "-33",
-        "move-duration-seg": "2.5"
+        "base_damage": "65",
+        "energy": "_33",
+        "move_duration_seg": "2.5"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "magnemite candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "081",
         "name": "magnemite",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -8080,23 +8080,23 @@ export default {
       "height": "0.79 m",
       "weight": "15.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.09",
-      "base-capture-rate": "0.3",
-      "common-capture-area": "early reports that this pokémon is likely to be found in: asia or hatched from an egg in that geographic area."
+      "base_flee_rate": "0.09",
+      "base_capture_rate": "0.3",
+      "common_capture_area": "early reports that this pokémon is likely to be found in: asia or hatched from an egg in that geographic area."
     },
-    "spawn-chance": "0.0212",
+    "spawn_chance": "0.0212",
     "stats": {
-      "base-attack": "124",
-      "base-defense": "115",
-      "base-stamina": "141",
-      "max-cp": "1236",
-      "max-hp": "123"
+      "base_attack": "124",
+      "base_defense": "115",
+      "base_stamina": "141",
+      "max_cp": "1236",
+      "max_hp": "123"
     },
     "resistant": [
       "grass",
@@ -8108,54 +8108,54 @@ export default {
       "electric",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "fury cutter",
         "type": "bug",
-        "base-damage": "3",
+        "base_damage": "3",
         "energy": "6",
-        "move-duration-seg": "0.4"
+        "move_duration_seg": "0.4"
       },
       {
         "name": "air slash",
         "type": "flying",
-        "base-damage": "14",
+        "base_damage": "14",
         "energy": "10",
-        "move-duration-seg": "1.2"
+        "move_duration_seg": "1.2"
       },
       {
         "name": "cut",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "aerial ace",
         "type": "flying",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.4"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.4"
       },
       {
         "name": "air cutter",
         "type": "flying",
-        "base-damage": "60",
-        "energy": "-50",
-        "move-duration-seg": "2.7"
+        "base_damage": "60",
+        "energy": "_50",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "leaf blade",
         "type": "grass",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "2.4"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "2.4"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "farfetch'd candy"
     }
@@ -8173,22 +8173,22 @@ export default {
       "height": "1.40 m",
       "weight": "39.2 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "0.52",
+    "spawn_chance": "0.52",
     "stats": {
-      "base-attack": "158",
-      "base-defense": "83",
-      "base-stamina": "111",
-      "max-cp": "1200",
-      "max-hp": "99"
+      "base_attack": "158",
+      "base_defense": "83",
+      "base_stamina": "111",
+      "max_cp": "1200",
+      "max_hp": "99"
     },
     "resistant": [
       "grass",
@@ -8200,60 +8200,60 @@ export default {
       "electric",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "peck",
         "type": "flying",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "10",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "quick attack",
         "type": "normal",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "10",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "drill peck",
         "type": "flying",
-        "base-damage": "60",
-        "energy": "-33",
-        "move-duration-seg": "2.3"
+        "base_damage": "60",
+        "energy": "_33",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "aerial ace",
         "type": "flying",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.4"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.4"
       },
       {
         "name": "brave bird",
         "type": "flying",
-        "base-damage": "90",
-        "energy": "-100",
-        "move-duration-seg": "2"
+        "base_damage": "90",
+        "energy": "_100",
+        "move_duration_seg": "2"
       },
       {
         "name": "swift",
         "type": "normal",
-        "base-damage": "60",
-        "energy": "-50",
-        "move-duration-seg": "2.8"
+        "base_damage": "60",
+        "energy": "_50",
+        "move_duration_seg": "2.8"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "doduo candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "085",
         "name": "dodrio",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -8264,28 +8264,28 @@ export default {
       "num": "generation i",
       "name": "kanto"
     },
-    "about": "Watch out if Dodrio's three heads are looking in three separate directions. It's a sure sign that it is on its guard. Don't go near this Pokémon if it's being wary-it may decide to peck you.",
+    "about": "Watch out if Dodrio's three heads are looking in three separate directions. It's a sure sign that it is on its guard. Don't go near this Pokémon if it's being wary_it may decide to peck you.",
     "img": "https://www.serebii.net/pokemongo/pokemon/085.png",
     "size": {
       "height": "1.80 m",
       "weight": "85.2 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.22",
+    "spawn_chance": "0.22",
     "stats": {
-      "base-attack": "218",
-      "base-defense": "140",
-      "base-stamina": "155",
-      "max-cp": "2362",
-      "max-hp": "134"
+      "base_attack": "218",
+      "base_defense": "140",
+      "base_stamina": "155",
+      "max_cp": "2362",
+      "max_hp": "134"
     },
     "resistant": [
       "grass",
@@ -8297,60 +8297,60 @@ export default {
       "electric",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "feint attack",
         "type": "dark",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "9",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       },
       {
         "name": "steel wing",
         "type": "steel",
-        "base-damage": "11",
+        "base_damage": "11",
         "energy": "6",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "drill peck",
         "type": "flying",
-        "base-damage": "60",
-        "energy": "-33",
-        "move-duration-seg": "2.3"
+        "base_damage": "60",
+        "energy": "_33",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "aerial ace",
         "type": "flying",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.4"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.4"
       },
       {
         "name": "brave bird",
         "type": "flying",
-        "base-damage": "90",
-        "energy": "-100",
-        "move-duration-seg": "2"
+        "base_damage": "90",
+        "energy": "_100",
+        "move_duration_seg": "2"
       },
       {
         "name": "air cutter",
         "type": "flying",
-        "base-damage": "60",
-        "energy": "-50",
-        "move-duration-seg": "2.7"
+        "base_damage": "60",
+        "energy": "_50",
+        "move_duration_seg": "2.7"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "doduo candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "084",
         "name": "doduo",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -8367,21 +8367,21 @@ export default {
       "height": "1.09 m",
       "weight": "90.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water"
     ],
     "encounter": {
-      "base-flee-rate": "0.09",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.09",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "0.28",
+    "spawn_chance": "0.28",
     "stats": {
-      "base-attack": "85",
-      "base-defense": "121",
-      "base-stamina": "163",
-      "max-cp": "971",
-      "max-hp": "140"
+      "base_attack": "85",
+      "base_defense": "121",
+      "base_stamina": "163",
+      "max_cp": "971",
+      "max_hp": "140"
     },
     "resistant": [
       "fire",
@@ -8393,67 +8393,67 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "ice shard",
         "type": "ice",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "12",
-        "move-duration-seg": "1.2"
+        "move_duration_seg": "1.2"
       },
       {
         "name": "lick",
         "type": "ghost",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "6",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "water gun",
         "type": "water",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "icy wind",
         "type": "ice",
-        "base-damage": "60",
-        "energy": "-33",
-        "move-duration-seg": "3.3"
+        "base_damage": "60",
+        "energy": "_33",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "aqua tail",
         "type": "water",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "aurora beam",
         "type": "ice",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "3.55"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "3.55"
       },
       {
         "name": "aqua jet",
         "type": "water",
-        "base-damage": "45",
-        "energy": "-33",
-        "move-duration-seg": "2.6"
+        "base_damage": "45",
+        "energy": "_33",
+        "move_duration_seg": "2.6"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "seel candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "087",
         "name": "dewgong",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -8470,22 +8470,22 @@ export default {
       "height": "1.70 m",
       "weight": "120.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water",
       "ice"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.013",
+    "spawn_chance": "0.013",
     "stats": {
-      "base-attack": "139",
-      "base-defense": "177",
-      "base-stamina": "207",
-      "max-cp": "1985",
-      "max-hp": "175"
+      "base_attack": "139",
+      "base_defense": "177",
+      "base_stamina": "207",
+      "max_cp": "1985",
+      "max_hp": "175"
     },
     "resistant": [
       "water",
@@ -8497,74 +8497,74 @@ export default {
       "fighting",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "frost breath",
         "type": "ice",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "8",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       },
       {
         "name": "iron tail",
         "type": "steel",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "7",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "ice shard",
         "type": "ice",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "12",
-        "move-duration-seg": "1.2"
+        "move_duration_seg": "1.2"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "icy wind",
         "type": "ice",
-        "base-damage": "60",
-        "energy": "-33",
-        "move-duration-seg": "3.3"
+        "base_damage": "60",
+        "energy": "_33",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "aqua jet",
         "type": "water",
-        "base-damage": "45",
-        "energy": "-33",
-        "move-duration-seg": "2.6"
+        "base_damage": "45",
+        "energy": "_33",
+        "move_duration_seg": "2.6"
       },
       {
         "name": "blizzard",
         "type": "ice",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.1"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.1"
       },
       {
         "name": "aurora beam",
         "type": "ice",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "3.55"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "3.55"
       },
       {
         "name": "water pulse",
         "type": "water",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "seel candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "086",
         "name": "seel",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -8581,21 +8581,21 @@ export default {
       "height": "0.89 m",
       "weight": "30.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "poison"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "0.052",
+    "spawn_chance": "0.052",
     "stats": {
-      "base-attack": "135",
-      "base-defense": "90",
-      "base-stamina": "190",
-      "max-cp": "1374",
-      "max-hp": "162"
+      "base_attack": "135",
+      "base_defense": "90",
+      "base_stamina": "190",
+      "max_cp": "1374",
+      "max_hp": "162"
     },
     "resistant": [
       "grass",
@@ -8608,60 +8608,60 @@ export default {
       "ground",
       "psychic"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "poison jab",
         "type": "poison",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "7",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       },
       {
         "name": "mud slap",
         "type": "ground",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "12",
-        "move-duration-seg": "1.4"
+        "move_duration_seg": "1.4"
       },
       {
         "name": "acid",
         "type": "poison",
-        "base-damage": "9",
+        "base_damage": "9",
         "energy": "8",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "sludge",
         "type": "poison",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "2.1"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "2.1"
       },
       {
         "name": "mud bomb",
         "type": "ground",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.3"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "sludge bomb",
         "type": "poison",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.3"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "grimer candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "089",
         "name": "muk",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -8672,27 +8672,27 @@ export default {
       "num": "generation i",
       "name": "kanto"
     },
-    "about": "From Muk's body seeps a foul fluid that gives off a nose-bendingly horrible stench. Just one drop of this Pokémon's body fluid can turn a pool stagnant and rancid.",
+    "about": "From Muk's body seeps a foul fluid that gives off a nose_bendingly horrible stench. Just one drop of this Pokémon's body fluid can turn a pool stagnant and rancid.",
     "img": "https://www.serebii.net/pokemongo/pokemon/089.png",
     "size": {
       "height": "1.19 m",
       "weight": "30.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "poison"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.0031",
+    "spawn_chance": "0.0031",
     "stats": {
-      "base-attack": "190",
-      "base-defense": "172",
-      "base-stamina": "233",
-      "max-cp": "2757",
-      "max-hp": "195"
+      "base_attack": "190",
+      "base_defense": "172",
+      "base_stamina": "233",
+      "max_cp": "2757",
+      "max_hp": "195"
     },
     "resistant": [
       "grass",
@@ -8705,67 +8705,67 @@ export default {
       "ground",
       "psychic"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "poison jab",
         "type": "poison",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "7",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       },
       {
         "name": "infestation",
         "type": "bug",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "14",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "acid",
         "type": "poison",
-        "base-damage": "9",
+        "base_damage": "9",
         "energy": "8",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       },
       {
         "name": "lick",
         "type": "ghost",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "6",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "dark pulse",
         "type": "dark",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "3"
       },
       {
         "name": "gunk shot",
         "type": "poison",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.1"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.1"
       },
       {
         "name": "sludge wave",
         "type": "poison",
-        "base-damage": "110",
-        "energy": "-100",
-        "move-duration-seg": "3.2"
+        "base_damage": "110",
+        "energy": "_100",
+        "move_duration_seg": "3.2"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "grimer candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "088",
         "name": "grimer",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -8782,21 +8782,21 @@ export default {
       "height": "0.30 m",
       "weight": "4.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "0.52",
+    "spawn_chance": "0.52",
     "stats": {
-      "base-attack": "116",
-      "base-defense": "134",
-      "base-stamina": "102",
-      "max-cp": "1080",
-      "max-hp": "92"
+      "base_attack": "116",
+      "base_defense": "134",
+      "base_stamina": "102",
+      "max_cp": "1080",
+      "max_hp": "92"
     },
     "resistant": [
       "fire",
@@ -8808,53 +8808,53 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "ice shard",
         "type": "ice",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "12",
-        "move-duration-seg": "1.2"
+        "move_duration_seg": "1.2"
       },
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "bubble beam",
         "type": "water",
-        "base-damage": "45",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "45",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "water pulse",
         "type": "water",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "icy wind",
         "type": "ice",
-        "base-damage": "60",
-        "energy": "-33",
-        "move-duration-seg": "3.3"
+        "base_damage": "60",
+        "energy": "_33",
+        "move_duration_seg": "3.3"
       }
     ],
     "egg": "2 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "shellder candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "091",
         "name": "cloyster",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -8871,22 +8871,22 @@ export default {
       "height": "1.50 m",
       "weight": "132.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water",
       "ice"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.015",
+    "spawn_chance": "0.015",
     "stats": {
-      "base-attack": "186",
-      "base-defense": "256",
-      "base-stamina": "137",
-      "max-cp": "2547",
-      "max-hp": "120"
+      "base_attack": "186",
+      "base_defense": "256",
+      "base_stamina": "137",
+      "max_cp": "2547",
+      "max_hp": "120"
     },
     "resistant": [
       "water",
@@ -8898,67 +8898,67 @@ export default {
       "fighting",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "frost breath",
         "type": "ice",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "8",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       },
       {
         "name": "ice shard",
         "type": "ice",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "12",
-        "move-duration-seg": "1.2"
+        "move_duration_seg": "1.2"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "hydro pump",
         "type": "water",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.3"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "aurora beam",
         "type": "ice",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "3.55"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "3.55"
       },
       {
         "name": "avalanche",
         "type": "ice",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.7"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "blizzard",
         "type": "ice",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.1"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.1"
       },
       {
         "name": "icy wind",
         "type": "ice",
-        "base-damage": "60",
-        "energy": "-33",
-        "move-duration-seg": "3.3"
+        "base_damage": "60",
+        "energy": "_33",
+        "move_duration_seg": "3.3"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "shellder candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "090",
         "name": "shellder",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -8975,22 +8975,22 @@ export default {
       "height": "1.30 m",
       "weight": "0.1 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "ghost",
       "poison"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.4"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.4"
     },
-    "spawn-chance": "0.79",
+    "spawn_chance": "0.79",
     "stats": {
-      "base-attack": "186",
-      "base-defense": "67",
-      "base-stamina": "102",
-      "max-cp": "1229",
-      "max-hp": "92"
+      "base_attack": "186",
+      "base_defense": "67",
+      "base_stamina": "102",
+      "max_cp": "1229",
+      "max_hp": "92"
     },
     "resistant": [
       "normal",
@@ -9005,71 +9005,71 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "lick",
         "type": "ghost",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "6",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "astonish",
         "type": "ghost",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "14",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "sucker punch",
         "type": "dark",
-        "base-damage": "7",
+        "base_damage": "7",
         "energy": "8",
-        "move-duration-seg": "0.7"
+        "move_duration_seg": "0.7"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "dark pulse",
         "type": "dark",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "3"
       },
       {
         "name": "sludge bomb",
         "type": "poison",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "night shade",
         "type": "ghost",
-        "base-damage": "60",
-        "energy": "-50",
-        "move-duration-seg": "2.6"
+        "base_damage": "60",
+        "energy": "_50",
+        "move_duration_seg": "2.6"
       },
       {
         "name": "ominous wind",
         "type": "ghost",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "2.3"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "2.3"
       }
     ],
     "egg": "2 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "gastly candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "093",
         "name": "haunter",
-        "candy-cost": "25",
-        "next-evolution": [{
+        "candy_cost": "25",
+        "next_evolution": [{
           "num": "094",
           "name": "gengar",
-          "candy-cost": "100"
+          "candy_cost": "100"
         }]
       }]
     }
@@ -9087,22 +9087,22 @@ export default {
       "height": "1.60 m",
       "weight": "0.1 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "ghost",
       "poison"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.052",
+    "spawn_chance": "0.052",
     "stats": {
-      "base-attack": "223",
-      "base-defense": "107",
-      "base-stamina": "128",
-      "max-cp": "1963",
-      "max-hp": "113"
+      "base_attack": "223",
+      "base_defense": "107",
+      "base_stamina": "128",
+      "max_cp": "1963",
+      "max_hp": "113"
     },
     "resistant": [
       "normal",
@@ -9117,72 +9117,72 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "shadow claw",
         "type": "ghost",
-        "base-damage": "9",
+        "base_damage": "9",
         "energy": "6",
-        "move-duration-seg": "0.7"
+        "move_duration_seg": "0.7"
       },
       {
         "name": "astonish",
         "type": "ghost",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "14",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "lick",
         "type": "ghost",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "6",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "dark pulse",
         "type": "dark",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "3"
       },
       {
         "name": "sludge bomb",
         "type": "poison",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "shadow punch",
         "type": "ghost",
-        "base-damage": "40",
-        "energy": "-33",
-        "move-duration-seg": "1.7"
+        "base_damage": "40",
+        "energy": "_33",
+        "move_duration_seg": "1.7"
       },
       {
         "name": "shadow ball",
         "type": "ghost",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "3"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "3"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "gastly candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "094",
         "name": "gengar",
-        "candy-cost": "100"
+        "candy_cost": "100"
       }],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "092",
         "name": "gastly",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -9199,22 +9199,22 @@ export default {
       "height": "1.50 m",
       "weight": "40.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "ghost",
       "poison"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.1"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.1"
     },
-    "spawn-chance": "0.0067",
+    "spawn_chance": "0.0067",
     "stats": {
-      "base-attack": "261",
-      "base-defense": "149",
-      "base-stamina": "155",
-      "max-cp": "2878",
-      "max-hp": "134"
+      "base_attack": "261",
+      "base_defense": "149",
+      "base_stamina": "155",
+      "max_cp": "2878",
+      "max_hp": "134"
     },
     "resistant": [
       "normal",
@@ -9229,78 +9229,78 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "sucker punch",
         "type": "dark",
-        "base-damage": "7",
+        "base_damage": "7",
         "energy": "8",
-        "move-duration-seg": "0.7"
+        "move_duration_seg": "0.7"
       },
       {
         "name": "hex",
         "type": "ghost",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "15",
-        "move-duration-seg": "1.2"
+        "move_duration_seg": "1.2"
       },
       {
         "name": "shadow claw",
         "type": "ghost",
-        "base-damage": "9",
+        "base_damage": "9",
         "energy": "6",
-        "move-duration-seg": "0.7"
+        "move_duration_seg": "0.7"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "shadow ball",
         "type": "ghost",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "3"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "3"
       },
       {
         "name": "sludge bomb",
         "type": "poison",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "focus blast",
         "type": "fight",
-        "base-damage": "140",
-        "energy": "-100",
-        "move-duration-seg": "3.5"
+        "base_damage": "140",
+        "energy": "_100",
+        "move_duration_seg": "3.5"
       },
       {
         "name": "sludge wave",
         "type": "poison",
-        "base-damage": "110",
-        "energy": "-100",
-        "move-duration-seg": "3.2"
+        "base_damage": "110",
+        "energy": "_100",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "dark pulse",
         "type": "dark",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "3"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "gastly candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "093",
         "name": "haunter",
-        "candy-cost": "100",
-        "prev-evolution": [{
+        "candy_cost": "100",
+        "prev_evolution": [{
           "num": "092",
           "name": "gastly",
-          "candy-cost": "25"
+          "candy_cost": "25"
         }]
       }]
     }
@@ -9318,22 +9318,22 @@ export default {
       "height": "8.79 m",
       "weight": "210.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "rock",
       "ground"
     ],
     "encounter": {
-      "base-flee-rate": "0.09",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.09",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.1",
+    "spawn_chance": "0.1",
     "stats": {
-      "base-attack": "85",
-      "base-defense": "232",
-      "base-stamina": "111",
-      "max-cp": "1101",
-      "max-hp": "99"
+      "base_attack": "85",
+      "base_defense": "232",
+      "base_stamina": "111",
+      "max_cp": "1101",
+      "max_hp": "99"
     },
     "resistant": [
       "normal",
@@ -9350,70 +9350,70 @@ export default {
       "ground",
       "steel"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "rock throw",
         "type": "rock",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "7",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       },
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "stone edge",
         "type": "rock",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.3"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "sand tomb",
         "type": "ground",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "4"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "4"
       },
       {
         "name": "heavy slam",
         "type": "steel",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2.1"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2.1"
       },
       {
         "name": "rock slide",
         "type": "rock",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.7"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "iron head",
         "type": "steel",
-        "base-damage": "60",
-        "energy": "-50",
-        "move-duration-seg": "1.9"
+        "base_damage": "60",
+        "energy": "_50",
+        "move_duration_seg": "1.9"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "onix candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "208",
         "name": "steelix",
-        "candy-cost": "50",
-        "evolution-item": {
+        "candy_cost": "50",
+        "evolution_item": {
           "name": "metal coat",
-          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/metal-coat.png"
+          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/metal_coat.png"
         }
       }]
     }
@@ -9431,21 +9431,21 @@ export default {
       "height": "0.99 m",
       "weight": "32.4 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "psychic"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "3.21",
+    "spawn_chance": "3.21",
     "stats": {
-      "base-attack": "89",
-      "base-defense": "136",
-      "base-stamina": "155",
-      "max-cp": "1040",
-      "max-hp": "134"
+      "base_attack": "89",
+      "base_defense": "136",
+      "base_stamina": "155",
+      "max_cp": "1040",
+      "max_hp": "134"
     },
     "resistant": [
       "fighting",
@@ -9456,53 +9456,53 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "pound",
         "type": "normal",
-        "base-damage": "7",
+        "base_damage": "7",
         "energy": "6",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "confusion",
         "type": "psychic",
-        "base-damage": "20",
+        "base_damage": "20",
         "energy": "15",
-        "move-duration-seg": "1.6"
+        "move_duration_seg": "1.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "psybeam",
         "type": "psychic",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "psyshock",
         "type": "psychic",
-        "base-damage": "65",
-        "energy": "-33",
-        "move-duration-seg": "2.7"
+        "base_damage": "65",
+        "energy": "_33",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "psychic",
         "type": "psychic",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.8"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.8"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "drowzee candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "097",
         "name": "hypno",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -9519,21 +9519,21 @@ export default {
       "height": "1.60 m",
       "weight": "75.6 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "psychic"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.1",
+    "spawn_chance": "0.1",
     "stats": {
-      "base-attack": "144",
-      "base-defense": "193",
-      "base-stamina": "198",
-      "max-cp": "2090",
-      "max-hp": "168"
+      "base_attack": "144",
+      "base_defense": "193",
+      "base_stamina": "198",
+      "max_cp": "2090",
+      "max_hp": "168"
     },
     "resistant": [
       "fighting",
@@ -9544,67 +9544,67 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "zen headbutt",
         "type": "psychic",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "10",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "confusion",
         "type": "psychic",
-        "base-damage": "20",
+        "base_damage": "20",
         "energy": "15",
-        "move-duration-seg": "1.6"
+        "move_duration_seg": "1.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "psychic",
         "type": "psychic",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.8"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "futuresight",
         "type": "psychic",
-        "base-damage": "120",
-        "energy": "-100",
-        "move-duration-seg": "2.7"
+        "base_damage": "120",
+        "energy": "_100",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "focus blast",
         "type": "fight",
-        "base-damage": "140",
-        "energy": "-100",
-        "move-duration-seg": "3.5"
+        "base_damage": "140",
+        "energy": "_100",
+        "move_duration_seg": "3.5"
       },
       {
         "name": "psyshock",
         "type": "psychic",
-        "base-damage": "65",
-        "energy": "-33",
-        "move-duration-seg": "2.7"
+        "base_damage": "65",
+        "energy": "_33",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "shadow ball",
         "type": "ghost",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "3"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "3"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "drowzee candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "096",
         "name": "drowzee",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -9621,21 +9621,21 @@ export default {
       "height": "0.41 m",
       "weight": "6.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water"
     ],
     "encounter": {
-      "base-flee-rate": "0.15",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.15",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "2.12",
+    "spawn_chance": "2.12",
     "stats": {
-      "base-attack": "181",
-      "base-defense": "124",
-      "base-stamina": "102",
-      "max-cp": "1561",
-      "max-hp": "92"
+      "base_attack": "181",
+      "base_defense": "124",
+      "base_stamina": "102",
+      "max_cp": "1561",
+      "max_hp": "92"
     },
     "resistant": [
       "fire",
@@ -9647,53 +9647,53 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "bubble",
         "type": "water",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "14",
-        "move-duration-seg": "1.2"
+        "move_duration_seg": "1.2"
       },
       {
         "name": "mud shot",
         "type": "ground",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "7",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "vice grip",
         "type": "normal",
-        "base-damage": "35",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "35",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "bubble beam",
         "type": "water",
-        "base-damage": "45",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "45",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "water pulse",
         "type": "water",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       }
     ],
     "egg": "2 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "krabby candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "099",
         "name": "kingler",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -9710,21 +9710,21 @@ export default {
       "height": "1.30 m",
       "weight": "60.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.062",
+    "spawn_chance": "0.062",
     "stats": {
-      "base-attack": "240",
-      "base-defense": "181",
-      "base-stamina": "146",
-      "max-cp": "2829",
-      "max-hp": "127"
+      "base_attack": "240",
+      "base_defense": "181",
+      "base_stamina": "146",
+      "max_cp": "2829",
+      "max_hp": "127"
     },
     "resistant": [
       "fire",
@@ -9736,60 +9736,60 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "metal claw",
         "type": "steel",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "7",
-        "move-duration-seg": "0.7"
+        "move_duration_seg": "0.7"
       },
       {
         "name": "bubble",
         "type": "water",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "14",
-        "move-duration-seg": "1.2"
+        "move_duration_seg": "1.2"
       },
       {
         "name": "mud shot",
         "type": "ground",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "7",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "vice grip",
         "type": "normal",
-        "base-damage": "35",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "35",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "x scissor",
         "type": "water",
-        "base-damage": "50",
-        "energy": "-100",
-        "move-duration-seg": "4.7"
+        "base_damage": "50",
+        "energy": "_100",
+        "move_duration_seg": "4.7"
       },
       {
         "name": "water pulse",
         "type": "water",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "krabby candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "098",
         "name": "krabby",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -9806,21 +9806,21 @@ export default {
       "height": "0.51 m",
       "weight": "10.4 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "electric"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "0.65",
+    "spawn_chance": "0.65",
     "stats": {
-      "base-attack": "109",
-      "base-defense": "111",
-      "base-stamina": "120",
-      "max-cp": "1010",
-      "max-hp": "106"
+      "base_attack": "109",
+      "base_defense": "111",
+      "base_stamina": "120",
+      "max_cp": "1010",
+      "max_hp": "106"
     },
     "resistant": [
       "electric",
@@ -9830,60 +9830,60 @@ export default {
     "weaknesses": [
       "ground"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "spark",
         "type": "electric",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "9",
-        "move-duration-seg": "0.7"
+        "move_duration_seg": "0.7"
       },
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "discharge",
         "type": "electric",
-        "base-damage": "65",
-        "energy": "-33",
-        "move-duration-seg": "2.5"
+        "base_damage": "65",
+        "energy": "_33",
+        "move_duration_seg": "2.5"
       },
       {
         "name": "thunderbolt",
         "type": "electric",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.5"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.5"
       },
       {
         "name": "gyro ball",
         "type": "steel",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "3.3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "signal beam",
         "type": "bug",
-        "base-damage": "75",
-        "energy": "-50",
-        "move-duration-seg": "2.9"
+        "base_damage": "75",
+        "energy": "_50",
+        "move_duration_seg": "2.9"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "voltorb candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "101",
         "name": "electrode",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -9900,21 +9900,21 @@ export default {
       "height": "1.19 m",
       "weight": "66.6 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "electric"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.02",
+    "spawn_chance": "0.02",
     "stats": {
-      "base-attack": "173",
-      "base-defense": "173",
-      "base-stamina": "155",
-      "max-cp": "2099",
-      "max-hp": "134"
+      "base_attack": "173",
+      "base_defense": "173",
+      "base_stamina": "155",
+      "max_cp": "2099",
+      "max_hp": "134"
     },
     "resistant": [
       "electric",
@@ -9924,60 +9924,60 @@ export default {
     "weaknesses": [
       "ground"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "spark",
         "type": "electric",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "9",
-        "move-duration-seg": "0.7"
+        "move_duration_seg": "0.7"
       },
       {
         "name": "volt switch",
         "type": "electric",
-        "base-damage": "20",
+        "base_damage": "20",
         "energy": "25",
-        "move-duration-seg": "2.3"
+        "move_duration_seg": "2.3"
       },
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "discharge",
         "type": "electric",
-        "base-damage": "65",
-        "energy": "-33",
-        "move-duration-seg": "2.5"
+        "base_damage": "65",
+        "energy": "_33",
+        "move_duration_seg": "2.5"
       },
       {
         "name": "thunderbolt",
         "type": "electric",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.5"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.5"
       },
       {
         "name": "hyper beam",
         "type": "normal",
-        "base-damage": "150",
-        "energy": "-100",
-        "move-duration-seg": "3.8"
+        "base_damage": "150",
+        "energy": "_100",
+        "move_duration_seg": "3.8"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "voltorb candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "100",
         "name": "voltorb",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -9994,22 +9994,22 @@ export default {
       "height": "0.41 m",
       "weight": "2.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "grass",
       "psychic"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "0.78",
+    "spawn_chance": "0.78",
     "stats": {
-      "base-attack": "107",
-      "base-defense": "125",
-      "base-stamina": "155",
-      "max-cp": "1175",
-      "max-hp": "134"
+      "base_attack": "107",
+      "base_defense": "125",
+      "base_stamina": "155",
+      "max_cp": "1175",
+      "max_hp": "134"
     },
     "resistant": [
       "water",
@@ -10027,53 +10027,53 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "confusion",
         "type": "psychic",
-        "base-damage": "20",
+        "base_damage": "20",
         "energy": "15",
-        "move-duration-seg": "1.6"
+        "move_duration_seg": "1.6"
       },
       {
         "name": "bullet seed",
         "type": "grass",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "14",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "seed bomb",
         "type": "grass",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.1"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.1"
       },
       {
         "name": "psychic",
         "type": "psychic",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.8"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "ancient power",
         "type": "rock",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.5"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.5"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "exeggcute candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "103",
         "name": "exeggutor",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -10090,22 +10090,22 @@ export default {
       "height": "2.01 m",
       "weight": "120.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "grass",
       "psychic"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.014",
+    "spawn_chance": "0.014",
     "stats": {
-      "base-attack": "233",
-      "base-defense": "149",
-      "base-stamina": "216",
-      "max-cp": "3014",
-      "max-hp": "182"
+      "base_attack": "233",
+      "base_defense": "149",
+      "base_stamina": "216",
+      "max_cp": "3014",
+      "max_hp": "182"
     },
     "resistant": [
       "water",
@@ -10123,67 +10123,67 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "bullet seed",
         "type": "grass",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "14",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "extrasensory",
         "type": "psychic",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "12",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "confusion",
         "type": "psychic",
-        "base-damage": "20",
+        "base_damage": "20",
         "energy": "15",
-        "move-duration-seg": "1.6"
+        "move_duration_seg": "1.6"
       },
       {
         "name": "zen headbutt",
         "type": "psychic",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "10",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "seed bomb",
         "type": "grass",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.1"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.1"
       },
       {
         "name": "psychic",
         "type": "psychic",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.8"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "solar beam",
         "type": "grass",
-        "base-damage": "180",
-        "energy": "-100",
-        "move-duration-seg": "4.9"
+        "base_damage": "180",
+        "energy": "_100",
+        "move_duration_seg": "4.9"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "exeggcute candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "102",
         "name": "exeggcute",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -10200,21 +10200,21 @@ export default {
       "height": "0.41 m",
       "weight": "6.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "ground"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.4"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.4"
     },
-    "spawn-chance": "0.61",
+    "spawn_chance": "0.61",
     "stats": {
-      "base-attack": "90",
-      "base-defense": "144",
-      "base-stamina": "137",
-      "max-cp": "1019",
-      "max-hp": "120"
+      "base_attack": "90",
+      "base_defense": "144",
+      "base_stamina": "137",
+      "max_cp": "1019",
+      "max_hp": "120"
     },
     "resistant": [
       "electric",
@@ -10226,53 +10226,53 @@ export default {
       "grass",
       "ice"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "mud slap",
         "type": "ground",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "12",
-        "move-duration-seg": "1.4"
+        "move_duration_seg": "1.4"
       },
       {
         "name": "rock smash",
         "type": "fight",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "10",
-        "move-duration-seg": "1.3"
+        "move_duration_seg": "1.3"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "bone club",
         "type": "ground",
-        "base-damage": "40",
-        "energy": "-33",
-        "move-duration-seg": "1.6"
+        "base_damage": "40",
+        "energy": "_33",
+        "move_duration_seg": "1.6"
       },
       {
         "name": "dig",
         "type": "ground",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "4.7"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "4.7"
       },
       {
         "name": "bulldoze",
         "type": "ground",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "3.5"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "3.5"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "cubone candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "105",
         "name": "marowak",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -10289,21 +10289,21 @@ export default {
       "height": "0.99 m",
       "weight": "45.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "ground"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.15"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.15"
     },
-    "spawn-chance": "0.02",
+    "spawn_chance": "0.02",
     "stats": {
-      "base-attack": "144",
-      "base-defense": "186",
-      "base-stamina": "155",
-      "max-cp": "1835",
-      "max-hp": "134"
+      "base_attack": "144",
+      "base_defense": "186",
+      "base_stamina": "155",
+      "max_cp": "1835",
+      "max_hp": "134"
     },
     "resistant": [
       "electric",
@@ -10315,53 +10315,53 @@ export default {
       "grass",
       "ice"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "mud slap",
         "type": "ground",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "12",
-        "move-duration-seg": "1.4"
+        "move_duration_seg": "1.4"
       },
       {
         "name": "rock smash",
         "type": "fight",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "10",
-        "move-duration-seg": "1.3"
+        "move_duration_seg": "1.3"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "bone club",
         "type": "ground",
-        "base-damage": "40",
-        "energy": "-33",
-        "move-duration-seg": "1.6"
+        "base_damage": "40",
+        "energy": "_33",
+        "move_duration_seg": "1.6"
       },
       {
         "name": "dig",
         "type": "ground",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "4.7"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "4.7"
       },
       {
         "name": "earthquake",
         "type": "ground",
-        "base-damage": "120",
-        "energy": "-100",
-        "move-duration-seg": "3.6"
+        "base_damage": "120",
+        "energy": "_100",
+        "move_duration_seg": "3.6"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "cubone candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "104",
         "name": "cubone",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -10378,21 +10378,21 @@ export default {
       "height": "1.50 m",
       "weight": "49.8 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "fighting"
     ],
     "encounter": {
-      "base-flee-rate": "0.09",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.09",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.02",
+    "spawn_chance": "0.02",
     "stats": {
-      "base-attack": "224",
-      "base-defense": "181",
-      "base-stamina": "137",
-      "max-cp": "2576",
-      "max-hp": "120"
+      "base_attack": "224",
+      "base_defense": "181",
+      "base_stamina": "137",
+      "max_cp": "2576",
+      "max_hp": "120"
     },
     "resistant": [
       "bug",
@@ -10404,67 +10404,67 @@ export default {
       "psychic",
       "fairy"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "low kick",
         "type": "fight",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "6",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "rock smash",
         "type": "fight",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "10",
-        "move-duration-seg": "1.3"
+        "move_duration_seg": "1.3"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "low sweep",
         "type": "fight",
-        "base-damage": "40",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "40",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "stone edge",
         "type": "rock",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.3"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "close combat",
         "type": "fight",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.3"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "brick break",
         "type": "fight",
-        "base-damage": "40",
-        "energy": "-33",
-        "move-duration-seg": "1.6"
+        "base_damage": "40",
+        "energy": "_33",
+        "move_duration_seg": "1.6"
       },
       {
         "name": "stomp",
         "type": "normal",
-        "base-damage": "55",
-        "energy": "-50",
-        "move-duration-seg": "1.7"
+        "base_damage": "55",
+        "energy": "_50",
+        "move_duration_seg": "1.7"
       }
     ],
     "egg": "10 km",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "tyrogue candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "236",
         "name": "tyrogue",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -10481,21 +10481,21 @@ export default {
       "height": "1.40 m",
       "weight": "50.2 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "fighting"
     ],
     "encounter": {
-      "base-flee-rate": "0.09",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.09",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.022",
+    "spawn_chance": "0.022",
     "stats": {
-      "base-attack": "193",
-      "base-defense": "197",
-      "base-stamina": "137",
-      "max-cp": "2332",
-      "max-hp": "120"
+      "base_attack": "193",
+      "base_defense": "197",
+      "base_stamina": "137",
+      "max_cp": "2332",
+      "max_hp": "120"
     },
     "resistant": [
       "bug",
@@ -10507,74 +10507,74 @@ export default {
       "psychic",
       "fairy"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "bullet punch",
         "type": "steel",
-        "base-damage": "9",
+        "base_damage": "9",
         "energy": "10",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       },
       {
         "name": "counter",
         "type": "fight",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "8",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       },
       {
         "name": "rock smash",
         "type": "fight",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "10",
-        "move-duration-seg": "1.3"
+        "move_duration_seg": "1.3"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "fire punch",
         "type": "fire",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.2"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.2"
       },
       {
         "name": "thunder punch",
         "type": "electric",
-        "base-damage": "45",
-        "energy": "-33",
-        "move-duration-seg": "1.8"
+        "base_damage": "45",
+        "energy": "_33",
+        "move_duration_seg": "1.8"
       },
       {
         "name": "close combat",
         "type": "fight",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.3"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "brick break",
         "type": "fight",
-        "base-damage": "40",
-        "energy": "-33",
-        "move-duration-seg": "1.6"
+        "base_damage": "40",
+        "energy": "_33",
+        "move_duration_seg": "1.6"
       },
       {
         "name": "ice punch",
         "type": "ice",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       }
     ],
     "egg": "10 km",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "tyrogue candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "236",
         "name": "tyrogue",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -10591,21 +10591,21 @@ export default {
       "height": "1.19 m",
       "weight": "65.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal"
     ],
     "encounter": {
-      "base-flee-rate": "0.09",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.09",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.011",
+    "spawn_chance": "0.011",
     "stats": {
-      "base-attack": "108",
-      "base-defense": "137",
-      "base-stamina": "207",
-      "max-cp": "1411",
-      "max-hp": "175"
+      "base_attack": "108",
+      "base_defense": "137",
+      "base_stamina": "207",
+      "max_cp": "1411",
+      "max_hp": "175"
     },
     "resistant": [
       "ghost"
@@ -10613,47 +10613,47 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "lick",
         "type": "ghost",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "6",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "zen headbutt",
         "type": "psychic",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "10",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "hyper beam",
         "type": "normal",
-        "base-damage": "150",
-        "energy": "-100",
-        "move-duration-seg": "3.8"
+        "base_damage": "150",
+        "energy": "_100",
+        "move_duration_seg": "3.8"
       },
       {
         "name": "stomp",
         "type": "normal",
-        "base-damage": "55",
-        "energy": "-50",
-        "move-duration-seg": "1.7"
+        "base_damage": "55",
+        "energy": "_50",
+        "move_duration_seg": "1.7"
       },
       {
         "name": "power whip",
         "type": "grass",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.6"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.6"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "lickitung candy"
     }
@@ -10671,21 +10671,21 @@ export default {
       "height": "0.61 m",
       "weight": "1.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "poison"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "0.2",
+    "spawn_chance": "0.2",
     "stats": {
-      "base-attack": "119",
-      "base-defense": "141",
-      "base-stamina": "120",
-      "max-cp": "1214",
-      "max-hp": "106"
+      "base_attack": "119",
+      "base_defense": "141",
+      "base_stamina": "120",
+      "max_cp": "1214",
+      "max_hp": "106"
     },
     "resistant": [
       "grass",
@@ -10698,60 +10698,60 @@ export default {
       "ground",
       "psychic"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "infestation",
         "type": "bug",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "14",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "acid",
         "type": "poison",
-        "base-damage": "9",
+        "base_damage": "9",
         "energy": "8",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "sludge",
         "type": "poison",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "2.1"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "2.1"
       },
       {
         "name": "sludge bomb",
         "type": "poison",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "dark pulse",
         "type": "dark",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "3"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "koffing candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "110",
         "name": "weezing",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -10768,21 +10768,21 @@ export default {
       "height": "1.19 m",
       "weight": "9.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "poison"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.016",
+    "spawn_chance": "0.016",
     "stats": {
-      "base-attack": "174",
-      "base-defense": "197",
-      "base-stamina": "163",
-      "max-cp": "2293",
-      "max-hp": "140"
+      "base_attack": "174",
+      "base_defense": "197",
+      "base_stamina": "163",
+      "max_cp": "2293",
+      "max_hp": "140"
     },
     "resistant": [
       "grass",
@@ -10795,60 +10795,60 @@ export default {
       "ground",
       "psychic"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "infestation",
         "type": "bug",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "14",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "acid",
         "type": "poison",
-        "base-damage": "9",
+        "base_damage": "9",
         "energy": "8",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "sludge bomb",
         "type": "poison",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "shadow ball",
         "type": "ghost",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "3"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "3"
       },
       {
         "name": "dark pulse",
         "type": "dark",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "3"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "koffing candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "109",
         "name": "koffing",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -10865,22 +10865,22 @@ export default {
       "height": "0.99 m",
       "weight": "115.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "ground",
       "rock"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "0.63",
+    "spawn_chance": "0.63",
     "stats": {
-      "base-attack": "140",
-      "base-defense": "127",
-      "base-stamina": "190",
-      "max-cp": "1651",
-      "max-hp": "162"
+      "base_attack": "140",
+      "base_defense": "127",
+      "base_stamina": "190",
+      "max_cp": "1651",
+      "max_hp": "162"
     },
     "resistant": [
       "normal",
@@ -10897,60 +10897,60 @@ export default {
       "ground",
       "steel"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "mud slap",
         "type": "ground",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "12",
-        "move-duration-seg": "1.4"
+        "move_duration_seg": "1.4"
       },
       {
         "name": "rock smash",
         "type": "fight",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "10",
-        "move-duration-seg": "1.3"
+        "move_duration_seg": "1.3"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "bulldoze",
         "type": "ground",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "3.5"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "3.5"
       },
       {
         "name": "horn attack",
         "type": "normal",
-        "base-damage": "40",
-        "energy": "-33",
-        "move-duration-seg": "1.85"
+        "base_damage": "40",
+        "energy": "_33",
+        "move_duration_seg": "1.85"
       },
       {
         "name": "stomp",
         "type": "normal",
-        "base-damage": "55",
-        "energy": "-50",
-        "move-duration-seg": "1.7"
+        "base_damage": "55",
+        "energy": "_50",
+        "move_duration_seg": "1.7"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "rhyhorn candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "112",
         "name": "rhydon",
-        "candy-cost": "50",
-        "next-evolution": [{
+        "candy_cost": "50",
+        "next_evolution": [{
           "num": "464",
           "name": "rhyperior",
-          "candy-cost": "100",
-          "evolution-item": {
+          "candy_cost": "100",
+          "evolution_item": {
             "name": "sinnoh stone",
-            "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh-stone.png"
+            "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh_stone.png"
           }
         }]
       }]
@@ -10969,22 +10969,22 @@ export default {
       "height": "1.91 m",
       "weight": "120.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "ground",
       "rock"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.05"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.05"
     },
-    "spawn-chance": "0.022",
+    "spawn_chance": "0.022",
     "stats": {
-      "base-attack": "222",
-      "base-defense": "171",
-      "base-stamina": "233",
-      "max-cp": "3179",
-      "max-hp": "195"
+      "base_attack": "222",
+      "base_defense": "171",
+      "base_stamina": "233",
+      "max_cp": "3179",
+      "max_hp": "195"
     },
     "resistant": [
       "normal",
@@ -11001,62 +11001,62 @@ export default {
       "ground",
       "steel"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "mud slap",
         "type": "ground",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "12",
-        "move-duration-seg": "1.4"
+        "move_duration_seg": "1.4"
       },
       {
         "name": "rock smash",
         "type": "fight",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "10",
-        "move-duration-seg": "1.3"
+        "move_duration_seg": "1.3"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "megahorn",
         "type": "bug",
-        "base-damage": "90",
-        "energy": "-100",
-        "move-duration-seg": "2.2"
+        "base_damage": "90",
+        "energy": "_100",
+        "move_duration_seg": "2.2"
       },
       {
         "name": "earthquake",
         "type": "ground",
-        "base-damage": "120",
-        "energy": "-100",
-        "move-duration-seg": "3.6"
+        "base_damage": "120",
+        "energy": "_100",
+        "move_duration_seg": "3.6"
       },
       {
         "name": "stone edge",
         "type": "rock",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.3"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.3"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "rhyhorn candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "464",
         "name": "rhyperior",
-        "candy-cost": "100",
-        "evolution-item": {
+        "candy_cost": "100",
+        "evolution_item": {
           "name": "sinnoh stone",
-          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh-stone.png"
+          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh_stone.png"
         }
       }],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "111",
         "name": "rhyhorn",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -11073,21 +11073,21 @@ export default {
       "height": "1.09 m",
       "weight": "34.6 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal"
     ],
     "encounter": {
-      "base-flee-rate": "0.09",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.09",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.013",
+    "spawn_chance": "0.013",
     "stats": {
-      "base-attack": "60",
-      "base-defense": "128",
-      "base-stamina": "487",
-      "max-cp": "1255",
-      "max-hp": "396"
+      "base_attack": "60",
+      "base_defense": "128",
+      "base_stamina": "487",
+      "max_cp": "1255",
+      "max_hp": "396"
     },
     "resistant": [
       "ghost"
@@ -11095,64 +11095,64 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "pound",
         "type": "normal",
-        "base-damage": "7",
+        "base_damage": "7",
         "energy": "6",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "zen headbutt",
         "type": "psychic",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "10",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "psychic",
         "type": "psychic",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.8"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "dazzling gleam",
         "type": "fairy",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "3.5"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "3.5"
       },
       {
         "name": "hyper beam",
         "type": "normal",
-        "base-damage": "150",
-        "energy": "-100",
-        "move-duration-seg": "3.8"
+        "base_damage": "150",
+        "energy": "_100",
+        "move_duration_seg": "3.8"
       },
       {
         "name": "psybeam",
         "type": "psychic",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       }
     ],
     "egg": "10 km",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "chansey candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "242",
         "name": "blissey"
       }],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "440",
         "name": "happiny",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -11169,21 +11169,21 @@ export default {
       "height": "0.99 m",
       "weight": "35.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "grass"
     ],
     "encounter": {
-      "base-flee-rate": "0.09",
-      "base-capture-rate": "0.4"
+      "base_flee_rate": "0.09",
+      "base_capture_rate": "0.4"
     },
-    "spawn-chance": "0.228",
+    "spawn_chance": "0.228",
     "stats": {
-      "base-attack": "183",
-      "base-defense": "169",
-      "base-stamina": "163",
-      "max-cp": "2238",
-      "max-hp": "140"
+      "base_attack": "183",
+      "base_defense": "169",
+      "base_stamina": "163",
+      "max_cp": "2238",
+      "max_hp": "140"
     },
     "resistant": [
       "water",
@@ -11198,54 +11198,54 @@ export default {
       "flying",
       "bug"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "vine whip",
         "type": "grass",
-        "base-damage": "7",
+        "base_damage": "7",
         "energy": "6",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "infestation",
         "type": "bug",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "14",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "sludge bomb",
         "type": "poison",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "solar beam",
         "type": "grass",
-        "base-damage": "180",
-        "energy": "-100",
-        "move-duration-seg": "4.9"
+        "base_damage": "180",
+        "energy": "_100",
+        "move_duration_seg": "4.9"
       },
       {
         "name": "grass knot",
         "type": "grass",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.6"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.6"
       },
       {
         "name": "power whip",
         "type": "grass",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.6"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.6"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "tangela candy"
     }
@@ -11263,22 +11263,22 @@ export default {
       "height": "2.21 m",
       "weight": "80.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal"
     ],
     "encounter": {
-      "base-flee-rate": "0.09",
-      "base-capture-rate": "0.2",
-      "common-capture-area": "early reports that this pokémon is likely to be found in: australia, new zealand or hatched from an egg in that geographic area."
+      "base_flee_rate": "0.09",
+      "base_capture_rate": "0.2",
+      "common_capture_area": "early reports that this pokémon is likely to be found in: australia, new zealand or hatched from an egg in that geographic area."
     },
-    "spawn-chance": "0.0086",
+    "spawn_chance": "0.0086",
     "stats": {
-      "base-attack": "181",
-      "base-defense": "165",
-      "base-stamina": "233",
-      "max-cp": "2586",
-      "max-hp": "195"
+      "base_attack": "181",
+      "base_defense": "165",
+      "base_stamina": "233",
+      "max_cp": "2586",
+      "max_hp": "195"
     },
     "resistant": [
       "ghost"
@@ -11286,61 +11286,61 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "mud slap",
         "type": "ground",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "12",
-        "move-duration-seg": "1.4"
+        "move_duration_seg": "1.4"
       },
       {
         "name": "low kick",
         "type": "fight",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "6",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "earthquake",
         "type": "ground",
-        "base-damage": "120",
-        "energy": "-100",
-        "move-duration-seg": "3.6"
+        "base_damage": "120",
+        "energy": "_100",
+        "move_duration_seg": "3.6"
       },
       {
         "name": "crunch",
         "type": "dark",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "outrage",
         "type": "dragon",
-        "base-damage": "110",
-        "energy": "-50",
-        "move-duration-seg": "3.9"
+        "base_damage": "110",
+        "energy": "_50",
+        "move_duration_seg": "3.9"
       },
       {
         "name": "brick break",
         "type": "fight",
-        "base-damage": "40",
-        "energy": "-33",
-        "move-duration-seg": "1.6"
+        "base_damage": "40",
+        "energy": "_33",
+        "move_duration_seg": "1.6"
       },
       {
         "name": "stomp",
         "type": "normal",
-        "base-damage": "55",
-        "energy": "-50",
-        "move-duration-seg": "1.7"
+        "base_damage": "55",
+        "energy": "_50",
+        "move_duration_seg": "1.7"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "kangaskhan candy"
     }
@@ -11358,21 +11358,21 @@ export default {
       "height": "0.41 m",
       "weight": "8.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "1.13",
+    "spawn_chance": "1.13",
     "stats": {
-      "base-attack": "129",
-      "base-defense": "103",
-      "base-stamina": "102",
-      "max-cp": "1056",
-      "max-hp": "92"
+      "base_attack": "129",
+      "base_defense": "103",
+      "base_stamina": "102",
+      "max_cp": "1056",
+      "max_hp": "92"
     },
     "resistant": [
       "fire",
@@ -11384,60 +11384,60 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "water gun",
         "type": "water",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "bubble",
         "type": "water",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "14",
-        "move-duration-seg": "1.2"
+        "move_duration_seg": "1.2"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "bubble beam",
         "type": "water",
-        "base-damage": "45",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "45",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "dragon pulse",
         "type": "dragon",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "3.6"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "3.6"
       },
       {
         "name": "flash cannon",
         "type": "steel",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.7"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.7"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "horsea candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "117",
         "name": "seadra",
-        "candy-cost": "50",
-        "next-evolution": [{
+        "candy_cost": "50",
+        "next_evolution": [{
           "num": "230",
           "name": "kingdra",
-          "candy-cost": "100",
-          "evolution-item": {
+          "candy_cost": "100",
+          "evolution_item": {
             "name": "dragon scale",
-            "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/dragon-scale.png"
+            "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/dragon_scale.png"
           }
         }]
       }]
@@ -11456,21 +11456,21 @@ export default {
       "height": "1.19 m",
       "weight": "25.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.034",
+    "spawn_chance": "0.034",
     "stats": {
-      "base-attack": "187",
-      "base-defense": "156",
-      "base-stamina": "146",
-      "max-cp": "2093",
-      "max-hp": "127"
+      "base_attack": "187",
+      "base_defense": "156",
+      "base_stamina": "146",
+      "max_cp": "2093",
+      "max_hp": "127"
     },
     "resistant": [
       "fire",
@@ -11482,69 +11482,69 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "water gun",
         "type": "water",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "dragon breath",
         "type": "dragon",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "dragon pulse",
         "type": "dragon",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "3.6"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "3.6"
       },
       {
         "name": "hydro pump",
         "type": "water",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.3"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "aurora beam",
         "type": "ice",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "3.55"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "3.55"
       },
       {
         "name": "blizzard",
         "type": "ice",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.1"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.1"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "horsea candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "230",
         "name": "kingdra",
-        "candy-cost": "100",
-        "evolution-item": {
+        "candy_cost": "100",
+        "evolution_item": {
           "name": "dragon scale",
-          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/dragon-scale.png"
+          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/dragon_scale.png"
         }
       }],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "116",
         "name": "horsea",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -11555,27 +11555,27 @@ export default {
       "num": "generation i",
       "name": "kanto"
     },
-    "about": "Goldeen is a very beautiful Pokémon with fins that billow elegantly in water. However, don't let your guard down around this Pokémon-it could ram you powerfully with its horn.",
+    "about": "Goldeen is a very beautiful Pokémon with fins that billow elegantly in water. However, don't let your guard down around this Pokémon_it could ram you powerfully with its horn.",
     "img": "https://www.serebii.net/pokemongo/pokemon/118.png",
     "size": {
       "height": "0.61 m",
       "weight": "15.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water"
     ],
     "encounter": {
-      "base-flee-rate": "0.15",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.15",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "2.18",
+    "spawn_chance": "2.18",
     "stats": {
-      "base-attack": "123",
-      "base-defense": "110",
-      "base-stamina": "128",
-      "max-cp": "1152",
-      "max-hp": "113"
+      "base_attack": "123",
+      "base_defense": "110",
+      "base_stamina": "128",
+      "max_cp": "1152",
+      "max_hp": "113"
     },
     "resistant": [
       "fire",
@@ -11587,53 +11587,53 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "peck",
         "type": "flying",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "10",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "mud shot",
         "type": "ground",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "7",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "water pulse",
         "type": "water",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "horn attack",
         "type": "normal",
-        "base-damage": "40",
-        "energy": "-33",
-        "move-duration-seg": "1.85"
+        "base_damage": "40",
+        "energy": "_33",
+        "move_duration_seg": "1.85"
       },
       {
         "name": "aqua tail",
         "type": "water",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "goldeen candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "119",
         "name": "seaking",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -11650,21 +11650,21 @@ export default {
       "height": "1.30 m",
       "weight": "39.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.08",
+    "spawn_chance": "0.08",
     "stats": {
-      "base-attack": "175",
-      "base-defense": "147",
-      "base-stamina": "190",
-      "max-cp": "2162",
-      "max-hp": "162"
+      "base_attack": "175",
+      "base_defense": "147",
+      "base_stamina": "190",
+      "max_cp": "2162",
+      "max_hp": "162"
     },
     "resistant": [
       "fire",
@@ -11676,67 +11676,67 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "peck",
         "type": "flying",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "10",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "poison jab",
         "type": "poison",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "7",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "megahorn",
         "type": "bug",
-        "base-damage": "90",
-        "energy": "-100",
-        "move-duration-seg": "2.2"
+        "base_damage": "90",
+        "energy": "_100",
+        "move_duration_seg": "2.2"
       },
       {
         "name": "ice beam",
         "type": "ice",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "3.3"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "water pulse",
         "type": "water",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "icy wind",
         "type": "ice",
-        "base-damage": "60",
-        "energy": "-33",
-        "move-duration-seg": "3.3"
+        "base_damage": "60",
+        "energy": "_33",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "drill run",
         "type": "ground",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.8"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.8"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "goldeen candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "118",
         "name": "goldeen",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -11753,21 +11753,21 @@ export default {
       "height": "0.79 m",
       "weight": "34.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water"
     ],
     "encounter": {
-      "base-flee-rate": "0.15",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.15",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": "1.95",
+    "spawn_chance": "1.95",
     "stats": {
-      "base-attack": "137",
-      "base-defense": "112",
-      "base-stamina": "102",
-      "max-cp": "1157",
-      "max-hp": "92"
+      "base_attack": "137",
+      "base_defense": "112",
+      "base_stamina": "102",
+      "max_cp": "1157",
+      "max_hp": "92"
     },
     "resistant": [
       "fire",
@@ -11779,60 +11779,60 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "water gun",
         "type": "water",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "quick attack",
         "type": "normal",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "10",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "swift",
         "type": "normal",
-        "base-damage": "60",
-        "energy": "-50",
-        "move-duration-seg": "2.8"
+        "base_damage": "60",
+        "energy": "_50",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "bubble beam",
         "type": "water",
-        "base-damage": "45",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "45",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "power gem",
         "type": "rock",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.9"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.9"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "staryu candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "121",
         "name": "starmie",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -11843,28 +11843,28 @@ export default {
       "num": "generation i",
       "name": "kanto"
     },
-    "about": "Starmie's center section-the core-glows brightly in seven colors. Because of its luminous nature, this Pokémon has been given the nickname the gem of the sea.",
+    "about": "Starmie's center section_the core_glows brightly in seven colors. Because of its luminous nature, this Pokémon has been given the nickname the gem of the sea.",
     "img": "https://www.serebii.net/pokemongo/pokemon/121.png",
     "size": {
       "height": "1.09 m",
       "weight": "80.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water",
       "psychic"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.034",
+    "spawn_chance": "0.034",
     "stats": {
-      "base-attack": "210",
-      "base-defense": "184",
-      "base-stamina": "155",
-      "max-cp": "2584",
-      "max-hp": "134"
+      "base_attack": "210",
+      "base_defense": "184",
+      "base_stamina": "155",
+      "max_cp": "2584",
+      "max_hp": "134"
     },
     "resistant": [
       "fire",
@@ -11880,74 +11880,74 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "water gun",
         "type": "water",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "hidden power",
         "type": "normal",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "15",
-        "move-duration-seg": "1.5"
+        "move_duration_seg": "1.5"
       },
       {
         "name": "quick attack",
         "type": "normal",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "10",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       },
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "hydro pump",
         "type": "water",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.3"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "power gem",
         "type": "rock",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.9"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.9"
       },
       {
         "name": "psychic",
         "type": "psychic",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.8"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "psybeam",
         "type": "psychic",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "staryu candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "120",
         "name": "staryu",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -11964,22 +11964,22 @@ export default {
       "height": "1.30 m",
       "weight": "54.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "psychic"
     ],
     "encounter": {
-      "base-flee-rate": "0.09",
-      "base-capture-rate": "0.3",
-      "common-capture-area": "early reports that this pokémon is likely to be found in: western europe or hatched from an egg in that geographic area."
+      "base_flee_rate": "0.09",
+      "base_capture_rate": "0.3",
+      "common_capture_area": "early reports that this pokémon is likely to be found in: western europe or hatched from an egg in that geographic area."
     },
-    "spawn-chance": "0.0031",
+    "spawn_chance": "0.0031",
     "stats": {
-      "base-attack": "192",
-      "base-defense": "205",
-      "base-stamina": "120",
-      "max-cp": "2228",
-      "max-hp": "106"
+      "base_attack": "192",
+      "base_defense": "205",
+      "base_stamina": "120",
+      "max_cp": "2228",
+      "max_hp": "106"
     },
     "resistant": [
       "fighting",
@@ -11991,53 +11991,53 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "confusion",
         "type": "psychic",
-        "base-damage": "20",
+        "base_damage": "20",
         "energy": "15",
-        "move-duration-seg": "1.6"
+        "move_duration_seg": "1.6"
       },
       {
         "name": "zen headbutt",
         "type": "psychic",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "10",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "psybeam",
         "type": "psychic",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "psychic",
         "type": "psychic",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.8"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "shadow ball",
         "type": "ghost",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "3"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "3"
       }
     ],
     "egg": "10 km",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "mr. mime candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "439",
         "name": "mime jr",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -12054,22 +12054,22 @@ export default {
       "height": "1.50 m",
       "weight": "56.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "bug",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.09",
-      "base-capture-rate": "0.3"
+      "base_flee_rate": "0.09",
+      "base_capture_rate": "0.3"
     },
-    "spawn-chance": "0.14",
+    "spawn_chance": "0.14",
     "stats": {
-      "base-attack": "218",
-      "base-defense": "170",
-      "base-stamina": "172",
-      "max-cp": "2706",
-      "max-hp": "147"
+      "base_attack": "218",
+      "base_defense": "170",
+      "base_stamina": "172",
+      "max_cp": "2706",
+      "max_hp": "147"
     },
     "resistant": [
       "grass",
@@ -12084,70 +12084,70 @@ export default {
       "flying",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "fury cutter",
         "type": "bug",
-        "base-damage": "3",
+        "base_damage": "3",
         "energy": "6",
-        "move-duration-seg": "0.4"
+        "move_duration_seg": "0.4"
       },
       {
         "name": "air slash",
         "type": "flying",
-        "base-damage": "14",
+        "base_damage": "14",
         "energy": "10",
-        "move-duration-seg": "1.2"
+        "move_duration_seg": "1.2"
       },
       {
         "name": "steel wing",
         "type": "steel",
-        "base-damage": "11",
+        "base_damage": "11",
         "energy": "6",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "night slash",
         "type": "dark",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "2.2"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "2.2"
       },
       {
         "name": "x scissor",
         "type": "water",
-        "base-damage": "50",
-        "energy": "-100",
-        "move-duration-seg": "4.7"
+        "base_damage": "50",
+        "energy": "_100",
+        "move_duration_seg": "4.7"
       },
       {
         "name": "aerial ace",
         "type": "flying",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.4"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.4"
       },
       {
         "name": "bug buzz",
         "type": "bug",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "3.7"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "3.7"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "scyther candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "212",
         "name": "scizor",
-        "candy-cost": "50",
-        "evolution-item": {
+        "candy_cost": "50",
+        "evolution_item": {
           "name": "metal coat",
-          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/metal-coat.png"
+          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/metal_coat.png"
         }
       }]
     }
@@ -12165,22 +12165,22 @@ export default {
       "height": "1.40 m",
       "weight": "40.6 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "ice",
       "psychic"
     ],
     "encounter": {
-      "base-flee-rate": "0.09",
-      "base-capture-rate": "0.3"
+      "base_flee_rate": "0.09",
+      "base_capture_rate": "0.3"
     },
-    "spawn-chance": "0.35",
+    "spawn_chance": "0.35",
     "stats": {
-      "base-attack": "223",
-      "base-defense": "151",
-      "base-stamina": "163",
-      "max-cp": "2555",
-      "max-hp": "140"
+      "base_attack": "223",
+      "base_defense": "151",
+      "base_stamina": "163",
+      "max_cp": "2555",
+      "max_hp": "140"
     },
     "resistant": [
       "ice",
@@ -12194,67 +12194,67 @@ export default {
       "dark",
       "steel"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "frost breath",
         "type": "ice",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "8",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       },
       {
         "name": "confusion",
         "type": "psychic",
-        "base-damage": "20",
+        "base_damage": "20",
         "energy": "15",
-        "move-duration-seg": "1.6"
+        "move_duration_seg": "1.6"
       },
       {
         "name": "pound",
         "type": "normal",
-        "base-damage": "7",
+        "base_damage": "7",
         "energy": "6",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "draining kiss",
         "type": "fairy",
-        "base-damage": "60",
-        "energy": "-50",
-        "move-duration-seg": "2.6"
+        "base_damage": "60",
+        "energy": "_50",
+        "move_duration_seg": "2.6"
       },
       {
         "name": "psyshock",
         "type": "psychic",
-        "base-damage": "65",
-        "energy": "-33",
-        "move-duration-seg": "2.7"
+        "base_damage": "65",
+        "energy": "_33",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "avalanche",
         "type": "ice",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.7"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "ice punch",
         "type": "ice",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       }
     ],
     "egg": "10 km",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "jynx candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "238",
         "name": "smoochum",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -12271,21 +12271,21 @@ export default {
       "height": "1.09 m",
       "weight": "30.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "electric"
     ],
     "encounter": {
-      "base-flee-rate": "0.09",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.09",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.074",
+    "spawn_chance": "0.074",
     "stats": {
-      "base-attack": "198",
-      "base-defense": "158",
-      "base-stamina": "163",
-      "max-cp": "2334",
-      "max-hp": "140"
+      "base_attack": "198",
+      "base_defense": "158",
+      "base_stamina": "163",
+      "max_cp": "2334",
+      "max_hp": "140"
     },
     "resistant": [
       "electric",
@@ -12295,62 +12295,62 @@ export default {
     "weaknesses": [
       "ground"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "thunder shock",
         "type": "electric",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "8",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "low kick",
         "type": "fight",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "6",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "thunder punch",
         "type": "electric",
-        "base-damage": "45",
-        "energy": "-33",
-        "move-duration-seg": "1.8"
+        "base_damage": "45",
+        "energy": "_33",
+        "move_duration_seg": "1.8"
       },
       {
         "name": "thunderbolt",
         "type": "electric",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.5"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.5"
       },
       {
         "name": "thunder",
         "type": "electric",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.4"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.4"
       }
     ],
     "egg": "10 km",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "electabuzz candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "466",
         "name": "electivire",
-        "candy-cost": "100",
-        "evolution-item": {
+        "candy_cost": "100",
+        "evolution_item": {
           "name": "sinnoh stone",
-          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh-stone.png"
+          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh_stone.png"
         }
       }],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "239",
         "name": "elekid",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -12367,21 +12367,21 @@ export default {
       "height": "1.30 m",
       "weight": "44.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "fire"
     ],
     "encounter": {
-      "base-flee-rate": "0.09",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.09",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.1",
+    "spawn_chance": "0.1",
     "stats": {
-      "base-attack": "206",
-      "base-defense": "154",
-      "base-stamina": "163",
-      "max-cp": "2394",
-      "max-hp": "140"
+      "base_attack": "206",
+      "base_defense": "154",
+      "base_stamina": "163",
+      "max_cp": "2394",
+      "max_hp": "140"
     },
     "resistant": [
       "fire",
@@ -12395,62 +12395,62 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "ember",
         "type": "fire",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "10",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "karate chop",
         "type": "fight",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "10",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "fire blast",
         "type": "fire",
-        "base-damage": "140",
-        "energy": "-100",
-        "move-duration-seg": "4.2"
+        "base_damage": "140",
+        "energy": "_100",
+        "move_duration_seg": "4.2"
       },
       {
         "name": "fire punch",
         "type": "fire",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.2"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.2"
       },
       {
         "name": "flamethrower",
         "type": "fire",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2.2"
       }
     ],
     "egg": "10 km",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "magmar candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "467",
         "name": "magmortar",
-        "candy-cost": "100",
-        "evolution-item": {
+        "candy_cost": "100",
+        "evolution_item": {
           "name": "sinnoh stone",
-          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh-stone.png"
+          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh_stone.png"
         }
       }],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "240",
         "name": "magby",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -12467,21 +12467,21 @@ export default {
       "height": "1.50 m",
       "weight": "55.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "bug"
     ],
     "encounter": {
-      "base-flee-rate": "0.09",
-      "base-capture-rate": "0.3"
+      "base_flee_rate": "0.09",
+      "base_capture_rate": "0.3"
     },
-    "spawn-chance": "0.99",
+    "spawn_chance": "0.99",
     "stats": {
-      "base-attack": "238",
-      "base-defense": "182",
-      "base-stamina": "163",
-      "max-cp": "2959",
-      "max-hp": "140"
+      "base_attack": "238",
+      "base_defense": "182",
+      "base_stamina": "163",
+      "max_cp": "2959",
+      "max_hp": "140"
     },
     "resistant": [
       "grass",
@@ -12493,61 +12493,61 @@ export default {
       "flying",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "rock smash",
         "type": "fight",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "10",
-        "move-duration-seg": "1.3"
+        "move_duration_seg": "1.3"
       },
       {
         "name": "bug bite",
         "type": "bug",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "6",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "fury cutter",
         "type": "bug",
-        "base-damage": "3",
+        "base_damage": "3",
         "energy": "6",
-        "move-duration-seg": "0.4"
+        "move_duration_seg": "0.4"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "vice grip",
         "type": "normal",
-        "base-damage": "35",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "35",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "x scissor",
         "type": "water",
-        "base-damage": "50",
-        "energy": "-100",
-        "move-duration-seg": "4.7"
+        "base_damage": "50",
+        "energy": "_100",
+        "move_duration_seg": "4.7"
       },
       {
         "name": "close combat",
         "type": "fight",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.3"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "submission",
         "type": "fight",
-        "base-damage": "60",
-        "energy": "-50",
-        "move-duration-seg": "2.2"
+        "base_damage": "60",
+        "energy": "_50",
+        "move_duration_seg": "2.2"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "pinsir candy"
     }
@@ -12565,22 +12565,22 @@ export default {
       "height": "1.40 m",
       "weight": "88.4 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal"
     ],
     "encounter": {
-      "base-flee-rate": "0.09",
-      "base-capture-rate": "0.3",
-      "common-capture-area": "early reports that this pokémon is likely to be found in: north america or hatched from an egg in that geographic area."
+      "base_flee_rate": "0.09",
+      "base_capture_rate": "0.3",
+      "common_capture_area": "early reports that this pokémon is likely to be found in: north america or hatched from an egg in that geographic area."
     },
-    "spawn-chance": "0.12",
+    "spawn_chance": "0.12",
     "stats": {
-      "base-attack": "198",
-      "base-defense": "183",
-      "base-stamina": "181",
-      "max-cp": "2620",
-      "max-hp": "154"
+      "base_attack": "198",
+      "base_defense": "183",
+      "base_stamina": "181",
+      "max_cp": "2620",
+      "max_hp": "154"
     },
     "resistant": [
       "ghost"
@@ -12588,47 +12588,47 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "zen headbutt",
         "type": "psychic",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "10",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "horn attack",
         "type": "normal",
-        "base-damage": "40",
-        "energy": "-33",
-        "move-duration-seg": "1.85"
+        "base_damage": "40",
+        "energy": "_33",
+        "move_duration_seg": "1.85"
       },
       {
         "name": "iron head",
         "type": "steel",
-        "base-damage": "60",
-        "energy": "-50",
-        "move-duration-seg": "1.9"
+        "base_damage": "60",
+        "energy": "_50",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "earthquake",
         "type": "ground",
-        "base-damage": "120",
-        "energy": "-100",
-        "move-duration-seg": "3.6"
+        "base_damage": "120",
+        "energy": "_100",
+        "move_duration_seg": "3.6"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "tauros candy"
     }
@@ -12646,21 +12646,21 @@ export default {
       "height": "0.89 m",
       "weight": "10.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water"
     ],
     "encounter": {
-      "base-flee-rate": "0.15",
-      "base-capture-rate": "0.7"
+      "base_flee_rate": "0.15",
+      "base_capture_rate": "0.7"
     },
-    "spawn-chance": "4.78",
+    "spawn_chance": "4.78",
     "stats": {
-      "base-attack": "29",
-      "base-defense": "85",
-      "base-stamina": "85",
-      "max-cp": "274",
-      "max-hp": "79"
+      "base_attack": "29",
+      "base_defense": "85",
+      "base_stamina": "85",
+      "max_cp": "274",
+      "max_hp": "79"
     },
     "resistant": [
       "fire",
@@ -12672,30 +12672,30 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quick_move": [
       {
       "name": "splash",
       "type": "water",
-      "base-damage": "0",
+      "base_damage": "0",
       "energy": "0",
-      "move-duration-seg": "1.73"
+      "move_duration_seg": "1.73"
     }],
-    "special-attack": [
+    "special_attack": [
       {
       "name": "struggle",
       "type": "normal",
-      "base-damage": "35",
-      "energy": "-33",
-      "move-duration-seg": "2.2"
+      "base_damage": "35",
+      "energy": "_33",
+      "move_duration_seg": "2.2"
     }],
     "egg": "2 km",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "magikarp candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "130",
         "name": "gyarados",
-        "candy-cost": "400"
+        "candy_cost": "400"
       }]
     }
   },
@@ -12712,22 +12712,22 @@ export default {
       "height": "6.50 m",
       "weight": "235.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.1"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.1"
     },
-    "spawn-chance": "0.0032",
+    "spawn_chance": "0.0032",
     "stats": {
-      "base-attack": "237",
-      "base-defense": "186",
-      "base-stamina": "216",
-      "max-cp": "3391",
-      "max-hp": "182"
+      "base_attack": "237",
+      "base_defense": "186",
+      "base_stamina": "216",
+      "max_cp": "3391",
+      "max_hp": "182"
     },
     "resistant": [
       "fire",
@@ -12740,74 +12740,74 @@ export default {
       "electric",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "bite",
         "type": "dark",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "dragon tail",
         "type": "dragon",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "9",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "dragon breath",
         "type": "dragon",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "hydro pump",
         "type": "water",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.3"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "crunch",
         "type": "dark",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "outrage",
         "type": "dragon",
-        "base-damage": "110",
-        "energy": "-50",
-        "move-duration-seg": "3.9"
+        "base_damage": "110",
+        "energy": "_50",
+        "move_duration_seg": "3.9"
       },
       {
         "name": "dragon pulse",
         "type": "dragon",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "3.6"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "3.6"
       },
       {
         "name": "twister",
         "type": "dragon",
-        "base-damage": "45",
-        "energy": "-33",
-        "move-duration-seg": "2.8"
+        "base_damage": "45",
+        "energy": "_33",
+        "move_duration_seg": "2.8"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "magikarp candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "129",
         "name": "magikarp",
-        "candy-cost": "400"
+        "candy_cost": "400"
       }]
     }
   },
@@ -12824,22 +12824,22 @@ export default {
       "height": "2.49 m",
       "weight": "220.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water",
       "ice"
     ],
     "encounter": {
-      "base-flee-rate": "0.09",
-      "base-capture-rate": "0.05"
+      "base_flee_rate": "0.09",
+      "base_capture_rate": "0.05"
     },
-    "spawn-chance": "0.006",
+    "spawn_chance": "0.006",
     "stats": {
-      "base-attack": "165",
-      "base-defense": "174",
-      "base-stamina": "277",
-      "max-cp": "2641",
-      "max-hp": "230"
+      "base_attack": "165",
+      "base_defense": "174",
+      "base_stamina": "277",
+      "max_cp": "2641",
+      "max_hp": "230"
     },
     "resistant": [
       "water",
@@ -12851,61 +12851,61 @@ export default {
       "fighting",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "frost breath",
         "type": "ice",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "8",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       },
       {
         "name": "water gun",
         "type": "water",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "ice shard",
         "type": "ice",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "12",
-        "move-duration-seg": "1.2"
+        "move_duration_seg": "1.2"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "ice beam",
         "type": "ice",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "3.3"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "blizzard",
         "type": "ice",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.1"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.1"
       },
       {
         "name": "hydro pump",
         "type": "water",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.3"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "dragon pulse",
         "type": "dragon",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "3.6"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "3.6"
       }
     ],
     "egg": "10 km",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "lapras candy"
     }
@@ -12923,21 +12923,21 @@ export default {
       "height": "0.30 m",
       "weight": "4.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0",
+    "spawn_chance": "0",
     "stats": {
-      "base-attack": "91",
-      "base-defense": "91",
-      "base-stamina": "134",
-      "max-cp": "832",
-      "max-hp": "117"
+      "base_attack": "91",
+      "base_defense": "91",
+      "base_stamina": "134",
+      "max_cp": "832",
+      "max_hp": "117"
     },
     "resistant": [
       "ghost"
@@ -12945,24 +12945,24 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quick_move": [
       {
       "name": "pound",
       "type": "normal",
-      "base-damage": "7",
+      "base_damage": "7",
       "energy": "6",
-      "move-duration-seg": "0.6"
+      "move_duration_seg": "0.6"
     }],
-    "special-attack": [
+    "special_attack": [
       {
       "name": "struggle",
       "type": "normal",
-      "base-damage": "35",
-      "energy": "-33",
-      "move-duration-seg": "2.2"
+      "base_damage": "35",
+      "energy": "_33",
+      "move_duration_seg": "2.2"
     }],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "ditto candy"
     }
@@ -12980,21 +12980,21 @@ export default {
       "height": "0.30 m",
       "weight": "6.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.4"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.4"
     },
-    "spawn-chance": "2.75",
+    "spawn_chance": "2.75",
     "stats": {
-      "base-attack": "104",
-      "base-defense": "114",
-      "base-stamina": "146",
-      "max-cp": "1071",
-      "max-hp": "127"
+      "base_attack": "104",
+      "base_defense": "114",
+      "base_stamina": "146",
+      "max_cp": "1071",
+      "max_hp": "127"
     },
     "resistant": [
       "ghost"
@@ -13002,84 +13002,84 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "quick attack",
         "type": "normal",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "10",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       },
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "dig",
         "type": "ground",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "4.7"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "4.7"
       },
       {
         "name": "swift",
         "type": "normal",
-        "base-damage": "60",
-        "energy": "-50",
-        "move-duration-seg": "2.8"
+        "base_damage": "60",
+        "energy": "_50",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "body slam",
         "type": "normal",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "eevee candy",
-      "next-evolution": [
+      "next_evolution": [
         {
           "num": "134",
           "name": "vaporeon",
-          "candy-cost": "25"
+          "candy_cost": "25"
         },
         {
           "num": "135",
           "name": "jolteon",
-          "candy-cost": "25"
+          "candy_cost": "25"
         },
         {
           "num": "136",
           "name": "flareon",
-          "candy-cost": "25"
+          "candy_cost": "25"
         },
         {
           "num": "196",
           "name": "espeon",
-          "candy-cost": "25"
+          "candy_cost": "25"
         },
         {
           "num": "197",
           "name": "umbreon",
-          "candy-cost": "25"
+          "candy_cost": "25"
         },
         {
           "num": "470",
           "name": "leafeon",
-          "candy-cost": "25"
+          "candy_cost": "25"
         },
         {
           "num": "471",
           "name": "glaceon",
-          "candy-cost": "25"
+          "candy_cost": "25"
         }
       ]
     }
@@ -13097,21 +13097,21 @@ export default {
       "height": "0.99 m",
       "weight": "29.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.125"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.125"
     },
-    "spawn-chance": "0.014",
+    "spawn_chance": "0.014",
     "stats": {
-      "base-attack": "205",
-      "base-defense": "161",
-      "base-stamina": "277",
-      "max-cp": "3114",
-      "max-hp": "230"
+      "base_attack": "205",
+      "base_defense": "161",
+      "base_stamina": "277",
+      "max_cp": "3114",
+      "max_hp": "230"
     },
     "resistant": [
       "fire",
@@ -13123,45 +13123,45 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quick_move": [
       {
       "name": "water gun",
       "type": "water",
-      "base-damage": "5",
+      "base_damage": "5",
       "energy": "5",
-      "move-duration-seg": "0.5"
+      "move_duration_seg": "0.5"
     }],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "water pulse",
         "type": "water",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "hydro pump",
         "type": "water",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.3"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "aqua tail",
         "type": "water",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "eevee candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "133",
         "name": "eevee",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -13178,21 +13178,21 @@ export default {
       "height": "0.79 m",
       "weight": "24.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "electric"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.125"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.125"
     },
-    "spawn-chance": "0.012",
+    "spawn_chance": "0.012",
     "stats": {
-      "base-attack": "232",
-      "base-defense": "182",
-      "base-stamina": "163",
-      "max-cp": "2888",
-      "max-hp": "140"
+      "base_attack": "232",
+      "base_defense": "182",
+      "base_stamina": "163",
+      "max_cp": "2888",
+      "max_hp": "140"
     },
     "resistant": [
       "electric",
@@ -13202,53 +13202,53 @@ export default {
     "weaknesses": [
       "ground"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "thunder shock",
         "type": "electric",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "8",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "volt switch",
         "type": "electric",
-        "base-damage": "20",
+        "base_damage": "20",
         "energy": "25",
-        "move-duration-seg": "2.3"
+        "move_duration_seg": "2.3"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "discharge",
         "type": "electric",
-        "base-damage": "65",
-        "energy": "-33",
-        "move-duration-seg": "2.5"
+        "base_damage": "65",
+        "energy": "_33",
+        "move_duration_seg": "2.5"
       },
       {
         "name": "thunderbolt",
         "type": "electric",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.5"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.5"
       },
       {
         "name": "thunder",
         "type": "electric",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.4"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.4"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "eevee candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "133",
         "name": "eevee",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -13259,27 +13259,27 @@ export default {
       "num": "generation i",
       "name": "kanto"
     },
-    "about": "Flareon's fluffy fur has a functional purpose-it releases heat into the air so that its body does not get excessively hot. This Pokémon's body temperature can rise to a maximum of 1,650 degrees Fahrenheit.",
+    "about": "Flareon's fluffy fur has a functional purpose_it releases heat into the air so that its body does not get excessively hot. This Pokémon's body temperature can rise to a maximum of 1,650 degrees Fahrenheit.",
     "img": "https://www.serebii.net/pokemongo/pokemon/136.png",
     "size": {
       "height": "0.89 m",
       "weight": "25.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "fire"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.125"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.125"
     },
-    "spawn-chance": "0.017",
+    "spawn_chance": "0.017",
     "stats": {
-      "base-attack": "246",
-      "base-defense": "179",
-      "base-stamina": "163",
-      "max-cp": "3029",
-      "max-hp": "140"
+      "base_attack": "246",
+      "base_defense": "179",
+      "base_stamina": "163",
+      "max_cp": "3029",
+      "max_hp": "140"
     },
     "resistant": [
       "fire",
@@ -13293,60 +13293,60 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "ember",
         "type": "fire",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "10",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "fire spin",
         "type": "fire",
-        "base-damage": "14",
+        "base_damage": "14",
         "energy": "10",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "fire blast",
         "type": "fire",
-        "base-damage": "140",
-        "energy": "-100",
-        "move-duration-seg": "4.2"
+        "base_damage": "140",
+        "energy": "_100",
+        "move_duration_seg": "4.2"
       },
       {
         "name": "flamethrower",
         "type": "fire",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2.2"
       },
       {
         "name": "overheat",
         "type": "fire",
-        "base-damage": "160",
-        "energy": "-100",
-        "move-duration-seg": "4"
+        "base_damage": "160",
+        "energy": "_100",
+        "move_duration_seg": "4"
       },
       {
         "name": "heat wave",
         "type": "fire",
-        "base-damage": "95",
-        "energy": "-100",
-        "move-duration-seg": "3"
+        "base_damage": "95",
+        "energy": "_100",
+        "move_duration_seg": "3"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "eevee candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "133",
         "name": "eevee",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -13357,27 +13357,27 @@ export default {
       "num": "generation i",
       "name": "kanto"
     },
-    "about": "Porygon is capable of reverting itself entirely back to program data and entering cyberspace. This Pokémon is copy-protected so it cannot be duplicated by copying.",
+    "about": "Porygon is capable of reverting itself entirely back to program data and entering cyberspace. This Pokémon is copy_protected so it cannot be duplicated by copying.",
     "img": "https://www.serebii.net/pokemongo/pokemon/137.png",
     "size": {
       "height": "0.79 m",
       "weight": "36.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal"
     ],
     "encounter": {
-      "base-flee-rate": "0.09",
-      "base-capture-rate": "0.4"
+      "base_flee_rate": "0.09",
+      "base_capture_rate": "0.4"
     },
-    "spawn-chance": "0.012",
+    "spawn_chance": "0.012",
     "stats": {
-      "base-attack": "153",
-      "base-defense": "136",
-      "base-stamina": "163",
-      "max-cp": "1720",
-      "max-hp": "140"
+      "base_attack": "153",
+      "base_defense": "136",
+      "base_stamina": "163",
+      "max_cp": "1720",
+      "max_hp": "140"
     },
     "resistant": [
       "ghost"
@@ -13385,106 +13385,106 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "charge beam",
         "type": "electric",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "15",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "hidden power",
         "type": "normal",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "15",
-        "move-duration-seg": "1.5"
+        "move_duration_seg": "1.5"
       },
       {
         "name": "quick attack",
         "type": "normal",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "10",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       },
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "zen headbutt",
         "type": "psychic",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "10",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "solar beam",
         "type": "grass",
-        "base-damage": "180",
-        "energy": "-100",
-        "move-duration-seg": "4.9"
+        "base_damage": "180",
+        "energy": "_100",
+        "move_duration_seg": "4.9"
       },
       {
         "name": "hyper beam",
         "type": "normal",
-        "base-damage": "150",
-        "energy": "-100",
-        "move-duration-seg": "3.8"
+        "base_damage": "150",
+        "energy": "_100",
+        "move_duration_seg": "3.8"
       },
       {
         "name": "zap cannon",
         "type": "electric",
-        "base-damage": "140",
-        "energy": "-100",
-        "move-duration-seg": "3.7"
+        "base_damage": "140",
+        "energy": "_100",
+        "move_duration_seg": "3.7"
       },
       {
         "name": "discharge",
         "type": "electric",
-        "base-damage": "65",
-        "energy": "-33",
-        "move-duration-seg": "2.5"
+        "base_damage": "65",
+        "energy": "_33",
+        "move_duration_seg": "2.5"
       },
       {
         "name": "psybeam",
         "type": "psychic",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "signal beam",
         "type": "bug",
-        "base-damage": "75",
-        "energy": "-50",
-        "move-duration-seg": "2.9"
+        "base_damage": "75",
+        "energy": "_50",
+        "move_duration_seg": "2.9"
       }
     ],
     "egg": "10 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "porygon candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "233",
         "name": "porygon2",
-        "candy-cost": "25",
-        "evolution-item": {
+        "candy_cost": "25",
+        "evolution_item": {
           "name": "up grade",
-          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/up-grade.png"
+          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/up_grade.png"
         },
-        "next-evolution": [{
+        "next_evolution": [{
           "num": "474",
-          "name": "porygon-z",
-          "candy-cost": "100",
-          "evolution-item": {
+          "name": "porygon_z",
+          "candy_cost": "100",
+          "evolution_item": {
             "name": "sinnoh stone",
-            "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh-stone.png"
+            "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh_stone.png"
           }
         }]
       }]
@@ -13497,28 +13497,28 @@ export default {
       "num": "generation i",
       "name": "kanto"
     },
-    "about": "Omanyte is one of the ancient and long-since-extinct Pokémon that have been regenerated from fossils by people. If attacked by an enemy, it withdraws itself inside its hard shell.",
+    "about": "Omanyte is one of the ancient and long_since_extinct Pokémon that have been regenerated from fossils by people. If attacked by an enemy, it withdraws itself inside its hard shell.",
     "img": "https://www.serebii.net/pokemongo/pokemon/138.png",
     "size": {
       "height": "0.41 m",
       "weight": "7.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "rock",
       "water"
     ],
     "encounter": {
-      "base-flee-rate": "0.09",
-      "base-capture-rate": "0.4"
+      "base_flee_rate": "0.09",
+      "base_capture_rate": "0.4"
     },
-    "spawn-chance": "0.14",
+    "spawn_chance": "0.14",
     "stats": {
-      "base-attack": "155",
-      "base-defense": "153",
-      "base-stamina": "111",
-      "max-cp": "1544",
-      "max-hp": "99"
+      "base_attack": "155",
+      "base_defense": "153",
+      "base_stamina": "111",
+      "max_cp": "1544",
+      "max_hp": "99"
     },
     "resistant": [
       "normal",
@@ -13533,67 +13533,67 @@ export default {
       "fighting",
       "ground"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "water gun",
         "type": "water",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "mud shot",
         "type": "ground",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "7",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "ancient power",
         "type": "rock",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.5"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.5"
       },
       {
         "name": "bubble beam",
         "type": "water",
-        "base-damage": "45",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "45",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "rock blast",
         "type": "rock",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "2.1"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "2.1"
       },
       {
         "name": "rock tomb",
         "type": "rock",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "brine",
         "type": "water",
-        "base-damage": "60",
-        "energy": "-50",
-        "move-duration-seg": "2.3"
+        "base_damage": "60",
+        "energy": "_50",
+        "move_duration_seg": "2.3"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "omanyte candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "139",
         "name": "omastar",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -13610,22 +13610,22 @@ export default {
       "height": "0.99 m",
       "weight": "35.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "rock",
       "water"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.15"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.15"
     },
-    "spawn-chance": "0.0061",
+    "spawn_chance": "0.0061",
     "stats": {
-      "base-attack": "207",
-      "base-defense": "201",
-      "base-stamina": "172",
-      "max-cp": "2786",
-      "max-hp": "147"
+      "base_attack": "207",
+      "base_defense": "201",
+      "base_stamina": "172",
+      "max_cp": "2786",
+      "max_hp": "147"
     },
     "resistant": [
       "normal",
@@ -13640,67 +13640,67 @@ export default {
       "fighting",
       "ground"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "mud shot",
         "type": "ground",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "7",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "water gun",
         "type": "water",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "rock throw",
         "type": "rock",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "7",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "ancient power",
         "type": "rock",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.5"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.5"
       },
       {
         "name": "hydro pump",
         "type": "water",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.3"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "rock blast",
         "type": "rock",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "2.1"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "2.1"
       },
       {
         "name": "rock slide",
         "type": "rock",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.7"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.7"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "omanyte candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "138",
         "name": "omanyte",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -13717,22 +13717,22 @@ export default {
       "height": "0.51 m",
       "weight": "11.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "rock",
       "water"
     ],
     "encounter": {
-      "base-flee-rate": "0.09",
-      "base-capture-rate": "0.4"
+      "base_flee_rate": "0.09",
+      "base_capture_rate": "0.4"
     },
-    "spawn-chance": "0.1",
+    "spawn_chance": "0.1",
     "stats": {
-      "base-attack": "148",
-      "base-defense": "140",
-      "base-stamina": "102",
-      "max-cp": "1370",
-      "max-hp": "92"
+      "base_attack": "148",
+      "base_defense": "140",
+      "base_stamina": "102",
+      "max_cp": "1370",
+      "max_hp": "92"
     },
     "resistant": [
       "normal",
@@ -13747,53 +13747,53 @@ export default {
       "fighting",
       "ground"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "scratch",
         "type": "normal",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "mud shot",
         "type": "ground",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "7",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "ancient power",
         "type": "rock",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.5"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.5"
       },
       {
         "name": "aqua jet",
         "type": "water",
-        "base-damage": "45",
-        "energy": "-33",
-        "move-duration-seg": "2.6"
+        "base_damage": "45",
+        "energy": "_33",
+        "move_duration_seg": "2.6"
       },
       {
         "name": "rock tomb",
         "type": "rock",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "kabuto candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "141",
         "name": "kabutops",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -13804,28 +13804,28 @@ export default {
       "num": "generation i",
       "name": "kanto"
     },
-    "about": "Kabutops swam underwater to hunt for its prey in ancient times. The Pokémon was apparently evolving from being a water-dweller to living on land as evident from the beginnings of change in its gills and legs.",
+    "about": "Kabutops swam underwater to hunt for its prey in ancient times. The Pokémon was apparently evolving from being a water_dweller to living on land as evident from the beginnings of change in its gills and legs.",
     "img": "https://www.serebii.net/pokemongo/pokemon/141.png",
     "size": {
       "height": "1.30 m",
       "weight": "40.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "rock",
       "water"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.15"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.15"
     },
-    "spawn-chance": "0.0032",
+    "spawn_chance": "0.0032",
     "stats": {
-      "base-attack": "220",
-      "base-defense": "186",
-      "base-stamina": "155",
-      "max-cp": "2713",
-      "max-hp": "134"
+      "base_attack": "220",
+      "base_defense": "186",
+      "base_stamina": "155",
+      "max_cp": "2713",
+      "max_hp": "134"
     },
     "resistant": [
       "normal",
@@ -13840,60 +13840,60 @@ export default {
       "fighting",
       "ground"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "mud shot",
         "type": "ground",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "7",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "rock smash",
         "type": "fight",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "10",
-        "move-duration-seg": "1.3"
+        "move_duration_seg": "1.3"
       },
       {
         "name": "fury cutter",
         "type": "bug",
-        "base-damage": "3",
+        "base_damage": "3",
         "energy": "6",
-        "move-duration-seg": "0.4"
+        "move_duration_seg": "0.4"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "ancient power",
         "type": "rock",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.5"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.5"
       },
       {
         "name": "water pulse",
         "type": "water",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "stone edge",
         "type": "rock",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.3"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.3"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "kabuto candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "140",
         "name": "kabuto",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -13910,22 +13910,22 @@ export default {
       "height": "1.80 m",
       "weight": "59.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "rock",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.09",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.09",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": "0.018",
+    "spawn_chance": "0.018",
     "stats": {
-      "base-attack": "221",
-      "base-defense": "159",
-      "base-stamina": "190",
-      "max-cp": "2783",
-      "max-hp": "162"
+      "base_attack": "221",
+      "base_defense": "159",
+      "base_stamina": "190",
+      "max_cp": "2783",
+      "max_hp": "162"
     },
     "resistant": [
       "normal",
@@ -13941,47 +13941,47 @@ export default {
       "rock",
       "steel"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "steel wing",
         "type": "steel",
-        "base-damage": "11",
+        "base_damage": "11",
         "energy": "6",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       },
       {
         "name": "bite",
         "type": "dark",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "ancient power",
         "type": "rock",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.5"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.5"
       },
       {
         "name": "iron head",
         "type": "steel",
-        "base-damage": "60",
-        "energy": "-50",
-        "move-duration-seg": "1.9"
+        "base_damage": "60",
+        "energy": "_50",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "hyper beam",
         "type": "normal",
-        "base-damage": "150",
-        "energy": "-100",
-        "move-duration-seg": "3.8"
+        "base_damage": "150",
+        "energy": "_100",
+        "move_duration_seg": "3.8"
       }
     ],
     "egg": "10 km",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "aerodactyl candy"
     }
@@ -13999,21 +13999,21 @@ export default {
       "height": "2.11 m",
       "weight": "460.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal"
     ],
     "encounter": {
-      "base-flee-rate": "0.09",
-      "base-capture-rate": "0.05"
+      "base_flee_rate": "0.09",
+      "base_capture_rate": "0.05"
     },
-    "spawn-chance": "0.016",
+    "spawn_chance": "0.016",
     "stats": {
-      "base-attack": "190",
-      "base-defense": "169",
-      "base-stamina": "330",
-      "max-cp": "3225",
-      "max-hp": "272"
+      "base_attack": "190",
+      "base_defense": "169",
+      "base_stamina": "330",
+      "max_cp": "3225",
+      "max_hp": "272"
     },
     "resistant": [
       "ghost"
@@ -14021,60 +14021,60 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "zen headbutt",
         "type": "psychic",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "10",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "lick",
         "type": "ghost",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "6",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "hyper beam",
         "type": "normal",
-        "base-damage": "150",
-        "energy": "-100",
-        "move-duration-seg": "3.8"
+        "base_damage": "150",
+        "energy": "_100",
+        "move_duration_seg": "3.8"
       },
       {
         "name": "earthquake",
         "type": "ground",
-        "base-damage": "120",
-        "energy": "-100",
-        "move-duration-seg": "3.6"
+        "base_damage": "120",
+        "energy": "_100",
+        "move_duration_seg": "3.6"
       },
       {
         "name": "heavy slam",
         "type": "steel",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2.1"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2.1"
       },
       {
         "name": "body slam",
         "type": "normal",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       }
     ],
     "egg": "10 km",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "snorlax candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "446",
         "name": "munchlax",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -14091,22 +14091,22 @@ export default {
       "height": "1.70 m",
       "weight": "55.4 kg"
     },
-    "pokemon-rarity": "legendary",
+    "pokemon_rarity": "legendary",
     "type": [
       "ice",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.03"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.03"
     },
-    "spawn-chance": "0",
+    "spawn_chance": "0",
     "stats": {
-      "base-attack": "192",
-      "base-defense": "236",
-      "base-stamina": "207",
-      "max-cp": "3051",
-      "max-hp": "175"
+      "base_attack": "192",
+      "base_defense": "236",
+      "base_stamina": "207",
+      "max_cp": "3051",
+      "max_hp": "175"
     },
     "resistant": [
       "grass",
@@ -14119,39 +14119,39 @@ export default {
       "rock",
       "steel"
     ],
-    "quick-move": [
+    "quick_move": [
       {
       "name": "frost breath",
       "type": "ice",
-      "base-damage": "10",
+      "base_damage": "10",
       "energy": "8",
-      "move-duration-seg": "0.9"
+      "move_duration_seg": "0.9"
     }],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "ice beam",
         "type": "ice",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "3.3"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "icy wind",
         "type": "ice",
-        "base-damage": "60",
-        "energy": "-33",
-        "move-duration-seg": "3.3"
+        "base_damage": "60",
+        "energy": "_33",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "blizzard",
         "type": "ice",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.1"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.1"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "20",
+    "buddy_distance_km": "20",
     "evolution": {
       "candy": "articuno candy"
     }
@@ -14169,22 +14169,22 @@ export default {
       "height": "1.60 m",
       "weight": "52.6 kg"
     },
-    "pokemon-rarity": "legendary",
+    "pokemon_rarity": "legendary",
     "type": [
       "electric",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.03"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.03"
     },
-    "spawn-chance": "0",
+    "spawn_chance": "0",
     "stats": {
-      "base-attack": "253",
-      "base-defense": "185",
-      "base-stamina": "207",
-      "max-cp": "3527",
-      "max-hp": "175"
+      "base_attack": "253",
+      "base_defense": "185",
+      "base_stamina": "207",
+      "max_cp": "3527",
+      "max_hp": "175"
     },
     "resistant": [
       "grass",
@@ -14197,47 +14197,47 @@ export default {
       "ice",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "charge beam",
         "type": "electric",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "15",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "volt switch",
         "type": "electric",
-        "base-damage": "20",
+        "base_damage": "20",
         "energy": "25",
-        "move-duration-seg": "2.3"
+        "move_duration_seg": "2.3"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "zap cannon",
         "type": "electric",
-        "base-damage": "140",
-        "energy": "-100",
-        "move-duration-seg": "3.7"
+        "base_damage": "140",
+        "energy": "_100",
+        "move_duration_seg": "3.7"
       },
       {
         "name": "thunderbolt",
         "type": "electric",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.5"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.5"
       },
       {
         "name": "thunder",
         "type": "electric",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.4"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.4"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "20",
+    "buddy_distance_km": "20",
     "evolution": {
       "candy": "zapdos candy"
     }
@@ -14255,22 +14255,22 @@ export default {
       "height": "2.01 m",
       "weight": "60.0 kg"
     },
-    "pokemon-rarity": "legendary",
+    "pokemon_rarity": "legendary",
     "type": [
       "fire",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.03"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.03"
     },
-    "spawn-chance": "0",
+    "spawn_chance": "0",
     "stats": {
-      "base-attack": "251",
-      "base-defense": "181",
-      "base-stamina": "207",
-      "max-cp": "3465",
-      "max-hp": "175"
+      "base_attack": "251",
+      "base_defense": "181",
+      "base_stamina": "207",
+      "max_cp": "3465",
+      "max_hp": "175"
     },
     "resistant": [
       "fire",
@@ -14284,39 +14284,39 @@ export default {
       "electric",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
       "name": "fire spin",
       "type": "fire",
-      "base-damage": "14",
+      "base_damage": "14",
       "energy": "10",
-      "move-duration-seg": "1.1"
+      "move_duration_seg": "1.1"
     }],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "fire blast",
         "type": "fire",
-        "base-damage": "140",
-        "energy": "-100",
-        "move-duration-seg": "4.2"
+        "base_damage": "140",
+        "energy": "_100",
+        "move_duration_seg": "4.2"
       },
       {
         "name": "heat wave",
         "type": "fire",
-        "base-damage": "95",
-        "energy": "-100",
-        "move-duration-seg": "3"
+        "base_damage": "95",
+        "energy": "_100",
+        "move_duration_seg": "3"
       },
       {
         "name": "overheat",
         "type": "fire",
-        "base-damage": "160",
-        "energy": "-100",
-        "move-duration-seg": "4"
+        "base_damage": "160",
+        "energy": "_100",
+        "move_duration_seg": "4"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "20",
+    "buddy_distance_km": "20",
     "evolution": {
       "candy": "moltres candy"
     }
@@ -14334,21 +14334,21 @@ export default {
       "height": "1.80 m",
       "weight": "3.3 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "dragon"
     ],
     "encounter": {
-      "base-flee-rate": "0.09",
-      "base-capture-rate": "0.4"
+      "base_flee_rate": "0.09",
+      "base_capture_rate": "0.4"
     },
-    "spawn-chance": "0.3",
+    "spawn_chance": "0.3",
     "stats": {
-      "base-attack": "119",
-      "base-defense": "91",
-      "base-stamina": "121",
-      "max-cp": "1004",
-      "max-hp": "107"
+      "base_attack": "119",
+      "base_defense": "91",
+      "base_stamina": "121",
+      "max_cp": "1004",
+      "max_hp": "107"
     },
     "resistant": [
       "fire",
@@ -14361,57 +14361,57 @@ export default {
       "dragon",
       "fairy"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "dragon breath",
         "type": "dragon",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "iron tail",
         "type": "steel",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "7",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "wrap",
         "type": "normal",
-        "base-damage": "60",
-        "energy": "-33",
-        "move-duration-seg": "2.9"
+        "base_damage": "60",
+        "energy": "_33",
+        "move_duration_seg": "2.9"
       },
       {
         "name": "twister",
         "type": "dragon",
-        "base-damage": "45",
-        "energy": "-33",
-        "move-duration-seg": "2.8"
+        "base_damage": "45",
+        "energy": "_33",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "aqua tail",
         "type": "water",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       }
     ],
     "egg": "10 km",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "dratini candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "148",
         "name": "dragonair",
-        "candy-cost": "25",
-        "next-evolution": [{
+        "candy_cost": "25",
+        "next_evolution": [{
           "num": "149",
           "name": "dragonite",
-          "candy-cost": "100"
+          "candy_cost": "100"
         }]
       }]
     }
@@ -14429,21 +14429,21 @@ export default {
       "height": "3.99 m",
       "weight": "16.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "dragon"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.1"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.1"
     },
-    "spawn-chance": "0.02",
+    "spawn_chance": "0.02",
     "stats": {
-      "base-attack": "163",
-      "base-defense": "135",
-      "base-stamina": "156",
-      "max-cp": "1780",
-      "max-hp": "135"
+      "base_attack": "163",
+      "base_defense": "135",
+      "base_stamina": "156",
+      "max_cp": "1780",
+      "max_hp": "135"
     },
     "resistant": [
       "fire",
@@ -14456,58 +14456,58 @@ export default {
       "dragon",
       "fairy"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "dragon breath",
         "type": "dragon",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "iron tail",
         "type": "steel",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "7",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "wrap",
         "type": "normal",
-        "base-damage": "60",
-        "energy": "-33",
-        "move-duration-seg": "2.9"
+        "base_damage": "60",
+        "energy": "_33",
+        "move_duration_seg": "2.9"
       },
       {
         "name": "aqua tail",
         "type": "water",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "dragon pulse",
         "type": "dragon",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "3.6"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "3.6"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "dratini candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "149",
         "name": "dragonite",
-        "candy-cost": "100"
+        "candy_cost": "100"
       }],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "147",
         "name": "dratini",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -14524,22 +14524,22 @@ export default {
       "height": "2.21 m",
       "weight": "210.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "dragon",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.05"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.05"
     },
-    "spawn-chance": "0.0011",
+    "spawn_chance": "0.0011",
     "stats": {
-      "base-attack": "263",
-      "base-defense": "198",
-      "base-stamina": "209",
-      "max-cp": "3792",
-      "max-hp": "177"
+      "base_attack": "263",
+      "base_defense": "198",
+      "base_stamina": "209",
+      "max_cp": "3792",
+      "max_hp": "177"
     },
     "resistant": [
       "fire",
@@ -14554,78 +14554,78 @@ export default {
       "dragon",
       "fairy"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "steel wing",
         "type": "steel",
-        "base-damage": "11",
+        "base_damage": "11",
         "energy": "6",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       },
       {
         "name": "dragon tail",
         "type": "dragon",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "9",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "dragon breath",
         "type": "dragon",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "hyper beam",
         "type": "normal",
-        "base-damage": "150",
-        "energy": "-100",
-        "move-duration-seg": "3.8"
+        "base_damage": "150",
+        "energy": "_100",
+        "move_duration_seg": "3.8"
       },
       {
         "name": "hurricane",
         "type": "flying",
-        "base-damage": "110",
-        "energy": "-100",
-        "move-duration-seg": "2.7"
+        "base_damage": "110",
+        "energy": "_100",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "outrage",
         "type": "dragon",
-        "base-damage": "110",
-        "energy": "-50",
-        "move-duration-seg": "3.9"
+        "base_damage": "110",
+        "energy": "_50",
+        "move_duration_seg": "3.9"
       },
       {
         "name": "dragon claw",
         "type": "dragon",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.7"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.7"
       },
       {
         "name": "dragon pulse",
         "type": "dragon",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "3.6"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "3.6"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "dratini candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "148",
         "name": "dragonair",
-        "candy-cost": "100",
-        "prev-evolution": [{
+        "candy_cost": "100",
+        "prev_evolution": [{
           "num": "147",
           "name": "dratini",
-          "candy-cost": "25"
+          "candy_cost": "25"
         }]
       }]
     }
@@ -14643,21 +14643,21 @@ export default {
       "height": "2.01 m",
       "weight": "122.0 kg"
     },
-    "pokemon-rarity": "legendary",
+    "pokemon_rarity": "legendary",
     "type": [
       "psychic"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.06"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.06"
     },
-    "spawn-chance": "0",
+    "spawn_chance": "0",
     "stats": {
-      "base-attack": "300",
-      "base-defense": "182",
-      "base-stamina": "214",
-      "max-cp": "4178",
-      "max-hp": "180"
+      "base_attack": "300",
+      "base_defense": "182",
+      "base_stamina": "214",
+      "max_cp": "4178",
+      "max_hp": "180"
     },
     "resistant": [
       "fighting",
@@ -14668,54 +14668,54 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "psycho cut",
         "type": "psychic",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "8",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "confusion",
         "type": "psychic",
-        "base-damage": "20",
+        "base_damage": "20",
         "energy": "15",
-        "move-duration-seg": "1.6"
+        "move_duration_seg": "1.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "psychic",
         "type": "psychic",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.8"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "shadow ball",
         "type": "ghost",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "3"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "3"
       },
       {
         "name": "hyper beam",
         "type": "normal",
-        "base-damage": "150",
-        "energy": "-100",
-        "move-duration-seg": "3.8"
+        "base_damage": "150",
+        "energy": "_100",
+        "move_duration_seg": "3.8"
       },
       {
         "name": "focus blast",
         "type": "fight",
-        "base-damage": "140",
-        "energy": "-100",
-        "move-duration-seg": "3.5"
+        "base_damage": "140",
+        "energy": "_100",
+        "move_duration_seg": "3.5"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "20",
+    "buddy_distance_km": "20",
     "evolution": {
       "candy": "mewtwo candy"
     }
@@ -14733,21 +14733,21 @@ export default {
       "height": "0.41 m",
       "weight": "4.0 kg"
     },
-    "pokemon-rarity": "mythic",
+    "pokemon_rarity": "mythic",
     "type": [
       "psychic"
     ],
     "encounter": {
-      "base-flee-rate": "0",
-      "base-capture-rate": "100"
+      "base_flee_rate": "0",
+      "base_capture_rate": "100"
     },
-    "spawn-chance": "0",
+    "spawn_chance": "0",
     "stats": {
-      "base-attack": "210",
-      "base-defense": "210",
-      "base-stamina": "225",
-      "max-cp": "3265",
-      "max-hp": "189"
+      "base_attack": "210",
+      "base_defense": "210",
+      "base_stamina": "225",
+      "max_cp": "3265",
+      "max_hp": "189"
     },
     "resistant": [
       "fighting",
@@ -14758,74 +14758,74 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quick_move": [
       {
       "name": "pound",
       "type": "normal",
-      "base-damage": "7",
+      "base_damage": "7",
       "energy": "6",
-      "move-duration-seg": "0.6"
+      "move_duration_seg": "0.6"
     }],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "blizzard",
         "type": "ice",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.1"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.1"
       },
       {
         "name": "earthquake",
         "type": "ground",
-        "base-damage": "120",
-        "energy": "-100",
-        "move-duration-seg": "3.6"
+        "base_damage": "120",
+        "energy": "_100",
+        "move_duration_seg": "3.6"
       },
       {
         "name": "psychic",
         "type": "psychic",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.8"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "focus blast",
         "type": "fight",
-        "base-damage": "140",
-        "energy": "-100",
-        "move-duration-seg": "3.5"
+        "base_damage": "140",
+        "energy": "_100",
+        "move_duration_seg": "3.5"
       },
       {
         "name": "thunder",
         "type": "electric",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.4"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.4"
       },
       {
         "name": "fire blast",
         "type": "fire",
-        "base-damage": "140",
-        "energy": "-100",
-        "move-duration-seg": "4.2"
+        "base_damage": "140",
+        "energy": "_100",
+        "move_duration_seg": "4.2"
       },
       {
         "name": "solar beam",
         "type": "grass",
-        "base-damage": "180",
-        "energy": "-100",
-        "move-duration-seg": "4.9"
+        "base_damage": "180",
+        "energy": "_100",
+        "move_duration_seg": "4.9"
       },
       {
         "name": "hyper beam",
         "type": "normal",
-        "base-damage": "150",
-        "energy": "-100",
-        "move-duration-seg": "3.8"
+        "base_damage": "150",
+        "energy": "_100",
+        "move_duration_seg": "3.8"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "20",
+    "buddy_distance_km": "20",
     "evolution": {
       "candy": "mew candy"
     }
@@ -14843,21 +14843,21 @@ export default {
       "height": "0.89 m",
       "weight": "6.4 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "grass"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "92",
-      "base-defense": "122",
-      "base-stamina": "128",
-      "max-cp": "935",
-      "max-hp": "113"
+      "base_attack": "92",
+      "base_defense": "122",
+      "base_stamina": "128",
+      "max_cp": "935",
+      "max_hp": "113"
     },
     "resistant": [
       "water",
@@ -14871,57 +14871,57 @@ export default {
       "poison",
       "flying"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "vine whip",
         "type": "grass",
-        "base-damage": "7",
+        "base_damage": "7",
         "energy": "6",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "energy ball",
         "type": "grass",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "3.9"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "3.9"
       },
       {
         "name": "grass knot",
         "type": "grass",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.6"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.6"
       },
       {
         "name": "body slam",
         "type": "normal",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       }
     ],
     "egg": "2 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "chikorita candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "153",
         "name": "bayleef",
-        "candy-cost": "25",
-        "next-evolution": [{
+        "candy_cost": "25",
+        "next_evolution": [{
           "num": "154",
           "name": "meganium",
-          "candy-cost": "100"
+          "candy_cost": "100"
         }]
       }]
     }
@@ -14933,27 +14933,27 @@ export default {
       "num": "generation ii",
       "name": "johto"
     },
-    "about": "Bayleef's neck is ringed by curled-up leaves. Inside each tubular leaf is a small shoot of a tree. The fragrance of this shoot makes people peppy.",
+    "about": "Bayleef's neck is ringed by curled_up leaves. Inside each tubular leaf is a small shoot of a tree. The fragrance of this shoot makes people peppy.",
     "img": "https://www.serebii.net/pokemongo/pokemon/153.png",
     "size": {
       "height": "1.19 m",
       "weight": "15.8 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "grass"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.125"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.125"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "122",
-      "base-defense": "155",
-      "base-stamina": "155",
-      "max-cp": "1454",
-      "max-hp": "134"
+      "base_attack": "122",
+      "base_defense": "155",
+      "base_stamina": "155",
+      "max_cp": "1454",
+      "max_hp": "134"
     },
     "resistant": [
       "water",
@@ -14967,58 +14967,58 @@ export default {
       "poison",
       "flying"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "razor leaf",
         "type": "grass",
-        "base-damage": "13",
+        "base_damage": "13",
         "energy": "7",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "energy ball",
         "type": "grass",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "3.9"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "3.9"
       },
       {
         "name": "grass knot",
         "type": "grass",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.6"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.6"
       },
       {
         "name": "ancient power",
         "type": "rock",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.5"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.5"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "chikorita candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "154",
         "name": "meganium",
-        "candy-cost": "100"
+        "candy_cost": "100"
       }],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "152",
         "name": "chikorita",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -15035,21 +15035,21 @@ export default {
       "height": "1.80 m",
       "weight": "100.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "grass"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.05"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.05"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "168",
-      "base-defense": "202",
-      "base-stamina": "190",
-      "max-cp": "2410",
-      "max-hp": "162"
+      "base_attack": "168",
+      "base_defense": "202",
+      "base_stamina": "190",
+      "max_cp": "2410",
+      "max_hp": "162"
     },
     "resistant": [
       "water",
@@ -15063,57 +15063,57 @@ export default {
       "poison",
       "flying"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "razor leaf",
         "type": "grass",
-        "base-damage": "13",
+        "base_damage": "13",
         "energy": "7",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "vine whip",
         "type": "grass",
-        "base-damage": "7",
+        "base_damage": "7",
         "energy": "6",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "petal blizzard",
         "type": "grass",
-        "base-damage": "110",
-        "energy": "-100",
-        "move-duration-seg": "2.6"
+        "base_damage": "110",
+        "energy": "_100",
+        "move_duration_seg": "2.6"
       },
       {
         "name": "solar beam",
         "type": "grass",
-        "base-damage": "180",
-        "energy": "-100",
-        "move-duration-seg": "4.9"
+        "base_damage": "180",
+        "energy": "_100",
+        "move_duration_seg": "4.9"
       },
       {
         "name": "earthquake",
         "type": "ground",
-        "base-damage": "120",
-        "energy": "-100",
-        "move-duration-seg": "3.6"
+        "base_damage": "120",
+        "energy": "_100",
+        "move_duration_seg": "3.6"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "chikorita candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "153",
         "name": "bayleef",
-        "candy-cost": "100",
-        "prev-evolution": [{
+        "candy_cost": "100",
+        "prev_evolution": [{
           "num": "152",
           "name": "chikorita",
-          "candy-cost": "25"
+          "candy_cost": "25"
         }]
       }]
     }
@@ -15131,21 +15131,21 @@ export default {
       "height": "0.51 m",
       "weight": "7.9 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "fire"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "116",
-      "base-defense": "93",
-      "base-stamina": "118",
-      "max-cp": "980",
-      "max-hp": "105"
+      "base_attack": "116",
+      "base_defense": "93",
+      "base_stamina": "118",
+      "max_cp": "980",
+      "max_hp": "105"
     },
     "resistant": [
       "fire",
@@ -15159,57 +15159,57 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "ember",
         "type": "fire",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "10",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "flame charge",
         "type": "fire",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.8"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.8"
       },
       {
         "name": "swift",
         "type": "normal",
-        "base-damage": "60",
-        "energy": "-50",
-        "move-duration-seg": "2.8"
+        "base_damage": "60",
+        "energy": "_50",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "flamethrower",
         "type": "fire",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2.2"
       }
     ],
     "egg": "2 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "cyndaquil candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "156",
         "name": "quilava",
-        "candy-cost": "25",
-        "next-evolution": [{
+        "candy_cost": "25",
+        "next_evolution": [{
           "num": "157",
           "name": "typhlosion",
-          "candy-cost": "100"
+          "candy_cost": "100"
         }]
       }]
     }
@@ -15227,21 +15227,21 @@ export default {
       "height": "0.89 m",
       "weight": "19.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "fire"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.125"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.125"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "158",
-      "base-defense": "126",
-      "base-stamina": "151",
-      "max-cp": "1653",
-      "max-hp": "131"
+      "base_attack": "158",
+      "base_defense": "126",
+      "base_stamina": "151",
+      "max_cp": "1653",
+      "max_hp": "131"
     },
     "resistant": [
       "fire",
@@ -15255,58 +15255,58 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "ember",
         "type": "fire",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "10",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "flame charge",
         "type": "fire",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.8"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.8"
       },
       {
         "name": "dig",
         "type": "ground",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "4.7"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "4.7"
       },
       {
         "name": "flamethrower",
         "type": "fire",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2.2"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "cyndaquil candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "157",
         "name": "typhlosion",
-        "candy-cost": "100"
+        "candy_cost": "100"
       }],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "155",
         "name": "cyndaquil",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -15323,21 +15323,21 @@ export default {
       "height": "1.70 m",
       "weight": "79.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "fire"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.05"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.05"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "223",
-      "base-defense": "173",
-      "base-stamina": "186",
-      "max-cp": "2889",
-      "max-hp": "158"
+      "base_attack": "223",
+      "base_defense": "173",
+      "base_stamina": "186",
+      "max_cp": "2889",
+      "max_hp": "158"
     },
     "resistant": [
       "fire",
@@ -15351,57 +15351,57 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "ember",
         "type": "fire",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "10",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "shadow claw",
         "type": "ghost",
-        "base-damage": "9",
+        "base_damage": "9",
         "energy": "6",
-        "move-duration-seg": "0.7"
+        "move_duration_seg": "0.7"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "fire blast",
         "type": "fire",
-        "base-damage": "140",
-        "energy": "-100",
-        "move-duration-seg": "4.2"
+        "base_damage": "140",
+        "energy": "_100",
+        "move_duration_seg": "4.2"
       },
       {
         "name": "overheat",
         "type": "fire",
-        "base-damage": "160",
-        "energy": "-100",
-        "move-duration-seg": "4"
+        "base_damage": "160",
+        "energy": "_100",
+        "move_duration_seg": "4"
       },
       {
         "name": "solar beam",
         "type": "grass",
-        "base-damage": "180",
-        "energy": "-100",
-        "move-duration-seg": "4.9"
+        "base_damage": "180",
+        "energy": "_100",
+        "move_duration_seg": "4.9"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "cyndaquil candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "156",
         "name": "quilava",
-        "candy-cost": "100",
-        "prev-evolution": [{
+        "candy_cost": "100",
+        "prev_evolution": [{
           "num": "155",
           "name": "cyndaquil",
-          "candy-cost": "25"
+          "candy_cost": "25"
         }]
       }]
     }
@@ -15419,21 +15419,21 @@ export default {
       "height": "0.61 m",
       "weight": "9.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "117",
-      "base-defense": "109",
-      "base-stamina": "137",
-      "max-cp": "1131",
-      "max-hp": "120"
+      "base_attack": "117",
+      "base_defense": "109",
+      "base_stamina": "137",
+      "max_cp": "1131",
+      "max_hp": "120"
     },
     "resistant": [
       "fire",
@@ -15445,57 +15445,57 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "water gun",
         "type": "water",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "scratch",
         "type": "normal",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "crunch",
         "type": "dark",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "aqua jet",
         "type": "water",
-        "base-damage": "45",
-        "energy": "-33",
-        "move-duration-seg": "2.6"
+        "base_damage": "45",
+        "energy": "_33",
+        "move_duration_seg": "2.6"
       },
       {
         "name": "water pulse",
         "type": "water",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       }
     ],
     "egg": "2 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "totodile candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "159",
         "name": "croconaw",
-        "candy-cost": "25",
-        "next-evolution": [{
+        "candy_cost": "25",
+        "next_evolution": [{
           "num": "160",
           "name": "feraligatr",
-          "candy-cost": "100"
+          "candy_cost": "100"
         }]
       }]
     }
@@ -15513,21 +15513,21 @@ export default {
       "height": "1.09 m",
       "weight": "25.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.125"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.125"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "150",
-      "base-defense": "142",
-      "base-stamina": "163",
-      "max-cp": "1722",
-      "max-hp": "140"
+      "base_attack": "150",
+      "base_defense": "142",
+      "base_stamina": "163",
+      "max_cp": "1722",
+      "max_hp": "140"
     },
     "resistant": [
       "fire",
@@ -15539,58 +15539,58 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "water gun",
         "type": "water",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "scratch",
         "type": "normal",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "crunch",
         "type": "dark",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "ice punch",
         "type": "ice",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "water pulse",
         "type": "water",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "totodile candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "160",
         "name": "feraligatr",
-        "candy-cost": "100"
+        "candy_cost": "100"
       }],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "158",
         "name": "totodile",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -15607,21 +15607,21 @@ export default {
       "height": "2.31 m",
       "weight": "88.8 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.05"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.05"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "205",
-      "base-defense": "188",
-      "base-stamina": "198",
-      "max-cp": "2857",
-      "max-hp": "168"
+      "base_attack": "205",
+      "base_defense": "188",
+      "base_stamina": "198",
+      "max_cp": "2857",
+      "max_hp": "168"
     },
     "resistant": [
       "fire",
@@ -15633,57 +15633,57 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "water gun",
         "type": "water",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "bite",
         "type": "dark",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "crunch",
         "type": "dark",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "hydro pump",
         "type": "water",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.3"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "ice beam",
         "type": "ice",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "3.3"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "3.3"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "totodile candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "159",
         "name": "croconaw",
-        "candy-cost": "100",
-        "prev-evolution": [{
+        "candy_cost": "100",
+        "prev_evolution": [{
           "num": "158",
           "name": "totodile",
-          "candy-cost": "25"
+          "candy_cost": "25"
         }]
       }]
     }
@@ -15701,21 +15701,21 @@ export default {
       "height": "0.79 m",
       "weight": "6.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal"
     ],
     "encounter": {
-      "base-flee-rate": "0.2",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.2",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "79",
-      "base-defense": "73",
-      "base-stamina": "111",
-      "max-cp": "618",
-      "max-hp": "99"
+      "base_attack": "79",
+      "base_defense": "73",
+      "base_stamina": "111",
+      "max_cp": "618",
+      "max_hp": "99"
     },
     "resistant": [
       "ghost"
@@ -15723,53 +15723,53 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "scratch",
         "type": "normal",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "quick attack",
         "type": "normal",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "10",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "dig",
         "type": "ground",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "4.7"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "4.7"
       },
       {
         "name": "brick break",
         "type": "fight",
-        "base-damage": "40",
-        "energy": "-33",
-        "move-duration-seg": "1.6"
+        "base_damage": "40",
+        "energy": "_33",
+        "move_duration_seg": "1.6"
       },
       {
         "name": "grass knot",
         "type": "grass",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.6"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.6"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "sentret candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "162",
         "name": "furret",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -15786,21 +15786,21 @@ export default {
       "height": "1.80 m",
       "weight": "32.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.15"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.15"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "148",
-      "base-defense": "125",
-      "base-stamina": "198",
-      "max-cp": "1758",
-      "max-hp": "168"
+      "base_attack": "148",
+      "base_defense": "125",
+      "base_stamina": "198",
+      "max_cp": "1758",
+      "max_hp": "168"
     },
     "resistant": [
       "ghost"
@@ -15808,53 +15808,53 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "quick attack",
         "type": "normal",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "10",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       },
       {
         "name": "sucker punch",
         "type": "dark",
-        "base-damage": "7",
+        "base_damage": "7",
         "energy": "8",
-        "move-duration-seg": "0.7"
+        "move_duration_seg": "0.7"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "dig",
         "type": "ground",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "4.7"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "4.7"
       },
       {
         "name": "brick break",
         "type": "fight",
-        "base-damage": "40",
-        "energy": "-33",
-        "move-duration-seg": "1.6"
+        "base_damage": "40",
+        "energy": "_33",
+        "move_duration_seg": "1.6"
       },
       {
         "name": "hyper beam",
         "type": "normal",
-        "base-damage": "150",
-        "energy": "-100",
-        "move-duration-seg": "3.8"
+        "base_damage": "150",
+        "energy": "_100",
+        "move_duration_seg": "3.8"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "sentret candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "161",
         "name": "sentret",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -15871,22 +15871,22 @@ export default {
       "height": "0.71 m",
       "weight": "21.2 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.15",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.15",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "67",
-      "base-defense": "88",
-      "base-stamina": "155",
-      "max-cp": "677",
-      "max-hp": "134"
+      "base_attack": "67",
+      "base_defense": "88",
+      "base_stamina": "155",
+      "max_cp": "677",
+      "max_hp": "134"
     },
     "resistant": [
       "grass",
@@ -15899,38 +15899,38 @@ export default {
       "ice",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "feint attack",
         "type": "dark",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "9",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       },
       {
         "name": "peck",
         "type": "flying",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "10",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
       "name": "blizzard",
       "type": "ice",
-      "base-damage": "130",
-      "energy": "-100",
-      "move-duration-seg": "3.1"
+      "base_damage": "130",
+      "energy": "_100",
+      "move_duration_seg": "3.1"
     }],
     "egg": "not in eggs",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "hoothoot candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "164",
         "name": "noctowl",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -15947,22 +15947,22 @@ export default {
       "height": "1.60 m",
       "weight": "40.8 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.15"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.15"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "145",
-      "base-defense": "156",
-      "base-stamina": "225",
-      "max-cp": "2024",
-      "max-hp": "189"
+      "base_attack": "145",
+      "base_defense": "156",
+      "base_stamina": "225",
+      "max_cp": "2024",
+      "max_hp": "189"
     },
     "resistant": [
       "grass",
@@ -15975,53 +15975,53 @@ export default {
       "ice",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "wing attack",
         "type": "flying",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "9",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       },
       {
         "name": "extrasensory",
         "type": "psychic",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "12",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "psychic",
         "type": "psychic",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.8"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "sky attack",
         "type": "flying",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2"
       },
       {
         "name": "night shade",
         "type": "ghost",
-        "base-damage": "60",
-        "energy": "-50",
-        "move-duration-seg": "2.6"
+        "base_damage": "60",
+        "energy": "_50",
+        "move_duration_seg": "2.6"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "hoothoot candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "163",
         "name": "hoothoot",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -16038,22 +16038,22 @@ export default {
       "height": "0.99 m",
       "weight": "10.8 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "bug",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.2",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.2",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "72",
-      "base-defense": "118",
-      "base-stamina": "120",
-      "max-cp": "728",
-      "max-hp": "106"
+      "base_attack": "72",
+      "base_defense": "118",
+      "base_stamina": "120",
+      "max_cp": "728",
+      "max_hp": "106"
     },
     "resistant": [
       "grass",
@@ -16067,53 +16067,53 @@ export default {
       "ice",
       "flying"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "bug bite",
         "type": "bug",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "6",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "silver wind",
         "type": "bug",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.7"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.7"
       },
       {
         "name": "swift",
         "type": "normal",
-        "base-damage": "60",
-        "energy": "-50",
-        "move-duration-seg": "2.8"
+        "base_damage": "60",
+        "energy": "_50",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "aerial ace",
         "type": "flying",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.4"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.4"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "ledyba candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "166",
         "name": "ledian",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -16124,28 +16124,28 @@ export default {
       "num": "generation ii",
       "name": "johto"
     },
-    "about": "It is said that in lands with clean air, where the stars fill the sky, there live Ledian in countless numbers. There is a good reason for this-the Pokémon uses the light of the stars as its energy.",
+    "about": "It is said that in lands with clean air, where the stars fill the sky, there live Ledian in countless numbers. There is a good reason for this_the Pokémon uses the light of the stars as its energy.",
     "img": "https://www.serebii.net/pokemongo/pokemon/166.png",
     "size": {
       "height": "1.40 m",
       "weight": "35.6 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "bug",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.15"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.15"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "107",
-      "base-defense": "179",
-      "base-stamina": "146",
-      "max-cp": "1346",
-      "max-hp": "127"
+      "base_attack": "107",
+      "base_defense": "179",
+      "base_stamina": "146",
+      "max_cp": "1346",
+      "max_hp": "127"
     },
     "resistant": [
       "grass",
@@ -16159,53 +16159,53 @@ export default {
       "ice",
       "flying"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "struggle bug",
         "type": "bug",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "15",
-        "move-duration-seg": "1.5"
+        "move_duration_seg": "1.5"
       },
       {
         "name": "bug bite",
         "type": "bug",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "6",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "bug buzz",
         "type": "bug",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "3.7"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "3.7"
       },
       {
         "name": "silver wind",
         "type": "bug",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.7"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.7"
       },
       {
         "name": "aerial ace",
         "type": "flying",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.4"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.4"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "ledyba candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "165",
         "name": "ledyba",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -16222,22 +16222,22 @@ export default {
       "height": "0.51 m",
       "weight": "8.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "bug",
       "poison"
     ],
     "encounter": {
-      "base-flee-rate": "0.2",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.2",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "105",
-      "base-defense": "73",
-      "base-stamina": "120",
-      "max-cp": "816",
-      "max-hp": "106"
+      "base_attack": "105",
+      "base_defense": "73",
+      "base_stamina": "120",
+      "max_cp": "816",
+      "max_hp": "106"
     },
     "resistant": [
       "grass",
@@ -16252,53 +16252,53 @@ export default {
       "psychic",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "poison sting",
         "type": "poison",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "7",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "bug bite",
         "type": "bug",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "6",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "night slash",
         "type": "dark",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "2.2"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "2.2"
       },
       {
         "name": "signal beam",
         "type": "bug",
-        "base-damage": "75",
-        "energy": "-50",
-        "move-duration-seg": "2.9"
+        "base_damage": "75",
+        "energy": "_50",
+        "move_duration_seg": "2.9"
       },
       {
         "name": "cross poison",
         "type": "poison",
-        "base-damage": "40",
-        "energy": "-33",
-        "move-duration-seg": "1.5"
+        "base_damage": "40",
+        "energy": "_33",
+        "move_duration_seg": "1.5"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "spinarak candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "168",
         "name": "ariados",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -16315,22 +16315,22 @@ export default {
       "height": "1.09 m",
       "weight": "33.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "bug",
       "poison"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.15"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.15"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "161",
-      "base-defense": "124",
-      "base-stamina": "172",
-      "max-cp": "1772",
-      "max-hp": "147"
+      "base_attack": "161",
+      "base_defense": "124",
+      "base_stamina": "172",
+      "max_cp": "1772",
+      "max_hp": "147"
     },
     "resistant": [
       "grass",
@@ -16345,53 +16345,53 @@ export default {
       "psychic",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "poison sting",
         "type": "poison",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "7",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "infestation",
         "type": "bug",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "14",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "shadow sneak",
         "type": "ghost",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "2.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "2.9"
       },
       {
         "name": "megahorn",
         "type": "bug",
-        "base-damage": "90",
-        "energy": "-100",
-        "move-duration-seg": "2.2"
+        "base_damage": "90",
+        "energy": "_100",
+        "move_duration_seg": "2.2"
       },
       {
         "name": "cross poison",
         "type": "poison",
-        "base-damage": "40",
-        "energy": "-33",
-        "move-duration-seg": "1.5"
+        "base_damage": "40",
+        "energy": "_33",
+        "move_duration_seg": "1.5"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "spinarak candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "167",
         "name": "spinarak",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -16408,22 +16408,22 @@ export default {
       "height": "1.80 m",
       "weight": "75.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "poison",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.1"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.1"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "194",
-      "base-defense": "178",
-      "base-stamina": "198",
-      "max-cp": "2646",
-      "max-hp": "168"
+      "base_attack": "194",
+      "base_defense": "178",
+      "base_stamina": "198",
+      "max_cp": "2646",
+      "max_hp": "168"
     },
     "resistant": [
       "grass",
@@ -16438,57 +16438,57 @@ export default {
       "psychic",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "air slash",
         "type": "flying",
-        "base-damage": "14",
+        "base_damage": "14",
         "energy": "10",
-        "move-duration-seg": "1.2"
+        "move_duration_seg": "1.2"
       },
       {
         "name": "bite",
         "type": "dark",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "shadow ball",
         "type": "ghost",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "3"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "3"
       },
       {
         "name": "air cutter",
         "type": "flying",
-        "base-damage": "60",
-        "energy": "-50",
-        "move-duration-seg": "2.7"
+        "base_damage": "60",
+        "energy": "_50",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "sludge bomb",
         "type": "poison",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.3"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "zubat candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "042",
         "name": "golbat",
-        "candy-cost": "100",
-        "prev-evolution": [{
+        "candy_cost": "100",
+        "prev_evolution": [{
           "num": "041",
           "name": "zubat",
-          "candy-cost": "25"
+          "candy_cost": "25"
         }]
       }]
     }
@@ -16506,22 +16506,22 @@ export default {
       "height": "0.51 m",
       "weight": "12.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water",
       "electric"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.4"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.4"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "106",
-      "base-defense": "97",
-      "base-stamina": "181",
-      "max-cp": "1119",
-      "max-hp": "154"
+      "base_attack": "106",
+      "base_defense": "97",
+      "base_stamina": "181",
+      "max_cp": "1119",
+      "max_hp": "154"
     },
     "resistant": [
       "fire",
@@ -16534,53 +16534,53 @@ export default {
       "grass",
       "ground"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "bubble",
         "type": "water",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "14",
-        "move-duration-seg": "1.2"
+        "move_duration_seg": "1.2"
       },
       {
         "name": "spark",
         "type": "electric",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "9",
-        "move-duration-seg": "0.7"
+        "move_duration_seg": "0.7"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "water pulse",
         "type": "water",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "thunderbolt",
         "type": "electric",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.5"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.5"
       },
       {
         "name": "bubble beam",
         "type": "water",
-        "base-damage": "45",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "45",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "chinchou candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "171",
         "name": "lanturn",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -16591,28 +16591,28 @@ export default {
       "num": "generation ii",
       "name": "johto"
     },
-    "about": "Lanturn is nicknamed \"the deep-sea star for its illuminated antenna. This Pokémon produces light by causing a chemical reaction between bacteria and its bodily fluids inside the antenna.",
+    "about": "Lanturn is nicknamed \"the deep_sea star for its illuminated antenna. This Pokémon produces light by causing a chemical reaction between bacteria and its bodily fluids inside the antenna.",
     "img": "https://www.serebii.net/pokemongo/pokemon/171.png",
     "size": {
       "height": "1.19 m",
       "weight": "22.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water",
       "electric"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.15"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.15"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "146",
-      "base-defense": "137",
-      "base-stamina": "268",
-      "max-cp": "2085",
-      "max-hp": "223"
+      "base_attack": "146",
+      "base_defense": "137",
+      "base_stamina": "268",
+      "max_cp": "2085",
+      "max_hp": "223"
     },
     "resistant": [
       "fire",
@@ -16625,53 +16625,53 @@ export default {
       "grass",
       "ground"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "water gun",
         "type": "water",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "charge beam",
         "type": "electric",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "15",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "hydro pump",
         "type": "water",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.3"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "thunderbolt",
         "type": "electric",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.5"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.5"
       },
       {
         "name": "thunder",
         "type": "electric",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.4"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.4"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "chinchou candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "170",
         "name": "chinchou",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -16688,21 +16688,21 @@ export default {
       "height": "0.30 m",
       "weight": "2.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "electric"
     ],
     "encounter": {
-      "base-flee-rate": "not in capture",
-      "base-capture-rate": "not in capture"
+      "base_flee_rate": "not in capture",
+      "base_capture_rate": "not in capture"
     },
-    "spawn-chance": "0",
+    "spawn_chance": "0",
     "stats": {
-      "base-attack": "77",
-      "base-defense": "53",
-      "base-stamina": "85",
-      "max-cp": "473",
-      "max-hp": "79"
+      "base_attack": "77",
+      "base_defense": "53",
+      "base_stamina": "85",
+      "max_cp": "473",
+      "max_hp": "79"
     },
     "resistant": [
       "electric",
@@ -16712,57 +16712,57 @@ export default {
     "weaknesses": [
       "ground"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "thunder shock",
         "type": "electric",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "8",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "quick attack",
         "type": "normal",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "10",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "thunderbolt",
         "type": "electric",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.5"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.5"
       },
       {
         "name": "disarming voice",
         "type": "fairy",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.9"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.9"
       },
       {
         "name": "thunder punch",
         "type": "electric",
-        "base-damage": "45",
-        "energy": "-33",
-        "move-duration-seg": "1.8"
+        "base_damage": "45",
+        "energy": "_33",
+        "move_duration_seg": "1.8"
       }
     ],
     "egg": "7 km",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "pikachu candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "025",
         "name": "pikachu",
-        "candy-cost": "25",
-        "next-evolution": [{
+        "candy_cost": "25",
+        "next_evolution": [{
           "num": "026",
           "name": "raichu",
-          "candy-cost": "50"
+          "candy_cost": "50"
         }]
       }]
     }
@@ -16780,21 +16780,21 @@ export default {
       "height": "0.30 m",
       "weight": "3.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "fairy"
     ],
     "encounter": {
-      "base-flee-rate": "not in capture",
-      "base-capture-rate": "not in capture"
+      "base_flee_rate": "not in capture",
+      "base_capture_rate": "not in capture"
     },
-    "spawn-chance": "0",
+    "spawn_chance": "0",
     "stats": {
-      "base-attack": "75",
-      "base-defense": "79",
-      "base-stamina": "137",
-      "max-cp": "671",
-      "max-hp": "120"
+      "base_attack": "75",
+      "base_defense": "79",
+      "base_stamina": "137",
+      "max_cp": "671",
+      "max_hp": "120"
     },
     "resistant": [
       "fighting",
@@ -16806,71 +16806,71 @@ export default {
       "poison",
       "steel"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "pound",
         "type": "normal",
-        "base-damage": "7",
+        "base_damage": "7",
         "energy": "6",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "zen headbutt",
         "type": "psychic",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "10",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "grass knot",
         "type": "grass",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.6"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.6"
       },
       {
         "name": "psyshock",
         "type": "psychic",
-        "base-damage": "65",
-        "energy": "-33",
-        "move-duration-seg": "2.7"
+        "base_damage": "65",
+        "energy": "_33",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "signal beam",
         "type": "bug",
-        "base-damage": "75",
-        "energy": "-50",
-        "move-duration-seg": "2.9"
+        "base_damage": "75",
+        "energy": "_50",
+        "move_duration_seg": "2.9"
       },
       {
         "name": "psychic",
         "type": "psychic",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.8"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "body slam",
         "type": "normal",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       }
     ],
     "egg": "7 km",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "clefairy candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "035",
         "name": "clefairy",
-        "candy-cost": "25",
-        "next-evolution": [{
+        "candy_cost": "25",
+        "next_evolution": [{
           "num": "036",
           "name": "clefable",
-          "candy-cost": "50"
+          "candy_cost": "50"
         }]
       }]
     }
@@ -16888,22 +16888,22 @@ export default {
       "height": "0.30 m",
       "weight": "1.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal",
       "fairy"
     ],
     "encounter": {
-      "base-flee-rate": "not in capture",
-      "base-capture-rate": "not in capture"
+      "base_flee_rate": "not in capture",
+      "base_capture_rate": "not in capture"
     },
-    "spawn-chance": "0",
+    "spawn_chance": "0",
     "stats": {
-      "base-attack": "69",
-      "base-defense": "32",
-      "base-stamina": "207",
-      "max-cp": "535",
-      "max-hp": "175"
+      "base_attack": "69",
+      "base_defense": "32",
+      "base_stamina": "207",
+      "max_cp": "535",
+      "max_hp": "175"
     },
     "resistant": [
       "bug",
@@ -16915,64 +16915,64 @@ export default {
       "poison",
       "steel"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "pound",
         "type": "normal",
-        "base-damage": "7",
+        "base_damage": "7",
         "energy": "6",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "feint attack",
         "type": "dark",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "9",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "wild charge",
         "type": "electric",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.6"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.6"
       },
       {
         "name": "shadow ball",
         "type": "ghost",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "3"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "3"
       },
       {
         "name": "psychic",
         "type": "psychic",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.8"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "body slam",
         "type": "normal",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       }
     ],
     "egg": "7 km",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "jigglypuff candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "039",
         "name": "jigglypuff",
-        "candy-cost": "25",
-        "next-evolution": [{
+        "candy_cost": "25",
+        "next_evolution": [{
           "num": "040",
           "name": "wigglytuff",
-          "candy-cost": "50"
+          "candy_cost": "50"
         }]
       }]
     }
@@ -16990,21 +16990,21 @@ export default {
       "height": "0.30 m",
       "weight": "1.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "fairy"
     ],
     "encounter": {
-      "base-flee-rate": "not in capture",
-      "base-capture-rate": "not in capture"
+      "base_flee_rate": "not in capture",
+      "base_capture_rate": "not in capture"
     },
-    "spawn-chance": "0",
+    "spawn_chance": "0",
     "stats": {
-      "base-attack": "67",
-      "base-defense": "116",
-      "base-stamina": "111",
-      "max-cp": "657",
-      "max-hp": "99"
+      "base_attack": "67",
+      "base_defense": "116",
+      "base_stamina": "111",
+      "max_cp": "657",
+      "max_hp": "99"
     },
     "resistant": [
       "fighting",
@@ -17016,67 +17016,67 @@ export default {
       "poison",
       "steel"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "hidden power",
         "type": "normal",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "15",
-        "move-duration-seg": "1.5"
+        "move_duration_seg": "1.5"
       },
       {
         "name": "peck",
         "type": "flying",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "10",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "zen headbutt",
         "type": "psychic",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "10",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "ancient power",
         "type": "rock",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.5"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.5"
       },
       {
         "name": "psyshock",
         "type": "psychic",
-        "base-damage": "65",
-        "energy": "-33",
-        "move-duration-seg": "2.7"
+        "base_damage": "65",
+        "energy": "_33",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "dazzling gleam",
         "type": "fairy",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "3.5"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "3.5"
       }
     ],
     "egg": "7 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "togepi candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "176",
         "name": "togetic",
-        "candy-cost": "50",
-        "next-evolution": [{
+        "candy_cost": "50",
+        "next_evolution": [{
           "num": "468",
           "name": "togekiss",
-          "candy-cost": "100",
-          "evolution-item": {
+          "candy_cost": "100",
+          "evolution_item": {
             "name": "sinnoh stone",
-            "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh-stone.png"
+            "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh_stone.png"
           }
         }]
       }]
@@ -17095,22 +17095,22 @@ export default {
       "height": "0.61 m",
       "weight": "3.2 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "fairy",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.05"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.05"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "139",
-      "base-defense": "181",
-      "base-stamina": "146",
-      "max-cp": "1708",
-      "max-hp": "127"
+      "base_attack": "139",
+      "base_defense": "181",
+      "base_stamina": "146",
+      "max_cp": "1708",
+      "max_hp": "127"
     },
     "resistant": [
       "grass",
@@ -17125,62 +17125,62 @@ export default {
       "poison",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "extrasensory",
         "type": "psychic",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "12",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "hidden power",
         "type": "normal",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "15",
-        "move-duration-seg": "1.5"
+        "move_duration_seg": "1.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "ancient power",
         "type": "rock",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.5"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.5"
       },
       {
         "name": "dazzling gleam",
         "type": "fairy",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "3.5"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "3.5"
       },
       {
         "name": "aerial ace",
         "type": "flying",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.4"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.4"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "togepi candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "468",
         "name": "togekiss",
-        "candy-cost": "100",
-        "evolution-item": {
+        "candy_cost": "100",
+        "evolution_item": {
           "name": "sinnoh stone",
-          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh-stone.png"
+          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh_stone.png"
         }
       }],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "175",
         "name": "togepi",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -17197,22 +17197,22 @@ export default {
       "height": "0.21 m",
       "weight": "2.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "psychic",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.15",
-      "base-capture-rate": "0.4"
+      "base_flee_rate": "0.15",
+      "base_capture_rate": "0.4"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "134",
-      "base-defense": "89",
-      "base-stamina": "120",
-      "max-cp": "1102",
-      "max-hp": "106"
+      "base_attack": "134",
+      "base_defense": "89",
+      "base_stamina": "120",
+      "max_cp": "1102",
+      "max_hp": "106"
     },
     "resistant": [
       "grass",
@@ -17226,53 +17226,53 @@ export default {
       "rock",
       "ghost"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "peck",
         "type": "flying",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "10",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "quick attack",
         "type": "normal",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "10",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "night shade",
         "type": "ghost",
-        "base-damage": "60",
-        "energy": "-50",
-        "move-duration-seg": "2.6"
+        "base_damage": "60",
+        "energy": "_50",
+        "move_duration_seg": "2.6"
       },
       {
         "name": "psyshock",
         "type": "psychic",
-        "base-damage": "65",
-        "energy": "-33",
-        "move-duration-seg": "2.7"
+        "base_damage": "65",
+        "energy": "_33",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "drill peck",
         "type": "flying",
-        "base-damage": "60",
-        "energy": "-33",
-        "move-duration-seg": "2.3"
+        "base_damage": "60",
+        "energy": "_33",
+        "move_duration_seg": "2.3"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "natu candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "178",
         "name": "xatu",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -17289,22 +17289,22 @@ export default {
       "height": "1.50 m",
       "weight": "15.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "psychic",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.15"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.15"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "192",
-      "base-defense": "146",
-      "base-stamina": "163",
-      "max-cp": "2188",
-      "max-hp": "140"
+      "base_attack": "192",
+      "base_defense": "146",
+      "base_stamina": "163",
+      "max_cp": "2188",
+      "max_hp": "140"
     },
     "resistant": [
       "grass",
@@ -17318,53 +17318,53 @@ export default {
       "rock",
       "ghost"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "air slash",
         "type": "flying",
-        "base-damage": "14",
+        "base_damage": "14",
         "energy": "10",
-        "move-duration-seg": "1.2"
+        "move_duration_seg": "1.2"
       },
       {
         "name": "feint attack",
         "type": "dark",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "9",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "ominous wind",
         "type": "ghost",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "2.3"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "futuresight",
         "type": "psychic",
-        "base-damage": "120",
-        "energy": "-100",
-        "move-duration-seg": "2.7"
+        "base_damage": "120",
+        "energy": "_100",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "aerial ace",
         "type": "flying",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.4"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.4"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "natu candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "177",
         "name": "natu",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -17381,21 +17381,21 @@ export default {
       "height": "0.61 m",
       "weight": "7.8 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "electric"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "114",
-      "base-defense": "79",
-      "base-stamina": "146",
-      "max-cp": "991",
-      "max-hp": "127"
+      "base_attack": "114",
+      "base_defense": "79",
+      "base_stamina": "146",
+      "max_cp": "991",
+      "max_hp": "127"
     },
     "resistant": [
       "electric",
@@ -17405,57 +17405,57 @@ export default {
     "weaknesses": [
       "ground"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "thunder shock",
         "type": "electric",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "8",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "body slam",
         "type": "normal",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "thunderbolt",
         "type": "electric",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.5"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.5"
       },
       {
         "name": "discharge",
         "type": "electric",
-        "base-damage": "65",
-        "energy": "-33",
-        "move-duration-seg": "2.5"
+        "base_damage": "65",
+        "energy": "_33",
+        "move_duration_seg": "2.5"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "mareep candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "180",
         "name": "flaaffy",
-        "candy-cost": "25",
-        "next-evolution": [{
+        "candy_cost": "25",
+        "next_evolution": [{
           "num": "181",
           "name": "ampharos",
-          "candy-cost": "100"
+          "candy_cost": "100"
         }]
       }]
     }
@@ -17473,21 +17473,21 @@ export default {
       "height": "0.79 m",
       "weight": "13.3 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "electric"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.25"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.25"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "145",
-      "base-defense": "109",
-      "base-stamina": "172",
-      "max-cp": "1521",
-      "max-hp": "147"
+      "base_attack": "145",
+      "base_defense": "109",
+      "base_stamina": "172",
+      "max_cp": "1521",
+      "max_hp": "147"
     },
     "resistant": [
       "electric",
@@ -17497,58 +17497,58 @@ export default {
     "weaknesses": [
       "ground"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "charge beam",
         "type": "electric",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "15",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "power gem",
         "type": "rock",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.9"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.9"
       },
       {
         "name": "thunderbolt",
         "type": "electric",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.5"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.5"
       },
       {
         "name": "discharge",
         "type": "electric",
-        "base-damage": "65",
-        "energy": "-33",
-        "move-duration-seg": "2.5"
+        "base_damage": "65",
+        "energy": "_33",
+        "move_duration_seg": "2.5"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "mareep candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "181",
         "name": "ampharos",
-        "candy-cost": "100"
+        "candy_cost": "100"
       }],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "179",
         "name": "mareep",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -17565,21 +17565,21 @@ export default {
       "height": "1.40 m",
       "weight": "61.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "electric"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.125"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.125"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "211",
-      "base-defense": "169",
-      "base-stamina": "207",
-      "max-cp": "2852",
-      "max-hp": "175"
+      "base_attack": "211",
+      "base_defense": "169",
+      "base_stamina": "207",
+      "max_cp": "2852",
+      "max_hp": "175"
     },
     "resistant": [
       "electric",
@@ -17589,57 +17589,57 @@ export default {
     "weaknesses": [
       "ground"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "charge beam",
         "type": "electric",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "15",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "volt switch",
         "type": "electric",
-        "base-damage": "20",
+        "base_damage": "20",
         "energy": "25",
-        "move-duration-seg": "2.3"
+        "move_duration_seg": "2.3"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "zap cannon",
         "type": "electric",
-        "base-damage": "140",
-        "energy": "-100",
-        "move-duration-seg": "3.7"
+        "base_damage": "140",
+        "energy": "_100",
+        "move_duration_seg": "3.7"
       },
       {
         "name": "focus blast",
         "type": "fight",
-        "base-damage": "140",
-        "energy": "-100",
-        "move-duration-seg": "3.5"
+        "base_damage": "140",
+        "energy": "_100",
+        "move_duration_seg": "3.5"
       },
       {
         "name": "thunder",
         "type": "electric",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.4"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.4"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "mareep candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "180",
         "name": "flaaffy",
-        "candy-cost": "100",
-        "prev-evolution": [{
+        "candy_cost": "100",
+        "prev_evolution": [{
           "num": "179",
           "name": "mareep",
-          "candy-cost": "25"
+          "candy_cost": "25"
         }]
       }]
     }
@@ -17657,21 +17657,21 @@ export default {
       "height": "0.41 m",
       "weight": "5.8 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "grass"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.05"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.05"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "169",
-      "base-defense": "186",
-      "base-stamina": "181",
-      "max-cp": "2281",
-      "max-hp": "154"
+      "base_attack": "169",
+      "base_defense": "186",
+      "base_stamina": "181",
+      "max_cp": "2281",
+      "max_hp": "154"
     },
     "resistant": [
       "water",
@@ -17685,61 +17685,61 @@ export default {
       "poison",
       "flying"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "razor leaf",
         "type": "grass",
-        "base-damage": "13",
+        "base_damage": "13",
         "energy": "7",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "acid",
         "type": "poison",
-        "base-damage": "9",
+        "base_damage": "9",
         "energy": "8",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "leaf blade",
         "type": "grass",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "2.4"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "2.4"
       },
       {
         "name": "petal blizzard",
         "type": "grass",
-        "base-damage": "110",
-        "energy": "-100",
-        "move-duration-seg": "2.6"
+        "base_damage": "110",
+        "energy": "_100",
+        "move_duration_seg": "2.6"
       },
       {
         "name": "dazzling gleam",
         "type": "fairy",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "3.5"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "3.5"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "oddish candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "044",
         "name": "gloom",
-        "candy-cost": "100",
-        "evolution-item": {
+        "candy_cost": "100",
+        "evolution_item": {
           "name": "sun stone",
-          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sun-stone.png"
+          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sun_stone.png"
         },
-        "prev-evolution": [{
+        "prev_evolution": [{
           "num": "043",
           "name": "oddish",
-          "candy-cost": "25"
+          "candy_cost": "25"
         }]
       }]
     }
@@ -17751,28 +17751,28 @@ export default {
       "num": "generation ii",
       "name": "johto"
     },
-    "about": "Marill's oil-filled tail acts much like a life preserver. If you see just its tail bobbing on the water's surface, it's a sure indication that this Pokémon is diving beneath the water to feed on aquatic plants.",
+    "about": "Marill's oil_filled tail acts much like a life preserver. If you see just its tail bobbing on the water's surface, it's a sure indication that this Pokémon is diving beneath the water to feed on aquatic plants.",
     "img": "https://www.serebii.net/pokemongo/pokemon/183.png",
     "size": {
       "height": "0.41 m",
       "weight": "8.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water",
       "fairy"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "37",
-      "base-defense": "93",
-      "base-stamina": "172",
-      "max-cp": "461",
-      "max-hp": "147"
+      "base_attack": "37",
+      "base_defense": "93",
+      "base_stamina": "172",
+      "max_cp": "461",
+      "max_hp": "147"
     },
     "resistant": [
       "fire",
@@ -17786,58 +17786,58 @@ export default {
       "grass",
       "poison"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "bubble",
         "type": "water",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "14",
-        "move-duration-seg": "1.2"
+        "move_duration_seg": "1.2"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "bubble beam",
         "type": "water",
-        "base-damage": "45",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "45",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "aqua tail",
         "type": "water",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "body slam",
         "type": "normal",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "marill candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "184",
         "name": "azumarill",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "298",
         "name": "azurill",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -17848,28 +17848,28 @@ export default {
       "num": "generation ii",
       "name": "johto"
     },
-    "about": "Azumarill's long ears are indispensable sensors. By focusing its hearing, this Pokémon can identify what kinds of prey are around, even in rough and fast-running rivers.",
+    "about": "Azumarill's long ears are indispensable sensors. By focusing its hearing, this Pokémon can identify what kinds of prey are around, even in rough and fast_running rivers.",
     "img": "https://www.serebii.net/pokemongo/pokemon/184.png",
     "size": {
       "height": "0.79 m",
       "weight": "28.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water",
       "fairy"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.15"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.15"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "112",
-      "base-defense": "152",
-      "base-stamina": "225",
-      "max-cp": "1588",
-      "max-hp": "189"
+      "base_attack": "112",
+      "base_defense": "152",
+      "base_stamina": "225",
+      "max_cp": "1588",
+      "max_hp": "189"
     },
     "resistant": [
       "fire",
@@ -17883,57 +17883,57 @@ export default {
       "grass",
       "poison"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "rock smash",
         "type": "fight",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "10",
-        "move-duration-seg": "1.3"
+        "move_duration_seg": "1.3"
       },
       {
         "name": "bubble",
         "type": "water",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "14",
-        "move-duration-seg": "1.2"
+        "move_duration_seg": "1.2"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "play rough",
         "type": "fairy",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.9"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.9"
       },
       {
         "name": "hydro pump",
         "type": "water",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.3"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "ice beam",
         "type": "ice",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "3.3"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "3.3"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "marill candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "183",
         "name": "marill",
-        "candy-cost": "25",
-        "prev-evolution": [{
+        "candy_cost": "25",
+        "prev_evolution": [{
           "num": "298",
           "name": "azurill",
-          "candy-cost": "25"
+          "candy_cost": "25"
         }]
       }]
     }
@@ -17951,21 +17951,21 @@ export default {
       "height": "1.19 m",
       "weight": "38.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "rock"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.125"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.125"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "167",
-      "base-defense": "176",
-      "base-stamina": "172",
-      "max-cp": "2148",
-      "max-hp": "147"
+      "base_attack": "167",
+      "base_defense": "176",
+      "base_stamina": "172",
+      "max_cp": "2148",
+      "max_hp": "147"
     },
     "resistant": [
       "normal",
@@ -17979,53 +17979,53 @@ export default {
       "fighting",
       "ground"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "rock throw",
         "type": "rock",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "7",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       },
       {
         "name": "counter",
         "type": "fight",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "8",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "stone edge",
         "type": "rock",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.3"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "earthquake",
         "type": "ground",
-        "base-damage": "120",
-        "energy": "-100",
-        "move-duration-seg": "3.6"
+        "base_damage": "120",
+        "energy": "_100",
+        "move_duration_seg": "3.6"
       },
       {
         "name": "rock slide",
         "type": "rock",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.7"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.7"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "sudowoodo candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "438",
         "name": "bonsly",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -18042,21 +18042,21 @@ export default {
       "height": "10.90 m",
       "weight": "33.9 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.1"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.1"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "174",
-      "base-defense": "179",
-      "base-stamina": "207",
-      "max-cp": "2449",
-      "max-hp": "175"
+      "base_attack": "174",
+      "base_defense": "179",
+      "base_stamina": "207",
+      "max_cp": "2449",
+      "max_hp": "175"
     },
     "resistant": [
       "fire",
@@ -18068,61 +18068,61 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "mud shot",
         "type": "ground",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "7",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "bubble",
         "type": "water",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "14",
-        "move-duration-seg": "1.2"
+        "move_duration_seg": "1.2"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "hydro pump",
         "type": "water",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.3"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "blizzard",
         "type": "ice",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.1"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.1"
       },
       {
         "name": "earthquake",
         "type": "ground",
-        "base-damage": "120",
-        "energy": "-100",
-        "move-duration-seg": "3.6"
+        "base_damage": "120",
+        "energy": "_100",
+        "move_duration_seg": "3.6"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "poliwag candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "061",
         "name": "poliwhirl",
-        "candy-cost": "100",
-        "evolution-item": {
+        "candy_cost": "100",
+        "evolution_item": {
           "name": "kings rock",
-          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/kings-rock.png"
+          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/kings_rock.png"
         },
-        "prev-evolution": [{
+        "prev_evolution": [{
           "num": "060",
           "name": "poliwag",
-          "candy-cost": "25"
+          "candy_cost": "25"
         }]
       }]
     }
@@ -18140,22 +18140,22 @@ export default {
       "height": "0.41 m",
       "weight": "0.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "grass",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.12",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.12",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "67",
-      "base-defense": "94",
-      "base-stamina": "111",
-      "max-cp": "600",
-      "max-hp": "99"
+      "base_attack": "67",
+      "base_defense": "94",
+      "base_stamina": "111",
+      "max_cp": "600",
+      "max_hp": "99"
     },
     "resistant": [
       "water",
@@ -18169,57 +18169,57 @@ export default {
       "poison",
       "flying"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "bullet seed",
         "type": "grass",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "14",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "grass knot",
         "type": "grass",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.6"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.6"
       },
       {
         "name": "dazzling gleam",
         "type": "fairy",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "3.5"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "3.5"
       },
       {
         "name": "seed bomb",
         "type": "grass",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.1"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.1"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "hoppip candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "188",
         "name": "skiploom",
-        "candy-cost": "25",
-        "next-evolution": [{
+        "candy_cost": "25",
+        "next_evolution": [{
           "num": "189",
           "name": "jumpluff",
-          "candy-cost": "100"
+          "candy_cost": "100"
         }]
       }]
     }
@@ -18237,22 +18237,22 @@ export default {
       "height": "0.61 m",
       "weight": "1.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "grass",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.25"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.25"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "91",
-      "base-defense": "120",
-      "base-stamina": "146",
-      "max-cp": "976",
-      "max-hp": "127"
+      "base_attack": "91",
+      "base_defense": "120",
+      "base_stamina": "146",
+      "max_cp": "976",
+      "max_hp": "127"
     },
     "resistant": [
       "water",
@@ -18266,58 +18266,58 @@ export default {
       "poison",
       "flying"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "bullet seed",
         "type": "grass",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "14",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "grass knot",
         "type": "grass",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.6"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.6"
       },
       {
         "name": "dazzling gleam",
         "type": "fairy",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "3.5"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "3.5"
       },
       {
         "name": "energy ball",
         "type": "grass",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "3.9"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "3.9"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "hoppip candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "189",
         "name": "jumpluff",
-        "candy-cost": "100"
+        "candy_cost": "100"
       }],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "187",
         "name": "hoppip",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -18334,22 +18334,22 @@ export default {
       "height": "0.79 m",
       "weight": "3.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "grass",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.125"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.125"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "118",
-      "base-defense": "183",
-      "base-stamina": "181",
-      "max-cp": "1636",
-      "max-hp": "154"
+      "base_attack": "118",
+      "base_defense": "183",
+      "base_stamina": "181",
+      "max_cp": "1636",
+      "max_hp": "154"
     },
     "resistant": [
       "water",
@@ -18363,57 +18363,57 @@ export default {
       "poison",
       "flying"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "infestation",
         "type": "bug",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "14",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "bullet seed",
         "type": "grass",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "14",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "energy ball",
         "type": "grass",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "3.9"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "3.9"
       },
       {
         "name": "dazzling gleam",
         "type": "fairy",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "3.5"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "3.5"
       },
       {
         "name": "solar beam",
         "type": "grass",
-        "base-damage": "180",
-        "energy": "-100",
-        "move-duration-seg": "4.9"
+        "base_damage": "180",
+        "energy": "_100",
+        "move_duration_seg": "4.9"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "hoppip candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "188",
         "name": "skiploom",
-        "candy-cost": "100",
-        "prev-evolution": [{
+        "candy_cost": "100",
+        "prev_evolution": [{
           "num": "187",
           "name": "hoppip",
-          "candy-cost": "25"
+          "candy_cost": "25"
         }]
       }]
     }
@@ -18425,27 +18425,27 @@ export default {
       "num": "generation ii",
       "name": "johto"
     },
-    "about": "Aipom's tail ends in a hand-like appendage that can be cleverly manipulated. However, because the Pokémon uses its tail so much, its real hands have become rather clumsy.",
+    "about": "Aipom's tail ends in a hand_like appendage that can be cleverly manipulated. However, because the Pokémon uses its tail so much, its real hands have become rather clumsy.",
     "img": "https://www.serebii.net/pokemongo/pokemon/190.png",
     "size": {
       "height": "0.79 m",
       "weight": "11.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal"
     ],
     "encounter": {
-      "base-flee-rate": "0.09",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.09",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "136",
-      "base-defense": "112",
-      "base-stamina": "146",
-      "max-cp": "1348",
-      "max-hp": "127"
+      "base_attack": "136",
+      "base_defense": "112",
+      "base_stamina": "146",
+      "max_cp": "1348",
+      "max_hp": "127"
     },
     "resistant": [
       "ghost"
@@ -18453,47 +18453,47 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "scratch",
         "type": "normal",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "astonish",
         "type": "ghost",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "14",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "low sweep",
         "type": "fight",
-        "base-damage": "40",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "40",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "swift",
         "type": "normal",
-        "base-damage": "60",
-        "energy": "-50",
-        "move-duration-seg": "2.8"
+        "base_damage": "60",
+        "energy": "_50",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "aerial ace",
         "type": "flying",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.4"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.4"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "aipom candy"
     }
@@ -18511,21 +18511,21 @@ export default {
       "height": "0.30 m",
       "weight": "1.8 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "grass"
     ],
     "encounter": {
-      "base-flee-rate": "0.09",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.09",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "55",
-      "base-defense": "55",
-      "base-stamina": "102",
-      "max-cp": "395",
-      "max-hp": "92"
+      "base_attack": "55",
+      "base_defense": "55",
+      "base_stamina": "102",
+      "max_cp": "395",
+      "max_hp": "92"
     },
     "resistant": [
       "water",
@@ -18539,56 +18539,56 @@ export default {
       "poison",
       "flying"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "razor leaf",
         "type": "grass",
-        "base-damage": "13",
+        "base_damage": "13",
         "energy": "7",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "cut",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "energy ball",
         "type": "grass",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "3.9"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "3.9"
       },
       {
         "name": "grass knot",
         "type": "grass",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.6"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.6"
       },
       {
         "name": "seed bomb",
         "type": "grass",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.1"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.1"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "sunkern candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "192",
         "name": "sunflora",
-        "candy-cost": "50",
-        "evolution-item": {
+        "candy_cost": "50",
+        "evolution_item": {
           "name": "sun stone",
-          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sun-stone.png"
+          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sun_stone.png"
         }
       }]
     }
@@ -18606,21 +18606,21 @@ export default {
       "height": "0.79 m",
       "weight": "8.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "grass"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.1"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.1"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "185",
-      "base-defense": "135",
-      "base-stamina": "181",
-      "max-cp": "2141",
-      "max-hp": "154"
+      "base_attack": "185",
+      "base_defense": "135",
+      "base_stamina": "181",
+      "max_cp": "2141",
+      "max_hp": "154"
     },
     "resistant": [
       "water",
@@ -18634,56 +18634,56 @@ export default {
       "poison",
       "flying"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "razor leaf",
         "type": "grass",
-        "base-damage": "13",
+        "base_damage": "13",
         "energy": "7",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "bullet seed",
         "type": "grass",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "14",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "solar beam",
         "type": "grass",
-        "base-damage": "180",
-        "energy": "-100",
-        "move-duration-seg": "4.9"
+        "base_damage": "180",
+        "energy": "_100",
+        "move_duration_seg": "4.9"
       },
       {
         "name": "petal blizzard",
         "type": "grass",
-        "base-damage": "110",
-        "energy": "-100",
-        "move-duration-seg": "2.6"
+        "base_damage": "110",
+        "energy": "_100",
+        "move_duration_seg": "2.6"
       },
       {
         "name": "sludge bomb",
         "type": "poison",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.3"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "sunkern candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "191",
         "name": "sunkern",
-        "candy-cost": "50",
-        "evolution-item": {
+        "candy_cost": "50",
+        "evolution_item": {
           "name": "sun stone",
-          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sun-stone.png"
+          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sun_stone.png"
         }
       }]
     }
@@ -18701,22 +18701,22 @@ export default {
       "height": "1.19 m",
       "weight": "38.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "bug",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.3"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.3"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "154",
-      "base-defense": "94",
-      "base-stamina": "163",
-      "max-cp": "1470",
-      "max-hp": "140"
+      "base_attack": "154",
+      "base_defense": "94",
+      "base_stamina": "163",
+      "max_cp": "1470",
+      "max_hp": "140"
     },
     "resistant": [
       "grass",
@@ -18730,47 +18730,47 @@ export default {
       "ice",
       "flying"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "quick attack",
         "type": "normal",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "10",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       },
       {
         "name": "wing attack",
         "type": "flying",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "9",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "ancient power",
         "type": "rock",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.5"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.5"
       },
       {
         "name": "aerial ace",
         "type": "flying",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.4"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.4"
       },
       {
         "name": "silver wind",
         "type": "bug",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.7"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.7"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "yanma candy"
     }
@@ -18788,22 +18788,22 @@ export default {
       "height": "0.41 m",
       "weight": "8.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water",
       "ground"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.4"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.4"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "75",
-      "base-defense": "66",
-      "base-stamina": "146",
-      "max-cp": "641",
-      "max-hp": "127"
+      "base_attack": "75",
+      "base_defense": "66",
+      "base_stamina": "146",
+      "max_cp": "641",
+      "max_hp": "127"
     },
     "resistant": [
       "fire",
@@ -18814,53 +18814,53 @@ export default {
     "weaknesses": [
       "grass"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "water gun",
         "type": "water",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "mud shot",
         "type": "ground",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "7",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "mud bomb",
         "type": "ground",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.3"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "dig",
         "type": "ground",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "4.7"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "4.7"
       },
       {
         "name": "body slam",
         "type": "normal",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "wooper candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "195",
         "name": "quagsire",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -18877,22 +18877,22 @@ export default {
       "height": "1.40 m",
       "weight": "75.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water",
       "ground"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.15"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.15"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "152",
-      "base-defense": "143",
-      "base-stamina": "216",
-      "max-cp": "1992",
-      "max-hp": "182"
+      "base_attack": "152",
+      "base_defense": "143",
+      "base_stamina": "216",
+      "max_cp": "1992",
+      "max_hp": "182"
     },
     "resistant": [
       "fire",
@@ -18903,53 +18903,53 @@ export default {
     "weaknesses": [
       "grass"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "water gun",
         "type": "water",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "mud shot",
         "type": "ground",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "7",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "sludge bomb",
         "type": "poison",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "earthquake",
         "type": "ground",
-        "base-damage": "120",
-        "energy": "-100",
-        "move-duration-seg": "3.6"
+        "base_damage": "120",
+        "energy": "_100",
+        "move_duration_seg": "3.6"
       },
       {
         "name": "stone edge",
         "type": "rock",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.3"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.3"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "wooper candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "194",
         "name": "wooper",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -18966,21 +18966,21 @@ export default {
       "height": "0.89 m",
       "weight": "26.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "psychic"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.125"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.125"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "261",
-      "base-defense": "175",
-      "base-stamina": "163",
-      "max-cp": "3170",
-      "max-hp": "140"
+      "base_attack": "261",
+      "base_defense": "175",
+      "base_stamina": "163",
+      "max_cp": "3170",
+      "max_hp": "140"
     },
     "resistant": [
       "fighting",
@@ -18991,53 +18991,53 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "confusion",
         "type": "psychic",
-        "base-damage": "20",
+        "base_damage": "20",
         "energy": "15",
-        "move-duration-seg": "1.6"
+        "move_duration_seg": "1.6"
       },
       {
         "name": "zen headbutt",
         "type": "psychic",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "10",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "psybeam",
         "type": "psychic",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "psychic",
         "type": "psychic",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.8"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "futuresight",
         "type": "psychic",
-        "base-damage": "120",
-        "energy": "-100",
-        "move-duration-seg": "2.7"
+        "base_damage": "120",
+        "energy": "_100",
+        "move_duration_seg": "2.7"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "eevee candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "133",
         "name": "eevee",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -19054,21 +19054,21 @@ export default {
       "height": "0.99 m",
       "weight": "27.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "dark"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.125"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.125"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "126",
-      "base-defense": "240",
-      "base-stamina": "216",
-      "max-cp": "2137",
-      "max-hp": "182"
+      "base_attack": "126",
+      "base_defense": "240",
+      "base_stamina": "216",
+      "max_cp": "2137",
+      "max_hp": "182"
     },
     "resistant": [
       "psychic",
@@ -19080,46 +19080,46 @@ export default {
       "bug",
       "fairy"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "feint attack",
         "type": "dark",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "9",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       },
       {
         "name": "snarl",
         "type": "dark",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "12",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "dark pulse",
         "type": "dark",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "3"
       },
       {
         "name": "foul play",
         "type": "dark",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "eevee candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "133",
         "name": "eevee",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -19136,22 +19136,22 @@ export default {
       "height": "0.51 m",
       "weight": "2.1 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "dark",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "175",
-      "base-defense": "87",
-      "base-stamina": "155",
-      "max-cp": "1562",
-      "max-hp": "134"
+      "base_attack": "175",
+      "base_defense": "87",
+      "base_stamina": "155",
+      "max_cp": "1562",
+      "max_hp": "134"
     },
     "resistant": [
       "grass",
@@ -19166,56 +19166,56 @@ export default {
       "rock",
       "fairy"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "peck",
         "type": "flying",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "10",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "feint attack",
         "type": "dark",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "9",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "drill peck",
         "type": "flying",
-        "base-damage": "60",
-        "energy": "-33",
-        "move-duration-seg": "2.3"
+        "base_damage": "60",
+        "energy": "_33",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "foul play",
         "type": "dark",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2"
       },
       {
         "name": "dark pulse",
         "type": "dark",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "3"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "murkrow candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "430",
         "name": "honchkrow",
-        "candy-cost": "100",
-        "evolution-item": {
+        "candy_cost": "100",
+        "evolution_item": {
           "name": "sinnoh stone",
-          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh-stone.png"
+          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh_stone.png"
         }
       }]
     }
@@ -19233,22 +19233,22 @@ export default {
       "height": "2.01 m",
       "weight": "79.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water",
       "psychic"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.1"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.1"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "177",
-      "base-defense": "180",
-      "base-stamina": "216",
-      "max-cp": "2545",
-      "max-hp": "182"
+      "base_attack": "177",
+      "base_defense": "180",
+      "base_stamina": "216",
+      "max_cp": "2545",
+      "max_hp": "182"
     },
     "resistant": [
       "fire",
@@ -19263,56 +19263,56 @@ export default {
       "bug",
       "ghost"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "water gun",
         "type": "water",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "confusion",
         "type": "psychic",
-        "base-damage": "20",
+        "base_damage": "20",
         "energy": "15",
-        "move-duration-seg": "1.6"
+        "move_duration_seg": "1.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "blizzard",
         "type": "ice",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.1"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.1"
       },
       {
         "name": "psychic",
         "type": "psychic",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.8"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "fire blast",
         "type": "fire",
-        "base-damage": "140",
-        "energy": "-100",
-        "move-duration-seg": "4.2"
+        "base_damage": "140",
+        "energy": "_100",
+        "move_duration_seg": "4.2"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "slowpoke candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "079",
         "name": "slowpoke",
-        "candy-cost": "50",
-        "evolution-item": {
+        "candy_cost": "50",
+        "evolution_item": {
           "name": "kings rock",
-          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/kings-rock.png"
+          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/kings_rock.png"
         }
       }]
     }
@@ -19330,21 +19330,21 @@ export default {
       "height": "0.71 m",
       "weight": "1.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "ghost"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.3"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.3"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "167",
-      "base-defense": "154",
-      "base-stamina": "155",
-      "max-cp": "1926",
-      "max-hp": "134"
+      "base_attack": "167",
+      "base_defense": "154",
+      "base_stamina": "155",
+      "max_cp": "1926",
+      "max_hp": "134"
     },
     "resistant": [
       "normal",
@@ -19356,56 +19356,56 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "astonish",
         "type": "ghost",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "14",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "hex",
         "type": "ghost",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "15",
-        "move-duration-seg": "1.2"
+        "move_duration_seg": "1.2"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "shadow sneak",
         "type": "ghost",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "2.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "2.9"
       },
       {
         "name": "dark pulse",
         "type": "dark",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "3"
       },
       {
         "name": "ominous wind",
         "type": "ghost",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "2.3"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "2.3"
       }
     ],
     "egg": "2 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "misdreavus candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "429",
         "name": "mismagius",
-        "candy-cost": "100",
-        "evolution-item": {
+        "candy_cost": "100",
+        "evolution_item": {
           "name": "sinnoh stone",
-          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh-stone.png"
+          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh_stone.png"
         }
       }]
     }
@@ -19423,21 +19423,21 @@ export default {
       "height": "0.51 m",
       "weight": "5.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "psychic"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.3"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.3"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "136",
-      "base-defense": "91",
-      "base-stamina": "134",
-      "max-cp": "1185",
-      "max-hp": "117"
+      "base_attack": "136",
+      "base_defense": "91",
+      "base_stamina": "134",
+      "max_cp": "1185",
+      "max_hp": "117"
     },
     "resistant": [
       "fighting",
@@ -19448,24 +19448,24 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quick_move": [
       {
       "name": "hidden power",
       "type": "normal",
-      "base-damage": "15",
+      "base_damage": "15",
       "energy": "15",
-      "move-duration-seg": "1.5"
+      "move_duration_seg": "1.5"
     }],
-    "special-attack": [
+    "special_attack": [
       {
       "name": "struggle",
       "type": "normal",
-      "base-damage": "35",
-      "energy": "-33",
-      "move-duration-seg": "2.2"
+      "base_damage": "35",
+      "energy": "_33",
+      "move_duration_seg": "2.2"
     }],
     "egg": "not in eggs",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "unown candy"
     }
@@ -19483,21 +19483,21 @@ export default {
       "height": "1.30 m",
       "weight": "28.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "psychic"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.25"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.25"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "60",
-      "base-defense": "106",
-      "base-stamina": "382",
-      "max-cp": "1026",
-      "max-hp": "313"
+      "base_attack": "60",
+      "base_defense": "106",
+      "base_stamina": "382",
+      "max_cp": "1026",
+      "max_hp": "313"
     },
     "resistant": [
       "fighting",
@@ -19508,38 +19508,38 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "counter",
         "type": "fight",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "8",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       },
       {
         "name": "splash",
         "type": "water",
-        "base-damage": "0",
+        "base_damage": "0",
         "energy": "0",
-        "move-duration-seg": "1.73"
+        "move_duration_seg": "1.73"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
       "name": "mirror coat",
       "type": "psychic",
-      "base-damage": "60",
-      "energy": "-50",
-      "move-duration-seg": "2.6"
+      "base_damage": "60",
+      "energy": "_50",
+      "move_duration_seg": "2.6"
     }],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "wobbuffet candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "360",
         "name": "wynaut",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -19556,22 +19556,22 @@ export default {
       "height": "1.50 m",
       "weight": "41.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal",
       "psychic"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.3"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.3"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "182",
-      "base-defense": "133",
-      "base-stamina": "172",
-      "max-cp": "2046",
-      "max-hp": "147"
+      "base_attack": "182",
+      "base_defense": "133",
+      "base_stamina": "172",
+      "max_cp": "2046",
+      "max_hp": "147"
     },
     "resistant": [
       "psychic"
@@ -19580,47 +19580,47 @@ export default {
       "bug",
       "dark"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "confusion",
         "type": "psychic",
-        "base-damage": "20",
+        "base_damage": "20",
         "energy": "15",
-        "move-duration-seg": "1.6"
+        "move_duration_seg": "1.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "psychic",
         "type": "psychic",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.8"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "thunderbolt",
         "type": "electric",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.5"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.5"
       },
       {
         "name": "mirror coat",
         "type": "psychic",
-        "base-damage": "60",
-        "energy": "-50",
-        "move-duration-seg": "2.6"
+        "base_damage": "60",
+        "energy": "_50",
+        "move_duration_seg": "2.6"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "girafarig candy"
     }
@@ -19638,21 +19638,21 @@ export default {
       "height": "0.61 m",
       "weight": "7.2 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "bug"
     ],
     "encounter": {
-      "base-flee-rate": "0.12",
-      "base-capture-rate": "0.4"
+      "base_flee_rate": "0.12",
+      "base_capture_rate": "0.4"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "108",
-      "base-defense": "122",
-      "base-stamina": "137",
-      "max-cp": "1108",
-      "max-hp": "120"
+      "base_attack": "108",
+      "base_defense": "122",
+      "base_stamina": "137",
+      "max_cp": "1108",
+      "max_hp": "120"
     },
     "resistant": [
       "grass",
@@ -19664,53 +19664,53 @@ export default {
       "flying",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "bug bite",
         "type": "bug",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "6",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "gyro ball",
         "type": "steel",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "3.3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "rock tomb",
         "type": "rock",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "sand tomb",
         "type": "ground",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "4"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "4"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "pineco candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "205",
         "name": "forretress",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -19727,22 +19727,22 @@ export default {
       "height": "1.19 m",
       "weight": "125.8 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "bug",
       "steel"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.15"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.15"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "161",
-      "base-defense": "205",
-      "base-stamina": "181",
-      "max-cp": "2282",
-      "max-hp": "154"
+      "base_attack": "161",
+      "base_defense": "205",
+      "base_stamina": "181",
+      "max_cp": "2282",
+      "max_hp": "154"
     },
     "resistant": [
       "normal",
@@ -19754,53 +19754,53 @@ export default {
     "weaknesses": [
       "fire"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "bug bite",
         "type": "bug",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "6",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "struggle bug",
         "type": "bug",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "15",
-        "move-duration-seg": "1.5"
+        "move_duration_seg": "1.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "heavy slam",
         "type": "steel",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2.1"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2.1"
       },
       {
         "name": "earthquake",
         "type": "ground",
-        "base-damage": "120",
-        "energy": "-100",
-        "move-duration-seg": "3.6"
+        "base_damage": "120",
+        "energy": "_100",
+        "move_duration_seg": "3.6"
       },
       {
         "name": "rock tomb",
         "type": "rock",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "pineco candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "204",
         "name": "pineco",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -19817,21 +19817,21 @@ export default {
       "height": "1.50 m",
       "weight": "14.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal"
     ],
     "encounter": {
-      "base-flee-rate": "0.2",
-      "base-capture-rate": "0.3"
+      "base_flee_rate": "0.2",
+      "base_capture_rate": "0.3"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "131",
-      "base-defense": "128",
-      "base-stamina": "225",
-      "max-cp": "1689",
-      "max-hp": "189"
+      "base_attack": "131",
+      "base_defense": "128",
+      "base_stamina": "225",
+      "max_cp": "1689",
+      "max_hp": "189"
     },
     "resistant": [
       "ghost"
@@ -19839,47 +19839,47 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "bite",
         "type": "dark",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "astonish",
         "type": "ghost",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "14",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "dig",
         "type": "ground",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "4.7"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "4.7"
       },
       {
         "name": "rock slide",
         "type": "rock",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.7"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "drill run",
         "type": "ground",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.8"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.8"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "dunsparce candy"
     }
@@ -19897,22 +19897,22 @@ export default {
       "height": "1.09 m",
       "weight": "64.8 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "ground",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "143",
-      "base-defense": "184",
-      "base-stamina": "163",
-      "max-cp": "1857",
-      "max-hp": "140"
+      "base_attack": "143",
+      "base_defense": "184",
+      "base_stamina": "163",
+      "max_cp": "1857",
+      "max_hp": "140"
     },
     "resistant": [
       "fighting",
@@ -19924,56 +19924,56 @@ export default {
       "water",
       "ice"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "fury cutter",
         "type": "bug",
-        "base-damage": "3",
+        "base_damage": "3",
         "energy": "6",
-        "move-duration-seg": "0.4"
+        "move_duration_seg": "0.4"
       },
       {
         "name": "wing attack",
         "type": "flying",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "9",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "dig",
         "type": "ground",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "4.7"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "4.7"
       },
       {
         "name": "aerial ace",
         "type": "flying",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.4"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.4"
       },
       {
         "name": "night slash",
         "type": "dark",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "2.2"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "2.2"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "gligar candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "472",
         "name": "gliscor",
-        "candy-cost": "100",
-        "evolution-item": {
+        "candy_cost": "100",
+        "evolution_item": {
           "name": "sinnoh stone",
-          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh-stone.png"
+          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh_stone.png"
         }
       }]
     }
@@ -19985,28 +19985,28 @@ export default {
       "num": "generation ii",
       "name": "johto"
     },
-    "about": "Steelix lives even further underground than Onix. This Pokémon is known to dig toward the earth's core. There are records of this Pokémon reaching a depth of over six-tenths of a mile underground.",
+    "about": "Steelix lives even further underground than Onix. This Pokémon is known to dig toward the earth's core. There are records of this Pokémon reaching a depth of over six_tenths of a mile underground.",
     "img": "https://www.serebii.net/pokemongo/pokemon/208.png",
     "size": {
       "height": "9.19 m",
       "weight": "400.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "steel",
       "ground"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.1"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.1"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "148",
-      "base-defense": "272",
-      "base-stamina": "181",
-      "max-cp": "2414",
-      "max-hp": "154"
+      "base_attack": "148",
+      "base_defense": "272",
+      "base_stamina": "181",
+      "max_cp": "2414",
+      "max_hp": "154"
     },
     "resistant": [
       "normal",
@@ -20021,56 +20021,56 @@ export default {
       "fighting",
       "ground"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "iron tail",
         "type": "steel",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "7",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "dragon tail",
         "type": "dragon",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "9",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "earthquake",
         "type": "ground",
-        "base-damage": "120",
-        "energy": "-100",
-        "move-duration-seg": "3.6"
+        "base_damage": "120",
+        "energy": "_100",
+        "move_duration_seg": "3.6"
       },
       {
         "name": "heavy slam",
         "type": "steel",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2.1"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2.1"
       },
       {
         "name": "crunch",
         "type": "dark",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.2"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "onix candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "095",
         "name": "onix",
-        "candy-cost": "50",
-        "evolution-item": {
+        "candy_cost": "50",
+        "evolution_item": {
           "name": "metal coat",
-          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/metal-coat.png"
+          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/metal_coat.png"
         }
       }]
     }
@@ -20088,21 +20088,21 @@ export default {
       "height": "0.61 m",
       "weight": "7.8 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "fairy"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.4"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.4"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "137",
-      "base-defense": "85",
-      "base-stamina": "155",
-      "max-cp": "1237",
-      "max-hp": "134"
+      "base_attack": "137",
+      "base_defense": "85",
+      "base_stamina": "155",
+      "max_cp": "1237",
+      "max_hp": "134"
     },
     "resistant": [
       "fighting",
@@ -20114,53 +20114,53 @@ export default {
       "poison",
       "steel"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "bite",
         "type": "dark",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "crunch",
         "type": "dark",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "dazzling gleam",
         "type": "fairy",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "3.5"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "3.5"
       },
       {
         "name": "brick break",
         "type": "fight",
-        "base-damage": "40",
-        "energy": "-33",
-        "move-duration-seg": "1.6"
+        "base_damage": "40",
+        "energy": "_33",
+        "move_duration_seg": "1.6"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "snubbull candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "210",
         "name": "granbull",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -20171,27 +20171,27 @@ export default {
       "num": "generation ii",
       "name": "johto"
     },
-    "about": "Granbull has a particularly well-developed lower jaw. The enormous fangs are heavy, causing the Pokémon to tip its head back for balance. Unless it is startled, it will not try to bite indiscriminately.",
+    "about": "Granbull has a particularly well_developed lower jaw. The enormous fangs are heavy, causing the Pokémon to tip its head back for balance. Unless it is startled, it will not try to bite indiscriminately.",
     "img": "https://www.serebii.net/pokemongo/pokemon/210.png",
     "size": {
       "height": "1.40 m",
       "weight": "48.7 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "fairy"
     ],
     "encounter": {
-      "base-flee-rate": "0.08",
-      "base-capture-rate": "0.15"
+      "base_flee_rate": "0.08",
+      "base_capture_rate": "0.15"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "212",
-      "base-defense": "131",
-      "base-stamina": "207",
-      "max-cp": "2552",
-      "max-hp": "175"
+      "base_attack": "212",
+      "base_defense": "131",
+      "base_stamina": "207",
+      "max_cp": "2552",
+      "max_hp": "175"
     },
     "resistant": [
       "fighting",
@@ -20203,53 +20203,53 @@ export default {
       "poison",
       "steel"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "bite",
         "type": "dark",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "snarl",
         "type": "dark",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "12",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "crunch",
         "type": "dark",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "play rough",
         "type": "fairy",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.9"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.9"
       },
       {
         "name": "close combat",
         "type": "fight",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.3"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.3"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "snubbull candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "209",
         "name": "snubbull",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -20266,22 +20266,22 @@ export default {
       "height": "0.51 m",
       "weight": "3.9 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water",
       "poison"
     ],
     "encounter": {
-      "base-flee-rate": "0.08",
-      "base-capture-rate": "0.3"
+      "base_flee_rate": "0.08",
+      "base_capture_rate": "0.3"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "184",
-      "base-defense": "138",
-      "base-stamina": "163",
-      "max-cp": "2051",
-      "max-hp": "140"
+      "base_attack": "184",
+      "base_defense": "138",
+      "base_stamina": "163",
+      "max_cp": "2051",
+      "max_hp": "140"
     },
     "resistant": [
       "fire",
@@ -20295,47 +20295,47 @@ export default {
       "ground",
       "psychic"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "poison sting",
         "type": "poison",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "7",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "water gun",
         "type": "water",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "aqua tail",
         "type": "water",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "ice beam",
         "type": "ice",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "3.3"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "sludge wave",
         "type": "poison",
-        "base-damage": "110",
-        "energy": "-100",
-        "move-duration-seg": "3.2"
+        "base_damage": "110",
+        "energy": "_100",
+        "move_duration_seg": "3.2"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "qwilfish candy"
     }
@@ -20353,22 +20353,22 @@ export default {
       "height": "2.01 m",
       "weight": "125.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "bug",
       "steel"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.05"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.05"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "236",
-      "base-defense": "181",
-      "base-stamina": "172",
-      "max-cp": "3001",
-      "max-hp": "147"
+      "base_attack": "236",
+      "base_defense": "181",
+      "base_stamina": "172",
+      "max_cp": "3001",
+      "max_hp": "147"
     },
     "resistant": [
       "normal",
@@ -20380,56 +20380,56 @@ export default {
     "weaknesses": [
       "fire"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "bullet punch",
         "type": "steel",
-        "base-damage": "9",
+        "base_damage": "9",
         "energy": "10",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       },
       {
         "name": "fury cutter",
         "type": "bug",
-        "base-damage": "3",
+        "base_damage": "3",
         "energy": "6",
-        "move-duration-seg": "0.4"
+        "move_duration_seg": "0.4"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "x scissor",
         "type": "water",
-        "base-damage": "50",
-        "energy": "-100",
-        "move-duration-seg": "4.7"
+        "base_damage": "50",
+        "energy": "_100",
+        "move_duration_seg": "4.7"
       },
       {
         "name": "iron head",
         "type": "steel",
-        "base-damage": "60",
-        "energy": "-50",
-        "move-duration-seg": "1.9"
+        "base_damage": "60",
+        "energy": "_50",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "night slash",
         "type": "dark",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "2.2"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "2.2"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "scyther candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "123",
         "name": "scyther",
-        "candy-cost": "50",
-        "evolution-item": {
+        "candy_cost": "50",
+        "evolution_item": {
           "name": "metal coat",
-          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/metal-coat.png"
+          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/metal_coat.png"
         }
       }]
     }
@@ -20447,22 +20447,22 @@ export default {
       "height": "0.61 m",
       "weight": "20.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "bug",
       "rock"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.3"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.3"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "17",
-      "base-defense": "396",
-      "base-stamina": "85",
-      "max-cp": "405",
-      "max-hp": "79"
+      "base_attack": "17",
+      "base_defense": "396",
+      "base_stamina": "85",
+      "max_cp": "405",
+      "max_hp": "79"
     },
     "resistant": [
       "normal",
@@ -20473,47 +20473,47 @@ export default {
       "rock",
       "steel"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "struggle bug",
         "type": "bug",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "15",
-        "move-duration-seg": "1.5"
+        "move_duration_seg": "1.5"
       },
       {
         "name": "rock throw",
         "type": "rock",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "7",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "rock blast",
         "type": "rock",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "2.1"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "2.1"
       },
       {
         "name": "stone edge",
         "type": "rock",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.3"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "gyro ball",
         "type": "steel",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "3.3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "3.3"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "shuckle candy"
     }
@@ -20531,22 +20531,22 @@ export default {
       "height": "1.50 m",
       "weight": "54.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "bug",
       "fighting"
     ],
     "encounter": {
-      "base-flee-rate": "0.09",
-      "base-capture-rate": "0.3"
+      "base_flee_rate": "0.09",
+      "base_capture_rate": "0.3"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "234",
-      "base-defense": "179",
-      "base-stamina": "190",
-      "max-cp": "3101",
-      "max-hp": "162"
+      "base_attack": "234",
+      "base_defense": "179",
+      "base_stamina": "190",
+      "max_cp": "3101",
+      "max_hp": "162"
     },
     "resistant": [
       "grass",
@@ -20561,47 +20561,47 @@ export default {
       "psychic",
       "fairy"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "counter",
         "type": "fight",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "8",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       },
       {
         "name": "struggle bug",
         "type": "bug",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "15",
-        "move-duration-seg": "1.5"
+        "move_duration_seg": "1.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "megahorn",
         "type": "bug",
-        "base-damage": "90",
-        "energy": "-100",
-        "move-duration-seg": "2.2"
+        "base_damage": "90",
+        "energy": "_100",
+        "move_duration_seg": "2.2"
       },
       {
         "name": "close combat",
         "type": "fight",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.3"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "earthquake",
         "type": "ground",
-        "base-damage": "120",
-        "energy": "-100",
-        "move-duration-seg": "3.6"
+        "base_damage": "120",
+        "energy": "_100",
+        "move_duration_seg": "3.6"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "heracross candy"
     }
@@ -20619,22 +20619,22 @@ export default {
       "height": "0.89 m",
       "weight": "28.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "dark",
       "ice"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "189",
-      "base-defense": "146",
-      "base-stamina": "146",
-      "max-cp": "2051",
-      "max-hp": "127"
+      "base_attack": "189",
+      "base_defense": "146",
+      "base_stamina": "146",
+      "max_cp": "2051",
+      "max_hp": "127"
     },
     "resistant": [
       "ice",
@@ -20648,56 +20648,56 @@ export default {
       "bug",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "ice shard",
         "type": "ice",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "12",
-        "move-duration-seg": "1.2"
+        "move_duration_seg": "1.2"
       },
       {
         "name": "feint attack",
         "type": "dark",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "9",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "avalanche",
         "type": "ice",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.7"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "ice punch",
         "type": "ice",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "foul play",
         "type": "dark",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "sneasel candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "461",
         "name": "weavile",
-        "candy-cost": "100",
-        "evolution-item": {
+        "candy_cost": "100",
+        "evolution_item": {
           "name": "sinnoh stone",
-          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh-stone.png"
+          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh_stone.png"
         }
       }]
     }
@@ -20715,21 +20715,21 @@ export default {
       "height": "0.61 m",
       "weight": "8.8 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal"
     ],
     "encounter": {
-      "base-flee-rate": "0.2",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.2",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "142",
-      "base-defense": "93",
-      "base-stamina": "155",
-      "max-cp": "1328",
-      "max-hp": "134"
+      "base_attack": "142",
+      "base_defense": "93",
+      "base_stamina": "155",
+      "max_cp": "1328",
+      "max_hp": "134"
     },
     "resistant": [
       "ghost"
@@ -20737,53 +20737,53 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "scratch",
         "type": "normal",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "lick",
         "type": "ghost",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "6",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "cross chop",
         "type": "fight",
-        "base-damage": "50",
-        "energy": "-50",
-        "move-duration-seg": "1.5"
+        "base_damage": "50",
+        "energy": "_50",
+        "move_duration_seg": "1.5"
       },
       {
         "name": "crunch",
         "type": "dark",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "play rough",
         "type": "fairy",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.9"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.9"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "teddiursa candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "217",
         "name": "ursaring",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -20800,21 +20800,21 @@ export default {
       "height": "1.80 m",
       "weight": "125.8 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.15"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.15"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "236",
-      "base-defense": "144",
-      "base-stamina": "207",
-      "max-cp": "2945",
-      "max-hp": "175"
+      "base_attack": "236",
+      "base_defense": "144",
+      "base_stamina": "207",
+      "max_cp": "2945",
+      "max_hp": "175"
     },
     "resistant": [
       "ghost"
@@ -20822,53 +20822,53 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "metal claw",
         "type": "steel",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "7",
-        "move-duration-seg": "0.7"
+        "move_duration_seg": "0.7"
       },
       {
         "name": "counter",
         "type": "fight",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "8",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "close combat",
         "type": "fight",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.3"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "hyper beam",
         "type": "normal",
-        "base-damage": "150",
-        "energy": "-100",
-        "move-duration-seg": "3.8"
+        "base_damage": "150",
+        "energy": "_100",
+        "move_duration_seg": "3.8"
       },
       {
         "name": "play rough",
         "type": "fairy",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.9"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.9"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "teddiursa candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "216",
         "name": "teddiursa",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -20885,21 +20885,21 @@ export default {
       "height": "0.71 m",
       "weight": "35.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "fire"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.3"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.3"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "118",
-      "base-defense": "71",
-      "base-stamina": "120",
-      "max-cp": "895",
-      "max-hp": "106"
+      "base_attack": "118",
+      "base_defense": "71",
+      "base_stamina": "120",
+      "max_cp": "895",
+      "max_hp": "106"
     },
     "resistant": [
       "fire",
@@ -20913,53 +20913,53 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "ember",
         "type": "fire",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "10",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "rock throw",
         "type": "rock",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "7",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "flame burst",
         "type": "fire",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2.6"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2.6"
       },
       {
         "name": "flame charge",
         "type": "fire",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.8"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.8"
       },
       {
         "name": "rock slide",
         "type": "rock",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.7"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.7"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "slugma candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "219",
         "name": "magcargo",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -20970,28 +20970,28 @@ export default {
       "num": "generation ii",
       "name": "johto"
     },
-    "about": "Magcargo's shell is actually its skin that hardened as a result of cooling. Its shell is very brittle and fragile-just touching it causes it to crumble apart. This Pokémon returns to its original size by dipping itself in magma.",
+    "about": "Magcargo's shell is actually its skin that hardened as a result of cooling. Its shell is very brittle and fragile_just touching it causes it to crumble apart. This Pokémon returns to its original size by dipping itself in magma.",
     "img": "https://www.serebii.net/pokemongo/pokemon/219.png",
     "size": {
       "height": "0.79 m",
       "weight": "55.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "fire",
       "rock"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.125"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.125"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "139",
-      "base-defense": "191",
-      "base-stamina": "137",
-      "max-cp": "1702",
-      "max-hp": "120"
+      "base_attack": "139",
+      "base_defense": "191",
+      "base_stamina": "137",
+      "max_cp": "1702",
+      "max_hp": "120"
     },
     "resistant": [
       "normal",
@@ -21006,53 +21006,53 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "ember",
         "type": "fire",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "10",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "rock throw",
         "type": "rock",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "7",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "heat wave",
         "type": "fire",
-        "base-damage": "95",
-        "energy": "-100",
-        "move-duration-seg": "3"
+        "base_damage": "95",
+        "energy": "_100",
+        "move_duration_seg": "3"
       },
       {
         "name": "overheat",
         "type": "fire",
-        "base-damage": "160",
-        "energy": "-100",
-        "move-duration-seg": "4"
+        "base_damage": "160",
+        "energy": "_100",
+        "move_duration_seg": "4"
       },
       {
         "name": "stone edge",
         "type": "rock",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.3"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.3"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "slugma candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "218",
         "name": "slugma",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -21069,22 +21069,22 @@ export default {
       "height": "0.41 m",
       "weight": "6.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "ice",
       "ground"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.3"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.3"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "90",
-      "base-defense": "69",
-      "base-stamina": "137",
-      "max-cp": "741",
-      "max-hp": "120"
+      "base_attack": "90",
+      "base_defense": "69",
+      "base_stamina": "137",
+      "max_cp": "741",
+      "max_hp": "120"
     },
     "resistant": [
       "electric",
@@ -21096,53 +21096,53 @@ export default {
       "grass",
       "fighting"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "powder snow",
         "type": "ice",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "15",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "icy wind",
         "type": "ice",
-        "base-damage": "60",
-        "energy": "-33",
-        "move-duration-seg": "3.3"
+        "base_damage": "60",
+        "energy": "_33",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "body slam",
         "type": "normal",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "rock slide",
         "type": "rock",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.7"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.7"
       }
     ],
     "egg": "2 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "swinub candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "221",
         "name": "piloswine",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -21159,22 +21159,22 @@ export default {
       "height": "1.09 m",
       "weight": "55.8 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "ice",
       "ground"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.125"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.125"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "181",
-      "base-defense": "138",
-      "base-stamina": "225",
-      "max-cp": "2345",
-      "max-hp": "189"
+      "base_attack": "181",
+      "base_defense": "138",
+      "base_stamina": "225",
+      "max_cp": "2345",
+      "max_hp": "189"
     },
     "resistant": [
       "electric",
@@ -21186,53 +21186,53 @@ export default {
       "grass",
       "fighting"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "ice shard",
         "type": "ice",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "12",
-        "move-duration-seg": "1.2"
+        "move_duration_seg": "1.2"
       },
       {
         "name": "powder snow",
         "type": "ice",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "15",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "avalanche",
         "type": "ice",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.7"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "bulldoze",
         "type": "ground",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "3.5"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "3.5"
       },
       {
         "name": "stone edge",
         "type": "rock",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.3"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.3"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "swinub candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "220",
         "name": "swinub",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -21249,22 +21249,22 @@ export default {
       "height": "0.61 m",
       "weight": "5.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water",
       "rock"
     ],
     "encounter": {
-      "base-flee-rate": "0.12",
-      "base-capture-rate": "0.3"
+      "base_flee_rate": "0.12",
+      "base_capture_rate": "0.3"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "118",
-      "base-defense": "156",
-      "base-stamina": "146",
-      "max-cp": "1378",
-      "max-hp": "127"
+      "base_attack": "118",
+      "base_defense": "156",
+      "base_stamina": "146",
+      "max_cp": "1378",
+      "max_hp": "127"
     },
     "resistant": [
       "normal",
@@ -21279,47 +21279,47 @@ export default {
       "fighting",
       "ground"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "bubble",
         "type": "water",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "14",
-        "move-duration-seg": "1.2"
+        "move_duration_seg": "1.2"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "rock blast",
         "type": "rock",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "2.1"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "2.1"
       },
       {
         "name": "power gem",
         "type": "rock",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.9"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.9"
       },
       {
         "name": "bubble beam",
         "type": "water",
-        "base-damage": "45",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "45",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "corsola candy"
     }
@@ -21337,21 +21337,21 @@ export default {
       "height": "0.61 m",
       "weight": "12.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "127",
-      "base-defense": "69",
-      "base-stamina": "111",
-      "max-cp": "912",
-      "max-hp": "99"
+      "base_attack": "127",
+      "base_defense": "69",
+      "base_stamina": "111",
+      "max_cp": "912",
+      "max_hp": "99"
     },
     "resistant": [
       "fire",
@@ -21363,53 +21363,53 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "water gun",
         "type": "water",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "mud shot",
         "type": "ground",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "7",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "aurora beam",
         "type": "ice",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "3.55"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "3.55"
       },
       {
         "name": "water pulse",
         "type": "water",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "rock blast",
         "type": "rock",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "2.1"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "2.1"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "remoraid candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "224",
         "name": "octillery",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -21426,21 +21426,21 @@ export default {
       "height": "0.89 m",
       "weight": "28.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.15"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.15"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "197",
-      "base-defense": "141",
-      "base-stamina": "181",
-      "max-cp": "2315",
-      "max-hp": "154"
+      "base_attack": "197",
+      "base_defense": "141",
+      "base_stamina": "181",
+      "max_cp": "2315",
+      "max_hp": "154"
     },
     "resistant": [
       "fire",
@@ -21452,53 +21452,53 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "water gun",
         "type": "water",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "mud shot",
         "type": "ground",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "7",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "gunk shot",
         "type": "poison",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.1"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.1"
       },
       {
         "name": "water pulse",
         "type": "water",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "aurora beam",
         "type": "ice",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "3.55"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "3.55"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "1",
+    "buddy_distance_km": "1",
     "evolution": {
       "candy": "remoraid candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "223",
         "name": "remoraid",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -21515,22 +21515,22 @@ export default {
       "height": "0.89 m",
       "weight": "16.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "ice",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.2",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.2",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "128",
-      "base-defense": "90",
-      "base-stamina": "128",
-      "max-cp": "1094",
-      "max-hp": "113"
+      "base_attack": "128",
+      "base_defense": "90",
+      "base_stamina": "128",
+      "max_cp": "1094",
+      "max_hp": "113"
     },
     "resistant": [
       "grass",
@@ -21543,47 +21543,47 @@ export default {
       "rock",
       "steel"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "ice shard",
         "type": "ice",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "12",
-        "move-duration-seg": "1.2"
+        "move_duration_seg": "1.2"
       },
       {
         "name": "quick attack",
         "type": "normal",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "10",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "ice punch",
         "type": "ice",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "icy wind",
         "type": "ice",
-        "base-damage": "60",
-        "energy": "-33",
-        "move-duration-seg": "3.3"
+        "base_damage": "60",
+        "energy": "_33",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "aerial ace",
         "type": "flying",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.4"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.4"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "delibird candy"
     }
@@ -21601,22 +21601,22 @@ export default {
       "height": "2.11 m",
       "weight": "220.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.3"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.3"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "148",
-      "base-defense": "226",
-      "base-stamina": "163",
-      "max-cp": "2108",
-      "max-hp": "140"
+      "base_attack": "148",
+      "base_defense": "226",
+      "base_stamina": "163",
+      "max_cp": "2108",
+      "max_hp": "140"
     },
     "resistant": [
       "fire",
@@ -21629,53 +21629,53 @@ export default {
       "electric",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "bubble",
         "type": "water",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "14",
-        "move-duration-seg": "1.2"
+        "move_duration_seg": "1.2"
       },
       {
         "name": "wing attack",
         "type": "flying",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "9",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "water pulse",
         "type": "water",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "ice beam",
         "type": "ice",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "3.3"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "aerial ace",
         "type": "flying",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.4"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.4"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "mantine candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "458",
         "name": "mantyke",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -21692,22 +21692,22 @@ export default {
       "height": "1.70 m",
       "weight": "50.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "steel",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.09",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.09",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "148",
-      "base-defense": "226",
-      "base-stamina": "163",
-      "max-cp": "2108",
-      "max-hp": "140"
+      "base_attack": "148",
+      "base_defense": "226",
+      "base_stamina": "163",
+      "max_cp": "2108",
+      "max_hp": "140"
     },
     "resistant": [
       "normal",
@@ -21720,47 +21720,47 @@ export default {
       "fire",
       "electric"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "steel wing",
         "type": "steel",
-        "base-damage": "11",
+        "base_damage": "11",
         "energy": "6",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       },
       {
         "name": "air slash",
         "type": "flying",
-        "base-damage": "14",
+        "base_damage": "14",
         "energy": "10",
-        "move-duration-seg": "1.2"
+        "move_duration_seg": "1.2"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "brave bird",
         "type": "flying",
-        "base-damage": "90",
-        "energy": "-100",
-        "move-duration-seg": "2"
+        "base_damage": "90",
+        "energy": "_100",
+        "move_duration_seg": "2"
       },
       {
         "name": "sky attack",
         "type": "flying",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2"
       },
       {
         "name": "flash cannon",
         "type": "steel",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.7"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.7"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "skarmory candy"
     }
@@ -21778,22 +21778,22 @@ export default {
       "height": "0.61 m",
       "weight": "10.8 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "dark",
       "fire"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.4"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.4"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "152",
-      "base-defense": "83",
-      "base-stamina": "128",
-      "max-cp": "1234",
-      "max-hp": "113"
+      "base_attack": "152",
+      "base_defense": "83",
+      "base_stamina": "128",
+      "max_cp": "1234",
+      "max_hp": "113"
     },
     "resistant": [
       "fire",
@@ -21808,53 +21808,53 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "feint attack",
         "type": "dark",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "9",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       },
       {
         "name": "ember",
         "type": "fire",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "10",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "crunch",
         "type": "dark",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "flamethrower",
         "type": "fire",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2.2"
       },
       {
         "name": "dark pulse",
         "type": "dark",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "3"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "houndour candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "229",
         "name": "houndoom",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -21871,22 +21871,22 @@ export default {
       "height": "1.40 m",
       "weight": "35.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "dark",
       "fire"
     ],
     "encounter": {
-      "base-flee-rate": "0.06",
-      "base-capture-rate": "0.15"
+      "base_flee_rate": "0.06",
+      "base_capture_rate": "0.15"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "224",
-      "base-defense": "144",
-      "base-stamina": "181",
-      "max-cp": "2635",
-      "max-hp": "154"
+      "base_attack": "224",
+      "base_defense": "144",
+      "base_stamina": "181",
+      "max_cp": "2635",
+      "max_hp": "154"
     },
     "resistant": [
       "fire",
@@ -21901,53 +21901,53 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "snarl",
         "type": "dark",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "12",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "fire fang",
         "type": "fire",
-        "base-damage": "11",
+        "base_damage": "11",
         "energy": "8",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "crunch",
         "type": "dark",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "fire blast",
         "type": "fire",
-        "base-damage": "140",
-        "energy": "-100",
-        "move-duration-seg": "4.2"
+        "base_damage": "140",
+        "energy": "_100",
+        "move_duration_seg": "4.2"
       },
       {
         "name": "foul play",
         "type": "dark",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "houndour candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "228",
         "name": "houndour",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -21964,22 +21964,22 @@ export default {
       "height": "1.80 m",
       "weight": "152.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "water",
       "dragon"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.1"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.1"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "194",
-      "base-defense": "194",
-      "base-stamina": "181",
-      "max-cp": "2641",
-      "max-hp": "154"
+      "base_attack": "194",
+      "base_defense": "194",
+      "base_stamina": "181",
+      "max_cp": "2641",
+      "max_hp": "154"
     },
     "resistant": [
       "fire",
@@ -21990,61 +21990,61 @@ export default {
       "dragon",
       "fairy"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "water gun",
         "type": "water",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "dragon breath",
         "type": "dragon",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "hydro pump",
         "type": "water",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.3"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "blizzard",
         "type": "ice",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.1"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.1"
       },
       {
         "name": "outrage",
         "type": "dragon",
-        "base-damage": "110",
-        "energy": "-50",
-        "move-duration-seg": "3.9"
+        "base_damage": "110",
+        "energy": "_50",
+        "move_duration_seg": "3.9"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "horsea candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "117",
         "name": "seadra",
-        "candy-cost": "100",
-        "evolution-item": {
+        "candy_cost": "100",
+        "evolution_item": {
           "name": "dragon scale",
-          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/dragon-scale.png"
+          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/dragon_scale.png"
         },
-        "prev-evolution": [{
+        "prev_evolution": [{
           "num": "116",
           "name": "horsea",
-          "candy-cost": "25"
+          "candy_cost": "25"
         }]
       }]
     }
@@ -22062,21 +22062,21 @@ export default {
       "height": "0.51 m",
       "weight": "33.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "ground"
     ],
     "encounter": {
-      "base-flee-rate": "0.2",
-      "base-capture-rate": "0.5"
+      "base_flee_rate": "0.2",
+      "base_capture_rate": "0.5"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "107",
-      "base-defense": "98",
-      "base-stamina": "207",
-      "max-cp": "1206",
-      "max-hp": "175"
+      "base_attack": "107",
+      "base_defense": "98",
+      "base_stamina": "207",
+      "max_cp": "1206",
+      "max_hp": "175"
     },
     "resistant": [
       "electric",
@@ -22088,53 +22088,53 @@ export default {
       "grass",
       "ice"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "rock smash",
         "type": "fight",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "10",
-        "move-duration-seg": "1.3"
+        "move_duration_seg": "1.3"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "bulldoze",
         "type": "ground",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "3.5"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "3.5"
       },
       {
         "name": "rock slide",
         "type": "rock",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.7"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "body slam",
         "type": "normal",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       }
     ],
     "egg": "5 km",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "phanpy candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "232",
         "name": "donphan",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -22151,21 +22151,21 @@ export default {
       "height": "1.09 m",
       "weight": "120.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "ground"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.125"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.125"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "214",
-      "base-defense": "185",
-      "base-stamina": "207",
-      "max-cp": "3013",
-      "max-hp": "175"
+      "base_attack": "214",
+      "base_defense": "185",
+      "base_stamina": "207",
+      "max_cp": "3013",
+      "max_hp": "175"
     },
     "resistant": [
       "electric",
@@ -22177,53 +22177,53 @@ export default {
       "grass",
       "ice"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "counter",
         "type": "fight",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "8",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "earthquake",
         "type": "ground",
-        "base-damage": "120",
-        "energy": "-100",
-        "move-duration-seg": "3.6"
+        "base_damage": "120",
+        "energy": "_100",
+        "move_duration_seg": "3.6"
       },
       {
         "name": "heavy slam",
         "type": "steel",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2.1"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2.1"
       },
       {
         "name": "play rough",
         "type": "fairy",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.9"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.9"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "phanpy candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "231",
         "name": "phanpy",
-        "candy-cost": "50"
+        "candy_cost": "50"
       }]
     }
   },
@@ -22234,27 +22234,27 @@ export default {
       "num": "generation ii",
       "name": "johto"
     },
-    "about": "Porygon2 was created by humans using the power of science. The man-made Pokémon has been endowed with artificial intelligence that enables it to learn new gestures and emotions on its own.",
+    "about": "Porygon2 was created by humans using the power of science. The man_made Pokémon has been endowed with artificial intelligence that enables it to learn new gestures and emotions on its own.",
     "img": "https://www.serebii.net/pokemongo/pokemon/233.png",
     "size": {
       "height": "0.61 m",
       "weight": "32.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.05"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.05"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "198",
-      "base-defense": "180",
-      "base-stamina": "198",
-      "max-cp": "2711",
-      "max-hp": "168"
+      "base_attack": "198",
+      "base_defense": "180",
+      "base_stamina": "198",
+      "max_cp": "2711",
+      "max_hp": "168"
     },
     "resistant": [
       "ghost"
@@ -22262,65 +22262,65 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "hidden power",
         "type": "normal",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "15",
-        "move-duration-seg": "1.5"
+        "move_duration_seg": "1.5"
       },
       {
         "name": "charge beam",
         "type": "electric",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "15",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "solar beam",
         "type": "grass",
-        "base-damage": "180",
-        "energy": "-100",
-        "move-duration-seg": "4.9"
+        "base_damage": "180",
+        "energy": "_100",
+        "move_duration_seg": "4.9"
       },
       {
         "name": "hyper beam",
         "type": "normal",
-        "base-damage": "150",
-        "energy": "-100",
-        "move-duration-seg": "3.8"
+        "base_damage": "150",
+        "energy": "_100",
+        "move_duration_seg": "3.8"
       },
       {
         "name": "zap cannon",
         "type": "electric",
-        "base-damage": "140",
-        "energy": "-100",
-        "move-duration-seg": "3.7"
+        "base_damage": "140",
+        "energy": "_100",
+        "move_duration_seg": "3.7"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "porygon candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "474",
-        "name": "porygon-z",
-        "candy-cost": "100",
-        "evolution-item": {
+        "name": "porygon_z",
+        "candy_cost": "100",
+        "evolution_item": {
           "name": "sinnoh stone",
-          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh-stone.png"
+          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh_stone.png"
         }
       }],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "137",
         "name": "porygon",
-        "candy-cost": "25",
-        "evolution-item": {
+        "candy_cost": "25",
+        "evolution_item": {
           "name": "up grade",
-          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/up-grade.png"
+          "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/up_grade.png"
         }
       }]
     }
@@ -22338,21 +22338,21 @@ export default {
       "height": "1.40 m",
       "weight": "71.2 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal"
     ],
     "encounter": {
-      "base-flee-rate": "0.08",
-      "base-capture-rate": "0.3"
+      "base_flee_rate": "0.08",
+      "base_capture_rate": "0.3"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "192",
-      "base-defense": "131",
-      "base-stamina": "177",
-      "max-cp": "2164",
-      "max-hp": "151"
+      "base_attack": "192",
+      "base_defense": "131",
+      "base_stamina": "177",
+      "max_cp": "2164",
+      "max_hp": "151"
     },
     "resistant": [
       "ghost"
@@ -22360,47 +22360,47 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "zen headbutt",
         "type": "psychic",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "10",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "stomp",
         "type": "normal",
-        "base-damage": "55",
-        "energy": "-50",
-        "move-duration-seg": "1.7"
+        "base_damage": "55",
+        "energy": "_50",
+        "move_duration_seg": "1.7"
       },
       {
         "name": "wild charge",
         "type": "electric",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.6"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.6"
       },
       {
         "name": "megahorn",
         "type": "bug",
-        "base-damage": "90",
-        "energy": "-100",
-        "move-duration-seg": "2.2"
+        "base_damage": "90",
+        "energy": "_100",
+        "move_duration_seg": "2.2"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "stantler candy"
     }
@@ -22418,21 +22418,21 @@ export default {
       "height": "1.19 m",
       "weight": "58.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.25"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.25"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "40",
-      "base-defense": "83",
-      "base-stamina": "146",
-      "max-cp": "431",
-      "max-hp": "127"
+      "base_attack": "40",
+      "base_defense": "83",
+      "base_stamina": "146",
+      "max_cp": "431",
+      "max_hp": "127"
     },
     "resistant": [
       "ghost"
@@ -22440,24 +22440,24 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quick_move": [
       {
       "name": "tackle",
       "type": "normal",
-      "base-damage": "5",
+      "base_damage": "5",
       "energy": "5",
-      "move-duration-seg": "0.5"
+      "move_duration_seg": "0.5"
     }],
-    "special-attack": [
+    "special_attack": [
       {
       "name": "struggle",
       "type": "normal",
-      "base-damage": "35",
-      "energy": "-33",
-      "move-duration-seg": "2.2"
+      "base_damage": "35",
+      "energy": "_33",
+      "move_duration_seg": "2.2"
     }],
     "egg": "not in eggs",
-    "buddy-distance-km": "3",
+    "buddy_distance_km": "3",
     "evolution": {
       "candy": "smeargle candy"
     }
@@ -22475,21 +22475,21 @@ export default {
       "height": "0.71 m",
       "weight": "21.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "fighting"
     ],
     "encounter": {
-      "base-flee-rate": "not in capture",
-      "base-capture-rate": "not in capture"
+      "base_flee_rate": "not in capture",
+      "base_capture_rate": "not in capture"
     },
-    "spawn-chance": "0",
+    "spawn_chance": "0",
     "stats": {
-      "base-attack": "64",
-      "base-defense": "64",
-      "base-stamina": "111",
-      "max-cp": "492",
-      "max-hp": "99"
+      "base_attack": "64",
+      "base_defense": "64",
+      "base_stamina": "111",
+      "max_cp": "492",
+      "max_hp": "99"
     },
     "resistant": [
       "bug",
@@ -22501,64 +22501,64 @@ export default {
       "psychic",
       "fairy"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "rock smash",
         "type": "fight",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "10",
-        "move-duration-seg": "1.3"
+        "move_duration_seg": "1.3"
       },
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "brick break",
         "type": "fight",
-        "base-damage": "40",
-        "energy": "-33",
-        "move-duration-seg": "1.6"
+        "base_damage": "40",
+        "energy": "_33",
+        "move_duration_seg": "1.6"
       },
       {
         "name": "rock slide",
         "type": "rock",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.7"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.7"
       },
       {
         "name": "low sweep",
         "type": "fight",
-        "base-damage": "40",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "40",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       }
     ],
     "egg": "7 km",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "tyrogue candy",
-      "next-evolution": [
+      "next_evolution": [
         {
           "num": "106",
           "name": "hitmonlee",
-          "candy-cost": "25"
+          "candy_cost": "25"
         },
         {
           "num": "107",
           "name": "hitmonchan",
-          "candy-cost": "25"
+          "candy_cost": "25"
         },
         {
           "num": "237",
           "name": "hitmontop",
-          "candy-cost": "25"
+          "candy_cost": "25"
         }
       ]
     }
@@ -22576,21 +22576,21 @@ export default {
       "height": "1.40 m",
       "weight": "48.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "fighting"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.1"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.1"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "173",
-      "base-defense": "207",
-      "base-stamina": "137",
-      "max-cp": "2156",
-      "max-hp": "120"
+      "base_attack": "173",
+      "base_defense": "207",
+      "base_stamina": "137",
+      "max_cp": "2156",
+      "max_hp": "120"
     },
     "resistant": [
       "bug",
@@ -22602,53 +22602,53 @@ export default {
       "psychic",
       "fairy"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "rock smash",
         "type": "fight",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "10",
-        "move-duration-seg": "1.3"
+        "move_duration_seg": "1.3"
       },
       {
         "name": "counter",
         "type": "fight",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "8",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "close combat",
         "type": "fight",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.3"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.3"
       },
       {
         "name": "gyro ball",
         "type": "steel",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "3.3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "stone edge",
         "type": "rock",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.3"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.3"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "tyrogue candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "236",
         "name": "tyrogue",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -22665,22 +22665,22 @@ export default {
       "height": "0.41 m",
       "weight": "6.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "ice",
       "psychic"
     ],
     "encounter": {
-      "base-flee-rate": "not in capture",
-      "base-capture-rate": "not in capture"
+      "base_flee_rate": "not in capture",
+      "base_capture_rate": "not in capture"
     },
-    "spawn-chance": "0",
+    "spawn_chance": "0",
     "stats": {
-      "base-attack": "153",
-      "base-defense": "91",
-      "base-stamina": "128",
-      "max-cp": "1291",
-      "max-hp": "113"
+      "base_attack": "153",
+      "base_defense": "91",
+      "base_stamina": "128",
+      "max_cp": "1291",
+      "max_hp": "113"
     },
     "resistant": [
       "ice",
@@ -22692,60 +22692,60 @@ export default {
       "rock",
       "ghost"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "powder snow",
         "type": "ice",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "15",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "pound",
         "type": "normal",
-        "base-damage": "7",
+        "base_damage": "7",
         "energy": "6",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "frost breath",
         "type": "ice",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "8",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "ice beam",
         "type": "ice",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "3.3"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "ice punch",
         "type": "ice",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "psyshock",
         "type": "psychic",
-        "base-damage": "65",
-        "energy": "-33",
-        "move-duration-seg": "2.7"
+        "base_damage": "65",
+        "energy": "_33",
+        "move_duration_seg": "2.7"
       }
     ],
     "egg": "7 km",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "jynx candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "124",
         "name": "jynx",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -22756,27 +22756,27 @@ export default {
       "num": "generation ii",
       "name": "johto"
     },
-    "about": "Elekid stores electricity in its body. If it touches metal and accidentally discharges all its built-up electricity, this Pokémon begins swinging its arms in circles to recharge itself.",
+    "about": "Elekid stores electricity in its body. If it touches metal and accidentally discharges all its built_up electricity, this Pokémon begins swinging its arms in circles to recharge itself.",
     "img": "https://www.serebii.net/pokemongo/pokemon/239.png",
     "size": {
       "height": "0.61 m",
       "weight": "23.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "electric"
     ],
     "encounter": {
-      "base-flee-rate": "not in capture",
-      "base-capture-rate": "not in capture"
+      "base_flee_rate": "not in capture",
+      "base_capture_rate": "not in capture"
     },
-    "spawn-chance": "0",
+    "spawn_chance": "0",
     "stats": {
-      "base-attack": "135",
-      "base-defense": "101",
-      "base-stamina": "128",
-      "max-cp": "1206",
-      "max-hp": "113"
+      "base_attack": "135",
+      "base_defense": "101",
+      "base_stamina": "128",
+      "max_cp": "1206",
+      "max_hp": "113"
     },
     "resistant": [
       "electric",
@@ -22786,67 +22786,67 @@ export default {
     "weaknesses": [
       "ground"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "thunder shock",
         "type": "electric",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "8",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "low kick",
         "type": "fight",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "6",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "thunder punch",
         "type": "electric",
-        "base-damage": "45",
-        "energy": "-33",
-        "move-duration-seg": "1.8"
+        "base_damage": "45",
+        "energy": "_33",
+        "move_duration_seg": "1.8"
       },
       {
         "name": "brick break",
         "type": "fight",
-        "base-damage": "40",
-        "energy": "-33",
-        "move-duration-seg": "1.6"
+        "base_damage": "40",
+        "energy": "_33",
+        "move_duration_seg": "1.6"
       },
       {
         "name": "discharge",
         "type": "electric",
-        "base-damage": "65",
-        "energy": "-33",
-        "move-duration-seg": "2.5"
+        "base_damage": "65",
+        "energy": "_33",
+        "move_duration_seg": "2.5"
       },
       {
         "name": "thunderbolt",
         "type": "electric",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.5"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.5"
       }
     ],
     "egg": "7 km",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "electabuzz candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "125",
         "name": "electabuzz",
-        "candy-cost": "25",
-        "next-evolution": [{
+        "candy_cost": "25",
+        "next_evolution": [{
           "num": "466",
           "name": "electivire",
-          "candy-cost": "100",
-          "evolution-item": {
+          "candy_cost": "100",
+          "evolution_item": {
             "name": "sinnoh stone",
-            "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh-stone.png"
+            "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh_stone.png"
           }
         }]
       }]
@@ -22865,21 +22865,21 @@ export default {
       "height": "0.71 m",
       "weight": "21.4 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "fire"
     ],
     "encounter": {
-      "base-flee-rate": "not in capture",
-      "base-capture-rate": "not in capture"
+      "base_flee_rate": "not in capture",
+      "base_capture_rate": "not in capture"
     },
-    "spawn-chance": "0",
+    "spawn_chance": "0",
     "stats": {
-      "base-attack": "151",
-      "base-defense": "99",
-      "base-stamina": "128",
-      "max-cp": "1323",
-      "max-hp": "113"
+      "base_attack": "151",
+      "base_defense": "99",
+      "base_stamina": "128",
+      "max_cp": "1323",
+      "max_hp": "113"
     },
     "resistant": [
       "fire",
@@ -22893,67 +22893,67 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "ember",
         "type": "fire",
-        "base-damage": "10",
+        "base_damage": "10",
         "energy": "10",
-        "move-duration-seg": "1"
+        "move_duration_seg": "1"
       },
       {
         "name": "karate chop",
         "type": "fight",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "10",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "brick break",
         "type": "fight",
-        "base-damage": "40",
-        "energy": "-33",
-        "move-duration-seg": "1.6"
+        "base_damage": "40",
+        "energy": "_33",
+        "move_duration_seg": "1.6"
       },
       {
         "name": "fire punch",
         "type": "fire",
-        "base-damage": "55",
-        "energy": "-33",
-        "move-duration-seg": "2.2"
+        "base_damage": "55",
+        "energy": "_33",
+        "move_duration_seg": "2.2"
       },
       {
         "name": "flame burst",
         "type": "fire",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2.6"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2.6"
       },
       {
         "name": "flamethrower",
         "type": "fire",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2.2"
       }
     ],
     "egg": "7 km",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "magmar candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "126",
         "name": "magmar",
-        "candy-cost": "25",
-        "next-evolution": [{
+        "candy_cost": "25",
+        "next_evolution": [{
           "num": "467",
           "name": "magmortar",
-          "candy-cost": "100",
-          "evolution-item": {
+          "candy_cost": "100",
+          "evolution_item": {
             "name": "sinnoh stone",
-            "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh-stone.png"
+            "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh_stone.png"
           }
         }]
       }]
@@ -22966,27 +22966,27 @@ export default {
       "num": "generation ii",
       "name": "johto"
     },
-    "about": "Miltank gives over five gallons of milk on a daily basis. Its sweet milk is enjoyed by children and grown-ups alike. People who can't drink milk turn it into yogurt and eat it instead.",
+    "about": "Miltank gives over five gallons of milk on a daily basis. Its sweet milk is enjoyed by children and grown_ups alike. People who can't drink milk turn it into yogurt and eat it instead.",
     "img": "https://www.serebii.net/pokemongo/pokemon/241.png",
     "size": {
       "height": "1.19 m",
       "weight": "75.5 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal"
     ],
     "encounter": {
-      "base-flee-rate": "0.08",
-      "base-capture-rate": "0.2"
+      "base_flee_rate": "0.08",
+      "base_capture_rate": "0.2"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "157",
-      "base-defense": "193",
-      "base-stamina": "216",
-      "max-cp": "2354",
-      "max-hp": "182"
+      "base_attack": "157",
+      "base_defense": "193",
+      "base_stamina": "216",
+      "max_cp": "2354",
+      "max_hp": "182"
     },
     "resistant": [
       "ghost"
@@ -22994,47 +22994,47 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "tackle",
         "type": "normal",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "5",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "zen headbutt",
         "type": "psychic",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "10",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "stomp",
         "type": "normal",
-        "base-damage": "55",
-        "energy": "-50",
-        "move-duration-seg": "1.7"
+        "base_damage": "55",
+        "energy": "_50",
+        "move_duration_seg": "1.7"
       },
       {
         "name": "body slam",
         "type": "normal",
-        "base-damage": "50",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "50",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "gyro ball",
         "type": "steel",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "3.3"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "3.3"
       }
     ],
     "egg": "10 km",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "miltank candy"
     }
@@ -23052,21 +23052,21 @@ export default {
       "height": "1.50 m",
       "weight": "46.8 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "normal"
     ],
     "encounter": {
-      "base-flee-rate": "0.05",
-      "base-capture-rate": "0.05"
+      "base_flee_rate": "0.05",
+      "base_capture_rate": "0.05"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "129",
-      "base-defense": "169",
-      "base-stamina": "496",
-      "max-cp": "2757",
-      "max-hp": "403"
+      "base_attack": "129",
+      "base_defense": "169",
+      "base_stamina": "496",
+      "max_cp": "2757",
+      "max_hp": "403"
     },
     "resistant": [
       "ghost"
@@ -23074,57 +23074,57 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "pound",
         "type": "normal",
-        "base-damage": "7",
+        "base_damage": "7",
         "energy": "6",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "zen headbutt",
         "type": "psychic",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "10",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "psychic",
         "type": "psychic",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.8"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "hyper beam",
         "type": "normal",
-        "base-damage": "150",
-        "energy": "-100",
-        "move-duration-seg": "3.8"
+        "base_damage": "150",
+        "energy": "_100",
+        "move_duration_seg": "3.8"
       },
       {
         "name": "dazzling gleam",
         "type": "fairy",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "3.5"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "3.5"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "chansey candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "113",
         "name": "chansey",
-        "candy-cost": "50",
-        "prev-evolution": [{
+        "candy_cost": "50",
+        "prev_evolution": [{
           "num": "440",
           "name": "happiny",
-          "candy-cost": "25"
+          "candy_cost": "25"
         }]
       }]
     }
@@ -23142,21 +23142,21 @@ export default {
       "height": "1.91 m",
       "weight": "178.0 kg"
     },
-    "pokemon-rarity": "legendary",
+    "pokemon_rarity": "legendary",
     "type": [
       "electric"
     ],
     "encounter": {
-      "base-flee-rate": "0.04",
-      "base-capture-rate": "0.02"
+      "base_flee_rate": "0.04",
+      "base_capture_rate": "0.02"
     },
-    "spawn-chance": "0",
+    "spawn_chance": "0",
     "stats": {
-      "base-attack": "241",
-      "base-defense": "195",
-      "base-stamina": "207",
-      "max-cp": "3452",
-      "max-hp": "175"
+      "base_attack": "241",
+      "base_defense": "195",
+      "base_stamina": "207",
+      "max_cp": "3452",
+      "max_hp": "175"
     },
     "resistant": [
       "electric",
@@ -23166,47 +23166,47 @@ export default {
     "weaknesses": [
       "ground"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "thunder shock",
         "type": "electric",
-        "base-damage": "5",
+        "base_damage": "5",
         "energy": "8",
-        "move-duration-seg": "0.6"
+        "move_duration_seg": "0.6"
       },
       {
         "name": "volt switch",
         "type": "electric",
-        "base-damage": "20",
+        "base_damage": "20",
         "energy": "25",
-        "move-duration-seg": "2.3"
+        "move_duration_seg": "2.3"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "thunder",
         "type": "electric",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.4"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.4"
       },
       {
         "name": "thunderbolt",
         "type": "electric",
-        "base-damage": "80",
-        "energy": "-50",
-        "move-duration-seg": "2.5"
+        "base_damage": "80",
+        "energy": "_50",
+        "move_duration_seg": "2.5"
       },
       {
         "name": "wild charge",
         "type": "electric",
-        "base-damage": "90",
-        "energy": "-50",
-        "move-duration-seg": "2.6"
+        "base_damage": "90",
+        "energy": "_50",
+        "move_duration_seg": "2.6"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "20",
+    "buddy_distance_km": "20",
     "evolution": {
       "candy": "raikou candy"
     }
@@ -23224,21 +23224,21 @@ export default {
       "height": "2.11 m",
       "weight": "198.0 kg"
     },
-    "pokemon-rarity": "legendary",
+    "pokemon_rarity": "legendary",
     "type": [
       "fire"
     ],
     "encounter": {
-      "base-flee-rate": "0.04",
-      "base-capture-rate": "0.02"
+      "base_flee_rate": "0.04",
+      "base_capture_rate": "0.02"
     },
-    "spawn-chance": "0",
+    "spawn_chance": "0",
     "stats": {
-      "base-attack": "235",
-      "base-defense": "171",
-      "base-stamina": "251",
-      "max-cp": "3473",
-      "max-hp": "210"
+      "base_attack": "235",
+      "base_defense": "171",
+      "base_stamina": "251",
+      "max_cp": "3473",
+      "max_hp": "210"
     },
     "resistant": [
       "fire",
@@ -23252,47 +23252,47 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "fire spin",
         "type": "fire",
-        "base-damage": "14",
+        "base_damage": "14",
         "energy": "10",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "fire fang",
         "type": "fire",
-        "base-damage": "11",
+        "base_damage": "11",
         "energy": "8",
-        "move-duration-seg": "0.9"
+        "move_duration_seg": "0.9"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "flamethrower",
         "type": "fire",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2.2"
       },
       {
         "name": "fire blast",
         "type": "fire",
-        "base-damage": "140",
-        "energy": "-100",
-        "move-duration-seg": "4.2"
+        "base_damage": "140",
+        "energy": "_100",
+        "move_duration_seg": "4.2"
       },
       {
         "name": "overheat",
         "type": "fire",
-        "base-damage": "160",
-        "energy": "-100",
-        "move-duration-seg": "4"
+        "base_damage": "160",
+        "energy": "_100",
+        "move_duration_seg": "4"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "20",
+    "buddy_distance_km": "20",
     "evolution": {
       "candy": "entei candy"
     }
@@ -23310,21 +23310,21 @@ export default {
       "height": "2.01 m",
       "weight": "187.0 kg"
     },
-    "pokemon-rarity": "legendary",
+    "pokemon_rarity": "legendary",
     "type": [
       "water"
     ],
     "encounter": {
-      "base-flee-rate": "0.04",
-      "base-capture-rate": "0.02"
+      "base_flee_rate": "0.04",
+      "base_capture_rate": "0.02"
     },
-    "spawn-chance": "0",
+    "spawn_chance": "0",
     "stats": {
-      "base-attack": "180",
-      "base-defense": "235",
-      "base-stamina": "225",
-      "max-cp": "2983",
-      "max-hp": "189"
+      "base_attack": "180",
+      "base_defense": "235",
+      "base_stamina": "225",
+      "max_cp": "2983",
+      "max_hp": "189"
     },
     "resistant": [
       "fire",
@@ -23336,47 +23336,47 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "extrasensory",
         "type": "psychic",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "12",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "snarl",
         "type": "dark",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "12",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "hydro pump",
         "type": "water",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.3"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "bubble beam",
         "type": "water",
-        "base-damage": "45",
-        "energy": "-33",
-        "move-duration-seg": "1.9"
+        "base_damage": "45",
+        "energy": "_33",
+        "move_duration_seg": "1.9"
       },
       {
         "name": "water pulse",
         "type": "water",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "3.2"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "20",
+    "buddy_distance_km": "20",
     "evolution": {
       "candy": "suicune candy"
     }
@@ -23394,22 +23394,22 @@ export default {
       "height": "0.60 m",
       "weight": "72.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "rock",
       "ground"
     ],
     "encounter": {
-      "base-flee-rate": "0.1",
-      "base-capture-rate": "0.4"
+      "base_flee_rate": "0.1",
+      "base_capture_rate": "0.4"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "115",
-      "base-defense": "93",
-      "base-stamina": "137",
-      "max-cp": "1040",
-      "max-hp": "120"
+      "base_attack": "115",
+      "base_defense": "93",
+      "base_stamina": "137",
+      "max_cp": "1040",
+      "max_hp": "120"
     },
     "resistant": [
       "electric",
@@ -23427,57 +23427,57 @@ export default {
       "steel",
       "fighting"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "bite",
         "type": "dark",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "rock smash",
         "type": "fight",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "10",
-        "move-duration-seg": "1.3"
+        "move_duration_seg": "1.3"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "stomp",
         "type": "normal",
-        "base-damage": "55",
-        "energy": "-50",
-        "move-duration-seg": "1.7"
+        "base_damage": "55",
+        "energy": "_50",
+        "move_duration_seg": "1.7"
       },
       {
         "name": "crunch",
         "type": "dark",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "ancient power",
         "type": "rock",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.5"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.5"
       }
     ],
     "egg": "10 km",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "larvitar candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "247",
         "name": "pupitar",
-        "candy-cost": "25",
-        "next-evolution": [{
+        "candy_cost": "25",
+        "next_evolution": [{
           "num": "248",
           "name": "tyranitar",
-          "candy-cost": "100"
+          "candy_cost": "100"
         }]
       }]
     }
@@ -23495,22 +23495,22 @@ export default {
       "height": "1.20 m",
       "weight": "152.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "rock",
       "ground"
     ],
     "encounter": {
-      "base-flee-rate": "0.07",
-      "base-capture-rate": "0.1"
+      "base_flee_rate": "0.07",
+      "base_capture_rate": "0.1"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "155",
-      "base-defense": "133",
-      "base-stamina": "172",
-      "max-cp": "1766",
-      "max-hp": "147"
+      "base_attack": "155",
+      "base_defense": "133",
+      "base_stamina": "172",
+      "max_cp": "1766",
+      "max_hp": "147"
     },
     "resistant": [
       "electric",
@@ -23528,58 +23528,58 @@ export default {
       "steel",
       "fighting"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "bite",
         "type": "dark",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "rock smash",
         "type": "fight",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "10",
-        "move-duration-seg": "1.3"
+        "move_duration_seg": "1.3"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "dig",
         "type": "ground",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "4.7"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "4.7"
       },
       {
         "name": "crunch",
         "type": "dark",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "ancient power",
         "type": "rock",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.5"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.5"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "larvitar candy",
-      "next-evolution": [{
+      "next_evolution": [{
         "num": "248",
         "name": "tyranitar",
-        "candy-cost": "100"
+        "candy_cost": "100"
       }],
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "246",
         "name": "larvitar",
-        "candy-cost": "25"
+        "candy_cost": "25"
       }]
     }
   },
@@ -23596,22 +23596,22 @@ export default {
       "height": "2.00 m",
       "weight": "202.0 kg"
     },
-    "pokemon-rarity": "normal",
+    "pokemon_rarity": "normal",
     "type": [
       "rock",
       "dark"
     ],
     "encounter": {
-      "base-flee-rate": "0.04",
-      "base-capture-rate": "0.05"
+      "base_flee_rate": "0.04",
+      "base_capture_rate": "0.05"
     },
-    "spawn-chance": null,
+    "spawn_chance": null,
     "stats": {
-      "base-attack": "251",
-      "base-defense": "207",
-      "base-stamina": "225",
-      "max-cp": "3834",
-      "max-hp": "189"
+      "base_attack": "251",
+      "base_defense": "207",
+      "base_stamina": "225",
+      "max_cp": "3834",
+      "max_hp": "189"
     },
     "resistant": [
       "psychic",
@@ -23631,57 +23631,57 @@ export default {
       "bug",
       "fairy"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "bite",
         "type": "dark",
-        "base-damage": "6",
+        "base_damage": "6",
         "energy": "4",
-        "move-duration-seg": "0.5"
+        "move_duration_seg": "0.5"
       },
       {
         "name": "iron tail",
         "type": "steel",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "7",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "fire blast",
         "type": "fire",
-        "base-damage": "140",
-        "energy": "-100",
-        "move-duration-seg": "4.2"
+        "base_damage": "140",
+        "energy": "_100",
+        "move_duration_seg": "4.2"
       },
       {
         "name": "crunch",
         "type": "dark",
-        "base-damage": "70",
-        "energy": "-33",
-        "move-duration-seg": "3.2"
+        "base_damage": "70",
+        "energy": "_33",
+        "move_duration_seg": "3.2"
       },
       {
         "name": "stone edge",
         "type": "rock",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.3"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.3"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "5",
+    "buddy_distance_km": "5",
     "evolution": {
       "candy": "larvitar candy",
-      "prev-evolution": [{
+      "prev_evolution": [{
         "num": "247",
         "name": "pupitar",
-        "candy-cost": "100",
-        "prev-evolution": [{
+        "candy_cost": "100",
+        "prev_evolution": [{
           "num": "246",
           "name": "larvitar",
-          "candy-cost": "25"
+          "candy_cost": "25"
         }]
       }]
     }
@@ -23693,28 +23693,28 @@ export default {
       "num": "generation ii",
       "name": "johto"
     },
-    "about": "Lugia's wings pack devastating power-a light fluttering of its wings can blow apart regular houses. As a result, this Pokémon chooses to live out of sight deep under the sea.",
+    "about": "Lugia's wings pack devastating power_a light fluttering of its wings can blow apart regular houses. As a result, this Pokémon chooses to live out of sight deep under the sea.",
     "img": "https://www.serebii.net/pokemongo/pokemon/249.png",
     "size": {
       "height": "5.21 m",
       "weight": "216.0 kg"
     },
-    "pokemon-rarity": "legendary",
+    "pokemon_rarity": "legendary",
     "type": [
       "psychic",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.04",
-      "base-capture-rate": "0.02"
+      "base_flee_rate": "0.04",
+      "base_capture_rate": "0.02"
     },
-    "spawn-chance": "0",
+    "spawn_chance": "0",
     "stats": {
-      "base-attack": "193",
-      "base-defense": "310",
-      "base-stamina": "235",
-      "max-cp": "3703",
-      "max-hp": "197"
+      "base_attack": "193",
+      "base_defense": "310",
+      "base_stamina": "235",
+      "max_cp": "3703",
+      "max_hp": "197"
     },
     "resistant": [
       "grass",
@@ -23728,80 +23728,80 @@ export default {
       "rock",
       "ghost"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "extrasensory",
         "type": "psychic",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "12",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "dragon tail",
         "type": "dragon",
-        "base-damage": "15",
+        "base_damage": "15",
         "energy": "9",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "sky attack",
         "type": "flying",
-        "base-damage": "70",
-        "energy": "-50",
-        "move-duration-seg": "2"
+        "base_damage": "70",
+        "energy": "_50",
+        "move_duration_seg": "2"
       },
       {
         "name": "hydro pump",
         "type": "water",
-        "base-damage": "130",
-        "energy": "-100",
-        "move-duration-seg": "3.3"
+        "base_damage": "130",
+        "energy": "_100",
+        "move_duration_seg": "3.3"
       },
       {
         "name": "futuresight",
         "type": "psychic",
-        "base-damage": "120",
-        "energy": "-100",
-        "move-duration-seg": "2.7"
+        "base_damage": "120",
+        "energy": "_100",
+        "move_duration_seg": "2.7"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "20",
+    "buddy_distance_km": "20",
     "evolution": {
       "candy": "lugia candy"
     }
   },
   {
     "num": "250",
-    "name": "ho-oh",
+    "name": "ho_oh",
     "generation": {
       "num": "generation ii",
       "name": "johto"
     },
-    "about": "Ho-Oh's feathers glow in seven colors depending on the angle at which they are struck by light. These feathers are said to bring happiness to the bearers. This Pokémon is said to live at the foot of a rainbow.",
+    "about": "Ho_Oh's feathers glow in seven colors depending on the angle at which they are struck by light. These feathers are said to bring happiness to the bearers. This Pokémon is said to live at the foot of a rainbow.",
     "img": "https://www.serebii.net/pokemongo/pokemon/250.png",
     "size": {
       "height": "3.80 m",
       "weight": "199.0 kg"
     },
-    "pokemon-rarity": "legendary",
+    "pokemon_rarity": "legendary",
     "type": [
       "fire",
       "flying"
     ],
     "encounter": {
-      "base-flee-rate": "0.04",
-      "base-capture-rate": "0.02"
+      "base_flee_rate": "0.04",
+      "base_capture_rate": "0.02"
     },
-    "spawn-chance": "0",
+    "spawn_chance": "0",
     "stats": {
-      "base-attack": "239",
-      "base-defense": "244",
-      "base-stamina": "214",
-      "max-cp": "3863",
-      "max-hp": "180"
+      "base_attack": "239",
+      "base_defense": "244",
+      "base_stamina": "214",
+      "max_cp": "3863",
+      "max_hp": "180"
     },
     "resistant": [
       "fighting",
@@ -23817,49 +23817,49 @@ export default {
       "electric",
       "water"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "extrasensory",
         "type": "psychic",
-        "base-damage": "12",
+        "base_damage": "12",
         "energy": "12",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       },
       {
         "name": "steel wing",
         "type": "steel",
-        "base-damage": "11",
+        "base_damage": "11",
         "energy": "6",
-        "move-duration-seg": "0.8"
+        "move_duration_seg": "0.8"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "brave bird",
         "type": "flying",
-        "base-damage": "90",
-        "energy": "-100",
-        "move-duration-seg": "2"
+        "base_damage": "90",
+        "energy": "_100",
+        "move_duration_seg": "2"
       },
       {
         "name": "fire blast",
         "type": "fire",
-        "base-damage": "140",
-        "energy": "-100",
-        "move-duration-seg": "4.2"
+        "base_damage": "140",
+        "energy": "_100",
+        "move_duration_seg": "4.2"
       },
       {
         "name": "solar beam",
         "type": "grass",
-        "base-damage": "180",
-        "energy": "-100",
-        "move-duration-seg": "4.9"
+        "base_damage": "180",
+        "energy": "_100",
+        "move_duration_seg": "4.9"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "20",
+    "buddy_distance_km": "20",
     "evolution": {
-      "candy": "ho-oh candy"
+      "candy": "ho_oh candy"
     }
   },
   {
@@ -23875,22 +23875,22 @@ export default {
       "height": "0.61 m",
       "weight": "5.0 kg"
     },
-    "pokemon-rarity": "mythic",
+    "pokemon_rarity": "mythic",
     "type": [
       "psychic",
       "grass"
     ],
     "encounter": {
-      "base-flee-rate": "0",
-      "base-capture-rate": "100"
+      "base_flee_rate": "0",
+      "base_capture_rate": "100"
     },
-    "spawn-chance": "0",
+    "spawn_chance": "0",
     "stats": {
-      "base-attack": "210",
-      "base-defense": "210",
-      "base-stamina": "225",
-      "max-cp": "3265",
-      "max-hp": "189"
+      "base_attack": "210",
+      "base_defense": "210",
+      "base_stamina": "225",
+      "max_cp": "3265",
+      "max_hp": "189"
     },
     "resistant": [
       "water",
@@ -23905,47 +23905,47 @@ export default {
       "poison",
       "flying"
     ],
-    "quick-move": [
+    "quick_move": [
       {
         "name": "confusion",
         "type": "psychic",
-        "base-damage": "20",
+        "base_damage": "20",
         "energy": "15",
-        "move-duration-seg": "1.6"
+        "move_duration_seg": "1.6"
       },
       {
         "name": "charge beam",
         "type": "electric",
-        "base-damage": "8",
+        "base_damage": "8",
         "energy": "15",
-        "move-duration-seg": "1.1"
+        "move_duration_seg": "1.1"
       }
     ],
-    "special-attack": [
+    "special_attack": [
       {
         "name": "hyper beam",
         "type": "normal",
-        "base-damage": "150",
-        "energy": "-100",
-        "move-duration-seg": "3.8"
+        "base_damage": "150",
+        "energy": "_100",
+        "move_duration_seg": "3.8"
       },
       {
         "name": "psychic",
         "type": "psychic",
-        "base-damage": "100",
-        "energy": "-100",
-        "move-duration-seg": "2.8"
+        "base_damage": "100",
+        "energy": "_100",
+        "move_duration_seg": "2.8"
       },
       {
         "name": "dazzling gleam",
         "type": "fairy",
-        "base-damage": "100",
-        "energy": "-50",
-        "move-duration-seg": "3.5"
+        "base_damage": "100",
+        "energy": "_50",
+        "move_duration_seg": "3.5"
       }
     ],
     "egg": "not in eggs",
-    "buddy-distance-km": "20",
+    "buddy_distance_km": "20",
     "evolution": {
       "candy": "celebi candy"
     }

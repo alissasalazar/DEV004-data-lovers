@@ -1,4 +1,5 @@
-import { filterPok, gensPok, orderPoke, filterIdPok, searchPokemon } from "../src/data.js";
+
+import { filterPok, gensPok, orderPoke, filterIdPok, calculateHp,searchPokemon} from "../src/data.js";
 
 const dataPoke = [
   {
@@ -85,6 +86,100 @@ const dataPoke = [
     type: ["psychic", "grass"],
     resistant: ["water", "electric", "grass", "fighting", "ground"],
     weaknesses: ["fire", "ice", "poison", "flying"],
+  },
+];
+
+const dataPokemon=[
+  {
+    num: "001",
+    name: "bulbasaur",
+    generation: {
+      name: "kanto",
+    },
+    about:
+      "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
+    img: "https://www.serebii.net/pokemongo/pokemon/001.png",
+    type: ["grass", "poison"],
+    resistant: ["water", "electric", "grass", "fighting", "fairy"],
+    weaknesses: ["fire", "ice", "flying", "psychic"],
+    stats: { max_hp: "113" },
+  },
+  {
+    num: "002",
+    name: "ivysaur",
+    generation: {
+      name: "kanto",
+    },
+    about:
+      "There is a bud on this Pokémon's back. To support its weight, Ivysaur's legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it's a sign that the bud will bloom into a large flower soon.",
+    img: "https://www.serebii.net/pokemongo/pokemon/002.png",
+    "pokemon-rarity": "normal",
+    type: ["grass", "poison"],
+    resistant: ["water", "electric", "grass", "fighting", "fairy"],
+    weaknesses: ["fire", "ice", "flying", "psychic"],
+    stats: { max_hp: "134" },
+  },
+  {
+    num: "167",
+    name: "spinarak",
+    generation: {
+      name: "johto",
+    },
+    about:
+      "The web spun by Spinarak can be considered its second nervous system. It is said that this Pokémon can determine what kind of prey is touching its web just by the tiny vibrations it feels through the web's strands.",
+    img: "https://www.serebii.net/pokemongo/pokemon/167.png",
+    type: ["bug", "poison"],
+    resistant: ["grass", "fighting", "poison", "bug", "fairy"],
+    weaknesses: ["fire", "flying", "psychic", "rock"],
+    stats: { max_hp: "106" },
+  },
+  {
+    num: "168",
+    name: "ariados",
+    generation: {
+      name: "johto",
+    },
+    about:
+      "Ariados's feet are tipped with tiny hooked claws that enable it to scuttle on ceilings and vertical walls. This Pokémon constricts the foe with thin and strong silk webbing.",
+    img: "https://www.serebii.net/pokemongo/pokemon/168.png",
+    "pokemon-rarity": "normal",
+    type: ["bug", "poison"],
+    resistant: ["grass", "fighting", "poison", "bug", "fairy"],
+    weaknesses: ["fire", "flying", "psychic", "rock"],
+    stats: { max_hp: "147" },
+  },
+  {
+    num: "250",
+    name: "ho-oh",
+    generation: {
+      name: "johto",
+    },
+    about:
+      "Ho-Oh's feathers glow in seven colors depending on the angle at which they are struck by light. These feathers are said to bring happiness to the bearers. This Pokémon is said to live at the foot of a rainbow.",
+    img: "https://www.serebii.net/pokemongo/pokemon/250.png",
+    "pokemon-rarity": "legendary",
+    type: ["fire", "flying"],
+    resistant: ["fighting", "bug", "grass", "steel", "fire", "fairy"],
+    weaknesses: ["rock", "ground", "electric", "water"],
+    stats: { max_hp: "180" },
+  },
+  {
+    num: "251",
+    name: "celebi",
+    generation: {
+      name: "johto",
+    },
+    about:
+      "This Pokémon came from the future by crossing over time. It is thought that so long as Celebi appears, a bright and shining future awaits us.",
+    img: "https://www.serebii.net/pokemongo/pokemon/251.png",
+    size: {
+      height: "0.61 m",
+      weight: "5.0 kg",
+    },
+    type: ["psychic", "grass"],
+    resistant: ["water", "electric", "grass", "fighting", "ground"],
+    weaknesses: ["fire", "ice", "poison", "flying"],
+    stats: { max_hp: "189" },
   },
 ];
 
@@ -479,6 +574,7 @@ describe("orderPoke", () => {
     ]);
   });
 });
+
 describe("filterIdPok", () => {
   it("Deberia ser una funcion", () => {
     expect(typeof filterIdPok).toBe("function");
@@ -498,6 +594,35 @@ describe("filterIdPok", () => {
       resistant: ["water", "electric", "grass", "fighting", "fairy"],
       weaknesses: ["fire", "ice", "flying", "psychic"],
     });
+  });
+});
+
+describe("calculateHp", () => {
+  it("Deberia ser una funcion", () => {
+    expect(typeof calculateHp).toBe("function");
+  });
+
+  it("deberia retornar los pokemones mayores al max HP 181 ", () => {
+    expect(calculateHp("181", dataPokemon)).toStrictEqual([
+      {
+        num: "251",
+        name: "celebi",
+        generation: {
+          name: "johto",
+        },
+        about:
+          "This Pokémon came from the future by crossing over time. It is thought that so long as Celebi appears, a bright and shining future awaits us.",
+        img: "https://www.serebii.net/pokemongo/pokemon/251.png",
+        size: {
+          height: "0.61 m",
+          weight: "5.0 kg",
+        },
+        type: ["psychic", "grass"],
+        resistant: ["water", "electric", "grass", "fighting", "ground"],
+        weaknesses: ["fire", "ice", "poison", "flying"],
+        stats: { max_hp: "189" },
+      }]
+    );
   });
 });
 
@@ -524,3 +649,4 @@ describe("searchPokemon", () => {
     ]);
   });
 });
+

@@ -1,6 +1,8 @@
 import data from "./data/pokemon/pokemon.js";
 import createCard from "./createCard.js";
-import { filterPok, gensPok, orderPoke, searchPokemon } from "./data.js";
+
+import { filterPok, gensPok, orderPoke, calculateHp, searchPokemon } from "./data.js";
+
 const allPokemons = data.pokemon;
 const rootBody = document.getElementById("root");
 window.onload = createCard(allPokemons, rootBody);
@@ -57,3 +59,20 @@ function showAllPokemons() {
 
 const elementShowAll = document.getElementById("see-all");
 elementShowAll.addEventListener("click", showAllPokemons);
+
+//calcular Cp//
+const hpPoke=document.getElementById("numHP");
+
+const btnCalculate = document.getElementById("btn-calculate");
+btnCalculate.addEventListener("click", function () {
+  // console.log("valor que coloco en el input:", hpPoke.value);
+  const calculateHpPoke = calculateHp(hpPoke.value, allPokemons);
+  createCard(calculateHpPoke, rootBody);
+});
+
+
+// createCard(calculateCp, rootBody)
+// function calculateCp(value, dataPoke = data.pokemon){
+// const cpPoke= dataPoke.filter((pok) => pok.stats.max_cp > valueInputCp )
+// }
+

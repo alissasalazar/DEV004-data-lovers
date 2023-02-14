@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
-/*--Estilo del header--*/
-header {
-  background-color: white;
-  height: 20%;
   overflow: hidden;
   text-align: center;
   position: relative;
@@ -13,11 +9,21 @@ header {
   display: inline-block;
 }
 
-/*--Estilo SECTION:searcher--*/
 li {
   display: inline-block;
   height: 20%;
 }
+
+.logo {
+  margin: auto;
+  width: 35%;
+}
+.pokedex {
+  margin: auto;
+  width: 20%;
+}
+body {
+  background: #b8f5ff;
 .searcher {
   display: inline-block;
   margin: 0.5em;
@@ -92,6 +98,7 @@ li {
 /*--Estilo body--*/
 body {
   display: inline;
+
   background: linear-gradient(
     90deg,
     rgba(85, 144, 189, 1) 0%,
@@ -100,10 +107,13 @@ body {
   );
   text-align: center;
   font-family: "Questrial", sans-serif;
+}
+
   margin: 0;
   padding: 0;
 }
 /*--Estilo tarjetas--*/
+
 h1,
 h3 {
   color: black;
@@ -124,6 +134,13 @@ a {
   min-width: 250px;
 }
 
+.imgCard, .imgCard2 {
+  background: url("./blob.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px
+}
+
 .imgCard {
   background: url("./blob.svg");
   background-repeat: no-repeat;
@@ -137,3 +154,58 @@ footer {
   text-align: center;
   position: relative;
 }
+
+#cards2 {
+  background-color: #d0fce3;
+  box-shadow: 0 3px 15px black;
+  display: inline-block;
+  margin: 8px;
+  border-radius: 4px;
+  padding: 10px;
+
+}
+
+h5 {
+  box-shadow: 0 0 9px 0 #c4c3c3;
+  background-color: #fcfcf9;
+  padding: 1px;
+  margin: 1px;
+  border-radius: 0.4px;
+  max-width: 300px;
+  min-width: 270px;
+  grid-template-columns: 53% 47%;
+  flex-basis: 30%;
+  text-align: center;
+}
+.numCard {
+  cursor: pointer; 
+  margin: 1px; 
+}
+.numCard:hover{
+  color: yellowgreen
+}
+.nameCard, .nameCard2 {
+    text-transform: capitalize;
+    font-size: 45 px;
+    text-align: center;
+    background-color: #35867d;
+    border-radius: 0.3em;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 10px;
+}
+
+.About{
+  margin: 4px;
+  border-radius: 3px;
+  
+}
+.Resistant{
+  margin: 4px;
+  border-radius: 0.3em;
+}
+.Weaknesses{
+  margin: 4px;
+  border-radius: 0.3em;
+}
+

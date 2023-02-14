@@ -34,9 +34,18 @@ export function filterIdPok(id, dataPoke = data.pokemon) {
   const pokemonObj = pokemonArray[0];
   return pokemonObj;
 }
+//calcular CP//
+export function calculateHp(hpPok, dataPoke) {
+  const hpPoke = dataPoke.filter(
+    (pok) => Number(pok.stats.max_hp) >= Number(hpPok)
+  );
+  console.log("calcula pokemones:", hpPoke);
+  return hpPoke;
+}
 
 //Buscar pokemon por nombre//
 export const searchPokemon = (name, input) => {
   const pokeSearch = name.filter(pok => pok.name.startsWith(input.toLowerCase()));
   return pokeSearch;
 }
+
