@@ -1,26 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 
-header{
-  background-color:white;
+header {
+  background-color: white;
   height: 25%;
   overflow: hidden;
   text-align: center;
 }
 
-li{
-  display:inline-block;
+li {
+  display: inline-block;
   height: 20%;
 }
-.logo{
+.logo {
   margin: auto;
   width: 35%;
 }
-.pokedex{
+.pokedex {
   margin: auto;
   width: 20%;
 }
-body{
-  background:#B8F5FF ; 
+body {
+  background: #b8f5ff;
   background: linear-gradient(
     90deg,
     rgba(85, 144, 189, 1) 0%,
@@ -28,39 +28,93 @@ body{
     rgba(182, 216, 242, 1) 82%
   );
   text-align: center;
-  font-family: 'Questrial', sans-serif;
+  font-family: "Questrial", sans-serif;
 }
-h1, h3{
-    color: black;
+h1,
+h3 {
+  color: black;
 }
-a{
+a {
   display: block;
 }
 
 .cardPokemon {
-    display:inline-block;
-    font-family: 'Questrial', sans-serif;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 20px;
-    background-color: white;
-    box-shadow: 0 3px 15px black;
-    text-align: center;
-    height: 25%;
-    min-width: 250px;
-
+  display: inline-block;
+  font-family: "Questrial", sans-serif;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  background-color: white;
+  box-shadow: 0 3px 15px black;
+  text-align: center;
+  height: 25%;
+  min-width: 250px;
 }
 
-.imgCard {
-    background: url("./blob.svg");
-    background-repeat: no-repeat ;
-    background-position: center;
+.imgCard, .imgCard2 {
+  background: url("./blob.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px
 }
 
-footer{
+footer {
   background-color: white;
   height: 4%;
   overflow: hidden;
   text-align: center;
 }
 
+#cards2 {
+  background-color: #d0fce3;
+  box-shadow: 0 3px 15px black;
+  display: inline-block;
+  margin: 8px;
+  border-radius: 4px;
+  padding: 10px;
+
+}
+
+h5 {
+  box-shadow: 0 0 9px 0 #c4c3c3;
+  background-color: #fcfcf9;
+  padding: 1px;
+  margin: 1px;
+  border-radius: 0.4px;
+  max-width: 300px;
+  min-width: 270px;
+  grid-template-columns: 53% 47%;
+  flex-basis: 30%;
+  text-align: center;
+}
+.numCard {
+  cursor: pointer; 
+  margin: 1px; 
+}
+.numCard:hover{
+  color: yellowgreen
+}
+.nameCard, .nameCard2 {
+    text-transform: capitalize;
+    font-size: 45 px;
+    text-align: center;
+    background-color: #35867d;
+    border-radius: 0.3em;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 10px;
+}
+
+.About{
+  margin: 4px;
+  border-radius: 3px;
+  
+}
+.Resistant{
+  margin: 4px;
+  border-radius: 0.3em;
+}
+.Weaknesses{
+  margin: 4px;
+  border-radius: 0.3em;
+}

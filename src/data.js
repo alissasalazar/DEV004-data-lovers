@@ -35,5 +35,12 @@ export function filterIdPok(id, dataPoke = data.pokemon) {
   //console.log("entro funcion filterIdPok", pokemonObj);
   return pokemonObj;
 }
+//calcular CP//
+export function calculateHp(hpPok, dataPoke) {
+  const hpPoke = dataPoke.filter(
+    (pok) => Number(pok.stats.max_hp) >= Number(hpPok)
+  );
+  console.log("calcula pokemones:", hpPoke);
+  return hpPoke;
+}
 
-//barra de busqueda//
