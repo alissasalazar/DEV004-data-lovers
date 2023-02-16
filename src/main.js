@@ -1,11 +1,23 @@
 import data from "./data/pokemon/pokemon.js";
 import createCard from "./createCard.js";
 
-import { filterPok, gensPok, orderPoke, calculateHp, searchPokemon } from "./data.js";
-
+import {
+  filterPok,
+  gensPok,
+  orderPoke,
+  calculateHp,
+  searchPokemon,
+} from "./data.js";
+//Mostrar spinner//
+const spinner = document.getElementById("spinner");
+spinner.style.display = "block";
 const allPokemons = data.pokemon;
 const rootBody = document.getElementById("root");
+
+
 window.onload = createCard(allPokemons, rootBody);
+//Ocultar spinner/
+spinner.style.display = "none";
 
 //Mostrar filtros en pantalla//
 const btnArray = document.querySelectorAll(".btn-nav");
@@ -29,7 +41,7 @@ btnsGen.forEach((btnGen) =>
 
 //Ordenar pokemones
 const showOrderPoke = document.getElementById("order");
-showOrderPoke.addEventListener("change", function () {
+showOrderPoke.addEventListener("change", function () { 
   orderPoke(showOrderPoke.value, allPokemons);
   createCard(allPokemons, rootBody);
 });
@@ -61,7 +73,7 @@ const elementShowAll = document.getElementById("see-all");
 elementShowAll.addEventListener("click", showAllPokemons);
 
 //calcular Cp//
-const hpPoke=document.getElementById("numHP");
+const hpPoke = document.getElementById("numHP");
 const btnCalculate = document.getElementById("btn-calculate");
 btnCalculate.addEventListener("click", function () {
   const calculateHpPoke = calculateHp(hpPoke.value, allPokemons);

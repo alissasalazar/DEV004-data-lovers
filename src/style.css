@@ -152,24 +152,11 @@ a {
   background-color: white;
   box-shadow: 0 3px 15px black;
   text-align: center;
-  height: 25%;
+  height: 350px;
   min-width: 250px;
+  position: relative;
 }
-.imgCard,
-.imgCard2 {
-  background: url("./blob.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 150px;
-}
-#cards2 {
-  background-color: #d0fce3;
-  box-shadow: 0 3px 15px black;
-  display: inline-block;
-  margin: 8px;
-  border-radius: 4px;
-  padding: 10px;
-}
+
 h5 {
   box-shadow: 0 0 9px 0 #c4c3c3;
   background-color: #fcfcf9;
@@ -214,9 +201,52 @@ h5 {
 }
 /*--Estilo footer--*/
 footer {
-  background-color: white;
+  background-color: #D5D8DC;
   height: 4%;
   overflow: hidden;
   text-align: center;
   position: relative;
+}
+/* spinner */
+.spinner {
+  border: 30px solid rgba(245, 171, 11, 0.616);
+  border-left-color: transparent;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spin 1s linear infinite;
+  display: flex;
+ justify-content: center;
+ margin: 0 auto;
+ z-index: 9;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+@keyframes giro {
+  from {
+    transform: rotateY( 180deg);
+  }
+  to {
+    transform: rotateY( 0deg);
+  }
+}
+
+@-webkit-keyframes giro {
+  from {
+    transform: rotateY( 180deg);
+  }
+  to {
+    transform: rotateY( 0deg);
+  }
 }
