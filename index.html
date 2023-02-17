@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Data Lovers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0"
+    />
+  </head>
+  <header>
+    <img src="pokemon-pokedex.png" class="pokedex" />
+  </header>
+  <body>
+    <section class="searcher">
+      <article class="searchPoke">
+        <h4>Search your pokemon</h4>
+        <input
+          type="search"
+          id="search"
+          class="search comun"
+          placeholder="Search by name"
+          autocomplete="off"
+          spellcheck="false"
+        />
+      </article>
+      <article class="orderPoke">
+        <h4>Order alphabetically and by number.</h4>
+        <select id="order" class="order">
+          <option selected disabled="disabled">Order</option>
+          <option class="order" value="order1">1 to 251</option>
+          <option class="order" value="order2">251 to 1</option>
+          <option class="order" value="abc">A to Z</option>
+          <option class="order" value="cba">Z to A</option>
+        </select>
+      </article>
+      <nav class="type-filter">
+        <h4>Filter by type</h4>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <button class="btn-nav" id="see-all">See all</button>
+          </li>
+          <li class="nav-item"><button class="btn-nav">Normal</button></li>
+          <li class="nav-item"><button class="btn-nav">Fire</button></li>
+          <li class="nav-item"><button class="btn-nav">Water</button></li>
+          <li class="nav-item"><button class="btn-nav">Grass</button></li>
+          <li class="nav-item"><button class="btn-nav">Electric</button></li>
+          <li class="nav-item"><button class="btn-nav">Ice</button></li>
+          <li class="nav-item"><button class="btn-nav">Fighting</button></li>
+          <li class="nav-item"><button class="btn-nav">Poison</button></li>
+          <li class="nav-item"><button class="btn-nav">Ground</button></li>
+          <li class="nav-item"><button class="btn-nav">Flying</button></li>
+          <li class="nav-item"><button class="btn-nav">Bug</button></li>
+          <li class="nav-item"><button class="btn-nav">Rock</button></li>
+          <li class="nav-item"><button class="btn-nav">Ghost</button></li>
+          <li class="nav-item"><button class="btn-nav">Dark</button></li>
+          <li class="nav-item"><button class="btn-nav">Dragon</button></li>
+          <li class="nav-item"><button class="btn-nav">Steel</button></li>
+          <li class="nav-item"><button class="btn-nav">Fairy</button></li>
+        </ul>
+      </nav>
+      <nav class="generation-filter">
+        <h4>Filter by generation</h4>
+        <ul class="nav-list">
+          <li class="nav-gen"><button class="btnGen">Kanto</button></li>
+          <li class="nav-gen"><button class="btnGen">Johto</button></li>
+        </ul>
+      </nav>
+      <article class="calulatePoke">
+        <h4>¿Which pokemon is stronger than mine?</h4>
+        <input
+          type="number"
+          class="numHP"
+          id="numHP"
+          placeholder="Put the HP of you Pokemon"
+        />
+        <button class="calculate" type="button" id="btn-calculate">
+          Calculate
+        </button>
+      </article>
+    </section>
+    <div id="root"></div>
+    <div id="spinner" class="spinner"></div>
+    <script src="main.js" type="module"></script>
+  </body>
+  <footer>
+    <h6>©Todos los derechos reservados.</h6>
+  </footer>
+</html>
