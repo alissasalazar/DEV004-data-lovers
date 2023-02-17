@@ -15,8 +15,7 @@ export default function createCard(data, rootBody) {
     </div>
 
     <div class="face back"> 
-    <img class="imgCard2" src="${data[i].img}" ></img>
-   <h4 class="nameCard2"> ${data[i].name}</h4>
+    <h3 class="numCardback"> ${data[i].num} </h3>
     <h5 class="About">About: ${data[i].about}</h5>
    </div>`;
   }
@@ -30,10 +29,11 @@ export default function createCard(data, rootBody) {
    <h4 class="nameCard2"> ${data.name}</h4>
     <h5 class="Resistant">Resistant: ${data.resistant}</h5>
     <h5 class="Weaknesses">Weaknesses: ${data.weaknesses}</h5> 
+    
    </div>`;
   }
 
-  const allPok = document.querySelectorAll(".numCard");
+  const allPok = document.querySelectorAll(".numCardback");
   for (let i = 0; i < allPok.length; i++) {
     allPok[i].addEventListener("click", function (p) {
       // //console.log(p);

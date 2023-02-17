@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
 header {
   overflow: hidden;
   height: 30%;
@@ -7,6 +8,7 @@ header {
   background-image: url(header.png);
   background-size: contain;
 }
+
 .pokedex {
   margin: auto;
   height: 60%;
@@ -21,6 +23,7 @@ li {
   margin: auto;
   width: 35%;
 }
+
 .pokedex {
   margin: auto;
   width: 20%;
@@ -33,6 +36,7 @@ li {
   color: #2d3d84fb;
   font-family: "Questrial", sans-serif;
 }
+
 .searchPoke,
 .orderPoke {
   display: inline-block;
@@ -52,6 +56,7 @@ li {
   font-size: 1em;
   margin: 0.3em;
 }
+
 .btn-nav:hover {
   background-color: #cd7b29;
   color: #ffffff;
@@ -71,6 +76,7 @@ li {
   font-size: 1em;
   margin: 0.3em;
 }
+
 .btnGen:hover {
   background-color: #2b7382;
   color: #ffffff;
@@ -103,6 +109,7 @@ li {
   font-family: "Questrial", sans-serif;
   text-align: center;
 }
+
 .calculate {
   font-family: "Questrial", sans-serif;
   color: white;
@@ -115,6 +122,7 @@ li {
   font-size: 1em;
   margin: 0.3em;
 }
+
 .calculate:hover {
   background-color: #672505;
   color: #ffffff;
@@ -126,56 +134,34 @@ li {
 body {
   margin: 0;
   display: inline;
-  background: linear-gradient(
-    90deg,
-    rgba(85, 144, 189, 1) 0%,
-    rgba(108, 183, 240, 1) 54%,
-    rgba(182, 216, 242, 1) 82%
-  );
+  background: linear-gradient(90deg,
+      rgba(85, 144, 189, 1) 0%,
+      rgba(108, 183, 240, 1) 54%,
+      rgba(182, 216, 242, 1) 82%);
   text-align: center;
   font-family: "Questrial", sans-serif;
 }
+
 /*--Estilo tarjetas--*/
 h1,
 h3 {
   color: black;
 }
+
 a {
   display: block;
 }
-.cardPokemon {
-  display: inline-block;
-  font-family: "Questrial", sans-serif;
-  border-radius: 10px;
-  padding: 10px;
-  margin: 20px;
-  background-color: white;
-  box-shadow: 0 3px 15px black;
-  text-align: center;
-  height: 350px;
-  min-width: 250px;
-  position: relative;
-}
 
-h5 {
-  box-shadow: 0 0 9px 0 #c4c3c3;
-  background-color: #fcfcf9;
-  padding: 1px;
-  margin: 1px;
-  border-radius: 0.4px;
-  max-width: 300px;
-  min-width: 270px;
-  grid-template-columns: 53% 47%;
-  flex-basis: 30%;
-  text-align: center;
-}
-.numCard {
+.numCard,
+.numCardback {
   cursor: pointer;
   margin: 1px;
 }
+
 .numCard:hover {
   color: #2b7382;
 }
+
 .nameCard,
 .nameCard2 {
   text-transform: capitalize;
@@ -187,18 +173,17 @@ h5 {
   margin: 0px;
   padding: 10px;
 }
-.About {
-  margin: 4px;
-  border-radius: 3px;
-}
+
 .Resistant {
   margin: 4px;
   border-radius: 0.3em;
 }
+
 .Weaknesses {
   margin: 4px;
   border-radius: 0.3em;
 }
+
 /*--Estilo footer--*/
 footer {
   background-color: #D5D8DC;
@@ -207,6 +192,7 @@ footer {
   text-align: center;
   position: relative;
 }
+
 /* spinner */
 .spinner {
   border: 30px solid rgba(245, 171, 11, 0.616);
@@ -216,9 +202,9 @@ footer {
   height: 100px;
   animation: spin 1s linear infinite;
   display: flex;
- justify-content: center;
- margin: 0 auto;
- z-index: 9;
+  justify-content: center;
+  margin: 0 auto;
+  z-index: 9;
 }
 
 @keyframes spin {
@@ -231,22 +217,112 @@ footer {
   }
 }
 
+/*card*/
 
-
-@keyframes giro {
-  from {
-    transform: rotateY( 180deg);
-  }
-  to {
-    transform: rotateY( 0deg);
-  }
+.cardPokemon {
+  display: inline-flex;
+  flex-wrap: wrap;
+  font-family: "Questrial", sans-serif;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  background-color: transparent;
+  text-align: center;
+  height: 250px;
+  min-width: 250px;
+  position: relative;
 }
 
-@-webkit-keyframes giro {
-  from {
-    transform: rotateY( 180deg);
-  }
-  to {
-    transform: rotateY( 0deg);
-  }
+/* .cardPokemon2 {
+  display: inline-flex;
+  flex-wrap: wrap;
+  background-color: #fcfcf9;
+} */
+
+.cardPokemon .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: .5s;
+}
+
+.front,
+.hpCard,
+.typeCard,
+.cardPokemon2 {
+  position: relative;
+  align-items: end;
+  display: inline-block;
+  box-shadow: 0 0 9px 0 #c4c3c3;
+  background-color: #fcfcf9;
+  padding: 1px;
+  margin: 1px;
+  border-radius: 0.4px;
+  max-width: 270px;
+  min-width: 270px;
+  grid-template-columns: 53% 47%;
+  flex-basis: 30%;
+  text-align: center;
+
+}
+
+.h5.About {
+  text-align: justify;
+  margin: 8px;
+  padding: 15px;
+  font-size: large;
+}
+
+.numCardback {
+  color: #fcfcf9;
+  font-size: 30px;
+}
+
+/*flip card*/
+.front {
+  transform: perspective(600px) rotateY(0deg);
+}
+
+.front img {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  background: url("./blob.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+}
+
+
+
+.back {
+  transform: perspective(600px) rotateY(180deg);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 0 9px 0 #c4c3c3;
+  background-color: #025c41;
+  padding: 1px;
+  margin: 1px;
+  border-radius: 0.4px;
+  max-width: 300px;
+  min-width: 270px;
+  grid-template-columns: 53% 47%;
+  flex-basis: 30%;
+  color: #fcfcf9;
+
+}
+
+.cardPokemon:hover .front {
+  transform: perspective(600px) rotateY(180deg);
+}
+
+.cardPokemon:hover .back {
+  transform: perspective(600px) rotateY(360deg);
 }

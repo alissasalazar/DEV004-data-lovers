@@ -1,7 +1,6 @@
 import data from "./data/pokemon/pokemon.js";
 // const allPokemons = data.pokemon;
 //Filtrar los tipos
-const rootBody = document.getElementById("root");
 export const filterPok = (value, dataPoke) => {
   if (dataPoke === undefined) return "No se registró pokemon";
   const pokeTypes = dataPoke.filter((pok) => pok.type.includes(value));
@@ -20,7 +19,6 @@ export const gensPok = (generacion, dataPoke) => {
 
 //Ordenar de:1-251, 251-1, A a Z y Z a A//
 export function orderPoke(selectCombo, dataPoke) {
-  rootBody.innerHTML = "";
   if (dataPoke === undefined) return "No se registró pokemon";
   if (selectCombo === "order1") {
     return dataPoke.sort((a, b) => (a.num < b.num ? -1 : 1));
