@@ -1,113 +1,166 @@
 # Data Lovers
 
-## Índice
+# 1. Resumen del proyecto.
+En este proyecto se construyó una página web para visualizar un conjunto de datos. Esta página web debe de permitir que se visualice la data, se filtre, se ordene y además se realice algún cálculo.
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Hacker edition](#6-hacker-edition)
-* [7. Consideraciones técnicas](#7-consideraciones-técnicas)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [9. Checklist](#9-checklist)
+# 2. Descripción del proyecto.
+Esta página web es una propuesta de pokédex para el juego Pokemon GO, es una herramienta paralela al juego, en la que se puede encontrar información sobre los pokemons. El objetivo es que esta información sea útil para los jugadores y que los ayude a realizar las mejores estrategias para sus batallas dentro del juego, y que además sea un primer acercamiento amigable para quien quiere iniciar a jugar.
 
-***
+# 3. Investigación de los usuarios
+## Pokemon GO
+Pokémon Go es un juego de realidad aumentada para teléfonos inteligentes. En él, lxs jugadores buscan sobresalir como entrenadores de Pokemones, unas criaturas que "viven" en unas bolas especiales llamadas “Pokebolas”.
+De acuerdo con el concepto original, los entrenadores buscan capturar Pokemones hasta completar una colección. El otro objetivo es adiestrarlos para que ganen batallas frente a otras criaturas.
+Para la captura, el jugador debe literalmente lanzarse a las calles de su ciudad. Haciendo uso del GPS del teléfono, la app le avisará con una vibración y una luz intermitente cuando se encuentra cerca de un Pokémon.
 
-## 1. Preámbulo
+## Hallazgos
+Los Pokémon tienen características únicas que determinan las decisiones que toma el usuario (tipo, debilidad, peso, multiplicador, etc), con base en esto elegimos qué información de la data es que debíamos utilizar. 
+-Nombre, número, tipo, generación, max hp, fortalezas y debilidades.
 
-Según [Forbes](https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read),
-el 90% de la data que existe hoy ha sido creada durante los últimos dos años.
-Cada día generamos 2.5 millones de terabytes de datos, una cifra sin
-precedentes.
+# 4. Historias de Usuario
+## HU 1. Mostrar la data. 
+Yo cómo: nueva jugadora de Pokémon.
+Quiero ver imágenes y nombres de los Pokemones.
+Para: saber cuáles existen.
 
-No obstante, los datos por sí mismos son de poca utilidad. Para que esas
-grandes cantidades de datos se conviertan en **información** fácil de leer para
-los usuarios, necesitamos entender y procesar estos datos. Una manera simple de
-hacerlo es creando _interfaces_ y _visualizaciones_.
+**Criterios de aceptación:**
+-Se visualizan todos los pokémons con nombre, número e imagen.
+-Se muestran los pokemones en filas y columnas.
 
-## 2. Resumen del proyecto
+**Criterios de terminado:**
+-Una tarjeta contiene nombre, número e imagen de cada pokemon.
+-Está en un commit en GH.
+-Es responsive.
 
-En este proyecto **construirás una _página web_ para visualizar un
-_conjunto (set) de datos_** que se adecúe a lo que descubras que tu usuario
-necesita.
+## HU 2. Filtrar la data.
+Yo cómo: jugadora de pokemon Go.
+Quiero: conocer el tipo de cada pokemon.
+Para: crear una estrategia para mi batalla.
 
-Como entregable final tendrás una página web que permita **visualizar la data,
-filtrarla, ordenarla y hacer algún cálculo agregado**. Con cálculo agregado
-nos referimos a distintos cálculos que puedes hacer con la data para mostrar
-información aún más relevante para los usuarios (promedio, el valor máximo
-o mínimo, etc).
+**Criterios de aceptación:**
+-Se tienen botones para filtrar cada tipo de pokémon.
+-Los botones tienen funcionalidad.
+-Los botones tienen estilo en CSS.
+-Se tiene test para la función. 
+-Se muestran los pokemones filtrados en filas y columnas.
 
-Esta vez te proponemos una serie de datos de diferentes _temáticas_ para que
-explores y decidas con qué temática te interesa trabajar. Hemos elegido
-específicamente estos sets de datos porque creemos que se adecúan bien a esta
-etapa de tu aprendizaje.
+**Criterios de terminado:**
+-Está en un commit en GH.
+-Es responsive.
+-Pasa los test.
 
-Una vez que definas tu área de interés, buscar entender quién es tu usuario
-y qué necesita saber o ver exactamente; luego podrás construir la interfaz que
-le ayude a interactuar y entender mejor esos datos.
+## HU 3. Filtrar la data.
+Yo cómo: jugadora de pokemon Go.
+Quiero: conocer la generación de cada pokemon.
+Para: conocer el origen de cada pokemon.
 
-Estos son datos que te proponemos:
+**Criterios de aceptación:**
+-Se tienen botones para filtrar las generaciones de los pokémon.
+-Los botones tienen funcionalidad.
+-Los botones tienen estilo en CSS.
+-Se tiene test para la función. 
+-Se muestran los pokemones filtrados en filas y columnas.
 
-* [Pokémon](src/data/pokemon/pokemon.json):
-  En este set encontrarás una lista con los 251 Pokémon de la región de Kanto
-  y Johto, junto con sus respectivas estadísticas usadas en el juego
-  [Pokémon GO](http://pokemongolive.com).
-  - [Investigación con jugadores de Pokémon Go](src/data/pokemon/README.md)
+**Criterios de terminado:**
+-Está en un commit en GH.
+-Es responsive.
+-Pasa los test.
 
-* [League of Legends - Challenger leaderboard](src/data/lol/lol.json):
-  Este set de datos muestra la lista de campeones en una liga del
-  juego League of Legends (LoL).
-  - [Investigación con jugadores de LoL](src/data/lol/README.md)
+## HU 4. Ordenar la data.
+Yo cómo: jugadora de pokemon Go.
+Quiero: ordenar los pokemones de manera alfabética y por número..
+Para: encontrarlos más fácilmente en la pokédex
 
-* [Rick and Morty](src/data/rickandmorty/rickandmorty.json).
-  Este set nos proporciona la lista de los personajes de la serie Rick and
-  Morty.
-  - [Investigación con seguidores de Rick and Morty](src/data/rickandmorty/README.md)
+**Criterios de aceptación:**
+-Se tienen una barra selección.
+-La barra tiene opciones para ordenar ascendente y descendentemente, por orden alfabético y de número.
+-La barra tiene funcionalidad.
+-La barra tiene estilo en CSS.
+-Se tiene test para la función. 
+-Se muestran los pokemones ordenados en filas y columnas.
+**Criterios de terminado:**
+-Está en un commit en GH.
+-Es responsive.
+-Pasa los test.
 
-* [Juegos Olímpicos de Río de Janeiro](src/data/athletes/athletes.json).
-  Este set nos proporciona la lista de los atletas que ganaron medallas en las
-  olímpiadas de Río de Janeiro.
-  - [Investigación con interesados en juegos olímpicos de Río de Janeiro](src/data/athletes/README.md)
+## HU 5. Calcular algo con la data.
+Yo cómo: jugadora de pokemon Go.
+Quiero: ingresar el HP de mi pokemon.
+Para: que me retorne un pokemon con más HP.
 
-* [Studio Ghibli](src/data/ghibli/ghibli.json).
-  En este set encontrarás una lista de las animaciones y sus personajes del
-  [Studio Ghibli](https://ghiblicollection.com/).
-  - [Investigación con seguidores de las animaciones del Studio Ghibli](src/data/ghibli/README.md)
+**Criterios de aceptación:**
+-Se tiene un input de tipo número.
+-Se tiene un botón que realice el cálculo de encontrar un pokemon con más HP, que el número que se ingresa.
+-El botón tiene funcionalidad.
+-La barra tiene estilo en CSS.
+-Se tiene test para la función. 
+-Se muestran los pokemones más fuertes en filas y columnas.
 
-* [Harry Potter](src/data/harrypotter/harry.json).
-  En este set encontrarás una lista de los personajes,libros pociones
-  y hechizos de toda la saga de
-  [Harry Potter](https://harrypotter.fandom.com).
-  - [Investigación con seguidoras de Harry Potter](src/data/harrypotter/README.md)
+**Criterios de terminado:**
+-Está en un commit en GH.
+-Es responsive.
+-Pasa los test.
 
-El objetivo principal de este proyecto es que aprendas a diseñar y construir una
-interfaz web donde se pueda visualizar y manipular data, entendiendo lo que el
-usuario necesita.
+## HU 6. Mostrar más detalles de la data
+Yo cómo: jugadora de pokemon Go.
+Quiero: conocer fortalezas, debilidades y más información sobre el pokemon.
+Para: crear la estrategia de batalla.
 
-## 3. Objetivos de aprendizaje
+**Criterios de aceptación:**
+-Se puede dar click al número de cada pokemon (botón).
+-Al dar click se muestran nombre, número, imagen, fortalezas, debilidades e información general del pokemon.
+-El botón tiene funcionalidad.
+-Se tiene test para la función. 
+-Se muestra una tarjeta más grande.
+**Criterios de terminado:**
+-Está en un commit en GH.
+-Es responsive.
+-Pasa los test.
 
-Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
+## HU 7. Buscar en la data.
+Yo cómo: jugadora de pokemon Go.
+Quiero: buscar pokemones por sus primeras letras o su nombre
+Para: encontrarlos más facilmente en la pokedex.
 
-### HTML
+**Criterios de aceptación:**
+-Se tiene un input.
+-Al ingresar texto en el input se realiza la búsqueda.
+-Si no se encuentran coincidencias, se da un mensaje de error.
+-El input tiene estilo en CSS.
+-Se tiene test para la función. 
+-Se muestran los pokemones en filas y columnas.
 
-- [ ] **Uso de HTML semántico**
+**Criterios de terminado:**
+-Está en un commit en GH.
+-Es responsive.
+-Pasa los test.
 
-  <details><summary>Links</summary><p>
+# 4. Diseño
+## Prototipo de baja fidelidad (bocetos).
+Después de buscar información sobre pokemon GO y los pokedex, se coincidió en un diseño de página con tarjetas que contengan información de los pokemones, ordenadas por filas y columnas. Además de un menú lateral donde se encuentren los botones y barras para la funcionalidad de la página.
+![Primeros bocetos](/boceto1.jpg)
+![Primeros bocetos](/boceto2.jpg)
 
-  * [HTML semántico](https://curriculum.laboratoria.la/es/topics/html/02-html5/02-semantic-html)
-  * [Semantics - MDN Web Docs Glossary](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
-</p></details>
+## Prototipo de alta fidelidad
+El primer prototipo que se realizó para el proyecto, fue con un menú lateral donde se encuentran todas las funciones.
+![Primer prototipo](/prototipo1.JPG)
+Después se decidió por cambiar el menú de barra lateral, a dejarlo como un menú encima de las cartas de los pokemones.
+![Segundo prototipo](/prototipo2.JPG)
 
-### CSS
+## Paleta de color
+Se eligió una paleta de color para utilizar en el diseño de toda la página web.
+![Paleta de color](/color.jpg)
 
-- [ ] **Uso de selectores de CSS**
+# 5. Pruebas unitarias
+Se realizaron test para todas las funciones incluídas en nuestro archivo data.js. Estos test dieron un resultado 100% en statements, functions y lines y 85.71 en branchs.
+![Resultado tests](/test.JPG)
 
-  <details><summary>Links</summary><p>
+## Problemas de los test
+El principal problema fue el coverage de las branch, ya que al tener todos los test para las funciones cumplía con el 100% para todo a excepción de las branch. Al investigar la razón, nos dimos cuenta que el problema era la suposición de que no se recibiera data(undefined) y esto nos diera un nuevo resultado. Así que tuvimos que incluir en tres test esta opción de undefined, con lo que aumentó el porcentaje de coverage a 85.71%. Y se tomó la decisión de dejarlo hasta ese porcentaje para no seguir al código. 
 
-  * [Intro a CSS](https://curriculum.laboratoria.la/es/topics/css/01-css/01-intro-css)
-  * [CSS Selectors - MDN](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors)
-</p></details>
+# 7. Resultado final
+![Encabezado y opciones](/final1.JPG)
+![Tarjetas pokemones](/final2.JPG)
+![Más información del pokemon](/final3.JPG)
 
 - [ ] **Modelo de caja (box model): borde, margen, padding**
 
@@ -446,6 +499,7 @@ como toda la configuración de dependencias:
 |  └── style.css
 └── test
    └── data.spec.js
+
 directory: 7 file: 20
 ```
 
@@ -612,7 +666,5 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
   Aceptación_ y nosotros sí lo haremos. Más detalles en la guía.
 * [Cómo dividir H.U.](https://www.youtube.com/watch?v=Ueq786iZ30I&t=341s)
 * [Guía para Data Lovers](https://docs.google.com/presentation/d/e/2PACX-1vQhx9D36NjpH-Daea-ITPUDUzNL8ZiNAprq_7b5PSUrfutk45tEtaOLz2lmd8f54_5jX1hypDM8f8SM/pub?start=false&loop=false&delayms=60000)
-
-
 
 
